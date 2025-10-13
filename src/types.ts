@@ -2,6 +2,7 @@ export interface Project {
   id: string;
   name: string;
   description: string;
+  summary?: string;
   url: string;
   category: string;
   tags: string[];

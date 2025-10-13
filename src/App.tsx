@@ -3,7 +3,6 @@ import { Header } from './components/Header';
 import { FilterBar } from './components/FilterBar';
 import { ProjectCard } from './components/ProjectCard';
 import { Project, FilterOptions } from './types';
-import { storage } from './utils/storage';
 
 function App() {
   const [projects, setProjects] = useState<Project[]>([]);
@@ -14,11 +13,23 @@ function App() {
     status: 'all',
     sortBy: 'latest',
   });
+  const [loading, setLoading] = useState(true);
 
-  // Load projects on mount
+  // Load projects from JSON file
   useEffect(() => {
-    const loadedProjects = storage.getProjects();
-    setProjects(loadedProjects);
+    const loadProjects = async () => {
+      try {
+        const response = await fetch('/projects.json');
+        const data = await response.json();
+        setProjects(data);
+      } catch (error) {
+        console.error('Failed to load projects:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadProjects();
   }, []);
 
   // Filter projects
@@ -71,7 +82,14 @@ function App() {
 
           {/* Projects Grid */}
           <div className="lg:col-span-3">
-            {filteredProjects.length === 0 ? (
+            {loading ? (
+              <div className="flex min-h-[400px] items-center justify-center rounded-lg bg-white/80 backdrop-blur-sm border border-gray-200 p-8 text-center shadow-sm">
+                <div className="animate-fade-in">
+                  <div className="mx-auto mb-4 h-12 w-12 animate-spin rounded-full border-4 border-primary-200 border-t-primary-600"></div>
+                  <p className="text-sm text-gray-600">加载中...</p>
+                </div>
+              </div>
+            ) : filteredProjects.length === 0 ? (
               <div className="flex min-h-[400px] items-center justify-center rounded-lg bg-white/80 backdrop-blur-sm border border-gray-200 p-8 text-center shadow-sm">
                 <div className="animate-fade-in">
                   <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-primary-100 to-blue-100">
@@ -86,7 +104,7 @@ function App() {
                 </div>
               </div>
             ) : (
-              <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
+              <div className="space-y-4">
                 {filteredProjects.map((project, index) => (
                   <div
                     key={project.id}
