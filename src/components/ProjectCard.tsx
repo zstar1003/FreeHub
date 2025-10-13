@@ -1,5 +1,5 @@
 import { Project } from '../types';
-import { ExternalLink, Calendar, Tag, Star, TrendingUp } from 'lucide-react';
+import { ExternalLink, Calendar, Tag } from 'lucide-react';
 import { formatDate, cn } from '../utils/helpers';
 
 interface ProjectCardProps {
@@ -68,31 +68,6 @@ export function ProjectCard({ project, onView }: ProjectCardProps) {
             </span>
           )}
         </div>
-
-        {/* AI Score - Compact Version */}
-        {project.aiReview && (
-          <div className="mb-4 flex items-center gap-2 rounded-lg bg-gradient-to-r from-primary-50 to-blue-50 p-3">
-            <div className="flex items-center gap-1.5">
-              <Star className={cn(
-                "h-4 w-4",
-                project.aiReview.score >= 80 ? 'text-success-600 fill-success-600' :
-                project.aiReview.score >= 60 ? 'text-warning-600 fill-warning-600' :
-                'text-gray-400 fill-gray-400'
-              )} />
-              <span className={cn(
-                'text-sm font-bold',
-                project.aiReview.score >= 80 ? 'text-success-700' :
-                project.aiReview.score >= 60 ? 'text-warning-700' :
-                'text-gray-600'
-              )}>
-                {project.aiReview.score}
-              </span>
-              <span className="text-xs text-gray-500">/ 100</span>
-            </div>
-            <div className="h-4 w-px bg-gray-300" />
-            <p className="flex-1 text-xs text-gray-600 line-clamp-1">{project.aiReview.feedback}</p>
-          </div>
-        )}
       </div>
 
       {/* Footer */}

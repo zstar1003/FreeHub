@@ -8,21 +8,6 @@ export interface Project {
   submittedBy: string;
   submittedAt: string;
   status: 'pending' | 'approved' | 'rejected';
-  aiReview?: {
-    score: number;
-    feedback: string;
-    reviewedAt: string;
-  };
-  logo?: string;
-}
-
-export interface SubmitProjectData {
-  name: string;
-  description: string;
-  url: string;
-  category: string;
-  tags: string[];
-  submittedBy: string;
   logo?: string;
 }
 
@@ -40,4 +25,5 @@ export interface FilterOptions {
   category: string;
   tags: string[];
   status: 'all' | 'pending' | 'approved' | 'rejected';
+  sortBy: 'latest' | 'score' | 'popular';
 }

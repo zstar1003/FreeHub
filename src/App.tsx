@@ -2,13 +2,8 @@ import { useState, useEffect, useMemo } from 'react';
 import { Header } from './components/Header';
 import { FilterBar } from './components/FilterBar';
 import { ProjectCard } from './components/ProjectCard';
-import { SubmitForm } from './components/SubmitForm';
-import { SettingsModal, getApiKey } from './components/SettingsModal';
-import { Project, SubmitProjectData, FilterOptions } from './types';
+import { Project, FilterOptions } from './types';
 import { storage } from './utils/storage';
-import { generateId } from './utils/helpers';
-import { reviewProject } from './services/aiReview';
-import { Loader2 } from 'lucide-react';
 
 function App() {
   const [projects, setProjects] = useState<Project[]>([]);
@@ -17,10 +12,8 @@ function App() {
     category: '',
     tags: [],
     status: 'all',
+    sortBy: 'latest',
   });
-  const [showSubmitForm, setShowSubmitForm] = useState(false);
-  const [showSettings, setShowSettings] = useState(false);
-  const [isSubmitting, setIsSubmitting] = useState(false);
 
   // Load projects on mount
   useEffect(() => {
@@ -30,7 +23,7 @@ function App() {
 
   // Filter projects
   const filteredProjects = useMemo(() => {
-    return projects.filter((project) => {
+    let result = projects.filter((project) => {
       // Search filter
       if (filters.search) {
         const searchLower = filters.search.toLowerCase();
@@ -53,69 +46,19 @@ function App() {
 
       return true;
     });
+
+    // Sort projects
+    result.sort((a, b) => {
+      // Always sort by latest (submission date)
+      return new Date(b.submittedAt).getTime() - new Date(a.submittedAt).getTime();
+    });
+
+    return result;
   }, [projects, filters]);
-
-  const handleSubmitProject = async (data: SubmitProjectData) => {
-    setIsSubmitting(true);
-    try {
-      const apiKey = getApiKey();
-
-      if (!apiKey) {
-        alert('请先在设置中配置 Claude API Key');
-        setShowSubmitForm(false);
-        setShowSettings(true);
-        return;
-      }
-
-      // Create new project with pending status
-      const newProject: Project = {
-        id: generateId(),
-        ...data,
-        submittedAt: new Date().toISOString(),
-        status: 'pending',
-      };
-
-      // Get AI review
-      try {
-        const review = await reviewProject(data, apiKey);
-        newProject.status = review.isApproved ? 'approved' : 'rejected';
-        newProject.aiReview = {
-          score: review.score,
-          feedback: review.feedback,
-          reviewedAt: new Date().toISOString(),
-        };
-      } catch (error) {
-        console.error('AI review failed:', error);
-        alert('AI 审核失败，项目将标记为待审核状态');
-      }
-
-      // Save project
-      storage.addProject(newProject);
-      setProjects([newProject, ...projects]);
-      setShowSubmitForm(false);
-
-      alert(
-        newProject.status === 'approved'
-          ? '项目提交成功并已通过审核！'
-          : newProject.status === 'rejected'
-          ? '项目已提交但未通过审核。'
-          : '项目已提交，等待审核。'
-      );
-    } catch (error) {
-      console.error('Submit error:', error);
-      alert('提交失败，请重试');
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-gray-50 to-blue-50/30">
-      <Header
-        onSubmitClick={() => setShowSubmitForm(true)}
-        onSettingsClick={() => setShowSettings(true)}
-        projectCount={projects.filter((p) => p.status === 'approved').length}
-      />
+      <Header projectCount={projects.filter((p) => p.status === 'approved').length} />
 
       <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
         <div className="grid gap-6 lg:grid-cols-4">
@@ -137,7 +80,7 @@ function App() {
                   <p className="text-lg font-semibold text-gray-900">暂无项目</p>
                   <p className="mt-2 text-sm text-gray-500">
                     {projects.length === 0
-                      ? '开始提交第一个项目吧！'
+                      ? '还没有项目'
                       : '没有符合筛选条件的项目'}
                   </p>
                 </div>
@@ -158,33 +101,6 @@ function App() {
           </div>
         </div>
       </main>
-
-      {/* Modals */}
-      {showSubmitForm && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm animate-fade-in">
-          <SubmitForm
-            onSubmit={handleSubmitProject}
-            onClose={() => setShowSubmitForm(false)}
-          />
-        </div>
-      )}
-
-      {showSettings && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm animate-fade-in">
-          <SettingsModal onClose={() => setShowSettings(false)} />
-        </div>
-      )}
-
-      {/* Loading Overlay */}
-      {isSubmitting && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm animate-fade-in">
-          <div className="rounded-xl bg-white p-8 text-center shadow-2xl animate-scale-in">
-            <Loader2 className="mx-auto h-12 w-12 animate-spin text-primary-600" />
-            <p className="mt-4 text-lg font-semibold text-gray-900">AI 审核中...</p>
-            <p className="mt-2 text-sm text-gray-600">这可能需要几秒钟</p>
-          </div>
-        </div>
-      )}
     </div>
   );
 }
