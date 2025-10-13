@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { Sparkles, Home, TrendingUp, FileText } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { Sparkles, Home, TrendingUp, FileText, Sun, Moon } from 'lucide-react';
 
 interface HeaderProps {
   projectCount: number;
@@ -7,6 +7,36 @@ interface HeaderProps {
 
 export function Header({ projectCount }: HeaderProps) {
   const [activeMenu, setActiveMenu] = useState('home');
+  const [darkMode, setDarkMode] = useState(false);
+
+  useEffect(() => {
+    // 检查本地存储或系统偏好
+    const savedTheme = localStorage.getItem('theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+      setDarkMode(true);
+      document.documentElement.classList.add('dark');
+    }
+  }, []);
+
+  const toggleTheme = () => {
+    const newDarkMode = !darkMode;
+    console.log('Toggling theme, new dark mode:', newDarkMode);
+    console.log('HTML classes before:', document.documentElement.classList.toString());
+
+    if (darkMode) {
+      document.documentElement.classList.remove('dark');
+      localStorage.setItem('theme', 'light');
+      setDarkMode(false);
+    } else {
+      document.documentElement.classList.add('dark');
+      localStorage.setItem('theme', 'dark');
+      setDarkMode(true);
+    }
+
+    console.log('HTML classes after:', document.documentElement.classList.toString());
+  };
 
   const menuItems = [
     { id: 'home', label: '首页', icon: Home },
@@ -15,7 +45,7 @@ export function Header({ projectCount }: HeaderProps) {
   ];
 
   return (
-    <header className="sticky top-0 z-50 border-b border-gray-200 bg-white/95 backdrop-blur-sm shadow-sm">
+    <header className="sticky top-0 z-50 border-b border-gray-200 dark:border-gray-700 bg-white/95 dark:bg-gray-900/95 backdrop-blur-sm shadow-sm">
       <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Logo and Navigation */}
@@ -26,7 +56,7 @@ export function Header({ projectCount }: HeaderProps) {
                 <Sparkles className="h-5 w-5" />
               </div>
               <div>
-                <h1 className="text-2xl font-bold bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
+                <h1 className="text-2xl font-bold bg-gradient-to-r from-gray-900 to-gray-700 dark:from-white dark:to-gray-300 bg-clip-text text-transparent">
                   FreeHub
                 </h1>
               </div>
@@ -42,8 +72,8 @@ export function Header({ projectCount }: HeaderProps) {
                     onClick={() => setActiveMenu(item.id)}
                     className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all ${
                       activeMenu === item.id
-                        ? 'bg-primary-50 text-primary-700'
-                        : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900'
+                        ? 'bg-primary-50 dark:bg-primary-900/30 text-primary-700 dark:text-primary-400'
+                        : 'text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-gray-900 dark:hover:text-gray-200'
                     }`}
                   >
                     <Icon className="h-4 w-4" />
@@ -54,11 +84,37 @@ export function Header({ projectCount }: HeaderProps) {
             </nav>
           </div>
 
-          {/* Project Count */}
-          <div className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-gradient-to-r from-primary-50 to-blue-50 border border-primary-100">
-            <span className="text-xs text-gray-600">已收录</span>
-            <span className="text-sm font-bold text-primary-600">{projectCount}</span>
-            <span className="text-xs text-gray-600">个项目</span>
+          {/* Actions */}
+          <div className="flex items-center gap-3">
+            <div className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-gradient-to-r from-primary-50 to-blue-50 dark:from-primary-900/30 dark:to-blue-900/30 border border-primary-100 dark:border-primary-800">
+              <span className="text-xs text-gray-600 dark:text-gray-400">已收录</span>
+              <span className="text-sm font-bold text-primary-600 dark:text-primary-400">{projectCount}</span>
+              <span className="text-xs text-gray-600 dark:text-gray-400">个项目</span>
+            </div>
+
+            {/* Theme Toggle Button */}
+            <button
+              onClick={toggleTheme}
+              className="relative p-2 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 hover:scale-110 active:scale-95 transition-all duration-300 shadow-sm hover:shadow-md"
+              aria-label="切换主题"
+            >
+              <div className="relative w-5 h-5">
+                <Sun
+                  className={`absolute inset-0 h-5 w-5 transition-all duration-300 ${
+                    darkMode
+                      ? 'rotate-0 scale-100 opacity-100'
+                      : 'rotate-90 scale-0 opacity-0'
+                  }`}
+                />
+                <Moon
+                  className={`absolute inset-0 h-5 w-5 transition-all duration-300 ${
+                    darkMode
+                      ? '-rotate-90 scale-0 opacity-0'
+                      : 'rotate-0 scale-100 opacity-100'
+                  }`}
+                />
+              </div>
+            </button>
           </div>
         </div>
       </div>

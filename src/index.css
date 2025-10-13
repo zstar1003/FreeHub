@@ -3,19 +3,18 @@
 @tailwind utilities;
 
 @layer base {
-  :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-    --border: 214.3 31.8% 91.4%;
-  }
-
-  * {
-    @apply border-border;
+  html {
+    @apply bg-white dark:bg-gray-900;
   }
 
   body {
-    @apply bg-background text-foreground;
     font-feature-settings: "rlig" 1, "calt" 1;
+    @apply bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100;
+  }
+
+  /* 设置暗色模式的 color-scheme */
+  .dark {
+    color-scheme: dark;
   }
 }
 
