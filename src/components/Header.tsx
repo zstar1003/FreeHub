@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
-import { Sparkles, Home, TrendingUp, FileText, Sun, Moon } from 'lucide-react';
+import { Sparkles, Home, TrendingUp, FileText, Sun, Moon, Languages } from 'lucide-react';
+import { useLanguage } from '../contexts/LanguageContext';
 
 interface HeaderProps {
   projectCount: number;
@@ -8,6 +9,7 @@ interface HeaderProps {
 export function Header({ projectCount }: HeaderProps) {
   const [activeMenu, setActiveMenu] = useState('home');
   const [darkMode, setDarkMode] = useState(false);
+  const { language, setLanguage, t } = useLanguage();
 
   useEffect(() => {
     // 检查本地存储或系统偏好
@@ -39,10 +41,14 @@ export function Header({ projectCount }: HeaderProps) {
   };
 
   const menuItems = [
-    { id: 'home', label: '首页', icon: Home },
-    { id: 'trending', label: '榜单', icon: TrendingUp },
-    { id: 'articles', label: '文章', icon: FileText },
+    { id: 'home', label: t.header.home, icon: Home },
+    { id: 'trending', label: t.header.trending, icon: TrendingUp },
+    { id: 'articles', label: t.header.articles, icon: FileText },
   ];
+
+  const toggleLanguage = () => {
+    setLanguage(language === 'zh' ? 'en' : 'zh');
+  };
 
   return (
     <header className="sticky top-0 z-50 border-b border-gray-200 dark:border-gray-700 bg-white/95 dark:bg-gray-900/95 backdrop-blur-sm shadow-sm">
@@ -87,10 +93,22 @@ export function Header({ projectCount }: HeaderProps) {
           {/* Actions */}
           <div className="flex items-center gap-3">
             <div className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-gradient-to-r from-primary-50 to-blue-50 dark:from-primary-900/30 dark:to-blue-900/30 border border-primary-100 dark:border-primary-800">
-              <span className="text-xs text-gray-600 dark:text-gray-400">已收录</span>
+              <span className="text-xs text-gray-600 dark:text-gray-400">{t.header.projectCount}</span>
               <span className="text-sm font-bold text-primary-600 dark:text-primary-400">{projectCount}</span>
-              <span className="text-xs text-gray-600 dark:text-gray-400">个项目</span>
+              <span className="text-xs text-gray-600 dark:text-gray-400">{t.header.projects}</span>
             </div>
+
+            {/* Language Toggle Button */}
+            <button
+              onClick={toggleLanguage}
+              className="relative p-2 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 hover:scale-110 active:scale-95 transition-all duration-300 shadow-sm hover:shadow-md"
+              aria-label="切换语言"
+            >
+              <div className="flex items-center gap-1.5">
+                <Languages className="h-4 w-4" />
+                <span className="text-xs font-medium">{language === 'zh' ? 'EN' : '中'}</span>
+              </div>
+            </button>
 
             {/* Theme Toggle Button */}
             <button

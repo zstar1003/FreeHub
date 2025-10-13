@@ -1,11 +1,15 @@
 export interface Project {
   id: string;
   name: string;
+  nameEn: string;
   description: string;
+  descriptionEn: string;
   summary?: string;
+  summaryEn?: string;
   url: string;
   category: string;
   tags: string[];
+  tagsEn: string[];
   submittedBy: string;
   submittedAt: string;
   status: 'pending' | 'approved' | 'rejected';
