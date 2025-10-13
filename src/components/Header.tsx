@@ -10,32 +10,36 @@ interface HeaderProps {
 
 export function Header({ onSubmitClick, onSettingsClick, projectCount }: HeaderProps) {
   return (
-    <header className="border-b border-gray-200 bg-white shadow-sm">
-      <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+    <header className="sticky top-0 z-50 border-b border-gray-200 bg-white/95 backdrop-blur-sm shadow-sm">
+      <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
-          <div>
-            <div className="flex items-center gap-3">
-              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-primary-500 to-primary-600 text-white">
-                <Sparkles className="h-6 w-6" />
-              </div>
-              <div>
-                <h1 className="text-3xl font-bold text-gray-900">FreeHub</h1>
-                <p className="text-sm text-gray-600">发现和分享优质免费项目</p>
-              </div>
+          {/* Logo and Title */}
+          <div className="flex items-center gap-3">
+            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-br from-primary-500 via-primary-600 to-blue-600 text-white shadow-lg">
+              <Sparkles className="h-5 w-5" />
+            </div>
+            <div>
+              <h1 className="text-2xl font-bold bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
+                FreeHub
+              </h1>
+              <p className="text-xs text-gray-500 hidden sm:block">发现和分享优质免费项目</p>
             </div>
           </div>
 
-          <div className="flex items-center gap-3">
-            <div className="hidden sm:block text-sm text-gray-600">
-              已收录 <span className="font-bold text-primary-600">{projectCount}</span> 个项目
+          {/* Actions */}
+          <div className="flex items-center gap-2 sm:gap-3">
+            <div className="hidden md:flex items-center gap-2 px-3 py-1.5 rounded-lg bg-gradient-to-r from-primary-50 to-blue-50 border border-primary-100">
+              <span className="text-xs text-gray-600">已收录</span>
+              <span className="text-sm font-bold text-primary-600">{projectCount}</span>
+              <span className="text-xs text-gray-600">个项目</span>
             </div>
-            <Button variant="outline" size="sm" onClick={onSettingsClick}>
-              <Settings className="mr-2 h-4 w-4" />
-              设置
+            <Button variant="outline" size="sm" onClick={onSettingsClick} className="hidden sm:flex">
+              <Settings className="h-4 w-4 sm:mr-2" />
+              <span className="hidden sm:inline">设置</span>
             </Button>
-            <Button size="sm" onClick={onSubmitClick}>
-              <Plus className="mr-2 h-4 w-4" />
-              提交项目
+            <Button size="sm" onClick={onSubmitClick} className="shadow-md hover:shadow-lg transition-shadow">
+              <Plus className="h-4 w-4 sm:mr-2" />
+              <span className="hidden sm:inline">提交项目</span>
             </Button>
           </div>
         </div>

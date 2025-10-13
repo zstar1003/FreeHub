@@ -110,7 +110,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-gray-50 to-blue-50/30">
       <Header
         onSubmitClick={() => setShowSubmitForm(true)}
         onSettingsClick={() => setShowSettings(true)}
@@ -118,18 +118,23 @@ function App() {
       />
 
       <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-        <div className="grid gap-8 lg:grid-cols-4">
+        <div className="grid gap-6 lg:grid-cols-4">
           {/* Sidebar */}
           <aside className="lg:col-span-1">
-            <FilterBar filters={filters} onFilterChange={setFilters} />
+            <div className="sticky top-24">
+              <FilterBar filters={filters} onFilterChange={setFilters} />
+            </div>
           </aside>
 
           {/* Projects Grid */}
           <div className="lg:col-span-3">
             {filteredProjects.length === 0 ? (
-              <div className="flex min-h-[400px] items-center justify-center rounded-xl bg-white p-8 text-center">
-                <div>
-                  <p className="text-lg text-gray-600">暂无项目</p>
+              <div className="flex min-h-[400px] items-center justify-center rounded-lg bg-white/80 backdrop-blur-sm border border-gray-200 p-8 text-center shadow-sm">
+                <div className="animate-fade-in">
+                  <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-primary-100 to-blue-100">
+                    <span className="text-3xl">📦</span>
+                  </div>
+                  <p className="text-lg font-semibold text-gray-900">暂无项目</p>
                   <p className="mt-2 text-sm text-gray-500">
                     {projects.length === 0
                       ? '开始提交第一个项目吧！'
@@ -138,9 +143,15 @@ function App() {
                 </div>
               </div>
             ) : (
-              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
-                {filteredProjects.map((project) => (
-                  <ProjectCard key={project.id} project={project} />
+              <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
+                {filteredProjects.map((project, index) => (
+                  <div
+                    key={project.id}
+                    className="animate-fade-in-up"
+                    style={{ animationDelay: `${index * 50}ms` }}
+                  >
+                    <ProjectCard project={project} />
+                  </div>
                 ))}
               </div>
             )}
@@ -150,18 +161,24 @@ function App() {
 
       {/* Modals */}
       {showSubmitForm && (
-        <SubmitForm
-          onSubmit={handleSubmitProject}
-          onClose={() => setShowSubmitForm(false)}
-        />
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm animate-fade-in">
+          <SubmitForm
+            onSubmit={handleSubmitProject}
+            onClose={() => setShowSubmitForm(false)}
+          />
+        </div>
       )}
 
-      {showSettings && <SettingsModal onClose={() => setShowSettings(false)} />}
+      {showSettings && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm animate-fade-in">
+          <SettingsModal onClose={() => setShowSettings(false)} />
+        </div>
+      )}
 
       {/* Loading Overlay */}
       {isSubmitting && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
-          <div className="rounded-xl bg-white p-8 text-center">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm animate-fade-in">
+          <div className="rounded-xl bg-white p-8 text-center shadow-2xl animate-scale-in">
             <Loader2 className="mx-auto h-12 w-12 animate-spin text-primary-600" />
             <p className="mt-4 text-lg font-semibold text-gray-900">AI 审核中...</p>
             <p className="mt-2 text-sm text-gray-600">这可能需要几秒钟</p>
