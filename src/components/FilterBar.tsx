@@ -1,6 +1,7 @@
-import { Search } from 'lucide-react';
-import { FilterOptions, ProjectCategory } from '../types';
+import { Search, ChevronDown, ChevronRight } from 'lucide-react';
+import { FilterOptions, CATEGORY_CONFIG, CATEGORY_CONFIG_EN, CategoryGroup } from '../types';
 import { useLanguage } from '../contexts/LanguageContext';
+import { useState } from 'react';
 
 interface FilterBarProps {
   filters: FilterOptions;
@@ -8,22 +9,28 @@ interface FilterBarProps {
 }
 
 export function FilterBar({ filters, onFilterChange }: FilterBarProps) {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
+  const [expandedGroups, setExpandedGroups] = useState<Set<string>>(new Set(['编程语言', 'Programming Languages']));
 
-  const CATEGORIES: { value: ProjectCategory | '', label: string }[] = [
-    { value: '', label: t.filter.all },
-    { value: 'Developer Tools', label: t.filter.developerTools },
-    { value: 'Design Tools', label: t.filter.designTools },
-    { value: 'Productivity', label: t.filter.productivity },
-    { value: 'Education', label: t.filter.education },
-    { value: 'Entertainment', label: t.filter.entertainment },
-    { value: 'Utilities', label: t.filter.utilities },
-    { value: 'Other', label: t.filter.other },
-  ];
+  const categoryConfig = language === 'zh' ? CATEGORY_CONFIG : CATEGORY_CONFIG_EN;
+  const categoryGroups = Object.keys(categoryConfig) as CategoryGroup[];
+
+  const toggleGroup = (group: string) => {
+    const newExpanded = new Set(expandedGroups);
+    if (newExpanded.has(group)) {
+      newExpanded.delete(group);
+    } else {
+      newExpanded.add(group);
+    }
+    setExpandedGroups(newExpanded);
+  };
+
+  const isExpanded = (group: string) => expandedGroups.has(group);
+
   return (
-    <div className="space-y-4">
+    <div className="space-y-4 w-full">
       {/* Search Bar */}
-      <div className="relative">
+      <div className="relative w-full">
         <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-gray-400 dark:text-gray-500" />
         <input
           type="text"
@@ -35,22 +42,55 @@ export function FilterBar({ filters, onFilterChange }: FilterBarProps) {
       </div>
 
       {/* Category Filter */}
-      <div className="rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 p-4">
-        <h3 className="text-sm font-semibold text-gray-900 dark:text-gray-100 mb-3">{t.filter.category}</h3>
-        <div className="space-y-1">
-          {CATEGORIES.map((cat) => (
+      <div className="rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700">
+        <div className="flex items-center justify-center p-4 pb-2">
+          <h3 className="text-base font-semibold text-gray-900 dark:text-gray-100">{t.filter.category}</h3>
+          {filters.category && (
             <button
-              key={cat.value}
-              onClick={() => onFilterChange({ ...filters, category: cat.value })}
-              className={`w-full text-left px-3 py-2 rounded-md text-sm font-medium transition-all ${
-                filters.category === cat.value
-                  ? 'bg-primary-600 dark:bg-primary-500 text-white shadow-sm'
-                  : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'
-              }`}
+              onClick={() => onFilterChange({ ...filters, category: '' })}
+              className="absolute right-8 text-xs text-primary-600 dark:text-primary-400 hover:underline"
             >
-              {cat.label}
+              {language === 'zh' ? '清除' : 'Clear'}
             </button>
-          ))}
+          )}
+        </div>
+
+        <div className="max-h-[calc(100vh-20rem)] scrollbar-custom px-4 pb-4">
+          <div className="space-y-2">
+            {categoryGroups.map((group) => (
+              <div key={group} className="border-b border-gray-100 dark:border-gray-700 last:border-b-0 pb-2 last:pb-0">
+                <button
+                  onClick={() => toggleGroup(group)}
+                  className="w-full flex items-center justify-between py-2 px-2 hover:bg-gray-50 dark:hover:bg-gray-700/50 rounded-md transition-colors"
+                >
+                  <span className="text-sm font-semibold text-gray-800 dark:text-gray-200">{group}</span>
+                  {isExpanded(group) ? (
+                    <ChevronDown className="h-4 w-4 text-gray-500 dark:text-gray-400" />
+                  ) : (
+                    <ChevronRight className="h-4 w-4 text-gray-500 dark:text-gray-400" />
+                  )}
+                </button>
+
+                {isExpanded(group) && (
+                  <div className="mt-1 space-y-0.5 pl-2 animate-fade-in">
+                    {categoryConfig[group].map((cat) => (
+                      <button
+                        key={cat}
+                        onClick={() => onFilterChange({ ...filters, category: filters.category === cat ? '' : cat })}
+                        className={`w-full text-left px-3 py-2 rounded-md text-sm font-medium transition-all ${
+                          filters.category === cat
+                            ? 'bg-primary-600 dark:bg-primary-500 text-white shadow-sm'
+                            : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'
+                        }`}
+                      >
+                        {cat}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>

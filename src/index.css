@@ -22,4 +22,45 @@
   .text-balance {
     text-wrap: balance;
   }
+
+  /* 自定义滚动条样式 */
+  .scrollbar-custom {
+    scrollbar-gutter: stable both-edges;
+    overflow-y: scroll;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-thumb {
+    background: rgb(209 213 219);
+    border-radius: 4px;
+  }
+
+  .scrollbar-custom::-webkit-scrollbar-thumb:hover {
+    background: rgb(156 163 175);
+  }
+
+  .dark .scrollbar-custom::-webkit-scrollbar-thumb {
+    background: rgb(75 85 99);
+  }
+
+  .dark .scrollbar-custom::-webkit-scrollbar-thumb:hover {
+    background: rgb(107 114 128);
+  }
+
+  /* Firefox 滚动条样式 */
+  .scrollbar-custom {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(209 213 219) transparent;
+  }
+
+  .dark .scrollbar-custom {
+    scrollbar-color: rgb(75 85 99) transparent;
+  }
 }

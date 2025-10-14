@@ -51,7 +51,7 @@ function AppContent() {
       }
 
       // Category filter
-      if (filters.category && project.category !== filters.category) {
+      if (filters.category && !project.categories.includes(filters.category)) {
         return false;
       }
 
@@ -77,16 +77,16 @@ function AppContent() {
       <Header projectCount={projects.filter((p) => p.status === 'approved').length} />
 
       <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-        <div className="grid gap-6 lg:grid-cols-4">
+        <div className="grid gap-6 lg:grid-cols-[minmax(280px,1fr)_3fr]">
           {/* Sidebar */}
-          <aside className="lg:col-span-1">
-            <div className="sticky top-24">
+          <aside className="w-full">
+            <div className="sticky top-24 w-full">
               <FilterBar filters={filters} onFilterChange={setFilters} />
             </div>
           </aside>
 
           {/* Projects Grid */}
-          <div className="lg:col-span-3">
+          <div className="w-full">
             {loading ? (
               <div className="flex min-h-[400px] items-center justify-center rounded-lg bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm border border-gray-200 dark:border-gray-700 p-8 text-center shadow-sm">
                 <div className="animate-fade-in">

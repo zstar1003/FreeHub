@@ -54,10 +54,12 @@ export function ProjectCard({ project, onView }: ProjectCardProps) {
           {/* Tags, Author and Date */}
           <div className="flex items-center justify-between gap-4">
             <div className="flex flex-wrap gap-2">
-              <span className="inline-flex items-center gap-1 rounded-md bg-primary-100 dark:bg-primary-900/40 px-2.5 py-1 text-xs font-medium text-primary-700 dark:text-primary-400">
-                <Tag className="h-3 w-3" />
-                {project.category}
-              </span>
+              {project.categories.slice(0, 2).map((cat) => (
+                <span key={cat} className="inline-flex items-center gap-1 rounded-md bg-primary-100 dark:bg-primary-900/40 px-2.5 py-1 text-xs font-medium text-primary-700 dark:text-primary-400">
+                  <Tag className="h-3 w-3" />
+                  {cat}
+                </span>
+              ))}
               {displayTags.slice(0, 3).map((tag) => (
                 <span key={tag} className="rounded-md bg-gray-100 dark:bg-gray-700 px-2.5 py-1 text-xs font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors">
                   #{tag}
