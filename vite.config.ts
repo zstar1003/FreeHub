@@ -7,4 +7,6 @@ export default defineConfig({
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.jsx'],
   },
+  // GitHub Pages 部署配置
+  base: process.env.GITHUB_ACTIONS ? '/FreeHub/' : '/',
 })
