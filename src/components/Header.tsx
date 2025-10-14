@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Sparkles, Home, TrendingUp, FileText, Sun, Moon, Languages } from 'lucide-react';
+import { Home, TrendingUp, FileText, Sun, Moon, Languages } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 interface HeaderProps {
@@ -59,9 +59,11 @@ export function Header({ projectCount, activeMenu, onMenuChange }: HeaderProps) 
           <div className="flex items-center gap-8">
             {/* Logo */}
             <div className="flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-br from-primary-500 via-primary-600 to-blue-600 text-white shadow-lg">
-                <Sparkles className="h-5 w-5" />
-              </div>
+              <img
+                src={`${import.meta.env.BASE_URL}logo.png`}
+                alt="FreeHub Logo"
+                className="h-10 w-10 rounded-lg object-contain"
+              />
               <div>
                 <h1 className="text-2xl font-bold bg-gradient-to-r from-gray-900 to-gray-700 dark:from-white dark:to-gray-300 bg-clip-text text-transparent">
                   FreeHub

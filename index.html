@@ -1,38 +1,42 @@
 <!doctype html>
 <html lang="zh-CN">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FreeHub - 发现和分享优质免费项目</title>
     <meta name="description" content="FreeHub 是一个发现和分享优质免费项目的平台，使用 AI 自动审核项目质量" />
     <script>
-      // 防止暗色主题闪烁，在页面加载前应用主题
-      (function() {
-        const theme = localStorage.getItem('theme');
-        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        if (theme === 'dark' || (!theme && prefersDark)) {
-          document.documentElement.classList.add('dark');
-        }
-      })();
+        // 防止暗色主题闪烁，在页面加载前应用主题
+        (function() {
+            const theme = localStorage.getItem('theme');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            if (theme === 'dark' || (!theme && prefersDark)) {
+                document.documentElement.classList.add('dark');
+            }
+        })();
     </script>
     <style>
-      /* 主题切换动画 */
-      html {
-        transition: background-color 0.3s ease;
-      }
-
-      body,
-      #root,
-      [class*="bg-"],
-      [class*="text-"],
-      [class*="border-"] {
-        transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
-      }
+        /* 主题切换动画 */
+        
+        html {
+            transition: background-color 0.3s ease;
+        }
+        
+        body,
+        #root,
+        [class*="bg-"],
+        [class*="text-"],
+        [class*="border-"] {
+            transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+        }
     </style>
-  </head>
-  <body>
+</head>
+
+<body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
-  </body>
+</body>
+
 </html>

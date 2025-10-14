@@ -30,6 +30,7 @@ export function RankingPage() {
   const [trendingRepos, setTrendingRepos] = useState<TrendingRepo[]>([]);
   const [loading, setLoading] = useState(true);
   const lastUpdate = '2025-10';
+  const [trendingUpdateTime, setTrendingUpdateTime] = useState('');
 
   // 从 JSON 文件加载排行榜数据
   useEffect(() => {
@@ -55,8 +56,20 @@ export function RankingPage() {
         const response = await fetch(`${import.meta.env.BASE_URL}github-trending.json`);
         const data = await response.json();
         setTrendingRepos(data);
+
+        // 尝试从响应头获取最后修改时间
+        const lastModified = response.headers.get('last-modified');
+        if (lastModified) {
+          const date = new Date(lastModified);
+          setTrendingUpdateTime(date.toISOString().split('T')[0]);
+        } else {
+          // 如果没有最后修改时间，使用当前日期
+          setTrendingUpdateTime(new Date().toISOString().split('T')[0]);
+        }
       } catch (error) {
         console.error('Failed to load trending repos:', error);
+        // 设置默认更新时间
+        setTrendingUpdateTime(new Date().toISOString().split('T')[0]);
       }
     };
 
@@ -103,7 +116,7 @@ export function RankingPage() {
                     : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-200 dark:border-gray-700 hover:border-primary-300 dark:hover:border-primary-700'
                 }`}
               >
-                GitHub Trending
+                {language === 'zh' ? 'GitHub 趋势' : 'GitHub Trending'}
               </button>
             </div>
 
@@ -114,15 +127,19 @@ export function RankingPage() {
                   : 'The TIOBE Programming Community index is an indicator of the popularity of programming languages, updated monthly.'
               ) : (
                 language === 'zh'
-                  ? 'GitHub Trending 展示当前最热门的开源项目，基于每日的 Star 增长趋势。'
+                  ? 'GitHub 趋势展示当前最热门的开源项目，基于每日的 Star 增长趋势。'
                   : 'GitHub Trending showcases the most popular open source projects based on daily star growth trends.'
               )}
             </p>
-            {activeTab === 'tiobe' && (
+            {activeTab === 'tiobe' ? (
               <p className="mt-2 text-xs text-gray-500 dark:text-gray-500">
                 {language === 'zh' ? `数据更新时间：${lastUpdate}` : `Data updated: ${lastUpdate}`}
               </p>
-            )}
+            ) : trendingUpdateTime ? (
+              <p className="mt-2 text-xs text-gray-500 dark:text-gray-500">
+                {language === 'zh' ? `数据更新时间：${trendingUpdateTime}` : `Data updated: ${trendingUpdateTime}`}
+              </p>
+            ) : null}
           </div>
 
           {/* Content Tables */}
@@ -286,7 +303,7 @@ export function RankingPage() {
                   : 'The TIOBE rankings do not indicate the quality of programming languages, but rather their popularity. The data is based on search engine query statistics (such as Google, Bing, Yahoo!, Wikipedia, etc.).'
               ) : (
                 language === 'zh'
-                  ? 'GitHub Trending 展示的是当前最受关注的开源项目，数据基于 GitHub 上的 Star 增长趋势。项目排名会根据每日新增 Star 数量实时变化。'
+                  ? 'GitHub 趋势展示的是当前最受关注的开源项目，数据基于 GitHub 上的 Star 增长趋势。项目排名会根据每日新增 Star 数量实时变化。'
                   : 'GitHub Trending showcases the most popular open source projects, based on star growth trends on GitHub. Rankings change in real-time based on daily star increases.'
               )}
             </p>
