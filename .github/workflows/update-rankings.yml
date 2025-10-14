@@ -1,0 +1,48 @@
+name: Update TIOBE Rankings
+
+on:
+  schedule:
+    # 每月1号 UTC 0:00 自动运行（北京时间 8:00）
+    - cron: '0 0 1 * *'
+  workflow_dispatch: # 允许手动触发
+
+jobs:
+  update-rankings:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: |
+          npm install axios cheerio
+
+      - name: Fetch TIOBE rankings
+        run: node scripts/update-rankings.js
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code public/rankings.json || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push changes
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add public/rankings.json
+          git commit -m "chore: update TIOBE rankings data [skip ci]"
+          git push
+
+      - name: Create notification
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          echo "✅ TIOBE rankings data has been updated successfully!"
