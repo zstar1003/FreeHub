@@ -1,102 +1,102 @@
 [
   {
     "rank": 1,
-    "name": "microsoft/graphrag",
-    "description": "A modular graph-based Retrieval-Augmented Generation (RAG) system",
-    "language": "Python",
-    "stars": 18234,
-    "forks": 1523,
-    "todayStars": 156,
-    "url": "https://github.com/microsoft/graphrag"
+    "name": "anthropics/prompt-eng-interactive-tutorial",
+    "description": "Anthropic's Interactive Prompt Engineering Tutorial",
+    "language": "Jupyter Notebook",
+    "stars": 22325,
+    "forks": 2103,
+    "todayStars": 2266,
+    "url": "https://github.com/anthropics/prompt-eng-interactive-tutorial"
   },
   {
     "rank": 2,
-    "name": "meta-llama/llama3",
-    "description": "The official Meta Llama 3 GitHub site",
-    "language": "Python",
-    "stars": 28456,
-    "forks": 2891,
-    "todayStars": 142,
-    "url": "https://github.com/meta-llama/llama3"
+    "name": "nvm-sh/nvm",
+    "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions",
+    "language": "Shell",
+    "stars": 87447,
+    "forks": 9410,
+    "todayStars": 18,
+    "url": "https://github.com/nvm-sh/nvm"
   },
   {
     "rank": 3,
-    "name": "BuilderIO/micro-agent",
-    "description": "An AI agent that writes and fixes code for you",
-    "language": "TypeScript",
-    "stars": 15234,
-    "forks": 1234,
-    "todayStars": 128,
-    "url": "https://github.com/BuilderIO/micro-agent"
+    "name": "GorvGoyl/Clone-Wars",
+    "description": "100+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube etc. See source code, demo links, tech stack, github stars.",
+    "language": "Unknown",
+    "stars": 30176,
+    "forks": 2714,
+    "todayStars": 151,
+    "url": "https://github.com/GorvGoyl/Clone-Wars"
   },
   {
     "rank": 4,
-    "name": "anthropics/anthropic-sdk-python",
-    "description": "SDK for interacting with Anthropic's Claude AI",
-    "language": "Python",
-    "stars": 12456,
-    "forks": 987,
-    "todayStars": 115,
-    "url": "https://github.com/anthropics/anthropic-sdk-python"
+    "name": "alibaba/spring-ai-alibaba",
+    "description": "Agentic AI Framework for Java Developers",
+    "language": "Java",
+    "stars": 6243,
+    "forks": 1338,
+    "todayStars": 89,
+    "url": "https://github.com/alibaba/spring-ai-alibaba"
   },
   {
     "rank": 5,
-    "name": "vercel/next.js",
-    "description": "The React Framework for the Web",
-    "language": "JavaScript",
-    "stars": 125234,
-    "forks": 27891,
-    "todayStars": 98,
-    "url": "https://github.com/vercel/next.js"
+    "name": "datawhalechina/happy-llm",
+    "description": "📚 从零开始的大语言模型原理与实践教程",
+    "language": "Jupyter Notebook",
+    "stars": 19394,
+    "forks": 1684,
+    "todayStars": 180,
+    "url": "https://github.com/datawhalechina/happy-llm"
   },
   {
     "rank": 6,
-    "name": "ggerganov/llama.cpp",
-    "description": "LLM inference in C/C++",
-    "language": "C++",
-    "stars": 65234,
-    "forks": 8234,
-    "todayStars": 87,
-    "url": "https://github.com/ggerganov/llama.cpp"
+    "name": "asgeirtj/system_prompts_leaks",
+    "description": "Collection of extracted System Prompts from popular chatbots like ChatGPT, Claude & Gemini",
+    "language": "JavaScript",
+    "stars": 22554,
+    "forks": 3461,
+    "todayStars": 450,
+    "url": "https://github.com/asgeirtj/system_prompts_leaks"
   },
   {
     "rank": 7,
-    "name": "comfyanonymous/ComfyUI",
-    "description": "The most powerful and modular diffusion model GUI",
+    "name": "opendatalab/MinerU",
+    "description": "Transforms complex documents like PDFs into LLM-ready markdown/JSON for your Agentic workflows.",
     "language": "Python",
-    "stars": 52341,
-    "forks": 5432,
-    "todayStars": 76,
-    "url": "https://github.com/comfyanonymous/ComfyUI"
+    "stars": 46254,
+    "forks": 3833,
+    "todayStars": 98,
+    "url": "https://github.com/opendatalab/MinerU"
   },
   {
     "rank": 8,
-    "name": "pytorch/pytorch",
-    "description": "Tensors and Dynamic neural networks in Python",
-    "language": "Python",
-    "stars": 82341,
-    "forks": 22341,
-    "todayStars": 68,
-    "url": "https://github.com/pytorch/pytorch"
+    "name": "nitrojs/nitro",
+    "description": "Next Generation Server Toolkit. Create web servers with everything you need and deploy them wherever you prefer.",
+    "language": "TypeScript",
+    "stars": 8393,
+    "forks": 683,
+    "todayStars": 436,
+    "url": "https://github.com/nitrojs/nitro"
   },
   {
     "rank": 9,
-    "name": "shadcn-ui/ui",
-    "description": "Beautifully designed components built with Radix UI and Tailwind CSS",
-    "language": "TypeScript",
-    "stars": 72341,
-    "forks": 4234,
-    "todayStars": 64,
-    "url": "https://github.com/shadcn-ui/ui"
+    "name": "Klavis-AI/klavis",
+    "description": "Klavis AI (YC X25): MCP integration platforms that let AI agents use tools reliably at any scale",
+    "language": "Python",
+    "stars": 5114,
+    "forks": 469,
+    "todayStars": 180,
+    "url": "https://github.com/Klavis-AI/klavis"
   },
   {
     "rank": 10,
-    "name": "openai/whisper",
-    "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
-    "language": "Python",
-    "stars": 68234,
-    "forks": 8123,
-    "todayStars": 58,
-    "url": "https://github.com/openai/whisper"
+    "name": "chili-chips-ba/wireguard-fpga",
+    "description": "Full-throttle, wire-speed hardware implementation of Wireguard VPN, using low-cost Artix7 FPGA with opensource toolchain. If you seek security and privacy, nothing is private in our codebase. Our door is wide open for backdoor scrutiny, be it related to RTL, embedded, build, bitstream or any other aspect of design and delivery package. Bujrum!",
+    "language": "Verilog",
+    "stars": 991,
+    "forks": 16,
+    "todayStars": 197,
+    "url": "https://github.com/chili-chips-ba/wireguard-fpga"
   }
 ]
