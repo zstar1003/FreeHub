@@ -5,6 +5,8 @@
 @layer base {
   html {
     @apply bg-white dark:bg-gray-900;
+    scrollbar-gutter: stable;
+    overflow-y: scroll;
   }
 
   body {
@@ -15,6 +17,32 @@
   /* 设置暗色模式的 color-scheme */
   .dark {
     color-scheme: dark;
+  }
+
+  /* 全局滚动条样式 */
+  html::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  html::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  html::-webkit-scrollbar-thumb {
+    background: rgb(209 213 219);
+    border-radius: 4px;
+  }
+
+  html::-webkit-scrollbar-thumb:hover {
+    background: rgb(156 163 175);
+  }
+
+  .dark html::-webkit-scrollbar-thumb {
+    background: rgb(75 85 99);
+  }
+
+  .dark html::-webkit-scrollbar-thumb:hover {
+    background: rgb(107 114 128);
   }
 }
 
