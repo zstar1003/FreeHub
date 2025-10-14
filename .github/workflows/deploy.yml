@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # 当推送到 main 分支时触发
+      - master  # 当推送到 master 分支时触发
   workflow_dispatch:  # 允许手动触发
 
 # 设置 GitHub Pages 部署权限

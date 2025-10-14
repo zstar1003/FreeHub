@@ -1,0 +1,102 @@
+[
+  {
+    "rank": 1,
+    "name": "microsoft/graphrag",
+    "description": "A modular graph-based Retrieval-Augmented Generation (RAG) system",
+    "language": "Python",
+    "stars": 18234,
+    "forks": 1523,
+    "todayStars": 156,
+    "url": "https://github.com/microsoft/graphrag"
+  },
+  {
+    "rank": 2,
+    "name": "meta-llama/llama3",
+    "description": "The official Meta Llama 3 GitHub site",
+    "language": "Python",
+    "stars": 28456,
+    "forks": 2891,
+    "todayStars": 142,
+    "url": "https://github.com/meta-llama/llama3"
+  },
+  {
+    "rank": 3,
+    "name": "BuilderIO/micro-agent",
+    "description": "An AI agent that writes and fixes code for you",
+    "language": "TypeScript",
+    "stars": 15234,
+    "forks": 1234,
+    "todayStars": 128,
+    "url": "https://github.com/BuilderIO/micro-agent"
+  },
+  {
+    "rank": 4,
+    "name": "anthropics/anthropic-sdk-python",
+    "description": "SDK for interacting with Anthropic's Claude AI",
+    "language": "Python",
+    "stars": 12456,
+    "forks": 987,
+    "todayStars": 115,
+    "url": "https://github.com/anthropics/anthropic-sdk-python"
+  },
+  {
+    "rank": 5,
+    "name": "vercel/next.js",
+    "description": "The React Framework for the Web",
+    "language": "JavaScript",
+    "stars": 125234,
+    "forks": 27891,
+    "todayStars": 98,
+    "url": "https://github.com/vercel/next.js"
+  },
+  {
+    "rank": 6,
+    "name": "ggerganov/llama.cpp",
+    "description": "LLM inference in C/C++",
+    "language": "C++",
+    "stars": 65234,
+    "forks": 8234,
+    "todayStars": 87,
+    "url": "https://github.com/ggerganov/llama.cpp"
+  },
+  {
+    "rank": 7,
+    "name": "comfyanonymous/ComfyUI",
+    "description": "The most powerful and modular diffusion model GUI",
+    "language": "Python",
+    "stars": 52341,
+    "forks": 5432,
+    "todayStars": 76,
+    "url": "https://github.com/comfyanonymous/ComfyUI"
+  },
+  {
+    "rank": 8,
+    "name": "pytorch/pytorch",
+    "description": "Tensors and Dynamic neural networks in Python",
+    "language": "Python",
+    "stars": 82341,
+    "forks": 22341,
+    "todayStars": 68,
+    "url": "https://github.com/pytorch/pytorch"
+  },
+  {
+    "rank": 9,
+    "name": "shadcn-ui/ui",
+    "description": "Beautifully designed components built with Radix UI and Tailwind CSS",
+    "language": "TypeScript",
+    "stars": 72341,
+    "forks": 4234,
+    "todayStars": 64,
+    "url": "https://github.com/shadcn-ui/ui"
+  },
+  {
+    "rank": 10,
+    "name": "openai/whisper",
+    "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
+    "language": "Python",
+    "stars": 68234,
+    "forks": 8123,
+    "todayStars": 58,
+    "url": "https://github.com/openai/whisper"
+  }
+]
