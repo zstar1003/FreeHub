@@ -1,14 +1,13 @@
 import { Project } from '../types';
 import { ExternalLink, Calendar, Tag, User } from 'lucide-react';
-import { formatDate, cn } from '../utils/helpers';
+import { formatDate } from '../utils/helpers';
 import { useLanguage } from '../contexts/LanguageContext';
 
 interface ProjectCardProps {
   project: Project;
-  onView?: (project: Project) => void;
 }
 
-export function ProjectCard({ project, onView }: ProjectCardProps) {
+export function ProjectCard({ project }: ProjectCardProps) {
   const { t, language } = useLanguage();
 
   const displayName = language === 'zh' ? project.name : project.nameEn;

@@ -24,12 +24,12 @@ interface TrendingRepo {
 type TabType = 'tiobe' | 'github';
 
 export function RankingPage() {
-  const { language, t } = useLanguage();
+  const { language } = useLanguage();
   const [activeTab, setActiveTab] = useState<TabType>('tiobe');
   const [rankings, setRankings] = useState<RankingItem[]>([]);
   const [trendingRepos, setTrendingRepos] = useState<TrendingRepo[]>([]);
   const [loading, setLoading] = useState(true);
-  const [lastUpdate, setLastUpdate] = useState('2025-10');
+  const lastUpdate = '2025-10';
 
   // 从 JSON 文件加载排行榜数据
   useEffect(() => {

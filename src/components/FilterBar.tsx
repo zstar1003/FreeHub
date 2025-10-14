@@ -73,7 +73,7 @@ export function FilterBar({ filters, onFilterChange }: FilterBarProps) {
 
                 {isExpanded(group) && (
                   <div className="mt-1 space-y-0.5 pl-2 animate-fade-in">
-                    {categoryConfig[group].map((cat) => (
+                    {(categoryConfig[group as keyof typeof categoryConfig] as string[] | undefined)?.map((cat: string) => (
                       <button
                         key={cat}
                         onClick={() => onFilterChange({ ...filters, category: filters.category === cat ? '' : cat })}
