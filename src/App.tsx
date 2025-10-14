@@ -2,12 +2,14 @@ import { useState, useEffect, useMemo } from 'react';
 import { Header } from './components/Header';
 import { FilterBar } from './components/FilterBar';
 import { ProjectCard } from './components/ProjectCard';
+import { RankingPage } from './components/RankingPage';
 import { Project, FilterOptions } from './types';
 import { LanguageProvider, useLanguage } from './contexts/LanguageContext';
 
 function AppContent() {
   const { t } = useLanguage();
   const [projects, setProjects] = useState<Project[]>([]);
+  const [activeMenu, setActiveMenu] = useState('home');
   const [filters, setFilters] = useState<FilterOptions>({
     search: '',
     category: '',
@@ -73,58 +75,68 @@ function AppContent() {
   }, [projects, filters]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-gray-50 to-blue-50/30 dark:from-gray-900 dark:via-gray-900 dark:to-blue-950/30">
-      <Header projectCount={projects.filter((p) => p.status === 'approved').length} />
+    <>
+      <Header
+        projectCount={projects.filter((p) => p.status === 'approved').length}
+        activeMenu={activeMenu}
+        onMenuChange={setActiveMenu}
+      />
 
-      <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-        <div className="grid gap-6 lg:grid-cols-[280px_1fr]">
-          {/* Sidebar */}
-          <aside className="w-full min-w-0">
-            <div className="sticky top-24 w-full min-w-0">
-              <FilterBar filters={filters} onFilterChange={setFilters} />
+      {activeMenu === 'trending' ? (
+        <RankingPage />
+      ) : (
+        <div className="min-h-screen bg-gradient-to-br from-gray-50 via-gray-50 to-blue-50/30 dark:from-gray-900 dark:via-gray-900 dark:to-blue-950/30">
+          <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+            <div className="grid gap-6 lg:grid-cols-[280px_1fr]">
+              {/* Sidebar */}
+              <aside className="w-full min-w-0">
+                <div className="sticky top-24 w-full min-w-0">
+                  <FilterBar filters={filters} onFilterChange={setFilters} />
+                </div>
+              </aside>
+
+              {/* Projects Grid */}
+              <div className="w-full min-w-0">
+                {loading ? (
+                  <div className="flex min-h-[400px] items-center justify-center rounded-lg bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm border border-gray-200 dark:border-gray-700 p-8 text-center shadow-sm">
+                    <div className="animate-fade-in">
+                      <div className="mx-auto mb-4 h-12 w-12 animate-spin rounded-full border-4 border-primary-200 dark:border-primary-800 border-t-primary-600 dark:border-t-primary-400"></div>
+                      <p className="text-sm text-gray-600 dark:text-gray-400">{t.common.loading}</p>
+                    </div>
+                  </div>
+                ) : filteredProjects.length === 0 ? (
+                  <div className="flex min-h-[400px] items-center justify-center rounded-lg bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm border border-gray-200 dark:border-gray-700 p-8 text-center shadow-sm">
+                    <div className="animate-fade-in">
+                      <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-primary-100 to-blue-100 dark:from-primary-900/30 dark:to-blue-900/30">
+                        <span className="text-3xl">📦</span>
+                      </div>
+                      <p className="text-lg font-semibold text-gray-900 dark:text-gray-100">{t.common.noProjects}</p>
+                      <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
+                        {projects.length === 0
+                          ? t.common.noProjectsYet
+                          : t.common.noMatchingProjects}
+                      </p>
+                    </div>
+                  </div>
+                ) : (
+                  <div className="space-y-4">
+                    {filteredProjects.map((project, index) => (
+                      <div
+                        key={project.id}
+                        className="animate-fade-in-up"
+                        style={{ animationDelay: `${index * 50}ms` }}
+                      >
+                        <ProjectCard project={project} />
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
             </div>
-          </aside>
-
-          {/* Projects Grid */}
-          <div className="w-full min-w-0">
-            {loading ? (
-              <div className="flex min-h-[400px] items-center justify-center rounded-lg bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm border border-gray-200 dark:border-gray-700 p-8 text-center shadow-sm">
-                <div className="animate-fade-in">
-                  <div className="mx-auto mb-4 h-12 w-12 animate-spin rounded-full border-4 border-primary-200 dark:border-primary-800 border-t-primary-600 dark:border-t-primary-400"></div>
-                  <p className="text-sm text-gray-600 dark:text-gray-400">{t.common.loading}</p>
-                </div>
-              </div>
-            ) : filteredProjects.length === 0 ? (
-              <div className="flex min-h-[400px] items-center justify-center rounded-lg bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm border border-gray-200 dark:border-gray-700 p-8 text-center shadow-sm">
-                <div className="animate-fade-in">
-                  <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-primary-100 to-blue-100 dark:from-primary-900/30 dark:to-blue-900/30">
-                    <span className="text-3xl">📦</span>
-                  </div>
-                  <p className="text-lg font-semibold text-gray-900 dark:text-gray-100">{t.common.noProjects}</p>
-                  <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
-                    {projects.length === 0
-                      ? t.common.noProjectsYet
-                      : t.common.noMatchingProjects}
-                  </p>
-                </div>
-              </div>
-            ) : (
-              <div className="space-y-4">
-                {filteredProjects.map((project, index) => (
-                  <div
-                    key={project.id}
-                    className="animate-fade-in-up"
-                    style={{ animationDelay: `${index * 50}ms` }}
-                  >
-                    <ProjectCard project={project} />
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
+          </main>
         </div>
-      </main>
-    </div>
+      )}
+    </>
   );
 }
 

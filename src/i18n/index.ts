@@ -67,7 +67,7 @@ export const translations: Record<Language, Translations> = {
   en: {
     header: {
       home: 'Home',
-      trending: 'Trending',
+      trending: 'Rankings',
       articles: 'Articles',
       projectCount: 'Total',
       projects: 'Projects',

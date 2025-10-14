@@ -4,10 +4,11 @@ import { useLanguage } from '../contexts/LanguageContext';
 
 interface HeaderProps {
   projectCount: number;
+  activeMenu: string;
+  onMenuChange: (menu: string) => void;
 }
 
-export function Header({ projectCount }: HeaderProps) {
-  const [activeMenu, setActiveMenu] = useState('home');
+export function Header({ projectCount, activeMenu, onMenuChange }: HeaderProps) {
   const [darkMode, setDarkMode] = useState(false);
   const { language, setLanguage, t } = useLanguage();
 
@@ -75,7 +76,7 @@ export function Header({ projectCount }: HeaderProps) {
                 return (
                   <button
                     key={item.id}
-                    onClick={() => setActiveMenu(item.id)}
+                    onClick={() => onMenuChange(item.id)}
                     className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all ${
                       activeMenu === item.id
                         ? 'bg-primary-50 dark:bg-primary-900/30 text-primary-700 dark:text-primary-400'
