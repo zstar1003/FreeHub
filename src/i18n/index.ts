@@ -37,7 +37,7 @@ export const translations: Record<Language, Translations> = {
     header: {
       home: '首页',
       trending: '榜单',
-      articles: '文章',
+      articles: 'AI 新闻',
       projectCount: '已收录',
       projects: '个项目',
     },
@@ -68,7 +68,7 @@ export const translations: Record<Language, Translations> = {
     header: {
       home: 'Home',
       trending: 'Rankings',
-      articles: 'Articles',
+      articles: 'AI News',
       projectCount: 'Total',
       projects: 'Projects',
     },

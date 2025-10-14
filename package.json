@@ -9,7 +9,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "update-rankings": "node scripts/update-rankings.js",
-    "update-trending": "node scripts/update-trending.js"
+    "update-trending": "node scripts/update-trending.js",
+    "update-ai-news": "node scripts/update-ai-news.js"
   },
   "dependencies": {
     "axios": "^1.12.2",
