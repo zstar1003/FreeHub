@@ -35,7 +35,7 @@ export function RankingPage() {
   useEffect(() => {
     const loadRankings = async () => {
       try {
-        const response = await fetch('/rankings.json');
+        const response = await fetch(`${import.meta.env.BASE_URL}rankings.json`);
         const data = await response.json();
         setRankings(data);
       } catch (error) {
@@ -52,7 +52,7 @@ export function RankingPage() {
   useEffect(() => {
     const loadTrending = async () => {
       try {
-        const response = await fetch('/github-trending.json');
+        const response = await fetch(`${import.meta.env.BASE_URL}github-trending.json`);
         const data = await response.json();
         setTrendingRepos(data);
       } catch (error) {
