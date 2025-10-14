@@ -6,6 +6,10 @@ on:
     - cron: '0 0 1 * *'
   workflow_dispatch: # 允许手动触发
 
+# 添加权限配置
+permissions:
+  contents: write  # 允许写入仓库内容
+
 jobs:
   update-rankings:
     runs-on: ubuntu-latest
@@ -15,6 +19,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true  # 保持凭证以便推送
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
