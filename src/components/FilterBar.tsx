@@ -43,19 +43,19 @@ export function FilterBar({ filters, onFilterChange }: FilterBarProps) {
 
       {/* Category Filter */}
       <div className="rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700">
-        <div className="flex items-center justify-center p-4 pb-2">
+        <div className="flex items-center justify-between p-4 pb-2">
           <h3 className="text-base font-semibold text-gray-900 dark:text-gray-100">{t.filter.category}</h3>
           {filters.category && (
             <button
               onClick={() => onFilterChange({ ...filters, category: '' })}
-              className="absolute right-8 text-xs text-primary-600 dark:text-primary-400 hover:underline"
+              className="text-xs text-primary-600 dark:text-primary-400 hover:underline whitespace-nowrap ml-2"
             >
               {language === 'zh' ? '清除' : 'Clear'}
             </button>
           )}
         </div>
 
-        <div className="max-h-[calc(100vh-20rem)] scrollbar-custom px-4 pb-4">
+        <div className="max-h-[calc(100vh-24rem)] md:max-h-[calc(100vh-20rem)] overflow-y-auto scrollbar-custom px-4 pb-4">
           <div className="space-y-2">
             {categoryGroups.map((group) => (
               <div key={group} className="border-b border-gray-100 dark:border-gray-700 last:border-b-0 pb-2 last:pb-0">

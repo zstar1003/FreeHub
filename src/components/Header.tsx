@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Home, TrendingUp, FileText, Sun, Moon, Languages } from 'lucide-react';
+import { Home, TrendingUp, FileText, Sun, Moon, Languages, Menu, X } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 interface HeaderProps {
@@ -10,6 +10,7 @@ interface HeaderProps {
 
 export function Header({ projectCount, activeMenu, onMenuChange }: HeaderProps) {
   const [darkMode, setDarkMode] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const { language, setLanguage, t } = useLanguage();
 
   useEffect(() => {
@@ -95,7 +96,7 @@ export function Header({ projectCount, activeMenu, onMenuChange }: HeaderProps) 
 
           {/* Actions */}
           <div className="flex items-center gap-3">
-            <div className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-gradient-to-r from-primary-50 to-blue-50 dark:from-primary-900/30 dark:to-blue-900/30 border border-primary-100 dark:border-primary-800">
+            <div className="hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-lg bg-gradient-to-r from-primary-50 to-blue-50 dark:from-primary-900/30 dark:to-blue-900/30 border border-primary-100 dark:border-primary-800">
               <span className="text-xs text-gray-600 dark:text-gray-400">{t.header.projectCount}</span>
               <span className="text-sm font-bold text-primary-600 dark:text-primary-400">{projectCount}</span>
               <span className="text-xs text-gray-600 dark:text-gray-400">{t.header.projects}</span>
@@ -136,8 +137,52 @@ export function Header({ projectCount, activeMenu, onMenuChange }: HeaderProps) 
                 />
               </div>
             </button>
+
+            {/* Mobile Menu Button */}
+            <button
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="md:hidden relative p-2 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 transition-all duration-300 shadow-sm"
+              aria-label="菜单"
+            >
+              {mobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+            </button>
           </div>
         </div>
+
+        {/* Mobile Navigation Menu */}
+        {mobileMenuOpen && (
+          <div className="md:hidden border-t border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900">
+            <nav className="py-4 space-y-2 px-4">
+              {menuItems.map((item) => {
+                const Icon = item.icon;
+                return (
+                  <button
+                    key={item.id}
+                    onClick={() => {
+                      onMenuChange(item.id);
+                      setMobileMenuOpen(false);
+                    }}
+                    className={`w-full flex items-center gap-3 px-4 py-3 rounded-lg text-sm font-medium transition-all ${
+                      activeMenu === item.id
+                        ? 'bg-primary-50 dark:bg-primary-900/30 text-primary-700 dark:text-primary-400'
+                        : 'text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-gray-900 dark:hover:text-gray-200'
+                    }`}
+                  >
+                    <Icon className="h-5 w-5" />
+                    {item.label}
+                  </button>
+                );
+              })}
+
+              {/* Mobile Project Count */}
+              <div className="sm:hidden flex items-center justify-center gap-2 px-4 py-3 mt-4 rounded-lg bg-gradient-to-r from-primary-50 to-blue-50 dark:from-primary-900/30 dark:to-blue-900/30 border border-primary-100 dark:border-primary-800">
+                <span className="text-xs text-gray-600 dark:text-gray-400">{t.header.projectCount}</span>
+                <span className="text-sm font-bold text-primary-600 dark:text-primary-400">{projectCount}</span>
+                <span className="text-xs text-gray-600 dark:text-gray-400">{t.header.projects}</span>
+              </div>
+            </nav>
+          </div>
+        )}
       </div>
     </header>
   );

@@ -89,7 +89,7 @@ function AppContent() {
         <AINewsPage />
       ) : (
         <div className="min-h-screen bg-gradient-to-br from-gray-50 via-gray-50 to-blue-50/30 dark:from-gray-900 dark:via-gray-900 dark:to-blue-950/30">
-          <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+          <main className="mx-auto max-w-7xl px-4 py-6 sm:py-8 sm:px-6 lg:px-8">
             {loading ? (
               <div className="flex min-h-[400px] items-center justify-center">
                 <div className="animate-fade-in">
@@ -98,10 +98,10 @@ function AppContent() {
                 </div>
               </div>
             ) : (
-              <div className="grid gap-6 lg:grid-cols-[280px_1fr]">
+              <div className="grid gap-4 sm:gap-6 lg:grid-cols-[280px_1fr]">
                 {/* Sidebar */}
                 <aside className="w-full min-w-0">
-                  <div className="sticky top-24 w-full min-w-0">
+                  <div className="lg:sticky lg:top-24 w-full min-w-0">
                     <FilterBar filters={filters} onFilterChange={setFilters} />
                   </div>
                 </aside>
@@ -109,7 +109,7 @@ function AppContent() {
                 {/* Projects Grid */}
                 <div className="w-full min-w-0">
                   {filteredProjects.length === 0 ? (
-                    <div className="flex min-h-[400px] items-center justify-center rounded-lg bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm border border-gray-200 dark:border-gray-700 p-8 text-center shadow-sm">
+                    <div className="flex min-h-[400px] items-center justify-center rounded-lg bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm border border-gray-200 dark:border-gray-700 p-6 sm:p-8 text-center shadow-sm">
                       <div className="animate-fade-in">
                         <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-primary-100 to-blue-100 dark:from-primary-900/30 dark:to-blue-900/30">
                           <span className="text-3xl">📦</span>
@@ -123,7 +123,7 @@ function AppContent() {
                       </div>
                     </div>
                   ) : (
-                    <div className="space-y-4">
+                    <div className="space-y-3 sm:space-y-4">
                       {filteredProjects.map((project, index) => (
                         <div
                           key={project.id}

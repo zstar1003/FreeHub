@@ -69,18 +69,18 @@ export function AINewsPage() {
           </div>
         </div>
       ) : (
-        <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+        <main className="mx-auto max-w-7xl px-4 py-6 sm:py-8 sm:px-6 lg:px-8">
           {/* Header */}
-          <div className="mb-8 text-center animate-fade-in">
-            <div className="inline-flex items-center gap-3 mb-4">
-              <div className="p-3 rounded-xl bg-gradient-to-br from-primary-500 to-blue-600 text-white shadow-lg">
-                <Sparkles className="h-6 w-6" />
+          <div className="mb-6 sm:mb-8 text-center animate-fade-in">
+            <div className="inline-flex items-center gap-2 sm:gap-3 mb-3 sm:mb-4">
+              <div className="p-2 sm:p-3 rounded-xl bg-gradient-to-br from-primary-500 to-blue-600 text-white shadow-lg">
+                <Sparkles className="h-5 w-5 sm:h-6 sm:w-6" />
               </div>
-              <h1 className="text-3xl font-bold bg-gradient-to-r from-gray-900 to-gray-700 dark:from-white dark:to-gray-300 bg-clip-text text-transparent">
+              <h1 className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-gray-900 to-gray-700 dark:from-white dark:to-gray-300 bg-clip-text text-transparent">
                 {language === 'zh' ? 'AI 新闻' : 'AI News'}
               </h1>
             </div>
-            <p className="text-sm text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+            <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-400 max-w-2xl mx-auto px-2">
               {language === 'zh'
                 ? '最新的 AI 行业动态、产品发布和技术突破，为您带来前沿的人工智能资讯。'
                 : 'Latest AI industry trends, product releases, and technological breakthroughs bringing you cutting-edge artificial intelligence news.'}
@@ -93,7 +93,7 @@ export function AINewsPage() {
           </div>
 
           {/* News List */}
-          <div className="max-w-5xl mx-auto space-y-4">
+          <div className="max-w-5xl mx-auto space-y-3 sm:space-y-4">
             {news.map((item, index) => (
               <article
                 key={item.id}
@@ -104,38 +104,38 @@ export function AINewsPage() {
                   href={item.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block p-6"
+                  className="block p-4 sm:p-6"
                 >
                   {/* Title and Category */}
-                  <div className="flex items-start justify-between gap-4 mb-3">
-                    <h2 className="text-xl font-bold text-gray-900 dark:text-gray-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors line-clamp-2 flex-1">
+                  <div className="flex flex-col sm:flex-row items-start justify-between gap-2 sm:gap-4 mb-3">
+                    <h2 className="text-base sm:text-xl font-bold text-gray-900 dark:text-gray-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors line-clamp-2 flex-1">
                       {item.title}
                     </h2>
-                    <span className={`inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-medium bg-gradient-to-r border whitespace-nowrap ${getCategoryColor(item.category)}`}>
+                    <span className={`inline-flex items-center gap-1 px-2.5 py-0.5 sm:px-3 sm:py-1 rounded-full text-xs font-medium bg-gradient-to-r border whitespace-nowrap flex-shrink-0 self-start ${getCategoryColor(item.category)}`}>
                       <Tag className="h-3 w-3" />
                       {item.category}
                     </span>
                   </div>
 
                   {/* Description */}
-                  <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed mb-4 line-clamp-2">
+                  <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-400 leading-relaxed mb-3 sm:mb-4 line-clamp-2">
                     {item.description}
                   </p>
 
                   {/* Meta Information */}
-                  <div className="flex items-center justify-between text-xs text-gray-500 dark:text-gray-500">
-                    <div className="flex items-center gap-4">
+                  <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 sm:gap-0 text-xs text-gray-500 dark:text-gray-500">
+                    <div className="flex items-center gap-3 sm:gap-4">
                       <div className="flex items-center gap-1.5">
                         <Newspaper className="h-3.5 w-3.5" />
-                        <span>{item.source}</span>
+                        <span className="truncate max-w-[120px] sm:max-w-none">{item.source}</span>
                       </div>
-                      <div className="flex items-center gap-1.5">
+                      <div className="flex items-center gap-1.5 whitespace-nowrap">
                         <Calendar className="h-3.5 w-3.5" />
                         <span>{item.publishedAt}</span>
                       </div>
                     </div>
-                    <div className="flex items-center gap-1.5 text-primary-600 dark:text-primary-400 opacity-0 group-hover:opacity-100 transition-opacity">
-                      <span className="font-medium">{language === 'zh' ? '查看详情' : 'Read more'}</span>
+                    <div className="flex items-center gap-1.5 text-primary-600 dark:text-primary-400 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity">
+                      <span className="font-medium text-xs">{language === 'zh' ? '查看详情' : 'Read more'}</span>
                       <ExternalLink className="h-3.5 w-3.5" />
                     </div>
                   </div>
