@@ -4,9 +4,9 @@
     "name": "anthropics/prompt-eng-interactive-tutorial",
     "description": "Anthropic's Interactive Prompt Engineering Tutorial",
     "language": "Jupyter Notebook",
-    "stars": 22325,
-    "forks": 2103,
-    "todayStars": 2266,
+    "stars": 22845,
+    "forks": 2136,
+    "todayStars": 2246,
     "url": "https://github.com/anthropics/prompt-eng-interactive-tutorial"
   },
   {
@@ -14,9 +14,9 @@
     "name": "nvm-sh/nvm",
     "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions",
     "language": "Shell",
-    "stars": 87447,
-    "forks": 9410,
-    "todayStars": 18,
+    "stars": 87477,
+    "forks": 9413,
+    "todayStars": 25,
     "url": "https://github.com/nvm-sh/nvm"
   },
   {
@@ -24,9 +24,9 @@
     "name": "GorvGoyl/Clone-Wars",
     "description": "100+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube etc. See source code, demo links, tech stack, github stars.",
     "language": "Unknown",
-    "stars": 30176,
-    "forks": 2714,
-    "todayStars": 151,
+    "stars": 30375,
+    "forks": 2718,
+    "todayStars": 173,
     "url": "https://github.com/GorvGoyl/Clone-Wars"
   },
   {
@@ -34,9 +34,9 @@
     "name": "alibaba/spring-ai-alibaba",
     "description": "Agentic AI Framework for Java Developers",
     "language": "Java",
-    "stars": 6243,
-    "forks": 1338,
-    "todayStars": 89,
+    "stars": 6264,
+    "forks": 1340,
+    "todayStars": 32,
     "url": "https://github.com/alibaba/spring-ai-alibaba"
   },
   {
@@ -44,9 +44,9 @@
     "name": "datawhalechina/happy-llm",
     "description": "📚 从零开始的大语言模型原理与实践教程",
     "language": "Jupyter Notebook",
-    "stars": 19394,
-    "forks": 1684,
-    "todayStars": 180,
+    "stars": 19430,
+    "forks": 1687,
+    "todayStars": 119,
     "url": "https://github.com/datawhalechina/happy-llm"
   },
   {
@@ -54,9 +54,9 @@
     "name": "asgeirtj/system_prompts_leaks",
     "description": "Collection of extracted System Prompts from popular chatbots like ChatGPT, Claude & Gemini",
     "language": "JavaScript",
-    "stars": 22554,
-    "forks": 3461,
-    "todayStars": 450,
+    "stars": 22635,
+    "forks": 3470,
+    "todayStars": 441,
     "url": "https://github.com/asgeirtj/system_prompts_leaks"
   },
   {
@@ -64,9 +64,9 @@
     "name": "opendatalab/MinerU",
     "description": "Transforms complex documents like PDFs into LLM-ready markdown/JSON for your Agentic workflows.",
     "language": "Python",
-    "stars": 46254,
-    "forks": 3833,
-    "todayStars": 98,
+    "stars": 46321,
+    "forks": 3837,
+    "todayStars": 115,
     "url": "https://github.com/opendatalab/MinerU"
   },
   {
@@ -74,9 +74,9 @@
     "name": "nitrojs/nitro",
     "description": "Next Generation Server Toolkit. Create web servers with everything you need and deploy them wherever you prefer.",
     "language": "TypeScript",
-    "stars": 8393,
-    "forks": 683,
-    "todayStars": 436,
+    "stars": 8484,
+    "forks": 692,
+    "todayStars": 429,
     "url": "https://github.com/nitrojs/nitro"
   },
   {
@@ -84,9 +84,9 @@
     "name": "Klavis-AI/klavis",
     "description": "Klavis AI (YC X25): MCP integration platforms that let AI agents use tools reliably at any scale",
     "language": "Python",
-    "stars": 5114,
-    "forks": 469,
-    "todayStars": 180,
+    "stars": 5151,
+    "forks": 471,
+    "todayStars": 179,
     "url": "https://github.com/Klavis-AI/klavis"
   },
   {
@@ -94,9 +94,9 @@
     "name": "chili-chips-ba/wireguard-fpga",
     "description": "Full-throttle, wire-speed hardware implementation of Wireguard VPN, using low-cost Artix7 FPGA with opensource toolchain. If you seek security and privacy, nothing is private in our codebase. Our door is wide open for backdoor scrutiny, be it related to RTL, embedded, build, bitstream or any other aspect of design and delivery package. Bujrum!",
     "language": "Verilog",
-    "stars": 991,
-    "forks": 16,
-    "todayStars": 197,
+    "stars": 1037,
+    "forks": 18,
+    "todayStars": 165,
     "url": "https://github.com/chili-chips-ba/wireguard-fpga"
   }
 ]
