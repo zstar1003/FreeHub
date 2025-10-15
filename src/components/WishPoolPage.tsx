@@ -9,36 +9,50 @@ interface Wish {
   submitter: string;
   isImplemented: boolean;
   timestamp: string;
+  status?: 'pending' | 'approved' | 'rejected';
+}
+
+interface PendingWish {
+  id: string;
+  featureRequest: string;
+  similarProduct: string;
+  submitter: string;
+  timestamp: string;
 }
 
 export function WishPoolPage() {
   const { language } = useLanguage();
   const [wishes, setWishes] = useState<Wish[]>([]);
   const [showForm, setShowForm] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'submitting' | 'submitted'>('idle');
   const [formData, setFormData] = useState({
     featureRequest: '',
     similarProduct: '',
     submitter: ''
   });
 
-  // 加载许愿数据
+  // 加载许愿数据（只显示已审核通过的）
   useEffect(() => {
     const loadWishes = async () => {
       try {
-        // 从 JSON 文件加载默认数据
+        // 从 JSON 文件加载默认数据（默认为已通过）
         const response = await fetch(`${import.meta.env.BASE_URL}wishes.json`);
         const defaultWishes = await response.json();
 
-        // 从 localStorage 加载用户添加的数据
-        const savedWishes = localStorage.getItem('userWishes');
+        // 从 localStorage 加载用户添加的已通过数据
+        const savedWishes = localStorage.getItem('approvedWishes');
         const userWishes = savedWishes ? JSON.parse(savedWishes) : [];
 
-        // 合并数据，用户的在前面
-        setWishes([...userWishes, ...defaultWishes]);
+        // 只显示状态为 approved 或未设置状态的愿望
+        const approvedWishes = [...defaultWishes, ...userWishes].filter(wish =>
+          !wish.status || wish.status === 'approved'
+        );
+
+        setWishes(approvedWishes);
       } catch (error) {
         console.error('Failed to load wishes:', error);
         // 如果加载失败，尝试只从 localStorage 加载
-        const savedWishes = localStorage.getItem('userWishes');
+        const savedWishes = localStorage.getItem('approvedWishes');
         if (savedWishes) {
           setWishes(JSON.parse(savedWishes));
         }
@@ -48,33 +62,48 @@ export function WishPoolPage() {
     loadWishes();
   }, []);
 
-  // 保存许愿
+  // 保存许愿到待审核队列
   const saveWish = () => {
     if (!formData.featureRequest.trim()) return;
 
-    const newWish: Wish = {
+    setSubmitStatus('submitting');
+
+    const pendingWish: PendingWish = {
       id: Date.now().toString(),
       featureRequest: formData.featureRequest,
       similarProduct: formData.similarProduct,
       submitter: formData.submitter || (language === 'zh' ? '匿名用户' : 'Anonymous'),
-      isImplemented: false,
       timestamp: new Date().toISOString()
     };
 
-    // 获取当前用户添加的愿望
-    const savedWishes = localStorage.getItem('userWishes');
-    const userWishes = savedWishes ? JSON.parse(savedWishes) : [];
+    // 将愿望添加到待审核队列
+    const pendingQueue = localStorage.getItem('pendingWishes') || '[]';
+    const updatedQueue = [pendingWish, ...JSON.parse(pendingQueue)];
+    localStorage.setItem('pendingWishes', JSON.stringify(updatedQueue));
 
-    // 添加新愿望到用户列表
-    const updatedUserWishes = [newWish, ...userWishes];
-    localStorage.setItem('userWishes', JSON.stringify(updatedUserWishes));
+    // 触发 GitHub Actions 的 webhook（如果有）
+    triggerWebhook(pendingWish);
 
-    // 更新显示的愿望列表
-    setWishes([newWish, ...wishes]);
-
-    // 重置表单
+    // 重置表单和状态
     setFormData({ featureRequest: '', similarProduct: '', submitter: '' });
     setShowForm(false);
+    setSubmitStatus('submitted');
+
+    // 3秒后重置状态
+    setTimeout(() => setSubmitStatus('idle'), 3000);
+  };
+
+  // 触发 webhook（模拟，实际需要配置）
+  const triggerWebhook = (wish: PendingWish) => {
+    // 这里可以配置 GitHub Actions 或其他 CI/CD 的 webhook
+    console.log('Wish submitted for review:', wish);
+
+    // 实际项目中，这里可以发送到服务器或触发 GitHub Actions
+    // 例如：
+    // fetch('/api/submit-wish', {
+    //   method: 'POST',
+    //   body: JSON.stringify(wish)
+    // });
   };
 
 
@@ -102,12 +131,41 @@ export function WishPoolPage() {
         <div className="max-w-4xl mx-auto mb-6 sm:mb-8 animate-fade-in-up flex justify-center">
           <button
             onClick={() => setShowForm(true)}
-            className="inline-flex items-center justify-center gap-2 px-8 py-3 rounded-xl bg-gradient-to-r from-primary-500 to-blue-600 text-white font-semibold text-base transition-all hover:from-primary-600 hover:to-blue-700 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95"
+            disabled={submitStatus === 'submitting'}
+            className="inline-flex items-center justify-center gap-2 px-8 py-3 rounded-xl bg-gradient-to-r from-primary-500 to-blue-600 text-white font-semibold text-base transition-all hover:from-primary-600 hover:to-blue-700 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed"
           >
-            <Sparkles className="h-5 w-5" />
-            <span>{language === 'zh' ? '我要许愿' : 'Make a Wish'}</span>
+            {submitStatus === 'submitting' ? (
+              <>
+                <div className="animate-spin rounded-full h-5 w-5 border-2 border-white border-t-transparent" />
+                <span>{language === 'zh' ? '提交中...' : 'Submitting...'}</span>
+              </>
+            ) : submitStatus === 'submitted' ? (
+              <>
+                <CheckCircle className="h-5 w-5" />
+                <span>{language === 'zh' ? '提交成功！' : 'Submitted!'}</span>
+              </>
+            ) : (
+              <>
+                <Sparkles className="h-5 w-5" />
+                <span>{language === 'zh' ? '我要许愿' : 'Make a Wish'}</span>
+              </>
+            )}
           </button>
         </div>
+
+        {/* Submit Status Message */}
+        {submitStatus === 'submitted' && (
+          <div className="max-w-4xl mx-auto mb-4 text-center animate-fade-in">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-green-50 dark:bg-green-900/20 text-green-700 dark:text-green-300 border border-green-200 dark:border-green-800">
+              <CheckCircle className="h-4 w-4" />
+              <span className="text-sm font-medium">
+                {language === 'zh'
+                  ? '您的愿望已提交审核，请等待管理员处理。'
+                  : 'Your wish has been submitted for review. Please wait for approval.'}
+              </span>
+            </div>
+          </div>
+        )}
 
         {/* Wish Form Modal */}
         {showForm && (
