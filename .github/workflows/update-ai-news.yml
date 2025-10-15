@@ -22,9 +22,26 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Install Chrome dependencies for Puppeteer
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libnss3 \
+            libatk1.0-0 \
+            libatk-bridge2.0-0 \
+            libcups2 \
+            libdrm2 \
+            libxkbcommon0 \
+            libxcomposite1 \
+            libxdamage1 \
+            libxfixes3 \
+            libxrandr2 \
+            libgbm1 \
+            libasound2
+
       - name: Install dependencies
         run: |
-          npm install axios cheerio
+          npm install puppeteer
 
       - name: Update AI News data
         run: npm run update-ai-news

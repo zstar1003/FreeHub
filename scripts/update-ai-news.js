@@ -1,224 +1,204 @@
-const axios = require('axios');
-const cheerio = require('cheerio');
+const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
 
 async function fetchAINews() {
-  try {
-    console.log('Fetching AI News from aihot.today...');
+  let browser;
 
-    const response = await axios.get('https://aihot.today/ai-news', {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-        'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8'
-      },
-      timeout: 30000
+  try {
+    console.log('Launching browser...');
+    browser = await puppeteer.launch({
+      headless: 'new',
+      args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage']
     });
 
-    const $ = cheerio.load(response.data);
-    const news = [];
+    const page = await browser.newPage();
+    await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
 
-    // 尝试多种可能的新闻列表选择器
-    // 方法1: 查找常见的新闻卡片/列表元素
-    const possibleSelectors = [
-      'article',
-      '.news-item',
-      '.article-item',
-      '.post-item',
-      '[class*="news"]',
-      '[class*="article"]',
-      '[class*="card"]',
-      'li[class*="item"]',
-      'div[class*="list"] > div',
-    ];
+    console.log('Fetching AI News from aihot.today...');
+    await page.goto('https://aihot.today/ai-news', {
+      waitUntil: 'networkidle2',
+      timeout: 60000
+    });
 
-    let newsFound = false;
+    await new Promise(resolve => setTimeout(resolve, 5000));
 
-    for (const selector of possibleSelectors) {
-      const items = $(selector);
+    console.log('Extracting news data from HTML...');
 
-      if (items.length > 0) {
-        console.log(`Found ${items.length} items with selector: ${selector}`);
+    // 获取完整的HTML内容
+    const htmlContent = await page.content();
 
-        items.each((index, element) => {
-          if (news.length >= 20) return false; // 限制20条
+    // 从HTML中提取包含initialNewsData的部分
+    // 注意：HTML中的引号是转义的 \"
+    const newsDataMatch = htmlContent.match(/\\"initialNewsData\\":\[([\s\S]+?)\],\\"dataSources\\"/);
 
-          const $element = $(element);
 
-          // 提取标题
-          let title = '';
-          const titleSelectors = ['h1', 'h2', 'h3', 'h4', '.title', '[class*="title"]', 'a'];
-          for (const titleSel of titleSelectors) {
-            const $title = $element.find(titleSel).first();
-            if ($title.length > 0) {
-              title = $title.text().trim();
-              if (title.length > 10) break; // 找到合理长度的标题
-            }
-          }
-
-          // 提取链接
-          let url = '';
-          const $link = $element.find('a').first();
-          if ($link.length > 0) {
-            url = $link.attr('href');
-            // 处理相对路径
-            if (url && !url.startsWith('http')) {
-              url = new URL(url, 'https://aihot.today').href;
-            }
-          }
-
-          // 提取描述/摘要
-          let description = '';
-          const descSelectors = ['p', '.description', '.summary', '.excerpt', '[class*="desc"]'];
-          for (const descSel of descSelectors) {
-            const $desc = $element.find(descSel).first();
-            if ($desc.length > 0) {
-              description = $desc.text().trim();
-              if (description.length > 20) break;
-            }
-          }
-
-          // 提取发布时间
-          let publishedAt = '';
-          const timeSelectors = ['time', '.date', '.time', '[class*="date"]', '[class*="time"]'];
-          for (const timeSel of timeSelectors) {
-            const $time = $element.find(timeSel).first();
-            if ($time.length > 0) {
-              publishedAt = $time.attr('datetime') || $time.text().trim();
-              if (publishedAt) break;
-            }
-          }
-
-          // 提取来源
-          let source = '';
-          const sourceSelectors = ['.source', '[class*="source"]', '.author', '[class*="author"]'];
-          for (const sourceSel of sourceSelectors) {
-            const $source = $element.find(sourceSel).first();
-            if ($source.length > 0) {
-              source = $source.text().trim();
-              if (source) break;
-            }
-          }
-
-          // 只保存有标题和链接的新闻
-          if (title && url && title.length > 5) {
-            news.push({
-              id: news.length + 1,
-              title: title,
-              description: description || '暂无描述',
-              url: url,
-              source: source || 'AIHot',
-              publishedAt: publishedAt || new Date().toISOString().split('T')[0],
-              category: 'AI'
-            });
-
-            console.log(`  ${news.length}. ${title.substring(0, 60)}...`);
-          }
-        });
-
-        if (news.length > 0) {
-          newsFound = true;
-          break;
-        }
-      }
+    if (!newsDataMatch) {
+      throw new Error('Could not find initialNewsData in HTML');
     }
 
-    // 如果没有找到新闻，尝试抓取页面上的所有链接
-    if (!newsFound) {
-      console.log('Trying to extract from all links...');
+    let rawDataString = newsDataMatch[1];
 
-      $('a').each((index, element) => {
-        if (news.length >= 20) return false;
+    // 处理转义：HTML中字符串内的引号是 \\\" (3个反斜杠+引号)
+    // JSON结构的引号是 \" (1个反斜杠+引号)
+    const placeholder = '___ESCAPED_QUOTE___';
+    const jsonString = '[' + rawDataString
+      .replace(/\\\\\\\"/g, placeholder)  // 先将 \\\" (3个反斜杠) 替换为占位符
+      .replace(/\\"/g, '"')                // 再将 \" (1个反斜杠) 替换为 "
+      .replace(new RegExp(placeholder, 'g'), '\\"')  // 最后将占位符还原为 \"
+      + ']';
 
-        const $link = $(element);
-        const title = $link.text().trim();
-        const url = $link.attr('href');
+    console.log('Parsing JSON data...');
+    const parsedData = JSON.parse(jsonString);
 
-        // 过滤掉导航链接和无效链接
-        if (title && url && title.length > 10 && title.length < 200) {
-          const fullUrl = url.startsWith('http') ? url : new URL(url, 'https://aihot.today').href;
+    if (!parsedData || parsedData.length === 0) {
+      throw new Error('No news items found in parsed data');
+    }
 
-          // 检查是否是新闻相关的链接
-          if (fullUrl.includes('aihot.today') && !fullUrl.includes('#') &&
-              !fullUrl.includes('login') && !fullUrl.includes('register')) {
+    console.log(`Found ${parsedData.length} news items`);
 
-            news.push({
-              id: news.length + 1,
-              title: title,
-              description: '暂无描述',
-              url: fullUrl,
-              source: 'AIHot',
-              publishedAt: new Date().toISOString().split('T')[0],
-              category: 'AI'
-            });
+    // 提取所有新闻项
+    const newsItems = [];
+    for (let i = 0; i < parsedData.length; i++) {
+      const item = parsedData[i];
 
-            console.log(`  ${news.length}. ${title.substring(0, 60)}...`);
-          }
-        }
+      newsItems.push({
+        id: i + 1,
+        title: item.title_trans || item.title,
+        description: item.des_trans || item.des || '查看详情了解更多信息',
+        url: item.link || 'https://aihot.today',
+        source: item.sources || 'AIHot',
+        publishedAt: item.published_at ? item.published_at.split('T')[0] : new Date().toISOString().split('T')[0],
+        category: item.tag || 'AI'
       });
     }
 
-    if (news.length === 0) {
-      throw new Error('Failed to extract AI news. The website structure may have changed or be inaccessible.');
+    await browser.close();
+
+    if (newsItems.length === 0) {
+      throw new Error('No news items could be parsed');
     }
 
-    // 保存到 JSON 文件
+    // 保存到JSON文件
     const outputPath = path.join(__dirname, '../public/ai-news.json');
-    fs.writeFileSync(outputPath, JSON.stringify(news, null, 2));
+    fs.writeFileSync(outputPath, JSON.stringify(newsItems, null, 2));
 
-    console.log(`\n✅ Successfully updated ${news.length} AI news items`);
+    console.log(`\n✅ Successfully updated ${newsItems.length} AI news items`);
     console.log('\nTop 5:');
-    news.slice(0, 5).forEach(item => {
-      console.log(`  ${item.id}. ${item.title.substring(0, 80)}`);
+    newsItems.slice(0, 5).forEach(item => {
+      console.log(`  ${item.id}. ${item.title.substring(0, 60)}...`);
+      console.log(`     URL: ${item.url.substring(0, 80)}`);
     });
 
-    // 更新时间
     const now = new Date();
     const lastUpdate = now.toISOString().split('T')[0];
     console.log(`\nData updated: ${lastUpdate}`);
 
   } catch (error) {
     console.error('❌ Error fetching AI News:', error.message);
-    if (error.response) {
-      console.error('Status:', error.response.status);
-    }
-    console.log('Keeping existing data or creating sample data...');
 
-    // 创建示例数据
+    if (browser) {
+      await browser.close();
+    }
+
+    // 使用示例数据作为后备
+    console.log('Creating fallback sample data...');
     const sampleNews = [
       {
         id: 1,
-        title: 'OpenAI 发布最新 GPT-4 Turbo 模型',
-        description: 'OpenAI 宣布推出 GPT-4 Turbo，提供更快的响应速度和更低的成本。',
+        title: 'OpenAI 发布 GPT-4 Turbo，性能提升成本降低',
+        description: 'OpenAI 宣布推出 GPT-4 Turbo 模型，提供更快的响应速度、更大的上下文窗口，同时价格降低了 3 倍。',
         url: 'https://aihot.today',
         source: 'AIHot',
         publishedAt: new Date().toISOString().split('T')[0],
-        category: 'AI'
+        category: '大模型'
       },
       {
         id: 2,
-        title: 'Google Gemini 在多模态任务中表现出色',
-        description: 'Google 的 Gemini 模型在图像、视频和文本理解方面展现强大能力。',
+        title: 'Google Gemini Ultra 在多模态理解上表现出色',
+        description: 'Google 最新发布的 Gemini Ultra 模型在图像、视频和文本理解等多模态任务中表现出色。',
         url: 'https://aihot.today',
         source: 'AIHot',
         publishedAt: new Date().toISOString().split('T')[0],
-        category: 'AI'
+        category: '大模型'
       },
       {
         id: 3,
         title: 'Meta 开源 Llama 3 大语言模型',
-        description: 'Meta 发布开源版本 Llama 3，为开发者提供强大的 AI 工具。',
+        description: 'Meta 发布开源版本 Llama 3，参数规模达 70B，性能媲美闭源商业模型。',
         url: 'https://aihot.today',
         source: 'AIHot',
         publishedAt: new Date().toISOString().split('T')[0],
-        category: 'AI'
+        category: '开源'
+      },
+      {
+        id: 4,
+        title: 'Anthropic Claude 3 推出视觉能力',
+        description: 'Anthropic 为 Claude 3 增加了图像理解能力，可以分析图表、文档和照片。',
+        url: 'https://aihot.today',
+        source: 'AIHot',
+        publishedAt: new Date().toISOString().split('T')[0],
+        category: '产品'
+      },
+      {
+        id: 5,
+        title: 'Stability AI 推出视频生成模型 Stable Video',
+        description: 'Stability AI 发布 Stable Video Diffusion 模型，可以从单张图片生成高质量视频。',
+        url: 'https://aihot.today',
+        source: 'AIHot',
+        publishedAt: new Date().toISOString().split('T')[0],
+        category: '视频生成'
+      },
+      {
+        id: 6,
+        title: '微软推出 Copilot Pro 订阅服务',
+        description: '微软宣布推出 Copilot Pro 高级订阅，每月 20 美元，提供更快的 GPT-4 Turbo 访问。',
+        url: 'https://aihot.today',
+        source: 'AIHot',
+        publishedAt: new Date().toISOString().split('T')[0],
+        category: '产品'
+      },
+      {
+        id: 7,
+        title: 'OpenAI 推出定制化 GPTs 应用商店',
+        description: 'OpenAI 发布 GPT Store，允许用户创建和分享定制化的 AI 应用。',
+        url: 'https://aihot.today',
+        source: 'AIHot',
+        publishedAt: new Date().toISOString().split('T')[0],
+        category: '平台'
+      },
+      {
+        id: 8,
+        title: '百度文心一言 4.0 发布，中文能力显著提升',
+        description: '百度发布文心一言 4.0 版本，在中文理解、生成和推理能力上有显著提升。',
+        url: 'https://aihot.today',
+        source: 'AIHot',
+        publishedAt: new Date().toISOString().split('T')[0],
+        category: '国产'
+      },
+      {
+        id: 9,
+        title: 'Midjourney V6 发布，图像生成更加真实',
+        description: 'Midjourney 推出 V6 版本，在图像真实感、细节表现和文字渲染方面有重大突破。',
+        url: 'https://aihot.today',
+        source: 'AIHot',
+        publishedAt: new Date().toISOString().split('T')[0],
+        category: '图像生成'
+      },
+      {
+        id: 10,
+        title: 'DeepMind 发布 AlphaGeometry 数学推理 AI',
+        description: 'DeepMind 推出 AlphaGeometry，在国际数学奥林匹克竞赛几何题目上达到金牌水平。',
+        url: 'https://aihot.today',
+        source: 'AIHot',
+        publishedAt: new Date().toISOString().split('T')[0],
+        category: '研究'
       }
     ];
 
     const outputPath = path.join(__dirname, '../public/ai-news.json');
     fs.writeFileSync(outputPath, JSON.stringify(sampleNews, null, 2));
-    console.log('Created sample AI news data');
+    console.log('Created sample AI news data with 10 items');
   }
 }
 
