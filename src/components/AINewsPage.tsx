@@ -93,7 +93,7 @@ export function AINewsPage() {
           </div>
 
           {/* News List */}
-          <div className="max-w-5xl mx-auto space-y-3 sm:space-y-4">
+          <div className="space-y-3 sm:space-y-4">
             {news.map((item, index) => (
               <article
                 key={item.id}
@@ -146,7 +146,6 @@ export function AINewsPage() {
               </article>
             ))}
           </div>
-
         </main>
       )}
     </div>

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Home, TrendingUp, FileText, Sun, Moon, Languages, Menu, X } from 'lucide-react';
+import { Home, TrendingUp, FileText, Sun, Moon, Languages, Menu, X, Sparkles } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 interface HeaderProps {
@@ -46,6 +46,7 @@ export function Header({ projectCount, activeMenu, onMenuChange }: HeaderProps) 
     { id: 'home', label: t.header.home, icon: Home },
     { id: 'trending', label: t.header.trending, icon: TrendingUp },
     { id: 'articles', label: t.header.articles, icon: FileText },
+    { id: 'wishpool', label: t.header.wishpool, icon: Sparkles },
   ];
 
   const toggleLanguage = () => {
