@@ -21,12 +21,31 @@ export function WishPoolPage() {
     submitter: ''
   });
 
-  // 加载许愿
+  // 加载许愿数据
   useEffect(() => {
-    const savedWishes = localStorage.getItem('wishes');
-    if (savedWishes) {
-      setWishes(JSON.parse(savedWishes));
-    }
+    const loadWishes = async () => {
+      try {
+        // 从 JSON 文件加载默认数据
+        const response = await fetch(`${import.meta.env.BASE_URL}wishes.json`);
+        const defaultWishes = await response.json();
+
+        // 从 localStorage 加载用户添加的数据
+        const savedWishes = localStorage.getItem('userWishes');
+        const userWishes = savedWishes ? JSON.parse(savedWishes) : [];
+
+        // 合并数据，用户的在前面
+        setWishes([...userWishes, ...defaultWishes]);
+      } catch (error) {
+        console.error('Failed to load wishes:', error);
+        // 如果加载失败，尝试只从 localStorage 加载
+        const savedWishes = localStorage.getItem('userWishes');
+        if (savedWishes) {
+          setWishes(JSON.parse(savedWishes));
+        }
+      }
+    };
+
+    loadWishes();
   }, []);
 
   // 保存许愿
@@ -42,23 +61,22 @@ export function WishPoolPage() {
       timestamp: new Date().toISOString()
     };
 
-    const updatedWishes = [newWish, ...wishes];
-    setWishes(updatedWishes);
-    localStorage.setItem('wishes', JSON.stringify(updatedWishes));
+    // 获取当前用户添加的愿望
+    const savedWishes = localStorage.getItem('userWishes');
+    const userWishes = savedWishes ? JSON.parse(savedWishes) : [];
+
+    // 添加新愿望到用户列表
+    const updatedUserWishes = [newWish, ...userWishes];
+    localStorage.setItem('userWishes', JSON.stringify(updatedUserWishes));
+
+    // 更新显示的愿望列表
+    setWishes([newWish, ...wishes]);
 
     // 重置表单
     setFormData({ featureRequest: '', similarProduct: '', submitter: '' });
     setShowForm(false);
   };
 
-  // 切换实现状态
-  const toggleImplemented = (id: string) => {
-    const updatedWishes = wishes.map(wish =>
-      wish.id === id ? { ...wish, isImplemented: !wish.isImplemented } : wish
-    );
-    setWishes(updatedWishes);
-    localStorage.setItem('wishes', JSON.stringify(updatedWishes));
-  };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-gray-50 to-blue-50/30 dark:from-gray-900 dark:via-gray-900 dark:to-blue-950/30">
@@ -81,21 +99,39 @@ export function WishPoolPage() {
         </div>
 
         {/* Add Wish Button */}
-        <div className="max-w-6xl mx-auto mb-6 sm:mb-8 animate-fade-in-up">
-          {!showForm && (
-            <button
-              onClick={() => setShowForm(true)}
-              className="w-full flex items-center justify-center gap-2 px-6 py-4 rounded-xl bg-gradient-to-r from-primary-500 to-blue-600 text-white font-semibold text-base sm:text-lg transition-all hover:from-primary-600 hover:to-blue-700 shadow-lg hover:shadow-xl hover:scale-[1.02] active:scale-[0.98]"
-            >
-              <Sparkles className="h-5 w-5" />
-              <span>{language === 'zh' ? '✨ 我要许愿' : '✨ Make a Wish'}</span>
-            </button>
-          )}
+        <div className="max-w-4xl mx-auto mb-6 sm:mb-8 animate-fade-in-up flex justify-center">
+          <button
+            onClick={() => setShowForm(true)}
+            className="inline-flex items-center justify-center gap-2 px-8 py-3 rounded-xl bg-gradient-to-r from-primary-500 to-blue-600 text-white font-semibold text-base transition-all hover:from-primary-600 hover:to-blue-700 shadow-lg hover:shadow-xl hover:scale-105 active:scale-95"
+          >
+            <Sparkles className="h-5 w-5" />
+            <span>{language === 'zh' ? '我要许愿' : 'Make a Wish'}</span>
+          </button>
+        </div>
 
-          {/* Wish Form */}
-          {showForm && (
-            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-card border border-gray-200 dark:border-gray-700 p-4 sm:p-6 animate-fade-in-up">
-              <div className="space-y-4">
+        {/* Wish Form Modal */}
+        {showForm && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm animate-fade-in">
+            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-2xl border border-gray-200 dark:border-gray-700 p-6 w-full max-w-2xl max-h-[90vh] overflow-y-auto animate-fade-in-up">
+              {/* Modal Header */}
+              <div className="flex items-center justify-between mb-6">
+                <h2 className="text-xl font-bold text-gray-900 dark:text-gray-100 flex items-center gap-2">
+                  <Sparkles className="h-5 w-5 text-primary-500" />
+                  {language === 'zh' ? '许下你的愿望' : 'Make Your Wish'}
+                </h2>
+                <button
+                  onClick={() => {
+                    setShowForm(false);
+                    setFormData({ featureRequest: '', similarProduct: '', submitter: '' });
+                  }}
+                  className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
+                >
+                  <X className="h-5 w-5 text-gray-500 dark:text-gray-400" />
+                </button>
+              </div>
+
+              {/* Modal Form */}
+              <div className="space-y-5">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
                     {language === 'zh' ? '功能需求' : 'Feature Request'} <span className="text-red-500">*</span>
@@ -104,7 +140,7 @@ export function WishPoolPage() {
                     value={formData.featureRequest}
                     onChange={(e) => setFormData({ ...formData, featureRequest: e.target.value })}
                     placeholder={language === 'zh' ? '请详细描述你期待的功能需求...' : 'Describe the feature you want...'}
-                    rows={4}
+                    rows={5}
                     className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 text-sm placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-primary-500 dark:focus:ring-primary-400 focus:border-transparent resize-none"
                   />
                 </div>
@@ -135,11 +171,12 @@ export function WishPoolPage() {
                   />
                 </div>
 
-                <div className="flex gap-3">
+                {/* Modal Actions */}
+                <div className="flex gap-3 pt-2">
                   <button
                     onClick={saveWish}
                     disabled={!formData.featureRequest.trim()}
-                    className="flex-1 flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-gradient-to-r from-primary-500 to-blue-600 text-white font-semibold transition-all hover:from-primary-600 hover:to-blue-700 shadow-md disabled:opacity-50 disabled:cursor-not-allowed"
+                    className="flex-1 flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-gradient-to-r from-primary-500 to-blue-600 text-white font-semibold transition-all hover:from-primary-600 hover:to-blue-700 shadow-md hover:shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
                   >
                     <Send className="h-4 w-4" />
                     <span>{language === 'zh' ? '发送愿望' : 'Send Wish'}</span>
@@ -149,18 +186,18 @@ export function WishPoolPage() {
                       setShowForm(false);
                       setFormData({ featureRequest: '', similarProduct: '', submitter: '' });
                     }}
-                    className="px-6 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 font-semibold transition-all hover:bg-gray-50 dark:hover:bg-gray-700"
+                    className="px-6 py-3 rounded-lg border-2 border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 font-semibold transition-all hover:bg-gray-50 dark:hover:bg-gray-700"
                   >
-                    <X className="h-4 w-4" />
+                    {language === 'zh' ? '取消' : 'Cancel'}
                   </button>
                 </div>
               </div>
             </div>
-          )}
-        </div>
+          </div>
+        )}
 
         {/* Wishes Table */}
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-4xl mx-auto">
           {wishes.length === 0 ? (
             <div className="bg-white dark:bg-gray-800 rounded-xl shadow-card border border-gray-200 dark:border-gray-700 p-12 text-center animate-fade-in-up">
               <div className="text-6xl mb-4">✨</div>
@@ -178,19 +215,19 @@ export function WishPoolPage() {
                 <table className="w-full">
                   <thead>
                     <tr className="bg-gradient-to-r from-primary-50 to-blue-50 dark:from-primary-900/30 dark:to-blue-900/30 border-b border-gray-200 dark:border-gray-700">
-                      <th className="px-4 py-4 text-left text-xs font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-wider w-16">
+                      <th className="px-4 py-4 text-left text-sm font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-wider w-16">
                         {language === 'zh' ? '序号' : 'No.'}
                       </th>
-                      <th className="px-4 py-4 text-left text-xs font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-wider">
+                      <th className="px-4 py-4 text-left text-sm font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-wider">
                         {language === 'zh' ? '功能需求' : 'Feature Request'}
                       </th>
-                      <th className="px-4 py-4 text-left text-xs font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-wider w-48">
+                      <th className="px-4 py-4 text-left text-sm font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-wider w-48">
                         {language === 'zh' ? '同类产品' : 'Similar Product'}
                       </th>
-                      <th className="px-4 py-4 text-left text-xs font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-wider w-32">
+                      <th className="px-4 py-4 text-left text-sm font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-wider w-32">
                         {language === 'zh' ? '提交者' : 'Submitter'}
                       </th>
-                      <th className="px-4 py-4 text-center text-xs font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-wider w-24">
+                      <th className="px-4 py-4 text-center text-sm font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-wider w-24">
                         {language === 'zh' ? '已实现' : 'Done'}
                       </th>
                     </tr>
@@ -201,10 +238,10 @@ export function WishPoolPage() {
                         key={wish.id}
                         className="hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors"
                       >
-                        <td className="px-4 py-4 text-sm font-medium text-gray-900 dark:text-gray-100">
+                        <td className="px-4 py-4 text-base font-medium text-gray-900 dark:text-gray-100">
                           {index + 1}
                         </td>
-                        <td className="px-4 py-4 text-sm text-gray-700 dark:text-gray-300">
+                        <td className="px-4 py-4 text-base text-gray-700 dark:text-gray-300">
                           <div className="line-clamp-2">{wish.featureRequest}</div>
                           <div className="flex items-center gap-1.5 mt-1 text-xs text-gray-500 dark:text-gray-400">
                             <Calendar className="h-3 w-3" />
@@ -217,27 +254,23 @@ export function WishPoolPage() {
                             </span>
                           </div>
                         </td>
-                        <td className="px-4 py-4 text-sm text-gray-600 dark:text-gray-400">
+                        <td className="px-4 py-4 text-base text-gray-600 dark:text-gray-400">
                           <div className="line-clamp-2">{wish.similarProduct || '-'}</div>
                         </td>
-                        <td className="px-4 py-4 text-sm text-gray-600 dark:text-gray-400">
+                        <td className="px-4 py-4 text-base text-gray-600 dark:text-gray-400">
                           <div className="flex items-center gap-1.5">
                             <User className="h-3.5 w-3.5" />
                             <span className="truncate">{wish.submitter}</span>
                           </div>
                         </td>
                         <td className="px-4 py-4 text-center">
-                          <button
-                            onClick={() => toggleImplemented(wish.id)}
-                            className="inline-flex items-center justify-center transition-all hover:scale-110"
-                            title={wish.isImplemented ? (language === 'zh' ? '标记为未实现' : 'Mark as not done') : (language === 'zh' ? '标记为已实现' : 'Mark as done')}
-                          >
+                          <div className="inline-flex items-center justify-center">
                             {wish.isImplemented ? (
                               <CheckCircle className="h-6 w-6 text-green-500 dark:text-green-400" />
                             ) : (
                               <Circle className="h-6 w-6 text-gray-300 dark:text-gray-600" />
                             )}
-                          </button>
+                          </div>
                         </td>
                       </tr>
                     ))}
@@ -254,16 +287,13 @@ export function WishPoolPage() {
                         <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-gradient-to-r from-primary-500 to-blue-600 text-white text-sm font-bold">
                           {index + 1}
                         </span>
-                        <button
-                          onClick={() => toggleImplemented(wish.id)}
-                          className="transition-all hover:scale-110"
-                        >
+                        <div className="inline-flex items-center justify-center">
                           {wish.isImplemented ? (
                             <CheckCircle className="h-6 w-6 text-green-500 dark:text-green-400" />
                           ) : (
                             <Circle className="h-6 w-6 text-gray-300 dark:text-gray-600" />
                           )}
-                        </button>
+                        </div>
                       </div>
                       <div className="flex items-center gap-1.5 text-xs text-gray-500 dark:text-gray-400">
                         <Calendar className="h-3 w-3" />
@@ -277,26 +307,26 @@ export function WishPoolPage() {
                     </div>
 
                     <div>
-                      <div className="text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1">
+                      <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-1">
                         {language === 'zh' ? '功能需求' : 'Feature Request'}
                       </div>
-                      <p className="text-sm text-gray-700 dark:text-gray-300 leading-relaxed">
+                      <p className="text-base text-gray-700 dark:text-gray-300 leading-relaxed">
                         {wish.featureRequest}
                       </p>
                     </div>
 
                     {wish.similarProduct && (
                       <div>
-                        <div className="text-xs font-semibold text-gray-500 dark:text-gray-400 mb-1">
+                        <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-1">
                           {language === 'zh' ? '同类产品' : 'Similar Product'}
                         </div>
-                        <p className="text-sm text-gray-600 dark:text-gray-400">
+                        <p className="text-base text-gray-600 dark:text-gray-400">
                           {wish.similarProduct}
                         </p>
                       </div>
                     )}
 
-                    <div className="flex items-center gap-1.5 text-sm text-gray-600 dark:text-gray-400">
+                    <div className="flex items-center gap-1.5 text-base text-gray-600 dark:text-gray-400">
                       <User className="h-3.5 w-3.5" />
                       <span>{wish.submitter}</span>
                     </div>

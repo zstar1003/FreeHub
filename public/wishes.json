@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1734567890123",
+    "featureRequest": "希望能够支持深色模式的自动切换功能，根据系统设置或时间自动切换主题",
+    "similarProduct": "GitHub, Notion",
+    "submitter": "张三",
+    "isImplemented": true,
+    "timestamp": "2024-12-15T08:30:00.000Z"
+  },
+  {
+    "id": "1734567890124",
+    "featureRequest": "增加项目收藏功能，让用户可以收藏喜欢的项目，方便后续查看",
+    "similarProduct": "Product Hunt",
+    "submitter": "李四",
+    "isImplemented": false,
+    "timestamp": "2024-12-16T10:15:00.000Z"
+  },
+  {
+    "id": "1734567890125",
+    "featureRequest": "支持多语言切换，不仅仅是中英文，还可以支持日语、韩语等其他语言",
+    "similarProduct": "",
+    "submitter": "王五",
+    "isImplemented": false,
+    "timestamp": "2024-12-17T14:20:00.000Z"
+  },
+  {
+    "id": "1734567890126",
+    "featureRequest": "添加项目比较功能，可以同时查看多个项目的详细信息进行对比",
+    "similarProduct": "AlternativeTo",
+    "submitter": "匿名用户",
+    "isImplemented": false,
+    "timestamp": "2024-12-18T09:45:00.000Z"
+  },
+  {
+    "id": "1734567890127",
+    "featureRequest": "希望能够添加评论和评分系统，让用户可以分享使用体验和评价",
+    "similarProduct": "Chrome Web Store",
+    "submitter": "赵六",
+    "isImplemented": false,
+    "timestamp": "2024-12-19T16:30:00.000Z"
+  },
+  {
+    "id": "1734567890128",
+    "featureRequest": "支持 RSS 订阅功能，可以订阅特定分类的项目更新",
+    "similarProduct": "",
+    "submitter": "Anonymous",
+    "isImplemented": true,
+    "timestamp": "2024-12-20T11:00:00.000Z"
+  },
+  {
+    "id": "1734567890129",
+    "featureRequest": "增加项目标签云功能，可以通过标签快速筛选和发现项目",
+    "similarProduct": "Stack Overflow",
+    "submitter": "钱七",
+    "isImplemented": false,
+    "timestamp": "2024-12-21T13:25:00.000Z"
+  },
+  {
+    "id": "1734567890130",
+    "featureRequest": "添加移动端 App，方便在手机上浏览和发现优质项目",
+    "similarProduct": "Product Hunt Mobile",
+    "submitter": "孙八",
+    "isImplemented": false,
+    "timestamp": "2024-12-22T15:50:00.000Z"
+  },
+  {
+    "id": "1734567890131",
+    "featureRequest": "支持项目提交审核流程的可视化，让提交者可以实时查看审核状态",
+    "similarProduct": "",
+    "submitter": "周九",
+    "isImplemented": false,
+    "timestamp": "2024-12-23T10:10:00.000Z"
+  },
+  {
+    "id": "1734567890132",
+    "featureRequest": "增加热门搜索关键词推荐，帮助用户快速找到感兴趣的项目",
+    "similarProduct": "Google Trends",
+    "submitter": "吴十",
+    "isImplemented": false,
+    "timestamp": "2024-12-24T12:35:00.000Z"
+  }
+]
