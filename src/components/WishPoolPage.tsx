@@ -1,6 +1,7 @@
 import { Sparkles, Send, X, Calendar, User, CheckCircle, Circle } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { useState, useEffect } from 'react';
+import { supabase } from '../lib/supabase';
 
 interface Wish {
   id: string;
@@ -8,15 +9,6 @@ interface Wish {
   similarProduct: string;
   submitter: string;
   isImplemented: boolean;
-  timestamp: string;
-  status?: 'pending' | 'approved' | 'rejected';
-}
-
-interface PendingWish {
-  id: string;
-  featureRequest: string;
-  similarProduct: string;
-  submitter: string;
   timestamp: string;
 }
 
@@ -31,88 +23,81 @@ export function WishPoolPage() {
     submitter: ''
   });
 
-  // 加载许愿数据（只显示已审核通过的）
+  //  加载已审核通过的愿望（从 Supabase）
   useEffect(() => {
-    const loadWishes = async () => {
-      try {
-        // 从 JSON 文件加载默认数据（默认为已通过）
-        const response = await fetch(`${import.meta.env.BASE_URL}wishes.json`);
-        const defaultWishes = await response.json();
-
-        // 从 localStorage 加载用户添加的已通过数据
-        const savedWishes = localStorage.getItem('approvedWishes');
-        const userWishes = savedWishes ? JSON.parse(savedWishes) : [];
-
-        // 只显示状态为 approved 或未设置状态的愿望
-        const approvedWishes = [...defaultWishes, ...userWishes].filter(wish =>
-          !wish.status || wish.status === 'approved'
-        );
-
-        setWishes(approvedWishes);
-      } catch (error) {
-        console.error('Failed to load wishes:', error);
-        // 如果加载失败，尝试只从 localStorage 加载
-        const savedWishes = localStorage.getItem('approvedWishes');
-        if (savedWishes) {
-          setWishes(JSON.parse(savedWishes));
-        }
-      }
-    };
-
     loadWishes();
   }, []);
 
-  // 保存许愿 - 通过 GitHub Issues
-  const saveWish = () => {
+  const loadWishes = async () => {
+    try {
+      // 从 Supabase 加载已批准的愿望
+      const { data, error } = await supabase
+        .from('wishes')
+        .select('*')
+        .eq('status', 'approved')
+        .order('created_at', { ascending: false });
+
+      if (error) throw error;
+
+      if (data) {
+        const formattedWishes: Wish[] = data.map(item => ({
+          id: item.id,
+          featureRequest: item.feature_request,
+          similarProduct: item.similar_product || '',
+          submitter: item.submitter,
+          isImplemented: item.is_implemented,
+          timestamp: item.created_at
+        }));
+        setWishes(formattedWishes);
+      }
+    } catch (error) {
+      console.error('Failed to load wishes from Supabase:', error);
+      // 降级到 JSON 文件
+      try {
+        const response = await fetch(`${import.meta.env.BASE_URL}wishes.json`);
+        const data = await response.json();
+        setWishes(data);
+      } catch (jsonError) {
+        console.error('Failed to load wishes from JSON:', jsonError);
+      }
+    }
+  };
+
+  // 保存许愿 - 提交到 Supabase
+  const saveWish = async () => {
     if (!formData.featureRequest.trim()) return;
 
     setSubmitStatus('submitting');
 
-    // 构建 GitHub Issue 的 URL 和内容
-    const repoUrl = 'https://github.com/zstar1003/FreeHub'; // 替换为您的仓库地址
-    const issueTitle = encodeURIComponent(`[愿望] ${formData.featureRequest.substring(0, 50)}...`);
-    const issueBody = encodeURIComponent(`## 功能需求
-${formData.featureRequest}
+    try {
+      // 提交到 Supabase，直接设为 approved 状态
+      const { error } = await supabase
+        .from('wishes')
+        .insert({
+          feature_request: formData.featureRequest,
+          similar_product: formData.similarProduct || null,
+          submitter: formData.submitter || (language === 'zh' ? '匿名用户' : 'Anonymous'),
+          status: 'approved'  // 直接批准，无需审核
+        });
 
-## 同类产品
-${formData.similarProduct || '无'}
+      if (error) throw error;
 
-## 提交者
-${formData.submitter || '匿名用户'}
+      // 提交成功
+      setSubmitStatus('submitted');
+      setFormData({ featureRequest: '', similarProduct: '', submitter: '' });
+      setShowForm(false);
 
----
-**提交时间**: ${new Date().toLocaleString('zh-CN')}
-`);
+      // 立即刷新列表以显示新提交的愿望
+      await loadWishes();
 
-    // 构建完整的 GitHub Issue 创建 URL
-    const githubIssueUrl = `${repoUrl}/issues/new?labels=wish,pending-review&template=wish-submission.md&title=${issueTitle}&body=${issueBody}`;
-
-    // 保存到本地记录（可选）
-    const pendingWish: PendingWish = {
-      id: Date.now().toString(),
-      featureRequest: formData.featureRequest,
-      similarProduct: formData.similarProduct,
-      submitter: formData.submitter || (language === 'zh' ? '匿名用户' : 'Anonymous'),
-      timestamp: new Date().toISOString()
-    };
-
-    const pendingQueue = localStorage.getItem('pendingWishes') || '[]';
-    const updatedQueue = [pendingWish, ...JSON.parse(pendingQueue)];
-    localStorage.setItem('pendingWishes', JSON.stringify(updatedQueue));
-
-    // 打开 GitHub Issues 页面
-    window.open(githubIssueUrl, '_blank');
-
-    // 重置表单和状态
-    setFormData({ featureRequest: '', similarProduct: '', submitter: '' });
-    setShowForm(false);
-    setSubmitStatus('submitted');
-
-    // 3秒后重置状态
-    setTimeout(() => setSubmitStatus('idle'), 5000);
+      // 3秒后重置状态
+      setTimeout(() => setSubmitStatus('idle'), 3000);
+    } catch (error) {
+      console.error('Failed to submit wish:', error);
+      setSubmitStatus('idle');
+      alert(language === 'zh' ? '提交失败，请稍后重试' : 'Submission failed. Please try again later.');
+    }
   };
-
-  // 移除 triggerWebhook 函数（不再需要）
 
 
   return (
@@ -168,8 +153,8 @@ ${formData.submitter || '匿名用户'}
               <CheckCircle className="h-4 w-4" />
               <span className="text-sm font-medium">
                 {language === 'zh'
-                  ? '已为您打开 GitHub Issues 页面，请在新窗口中完成提交。'
-                  : 'GitHub Issues page opened. Please complete your submission in the new window.'}
+                  ? '您的愿望已成功发布！'
+                  : 'Your wish has been published successfully!'}
               </span>
             </div>
           </div>

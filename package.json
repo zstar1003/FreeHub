@@ -13,6 +13,7 @@
     "update-ai-news": "node scripts/update-ai-news.js"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.75.0",
     "axios": "^1.12.2",
     "cheerio": "^1.1.2",
     "clsx": "^2.1.1",
