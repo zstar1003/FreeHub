@@ -1,0 +1,203 @@
+name: Process Wish Issues
+
+on:
+  issues:
+    types: [opened, labeled]
+  schedule:
+    # 每天UTC 00:00运行一次（北京时间8:00）
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  process-wishes:
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.labels.*.name, 'wish') || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+
+    - name: Fetch and Process Wishes from Issues
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        echo "Fetching wishes from GitHub Issues..."
+
+        # 创建处理脚本
+        cat > process-issues.js << 'EOF'
+        const https = require('https');
+        const fs = require('fs');
+
+        const REPO_OWNER = process.env.GITHUB_REPOSITORY.split('/')[0];
+        const REPO_NAME = process.env.GITHUB_REPOSITORY.split('/')[1];
+        const TOKEN = process.env.GITHUB_TOKEN;
+
+        function makeRequest(options) {
+          return new Promise((resolve, reject) => {
+            const req = https.request(options, (res) => {
+              let data = '';
+              res.on('data', chunk => data += chunk);
+              res.on('end', () => {
+                try {
+                  resolve(JSON.parse(data));
+                } catch (e) {
+                  resolve(data);
+                }
+              });
+            });
+            req.on('error', reject);
+            req.end();
+          });
+        }
+
+        function parseIssueBody(body) {
+          const featureMatch = body.match(/## 功能需求\s*([\s\S]*?)(?=##|$)/);
+          const productMatch = body.match(/## 同类产品\s*([\s\S]*?)(?=##|$)/);
+          const submitterMatch = body.match(/## 提交者\s*([\s\S]*?)(?=##|$)/);
+
+          return {
+            featureRequest: featureMatch ? featureMatch[1].trim() : '',
+            similarProduct: productMatch ? productMatch[1].trim() : '',
+            submitter: submitterMatch ? submitterMatch[1].trim() || 'Anonymous' : 'Anonymous'
+          };
+        }
+
+        function filterContent(text) {
+          const forbiddenWords = ['spam', '广告', 'test123', '垃圾'];
+          const lowerText = text.toLowerCase();
+          return !forbiddenWords.some(word => lowerText.includes(word)) &&
+                 text.length >= 10 &&
+                 text.length <= 500;
+        }
+
+        async function main() {
+          // 获取所有带 wish 和 pending-review 标签的 Issues
+          const options = {
+            hostname: 'api.github.com',
+            path: `/repos/${REPO_OWNER}/${REPO_NAME}/issues?labels=wish,pending-review&state=open`,
+            method: 'GET',
+            headers: {
+              'User-Agent': 'GitHub-Actions',
+              'Authorization': `token ${TOKEN}`,
+              'Accept': 'application/vnd.github.v3+json'
+            }
+          };
+
+          const issues = await makeRequest(options);
+          console.log(`Found ${issues.length} pending wish issues`);
+
+          if (issues.length === 0) {
+            console.log('No pending wishes to process');
+            return;
+          }
+
+          // 读取现有的 wishes.json
+          let existingWishes = [];
+          try {
+            const data = fs.readFileSync('public/wishes.json', 'utf8');
+            existingWishes = JSON.parse(data);
+          } catch (error) {
+            console.log('No existing wishes found');
+          }
+
+          const newWishes = [];
+          const processedIssues = [];
+
+          for (const issue of issues) {
+            const parsed = parseIssueBody(issue.body || '');
+
+            if (!parsed.featureRequest || !filterContent(parsed.featureRequest)) {
+              console.log(`Skipping issue #${issue.number}: Failed content filter`);
+              continue;
+            }
+
+            const wish = {
+              id: `issue-${issue.number}-${Date.now()}`,
+              featureRequest: parsed.featureRequest,
+              similarProduct: parsed.similarProduct,
+              submitter: parsed.submitter,
+              isImplemented: false,
+              timestamp: issue.created_at,
+              status: 'approved',
+              source: `issue-${issue.number}`
+            };
+
+            newWishes.push(wish);
+            processedIssues.push(issue.number);
+          }
+
+          if (newWishes.length > 0) {
+            // 合并并保存
+            const allWishes = [...newWishes, ...existingWishes];
+            fs.writeFileSync('public/wishes.json', JSON.stringify(allWishes, null, 2));
+            console.log(`Added ${newWishes.length} new wishes`);
+
+            // 保存处理的 Issue 编号
+            fs.writeFileSync('processed-issues.txt', processedIssues.join(','));
+          } else {
+            console.log('No new wishes to add');
+          }
+        }
+
+        main().catch(console.error);
+        EOF
+
+        # 运行处理脚本
+        node process-issues.js
+
+    - name: Close Processed Issues
+      if: hashFiles('processed-issues.txt') != ''
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        if [ -f "processed-issues.txt" ]; then
+          IFS=',' read -ra ISSUES <<< "$(cat processed-issues.txt)"
+          for issue_num in "${ISSUES[@]}"; do
+            echo "Closing and labeling issue #$issue_num"
+
+            # 添加 approved 标签并移除 pending-review
+            gh issue edit "$issue_num" --add-label "approved" --remove-label "pending-review"
+
+            # 关闭 Issue 并添加评论
+            gh issue close "$issue_num" --comment "✅ 您的愿望已审核通过并添加到许愿池！感谢您的反馈。"
+          done
+        fi
+
+    - name: Create Pull Request
+      if: hashFiles('public/wishes.json') != ''
+      uses: peter-evans/create-pull-request@v5
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        commit-message: "feat: 从 Issues 自动添加新许愿"
+        title: "🎯 自动添加新许愿"
+        body: |
+          ## 🤖 自动处理许愿
+
+          此 PR 由 GitHub Actions 自动创建，包含从 Issues 中审核通过的新愿望。
+
+          ### 处理的 Issue
+          查看已关闭的 Issues 了解详情
+
+          ### 审核规则
+          - ✅ 内容长度在 10-500 字符之间
+          - ✅ 过滤不当词汇
+          - ✅ 格式标准化
+          - ✅ 自动关闭已处理的 Issues
+
+          ---
+          *此 PR 由自动审核系统生成*
+        branch: auto-wish-issues
+        delete-branch: true
+        labels: wishes, automated

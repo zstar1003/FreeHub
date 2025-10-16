@@ -62,12 +62,32 @@ export function WishPoolPage() {
     loadWishes();
   }, []);
 
-  // 保存许愿到待审核队列
+  // 保存许愿 - 通过 GitHub Issues
   const saveWish = () => {
     if (!formData.featureRequest.trim()) return;
 
     setSubmitStatus('submitting');
 
+    // 构建 GitHub Issue 的 URL 和内容
+    const repoUrl = 'https://github.com/zstar1003/FreeHub'; // 替换为您的仓库地址
+    const issueTitle = encodeURIComponent(`[愿望] ${formData.featureRequest.substring(0, 50)}...`);
+    const issueBody = encodeURIComponent(`## 功能需求
+${formData.featureRequest}
+
+## 同类产品
+${formData.similarProduct || '无'}
+
+## 提交者
+${formData.submitter || '匿名用户'}
+
+---
+**提交时间**: ${new Date().toLocaleString('zh-CN')}
+`);
+
+    // 构建完整的 GitHub Issue 创建 URL
+    const githubIssueUrl = `${repoUrl}/issues/new?labels=wish,pending-review&template=wish-submission.md&title=${issueTitle}&body=${issueBody}`;
+
+    // 保存到本地记录（可选）
     const pendingWish: PendingWish = {
       id: Date.now().toString(),
       featureRequest: formData.featureRequest,
@@ -76,13 +96,12 @@ export function WishPoolPage() {
       timestamp: new Date().toISOString()
     };
 
-    // 将愿望添加到待审核队列
     const pendingQueue = localStorage.getItem('pendingWishes') || '[]';
     const updatedQueue = [pendingWish, ...JSON.parse(pendingQueue)];
     localStorage.setItem('pendingWishes', JSON.stringify(updatedQueue));
 
-    // 触发 GitHub Actions 的 webhook（如果有）
-    triggerWebhook(pendingWish);
+    // 打开 GitHub Issues 页面
+    window.open(githubIssueUrl, '_blank');
 
     // 重置表单和状态
     setFormData({ featureRequest: '', similarProduct: '', submitter: '' });
@@ -90,21 +109,10 @@ export function WishPoolPage() {
     setSubmitStatus('submitted');
 
     // 3秒后重置状态
-    setTimeout(() => setSubmitStatus('idle'), 3000);
+    setTimeout(() => setSubmitStatus('idle'), 5000);
   };
 
-  // 触发 webhook（模拟，实际需要配置）
-  const triggerWebhook = (wish: PendingWish) => {
-    // 这里可以配置 GitHub Actions 或其他 CI/CD 的 webhook
-    console.log('Wish submitted for review:', wish);
-
-    // 实际项目中，这里可以发送到服务器或触发 GitHub Actions
-    // 例如：
-    // fetch('/api/submit-wish', {
-    //   method: 'POST',
-    //   body: JSON.stringify(wish)
-    // });
-  };
+  // 移除 triggerWebhook 函数（不再需要）
 
 
   return (
@@ -160,8 +168,8 @@ export function WishPoolPage() {
               <CheckCircle className="h-4 w-4" />
               <span className="text-sm font-medium">
                 {language === 'zh'
-                  ? '您的愿望已提交审核，请等待管理员处理。'
-                  : 'Your wish has been submitted for review. Please wait for approval.'}
+                  ? '已为您打开 GitHub Issues 页面，请在新窗口中完成提交。'
+                  : 'GitHub Issues page opened. Please complete your submission in the new window.'}
               </span>
             </div>
           </div>
