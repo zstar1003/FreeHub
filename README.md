@@ -96,7 +96,7 @@ npm run build
 npm run preview
 ```
 
-## 📝 项目收录
+## 📝 产品收录
 
 如果你有优质的免费产品想要收录到 FreeHub，可以通过以下方式：
 
