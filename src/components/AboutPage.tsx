@@ -1,4 +1,4 @@
-import { Mail, Github, MessageCircle, Heart, Sparkles, UserCircle, Target, Plus } from 'lucide-react';
+import { Mail, Github, MessageCircle, Heart, UserCircle, Plus } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 export function AboutPage() {
