@@ -354,19 +354,12 @@ export function WishPoolPage() {
               {/* Mobile Card View */}
               <div className="md:hidden divide-y divide-gray-200 dark:divide-gray-700">
                 {wishes.map((wish, index) => (
-                  <div key={wish.id} className="p-4 space-y-3">
+                  <div key={wish.id} className="p-4 space-y-2.5">
                     <div className="flex items-start justify-between gap-3">
                       <div className="flex items-center gap-2">
                         <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-gradient-to-r from-primary-500 to-blue-600 text-white text-sm font-bold">
                           {index + 1}
                         </span>
-                        <div className="inline-flex items-center justify-center">
-                          {wish.isImplemented ? (
-                            <CheckCircle className="h-6 w-6 text-green-500 dark:text-green-400" />
-                          ) : (
-                            <Circle className="h-6 w-6 text-gray-300 dark:text-gray-600" />
-                          )}
-                        </div>
                       </div>
                       <div className="flex items-center gap-1.5 text-xs text-gray-500 dark:text-gray-400">
                         <Calendar className="h-3 w-3" />
@@ -399,9 +392,30 @@ export function WishPoolPage() {
                       </div>
                     )}
 
-                    <div className="flex items-center gap-1.5 text-base text-gray-600 dark:text-gray-400">
-                      <User className="h-3.5 w-3.5" />
-                      <span>{wish.submitter}</span>
+                    <div className="flex items-center justify-between pt-1">
+                      <div className="flex items-center gap-1.5 text-base text-gray-600 dark:text-gray-400">
+                        <User className="h-3.5 w-3.5" />
+                        <span>{wish.submitter}</span>
+                      </div>
+
+                      {/* Status Badge in Bottom-Right Corner */}
+                      <div>
+                        {wish.isImplemented ? (
+                          <div className="inline-flex items-center gap-1 px-2 py-1 rounded-full bg-green-100 dark:bg-green-900/30 border border-green-300 dark:border-green-700">
+                            <CheckCircle className="h-3.5 w-3.5 text-green-600 dark:text-green-400" />
+                            <span className="text-xs font-medium text-green-700 dark:text-green-300">
+                              {language === 'zh' ? '已实现' : 'Done'}
+                            </span>
+                          </div>
+                        ) : (
+                          <div className="inline-flex items-center gap-1 px-2 py-1 rounded-full bg-gray-100 dark:bg-gray-700/50 border border-gray-300 dark:border-gray-600">
+                            <Circle className="h-3.5 w-3.5 text-gray-400 dark:text-gray-500" />
+                            <span className="text-xs font-medium text-gray-500 dark:text-gray-400">
+                              {language === 'zh' ? '未实现' : 'Pending'}
+                            </span>
+                          </div>
+                        )}
+                      </div>
                     </div>
                   </div>
                 ))}
