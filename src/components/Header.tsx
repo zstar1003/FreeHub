@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Home, TrendingUp, FileText, Sun, Moon, Languages, Menu, X, Sparkles } from 'lucide-react';
+import { Home, TrendingUp, FileText, Sun, Moon, Languages, Menu, X, Sparkles, Github } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 interface HeaderProps {
@@ -102,6 +102,17 @@ export function Header({ projectCount, activeMenu, onMenuChange }: HeaderProps) 
               <span className="text-sm font-bold text-primary-600 dark:text-primary-400">{projectCount}</span>
               <span className="text-xs text-gray-600 dark:text-gray-400">{t.header.projects}</span>
             </div>
+
+            {/* GitHub Link */}
+            <a
+              href="https://github.com/zstar1003/FreeHub"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 hover:scale-110 active:scale-95 transition-all duration-300 shadow-sm hover:shadow-md"
+              aria-label="GitHub Repository"
+            >
+              <Github className="h-5 w-5" />
+            </a>
 
             {/* Language Toggle Button */}
             <button
