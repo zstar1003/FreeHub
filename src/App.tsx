@@ -5,6 +5,7 @@ import { ProjectCard } from './components/ProjectCard';
 import { RankingPage } from './components/RankingPage';
 import { AINewsPage } from './components/AINewsPage';
 import { WishPoolPage } from './components/WishPoolPage';
+import { AboutPage } from './components/AboutPage';
 import { Project, FilterOptions } from './types';
 import { LanguageProvider, useLanguage } from './contexts/LanguageContext';
 
@@ -90,6 +91,8 @@ function AppContent() {
         <AINewsPage />
       ) : activeMenu === 'wishpool' ? (
         <WishPoolPage />
+      ) : activeMenu === 'about' ? (
+        <AboutPage />
       ) : (
         <div className="min-h-screen bg-gradient-to-br from-gray-50 via-gray-50 to-blue-50/30 dark:from-gray-900 dark:via-gray-900 dark:to-blue-950/30">
           <main className="mx-auto max-w-7xl px-4 py-6 sm:py-8 sm:px-6 lg:px-8">
