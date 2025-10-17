@@ -22,7 +22,9 @@ export function AINewsPage() {
   useEffect(() => {
     const loadNews = async () => {
       try {
-        const response = await fetch(`${import.meta.env.BASE_URL}ai-news.json`);
+        // 添加时间戳参数避免浏览器缓存
+        const timestamp = new Date().getTime();
+        const response = await fetch(`${import.meta.env.BASE_URL}ai-news.json?t=${timestamp}`);
         const data = await response.json();
         setNews(data);
 

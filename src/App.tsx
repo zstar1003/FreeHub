@@ -22,6 +22,29 @@ function AppContent() {
   });
   const [loading, setLoading] = useState(true);
 
+  // 从 URL 读取当前路由
+  useEffect(() => {
+    const updateMenuFromURL = () => {
+      const hash = window.location.hash.slice(1); // 移除 #
+      if (hash && ['home', 'trending', 'articles', 'wishpool', 'about'].includes(hash)) {
+        setActiveMenu(hash);
+      }
+    };
+
+    updateMenuFromURL();
+    window.addEventListener('hashchange', updateMenuFromURL);
+
+    return () => {
+      window.removeEventListener('hashchange', updateMenuFromURL);
+    };
+  }, []);
+
+  // 当菜单变化时更新 URL
+  const handleMenuChange = (menu: string) => {
+    setActiveMenu(menu);
+    window.location.hash = menu;
+  };
+
   // Load projects from JSON file
   useEffect(() => {
     const loadProjects = async () => {
@@ -82,7 +105,7 @@ function AppContent() {
       <Header
         projectCount={projects.filter((p) => p.status === 'approved').length}
         activeMenu={activeMenu}
-        onMenuChange={setActiveMenu}
+        onMenuChange={handleMenuChange}
       />
 
       {activeMenu === 'trending' ? (
