@@ -10,7 +10,7 @@ interface FilterBarProps {
 
 export function FilterBar({ filters, onFilterChange }: FilterBarProps) {
   const { t, language } = useLanguage();
-  const [expandedGroups, setExpandedGroups] = useState<Set<string>>(new Set(['编程语言', 'Programming Languages']));
+  const [expandedGroups, setExpandedGroups] = useState<Set<string>>(new Set());
 
   const categoryConfig = language === 'zh' ? CATEGORY_CONFIG : CATEGORY_CONFIG_EN;
   const categoryGroups = Object.keys(categoryConfig) as CategoryGroup[];
@@ -43,12 +43,12 @@ export function FilterBar({ filters, onFilterChange }: FilterBarProps) {
 
       {/* Category Filter */}
       <div className="rounded-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700">
-        <div className="flex items-center justify-between p-4 pb-2">
-          <h3 className="text-base font-semibold text-gray-900 dark:text-gray-100">{t.filter.category}</h3>
+        <div className="relative p-4 pb-2">
+          <h3 className="text-base font-semibold text-gray-900 dark:text-gray-100 text-center">{t.filter.category}</h3>
           {filters.category && (
             <button
               onClick={() => onFilterChange({ ...filters, category: '' })}
-              className="text-xs text-primary-600 dark:text-primary-400 hover:underline whitespace-nowrap ml-2"
+              className="absolute right-4 top-1/2 -translate-y-1/2 text-xs text-primary-600 dark:text-primary-400 hover:underline whitespace-nowrap"
             >
               {language === 'zh' ? '清除' : 'Clear'}
             </button>
