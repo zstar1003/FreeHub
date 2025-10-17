@@ -1,1181 +1,1154 @@
 [
   {
     "id": 1,
-    "title": "赛富时借助人工智能实现客户服务年节约1亿美元",
-    "description": "2025年10月15日 04:42:30",
-    "url": "http://www.techinasia.com/news/salesforce-saves-100m-yearly-ai-customer-service",
-    "source": "techinasia",
-    "publishedAt": "2025-10-15",
-    "category": "Company,Industry"
+    "title": "新型AI工具让材料质量检测更便捷",
+    "description": "作为“虚拟光谱仪”，SpectroGen可生成任何模态的光谱数据（如X射线或红外），从而快速评估材料质量。",
+    "url": "https://news.mit.edu/2025/checking-quality-materials-just-got-easier-new-ai-tool-1014",
+    "source": "mitnews",
+    "publishedAt": "2025-10-17",
+    "category": "Product,Resource"
   },
   {
     "id": 2,
-    "title": "Aquawise将在TechCrunch Disrupt 2025科技大会上展示其人工智能驱动的水质检测技术",
-    "description": "丽贝卡·斯库塔克",
-    "url": "https://techcrunch.com/2025/10/14/aquawise-will-show-off-its-ai-driven-water-quality-tech-at-techcrunch-disrupt-2025/",
-    "source": "techcrunch",
-    "publishedAt": "2025-10-15",
-    "category": "Product,Event"
+    "title": "In 2025, AI Glasses Descend from the Pedestal",
+    "description": "Market sales surged by over 10 times, yet the return rate reached as high as 30%.",
+    "url": "https://36kr.com/p/3512995092749189",
+    "source": "36kr",
+    "publishedAt": "2025-10-17",
+    "category": "Product,Industry"
   },
   {
     "id": 3,
-    "title": "新型系统可精准调控合成基因表达水平",
-    "description": "该启动子编辑系统可用于微调基因疗法，或更高效地重编程治疗用细胞。",
-    "url": "https://news.mit.edu/2025/new-system-can-dial-expression-synthetic-genes-up-down-1013",
-    "source": "mitnews",
-    "publishedAt": "2025-10-15",
-    "category": "Resource,Other"
+    "title": "Just now, a star embodied AI company dissolved on the spot",
+    "description": "Launched in May and dissolved in October, it happened so quickly that most founding employees hadn't even passed their \"probation period\".",
+    "url": "https://www.qbitai.com/2025/10/342841.html",
+    "source": "qbitai",
+    "publishedAt": "2025-10-17",
+    "category": "Company,Event"
   },
   {
     "id": 4,
-    "title": "ChatGPT's Adult Mode is Coming, But as an Adult I'm Not Happy at All",
-    "description": "As an adult, I reject this \"freedom\"",
-    "url": "https://36kr.com/p/3509879507852425",
-    "source": "36kr",
-    "publishedAt": "2025-10-15",
-    "category": "Product,Policy"
+    "title": "facebook/MobileLLM-Pro",
+    "description": "facebook/MobileLLM-Pro 约8小时前更新 · 46次下载",
+    "url": "https://huggingface.co/facebook/MobileLLM-Pro",
+    "source": "huggingface",
+    "publishedAt": "2025-10-17",
+    "category": "Model,Company"
   },
   {
     "id": 5,
-    "title": "突破SQLite单写限制：实现并发写入",
-    "description": "7小时前",
-    "url": "https://news.ycombinator.com/item?id=45508462",
+    "title": "问HN：如何阻止每月发送20亿次请求的AWS机器人",
+    "description": "2小时前",
+    "url": "https://news.ycombinator.com/item?id=45613567",
     "source": "hackernews",
-    "publishedAt": "2025-10-15",
-    "category": "Resource,Other"
+    "publishedAt": "2025-10-17",
+    "category": "Product,Other"
   },
   {
     "id": 6,
-    "title": "OpenAI旗下ChatGPT将迎重大政策调整：成人用户可创作情色内容",
-    "description": "9分钟前",
-    "url": "https://www.cnbc.com/2025/10/15/erotica-coming-to-chatgpt-this-year-says-openai-ceo-sam-altman.html",
-    "source": "arsTechnica",
-    "publishedAt": "2025-10-15",
-    "category": "Policy,Product"
+    "title": "英伟达DGX Spark与苹果Mac Studio结合EXO 1.0实现大语言模型推理速度提升4倍",
+    "description": "9小时前",
+    "url": "https://news.ycombinator.com/item?id=45611912",
+    "source": "hackernews",
+    "publishedAt": "2025-10-17",
+    "category": "Product,Model"
   },
   {
     "id": 7,
-    "title": "微软将租用葡萄牙Nscale人工智能数据中心",
-    "description": "2025年10月15日 03:10:35",
-    "url": "http://www.techinasia.com/news/microsoft-rent-nscale-ai-data-center-portugal",
-    "source": "techinasia",
-    "publishedAt": "2025-10-15",
-    "category": "Company,Event"
-  },
-  {
-    "id": 8,
-    "title": "Meta删除加沙地区记者Instagram账号",
-    "description": "3小时前",
-    "url": "https://news.ycombinator.com/item?id=45586464",
-    "source": "hackernews",
-    "publishedAt": "2025-10-15",
-    "category": "Company,Policy"
-  },
-  {
-    "id": 9,
-    "title": "Hands-on Review of the New LiblibAI: Finally Integrating Models, Image Generation, and Workflow into One Platform",
-    "description": "查看详情了解更多信息",
-    "url": "https://www.qbitai.com/2025/10/341697.html",
+    "title": "Xiaomi's Latest Breakthrough in Large Models! Luo Fuli Makes an Appearance",
+    "description": "MoE Also Enables Large-Scale Reinforcement Learning",
+    "url": "https://www.qbitai.com/2025/10/342798.html",
     "source": "qbitai",
-    "publishedAt": "2025-10-15",
-    "category": "Product,Model"
-  },
-  {
-    "id": 10,
-    "title": "Alibaba Competes for Global Robotics Giant",
-    "description": "Targeting a Trillion-Dollar Market.",
-    "url": "https://36kr.com/p/3509842945809282",
-    "source": "36kr",
-    "publishedAt": "2025-10-15",
-    "category": "Company,Robot"
-  },
-  {
-    "id": 11,
-    "title": "OpenAI将允许已验证成年人访问ChatGPT中的年龄限制内容",
-    "description": "2025年10月15日 02:26:00",
-    "url": "http://www.techinasia.com/news/openai-to-let-verified-adults-access-age-gated-content-on-chatgpt",
-    "source": "techinasia",
-    "publishedAt": "2025-10-15",
-    "category": "Product,Policy"
-  },
-  {
-    "id": 12,
-    "title": "英伟达参与AI初创公司Lila Sciences 1.15亿美元融资轮",
-    "description": "2025年10月15日 02:20:21",
-    "url": "http://www.techinasia.com/news/nvidia-joins-115m-round-for-ai-startup-lila-sciences",
-    "source": "techinasia",
-    "publishedAt": "2025-10-15",
-    "category": "Company,Event"
-  },
-  {
-    "id": 13,
-    "title": "据悉Anthropic正探索在印度建立数据驻留",
-    "description": "2025年10月15日 02:10:34",
-    "url": "http://www.techinasia.com/news/anthropic-said-to-explore-data-residency-in-india",
-    "source": "techinasia",
-    "publishedAt": "2025-10-15",
-    "category": "Company,Policy"
-  },
-  {
-    "id": 14,
-    "title": "博通发布新型网络芯片挑战英伟达",
-    "description": "2025年10月15日 02:08:20",
-    "url": "http://www.techinasia.com/news/broadcom-launches-new-networking-chip-to-challenge-nvidia",
-    "source": "techinasia",
-    "publishedAt": "2025-10-15",
-    "category": "Company,Product"
-  },
-  {
-    "id": 15,
-    "title": "Quantum+AI4S! Boson Quantum Completes Hundreds of Millions in Series A++ Financing",
-    "description": "Nobel Prize Ushers in the Great Navigation Era of Quantum Computing",
-    "url": "https://www.qbitai.com/2025/10/341695.html",
-    "source": "qbitai",
-    "publishedAt": "2025-10-15",
-    "category": "Company,Industry"
-  },
-  {
-    "id": 16,
-    "title": "iFlytek Simultaneous Translation Model Upgraded Again, Launching iFlytek AI Translation Earbuds in Shanghai and Dubai",
-    "description": "iFlytek Leads China's AI Translation",
-    "url": "https://www.qbitai.com/2025/10/341663.html",
-    "source": "qbitai",
-    "publishedAt": "2025-10-15",
-    "category": "Product,Model"
-  },
-  {
-    "id": 17,
-    "title": "During a conversation with Broadcom's CEO, Altman revealed that OpenAI will have 30GW of computing power in the coming years",
-    "description": "According to Sam Altman, recent collaborations will bring OpenAI's computing power scale close to 30GW, potentially making it the world's largest computing power provider",
-    "url": "https://36kr.com/p/3509804515138694",
-    "source": "36kr",
-    "publishedAt": "2025-10-15",
-    "category": "Company,Event"
-  },
-  {
-    "id": 18,
-    "title": "甲骨文将采用AMD人工智能芯片提供云服务",
-    "description": "2025年10月15日 01:51:43",
-    "url": "http://www.techinasia.com/news/oracle-to-offer-cloud-services-using-amds-ai-chips",
-    "source": "techinasia",
-    "publishedAt": "2025-10-15",
-    "category": "Company,Product"
-  },
-  {
-    "id": 19,
-    "title": "Biofourmis前CEO为数字医疗初创企业OutcomesAI融资1000万美元",
-    "description": "2025年10月15日 01:50:30",
-    "url": "http://www.techinasia.com/news/exbiofourmis-ceo-raises-10m-healthtech-startup-outcomesai",
-    "source": "techinasia",
-    "publishedAt": "2025-10-15",
-    "category": "Company,Industry"
-  },
-  {
-    "id": 20,
-    "title": "赛富时与OpenAI将共同为ChatGPT引入Agentforce 360平台",
-    "description": "2025年10月15日 01:42:16",
-    "url": "http://www.techinasia.com/news/salesforce-openai-to-bring-agentforce-360-to-chatgpt",
-    "source": "techinasia",
-    "publishedAt": "2025-10-15",
-    "category": "Product,Company"
-  },
-  {
-    "id": 21,
-    "title": "Almost All Are False Advertising: How Big Is the AI Agent Bubble Right Now?",
-    "description": "The trade-off and integration between general and vertical applications are key to determining their survival.",
-    "url": "https://36kr.com/p/3509752155134848",
-    "source": "36kr",
-    "publishedAt": "2025-10-15",
-    "category": "Industry,Agent"
-  },
-  {
-    "id": 22,
-    "title": "AI Empowers Energy Transformation: How Technological Ecosystems Are Reshaping Traditional Energy Landscapes",
-    "description": "Energy systems are expected to truly achieve the intelligent vision of \"second-level response, autonomous optimization, and panoramic visibility.\"",
-    "url": "https://36kr.com/p/3509059704412544",
-    "source": "36kr",
-    "publishedAt": "2025-10-15",
-    "category": "Industry,Other"
-  },
-  {
-    "id": 23,
-    "title": "The Harsher the Criticism, the More Accurate ChatGPT's Responses: PSU Study Confirms an 84% Surge in Accuracy",
-    "description": "Do not say please or thank you",
-    "url": "https://36kr.com/p/3509785970531464",
-    "source": "36kr",
-    "publishedAt": "2025-10-15",
+    "publishedAt": "2025-10-17",
     "category": "Model,Paper"
   },
   {
-    "id": 24,
-    "title": "How Long Can AI Giants Sustain Their \"Infinite Flow\" Orders?",
-    "description": "U.S. AI giants are staging a growth miracle of \"stepping on each other's feet to reach the sky\" with \"infinite flow orders.\"",
-    "url": "https://36kr.com/p/3509749792349063",
+    "id": 8,
+    "title": "Latest AI Enterprise Funding TOP20 List: 8 Unicorns Included, 11 Founded After 2022",
+    "description": "Embodied Intelligence Emerges as New Hot Trend",
+    "url": "https://36kr.com/p/3512943368346756",
     "source": "36kr",
-    "publishedAt": "2025-10-15",
-    "category": "Company,Industry"
+    "publishedAt": "2025-10-17",
+    "category": "Industry,Company"
   },
   {
-    "id": 25,
-    "title": "Cook Visits China Again and Donates to Tsinghua: Can Apple AI Land in China?",
-    "description": "Apple AI's short-term deployment in China remains uncertain, but Cook has longer-term plans for AI...",
-    "url": "https://36kr.com/p/3509766211558280",
+    "id": 9,
+    "title": "Fei-Fei Li's World Model Gets Major Update, Generates 3D Worlds in Real-Time with Just One GPU",
+    "description": "Jensen Huang: Then How Am I Supposed to Sell Graphics Cards",
+    "url": "https://36kr.com/p/3512943290834050",
     "source": "36kr",
-    "publishedAt": "2025-10-15",
-    "category": "Company,Product"
+    "publishedAt": "2025-10-17",
+    "category": "Model,Event"
   },
   {
-    "id": 26,
-    "title": "Google's New Gemini Overnight Eliminates UI: Single HTML File Replicates macOS with 100% Success Rate",
-    "description": "Gemini 3.0 Pro Achieves New SOTA",
-    "url": "https://36kr.com/p/3509766385048449",
+    "id": 10,
+    "title": "\"Claude Skills is Great, Possibly More Important Than MCP\"",
+    "description": "This Morning, Anthropic Launched Claude Skills, a Completely New Mode for Its Models to Acquire New Capabilities",
+    "url": "https://36kr.com/p/3512937671711874",
     "source": "36kr",
-    "publishedAt": "2025-10-15",
+    "publishedAt": "2025-10-17",
     "category": "Product,Model"
   },
   {
-    "id": 27,
-    "title": "Ilya's Shocking Statement, Former OpenAI Executive Confirms: AGI Has Awakened, But Humanity Is Still Pretending to Sleep",
-    "description": "It's time to wake up",
-    "url": "https://36kr.com/p/3509785087089543",
+    "id": 11,
+    "title": "Qwen/Qwen3-VL-4B-Thinking",
+    "description": "Qwen/Qwen3-VL-4B-Thinking 图文转文本 · 1天前更新 · 下载",
+    "url": "https://huggingface.co/Qwen/Qwen3-VL-4B-Thinking",
+    "source": "huggingface",
+    "publishedAt": "2025-10-17",
+    "category": "Model,Product"
+  },
+  {
+    "id": 12,
+    "title": "400 Yuan Teleoperates 95% of Robot Arms! Shanghai Jiao Tong University Launches Open-Source Project U-Arm, Creating a Universal, Low-Cost Human-Robot Teleoperation Interface",
+    "description": "Teleoperation verification has been conducted on various physical robot arms",
+    "url": "https://www.qbitai.com/2025/10/342796.html",
+    "source": "qbitai",
+    "publishedAt": "2025-10-17",
+    "category": "Robot,Resource"
+  },
+  {
+    "id": 13,
+    "title": "According to the new AGI definition proposed by experts like Bengio, GPT-5 has achieved less than 10%",
+    "description": "AGI refers to an artificial intelligence that matches or surpasses the cognitive versatility and proficiency of a well-educated adult.",
+    "url": "https://36kr.com/p/3512917608094857",
     "source": "36kr",
-    "publishedAt": "2025-10-15",
+    "publishedAt": "2025-10-17",
+    "category": "Model,Industry"
+  },
+  {
+    "id": 14,
+    "title": "Alibaba, ByteDance, and Tencent collectively invest heavily in the new trend",
+    "description": "In the AI Coding ecosystem battle, who can become China's version of Anthropic?",
+    "url": "https://36kr.com/p/3512870506158984",
+    "source": "36kr",
+    "publishedAt": "2025-10-17",
+    "category": "Company,Industry"
+  },
+  {
+    "id": 15,
+    "title": "5620亿美元建设热潮背后：支撑EMEA地区AI增长的数据中心繁荣",
+    "description": "26分钟前",
+    "url": "https://www.cnbc.com/video/2025/10/17/562-billion-buildout-the-data-center-boom-powering-emeas-ai-growth.html",
+    "source": "arsTechnica",
+    "publishedAt": "2025-10-17",
+    "category": "Industry,Resource"
+  },
+  {
+    "id": 16,
+    "title": "AI热潮持续推高台积电：产能能否满足需求？",
+    "description": "36分钟前",
+    "url": "https://www.cnbc.com/video/2025/10/17/the-ai-boom-keeps-pushing-tsmc-higher-can-capacity-meet-demand.html",
+    "source": "arsTechnica",
+    "publishedAt": "2025-10-17",
+    "category": "Industry,Company"
+  },
+  {
+    "id": 17,
+    "title": "Aishitech Completes Series B+ Funding of 100 Million Yuan, ARR Exceeds $40 Million",
+    "description": "From Model Breakthroughs to Universal Applications",
+    "url": "https://www.qbitai.com/2025/10/342786.html",
+    "source": "qbitai",
+    "publishedAt": "2025-10-17",
+    "category": "Company,Industry"
+  },
+  {
+    "id": 18,
+    "title": "Any2K：万物皆可传Kindle",
+    "description": "随时随地策展、阅读与聆听您的内容，Kindle亦兼容！",
+    "url": "https://www.producthunt.com/products/any2k",
+    "source": "producthunts",
+    "publishedAt": "2025-10-17",
+    "category": "Product"
+  },
+  {
+    "id": 19,
+    "title": "Windows版Zed编辑器",
+    "description": "深度融合WSL、扩展功能与AI的超原生Windows编辑器",
+    "url": "https://www.producthunt.com/products/zed",
+    "source": "producthunts",
+    "publishedAt": "2025-10-17",
+    "category": "Product"
+  },
+  {
+    "id": 20,
+    "title": "智能文件重命名工具",
+    "description": "两分钟内重命名千份文件",
+    "url": "https://www.producthunt.com/products/file-renamer-ai",
+    "source": "producthunts",
+    "publishedAt": "2025-10-17",
+    "category": "Product"
+  },
+  {
+    "id": 21,
+    "title": "Genspark自定义超级助手",
+    "description": "只需一句指令即可创建专属AI助手",
+    "url": "https://www.producthunt.com/products/genspark",
+    "source": "producthunts",
+    "publishedAt": "2025-10-17",
+    "category": "Product,Agent"
+  },
+  {
+    "id": 22,
+    "title": "HuggingChat",
+    "description": "开源模型的智能路由中枢",
+    "url": "https://www.producthunt.com/products/hugging-face",
+    "source": "producthunts",
+    "publishedAt": "2025-10-17",
+    "category": "Product,Model"
+  },
+  {
+    "id": 23,
+    "title": "诺拉",
+    "description": "专为构建安全Web3应用而生的AI编程助手",
+    "url": "https://www.producthunt.com/products/nora-5",
+    "source": "producthunts",
+    "publishedAt": "2025-10-17",
+    "category": "Product,Agent"
+  },
+  {
+    "id": 24,
+    "title": "评估看板",
+    "description": "评估、优化并部署AI智能体",
+    "url": "https://www.producthunt.com/products/home-ee810040-16fa-42ac-90e1-6cc389800702",
+    "source": "producthunts",
+    "publishedAt": "2025-10-17",
+    "category": "Product,Agent"
+  },
+  {
+    "id": 25,
+    "title": "Nanyang Technological University Exposes Complete Breakdown in AI \"Operational Safety\", Simple Disguises Can Deceive All Models",
+    "description": "AI safety involves not only content but also operations and whether it can remain faithful to its duties.",
+    "url": "https://36kr.com/p/3512917252791177",
+    "source": "36kr",
+    "publishedAt": "2025-10-17",
+    "category": "Model,Policy"
+  },
+  {
+    "id": 26,
+    "title": "Zoom支持的AI初创公司Second Nature完成2200万美元B轮融资",
+    "description": "2025年10月17日 06:45:59",
+    "url": "http://www.techinasia.com/news/zoom-backed-ai-startup-second-nature-secures-22m-series-b",
+    "source": "techinasia",
+    "publishedAt": "2025-10-17",
+    "category": "Company,Event"
+  },
+  {
+    "id": 27,
+    "title": "美国AI初创公司General Intuition完成1.337亿美元种子轮融资",
+    "description": "2025年10月17日 06:17:01",
+    "url": "http://www.techinasia.com/news/ai-startup-general-intuition-raises-1337m-seed-funding",
+    "source": "techinasia",
+    "publishedAt": "2025-10-17",
     "category": "Company,Event"
   },
   {
     "id": 28,
-    "title": "沃尔玛与OpenAI合作推出ChatGPT购物功能",
-    "description": "2025年10月15日 01:35:46",
-    "url": "http://www.techinasia.com/news/walmart-openai-team-up-for-chatgpt-shopping-feature",
-    "source": "techinasia",
-    "publishedAt": "2025-10-15",
-    "category": "Company,Product"
+    "title": "AGI Now Has a Quantitative Standard! Led by Bengio, Current Progress Bar at 58%",
+    "description": "The Most Powerful AI Still Has a Long Way to Go",
+    "url": "https://www.qbitai.com/2025/10/342761.html",
+    "source": "qbitai",
+    "publishedAt": "2025-10-17",
+    "category": "Model,Event"
   },
   {
     "id": 29,
-    "title": "Qwen/Qwen3-VL-4B-Instruct",
-    "description": "Qwen/Qwen3-VL-4B-Instruct 图文转文本 · 约14小时前更新 · 下载",
-    "url": "https://huggingface.co/Qwen/Qwen3-VL-4B-Instruct",
-    "source": "huggingface",
-    "publishedAt": "2025-10-15",
-    "category": "Model,Product"
-  },
-  {
-    "id": 30,
-    "title": "Qwen/Qwen3-VL-8B-Instruct",
-    "description": "Qwen/Qwen3-VL-8B-Instruct 图文转文本 · 约14小时前更新 · 下载",
-    "url": "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct",
-    "source": "huggingface",
-    "publishedAt": "2025-10-15",
-    "category": "Model,Product"
-  },
-  {
-    "id": 31,
-    "title": "破解Humane AI Pin设备",
-    "description": "3小时前",
-    "url": "https://news.ycombinator.com/item?id=45515915",
-    "source": "hackernews",
-    "publishedAt": "2025-10-15",
-    "category": "Product,Event"
-  },
-  {
-    "id": 32,
-    "title": "The Rise of Educational Agents: AI is Reshaping the Logic of Learning Products",
-    "description": "The Next Stop for Educational Agents: From Functional Assistants to Ecosystem Integration.",
-    "url": "https://36kr.com/p/3509039384534146",
+    "title": "Programmers Use AI to Write Songs and Earn Money, Mass-Producing \"Viral Hits\" with AI - Is This Side Hustle \"Going Crazy\"?",
+    "description": "\"Humans solve the remaining 10% of errors and add the final 10% of finishing touches.\"",
+    "url": "https://36kr.com/p/3512738033818496",
     "source": "36kr",
-    "publishedAt": "2025-10-15",
-    "category": "Agent,Industry"
-  },
-  {
-    "id": 33,
-    "title": "NVIDIA's AI Supercomputer 3999 Now on Sale: All Large-Parameter Open-Source Models Can Be Deployed \"in the Palm of Your Hand\"",
-    "description": "Hand-Delivered by Jensen Huang to Musk, 128GB Unified Memory, Weighs Only 1.18kg",
-    "url": "https://36kr.com/p/3509594242685826",
-    "source": "36kr",
-    "publishedAt": "2025-10-15",
-    "category": "Product,Company"
-  },
-  {
-    "id": 34,
-    "title": "Does OpenAI Have Endless Money? The AI Bubble Reminds People of the Dot-Com Stocks",
-    "description": "Riding the OpenAI Trend, Can Stock Prices Soar to the Sky?",
-    "url": "https://36kr.com/p/3509709470473346",
-    "source": "36kr",
-    "publishedAt": "2025-10-15",
-    "category": "Company,Industry"
-  },
-  {
-    "id": 35,
-    "title": "Silicon Valley's \"SPAC King\" Abandons Claude, Billion-Dollar Investor Bets on China?",
-    "description": "As the balance of cost and performance continues tilting toward China, the needle of market share will keep shifting accordingly.",
-    "url": "https://36kr.com/p/3509641678691459",
-    "source": "36kr",
-    "publishedAt": "2025-10-15",
-    "category": "Company,Industry"
-  },
-  {
-    "id": 36,
-    "title": "Silicon Valley Giants Unite to Bet on AI Computing Power—Will China Follow Suit?",
-    "description": "Decoding the Truth Behind Collective Survival Moves",
-    "url": "https://36kr.com/p/3509680393345922",
-    "source": "36kr",
-    "publishedAt": "2025-10-15",
-    "category": "Industry,Company"
-  },
-  {
-    "id": 37,
-    "title": "After 41 Years and 7 Transformations, Michael Dell Reinvents Dell Again: Humans Slow Down, AI Speeds Up",
-    "description": "Dell's AI Transformation Offers 3 Key Reminders for Us",
-    "url": "https://36kr.com/p/3509690582866053",
-    "source": "36kr",
-    "publishedAt": "2025-10-15",
-    "category": "Company,Industry"
-  },
-  {
-    "id": 38,
-    "title": "Altman: ChatGPT to Support Adult Content; Hong Kong Version of iPhone Air Unable to Use Mainland eSIM; Rumors of Lei Losing 300,000 Followers Overnight | Geek Breaking News",
-    "description": "Apple CEO Tim Cook personally visited Apple Store Pudong to listen to real users share life-saving experiences with Apple Watch; Ele.me pilots cancellation of overtime deductions for riders in multiple locations, expected to cover more cities by October; Musk receives AI supercomputer DGX Spark personally delivered by Huang Renxun.",
-    "url": "https://www.geekpark.net/news/354978",
-    "source": "geekpark",
-    "publishedAt": "2025-10-15",
-    "category": "Product,Event"
-  },
-  {
-    "id": 39,
-    "title": "适用于常规软件却不符合AI领域的认知误区",
-    "description": "5小时前",
-    "url": "https://news.ycombinator.com/item?id=45583180",
-    "source": "hackernews",
-    "publishedAt": "2025-10-15",
-    "category": "Industry,Policy"
-  },
-  {
-    "id": 40,
-    "title": "JieMeng VS KeLing: Who Can \"Rival\" Sora2?",
-    "description": "The battle in AI video has just begun.",
-    "url": "https://36kr.com/p/3508875206712455",
-    "source": "36kr",
-    "publishedAt": "2025-10-14",
-    "category": "Model, Industry"
-  },
-  {
-    "id": 41,
-    "title": "沃尔玛与OpenAI达成电商合作协议 股价应声大涨5%",
-    "description": "发布于1分钟前",
-    "url": "https://www.cnbc.com/video/2025/10/14/walmart-shares-jump-more-than-4-percent-today-after-announcing-partnership-with-openai.html",
-    "source": "arsTechnica",
-    "publishedAt": "2025-10-14",
-    "category": "Company,Event"
-  },
-  {
-    "id": 42,
-    "title": "监控数据颠覆了我们对位置追踪的既有认知",
-    "description": "2小时前",
-    "url": "https://news.ycombinator.com/item?id=45584498",
-    "source": "hackernews",
-    "publishedAt": "2025-10-14",
-    "category": "Policy,Industry"
-  },
-  {
-    "id": 43,
-    "title": "沃尔玛宣布与OpenAI合作后股价今日大涨超4%",
-    "description": "33分钟前",
-    "url": "https://www.cnbc.com/video/2025/10/14/walmart-shares-jump-more-than-4-percent-today-after-announcing-partnership-with-openai.html",
-    "source": "arsTechnica",
-    "publishedAt": "2025-10-14",
-    "category": "Company,Event"
-  },
-  {
-    "id": 44,
-    "title": "英特尔发布搭载160GB显存的推理优化型Xe3P显卡",
-    "description": "2小时前",
-    "url": "https://news.ycombinator.com/item?id=45583243",
-    "source": "hackernews",
-    "publishedAt": "2025-10-14",
-    "category": "Product,Resource"
-  },
-  {
-    "id": 45,
-    "title": "通用电气航空航天CEO拉里·卡尔普：预计人工智能将提升员工绩效而非取代工作岗位",
-    "description": "6分钟前",
-    "url": "https://www.cnbc.com/video/2025/10/14/ge-aerospace-ceo-larry-culp-expect-ai-to-help-worker-performance-not-replace-jobs.html",
-    "source": "arsTechnica",
-    "publishedAt": "2025-10-14",
-    "category": "Industry,Policy"
-  },
-  {
-    "id": 46,
-    "title": "山姆·奥尔特曼表示ChatGPT将很快允许为成年用户生成情色内容",
-    "description": "麦克斯韦·泽夫",
-    "url": "https://techcrunch.com/2025/10/14/sam-altman-says-chatgpt-will-soon-allow-erotica-for-adult-users/",
-    "source": "techcrunch",
-    "publishedAt": "2025-10-14",
-    "category": "Product,Policy"
-  },
-  {
-    "id": 47,
-    "title": "新一代肥料的工程研发",
-    "description": "麻省理工学院博士后研究员乔治·里佐运用植物化学原理设计可持续肥料，或将重塑现代农业格局。",
-    "url": "https://news.mit.edu/2025/giorgio-rizzo-engineering-next-generation-fertilizers-1014",
-    "source": "mitnews",
-    "publishedAt": "2025-10-14",
-    "category": "Other,Industry"
-  },
-  {
-    "id": 48,
-    "title": "智能吸尘器倒戈相向的那天",
-    "description": "2小时前",
-    "url": "https://news.ycombinator.com/item?id=45503560",
-    "source": "hackernews",
-    "publishedAt": "2025-10-14",
-    "category": "Product,Other"
-  },
-  {
-    "id": 49,
-    "title": "DirecTV屏保将于2026年展示含用户面容的AI生成广告",
-    "description": "2025年10月14日",
-    "url": "https://arstechnica.com/gadgets/2025/10/directv-screensavers-will-show-ai-generated-ads-with-your-face-in-2026/",
-    "source": "cnbc",
-    "publishedAt": "2025-10-14",
+    "publishedAt": "2025-10-17",
     "category": "Product,Industry"
   },
   {
+    "id": 30,
+    "title": "英伟达CEO呼吁政策调整 因中国芯片市场份额归零",
+    "description": "2025年10月17日 05:30:15",
+    "url": "http://www.techinasia.com/news/nvidia-ceo-urges-policy-shift-as-chinas-chip-market-falls-to-zero",
+    "source": "techinasia",
+    "publishedAt": "2025-10-17",
+    "category": "Company,Policy"
+  },
+  {
+    "id": 31,
+    "title": "智能体技能介绍",
+    "description": "查看详情了解更多信息",
+    "url": "https://www.anthropic.com/news/skills",
+    "source": "anthropic",
+    "publishedAt": "2025-10-17",
+    "category": "Agent,Product"
+  },
+  {
+    "id": 32,
+    "title": "Fei-Fei Li Releases New World Model That Runs on a Single GPU!",
+    "description": "Permanently Interactive",
+    "url": "https://www.qbitai.com/2025/10/342735.html",
+    "source": "qbitai",
+    "publishedAt": "2025-10-17",
+    "category": "Model,Event"
+  },
+  {
+    "id": 33,
+    "title": "Global Entrepreneurship Competition Attracts Participants from 139 Countries and Regions, Chinese Embodied Robotics Company Wins Award!",
+    "description": "HICOOL 2025 Global Entrepreneurship Competition Winners Announced",
+    "url": "https://www.qbitai.com/2025/10/342709.html",
+    "source": "qbitai",
+    "publishedAt": "2025-10-17",
+    "category": "Robot,Event"
+  },
+  {
+    "id": 34,
+    "title": "日本要求OpenAI为Sora 2动漫内容获取审批许可",
+    "description": "2025年10月17日 04:10:56",
+    "url": "http://www.techinasia.com/news/japan-asks-openai-to-get-approval-for-sora-2-anime-content",
+    "source": "techinasia",
+    "publishedAt": "2025-10-17",
+    "category": "Policy,Product"
+  },
+  {
+    "id": 35,
+    "title": "MOF Structure Wins Nobel Prize After 36 Years: When AI Understands Chemistry, Metal-Organic Frameworks Enter the Era of Generative Research",
+    "description": "Enumerable, Computable, Learnable: The AI Transformation of Chemistry",
+    "url": "https://36kr.com/p/3512701617085572",
+    "source": "36kr",
+    "publishedAt": "2025-10-17",
+    "category": "Industry,Model"
+  },
+  {
+    "id": 36,
+    "title": "作者起诉Salesforce涉嫌使用图书进行AI训练",
+    "description": "2025年10月17日 03:40:12",
+    "url": "http://www.techinasia.com/news/authors-sue-salesforce-for-allegedly-using-books-in-ai-training",
+    "source": "techinasia",
+    "publishedAt": "2025-10-17",
+    "category": "Policy,Company"
+  },
+  {
+    "id": 37,
+    "title": "Spotify与主流唱片公司合作开发AI音乐工具",
+    "description": "2025年10月17日 03:39:46",
+    "url": "http://www.techinasia.com/news/spotify-partners-with-major-labels-to-develop-ai-music-tools",
+    "source": "techinasia",
+    "publishedAt": "2025-10-17",
+    "category": "Company,Product"
+  },
+  {
+    "id": 38,
+    "title": "OpenAI暂停生成马丁·路德·金的Sora视频",
+    "description": "麦克斯韦尔·泽夫",
+    "url": "https://techcrunch.com/2025/10/16/openai-pauses-sora-video-generations-of-martin-luther-king-jr/",
+    "source": "techcrunch",
+    "publishedAt": "2025-10-17",
+    "category": "Model,Event"
+  },
+  {
+    "id": 39,
+    "title": "亚洲人工智能发展：分析师指出供应链仍是亚洲科技推进的核心支柱",
+    "description": "30分钟前",
+    "url": "https://www.cnbc.com/video/2025/10/17/ais-backbone-in-asia-its-still-the-supply-chain-says-analyst.html",
+    "source": "arsTechnica",
+    "publishedAt": "2025-10-17",
+    "category": "Industry,Other"
+  },
+  {
+    "id": 40,
+    "title": "NEURA Robotics Establishes Presence in Hangzhou, Building a Global Bridge for \"Physical AI\"",
+    "description": "Accelerating the Launch of the First General-Purpose Humanoid Robot",
+    "url": "https://www.qbitai.com/2025/10/342696.html",
+    "source": "qbitai",
+    "publishedAt": "2025-10-17",
+    "category": "Company,Robot"
+  },
+  {
+    "id": 41,
+    "title": "With the marginal cost of creating \"experts\" approaching zero, how is AI reshaping business?",
+    "description": "The transformation of work paradigms will impact multiple fields including education, labor markets, and commerce.",
+    "url": "https://36kr.com/p/3512675160234885",
+    "source": "36kr",
+    "publishedAt": "2025-10-17",
+    "category": "Industry,Other"
+  },
+  {
+    "id": 42,
+    "title": "微软在Windows 10终止之际为Windows 11推出AI更新",
+    "description": "2025年10月17日 02:40:53",
+    "url": "https://www.techinasia.com/news/microsoft-rolls-out-ai-updates-in-windows-11-as-windows-10-ends",
+    "source": "techinasia",
+    "publishedAt": "2025-10-17",
+    "category": "Product,Company"
+  },
+  {
+    "id": 43,
+    "title": "Are RAG and Search Agents Losing Their Appeal? Apple's DeepMMSearch-R1 Enters the New Battlefield of Multimodal Search",
+    "description": "Apple is exploring multimodal large language models enhanced by web search capabilities.",
+    "url": "https://36kr.com/p/3512655193463942",
+    "source": "36kr",
+    "publishedAt": "2025-10-17",
+    "category": "Model,Company"
+  },
+  {
+    "id": 44,
+    "title": "腾讯无训练AI方法引发学习机制讨论",
+    "description": "2025年10月17日 02:10:52",
+    "url": "http://www.techinasia.com/news/tencents-training-free-ai-method-sparks-debate-on-learning",
+    "source": "techinasia",
+    "publishedAt": "2025-10-17",
+    "category": "Model,Paper"
+  },
+  {
+    "id": 45,
+    "title": "亚马逊注资美国核电项目 为数据中心与人工智能供能",
+    "description": "2025年10月17日 01:56:51",
+    "url": "http://www.techinasia.com/news/amazon-backs-us-nuclear-project-to-power-data-centers-ai",
+    "source": "techinasia",
+    "publishedAt": "2025-10-17",
+    "category": "Company,Industry"
+  },
+  {
+    "id": 46,
+    "title": "Why is NVIDIA's white paper making AIDC power players restless?",
+    "description": "Who will dominate AIDC's energy supply?",
+    "url": "https://36kr.com/p/3512624552090760",
+    "source": "36kr",
+    "publishedAt": "2025-10-17",
+    "category": "Industry,Resource"
+  },
+  {
+    "id": 47,
+    "title": "Fei-Fei Li's new \"World Model\" emerges, generating real-time 3D eternal worlds with a single H100",
+    "description": "One image, one 3D world! Today, Fei-Fei Li's team released the real-time generative world model \"RTFM,\" which learns from large-scale video data end-to-end and directly generates new viewpoint images of the same scene from input 2D images. Notably, it requires only a single H100 GPU to render a persistent and 3D-consistent world in real time.",
+    "url": "https://36kr.com/p/3512599772454023",
+    "source": "36kr",
+    "publishedAt": "2025-10-17",
+    "category": "Model,Paper"
+  },
+  {
+    "id": 48,
+    "title": "Fei-Fei Li releases new world model that runs on a single GPU",
+    "description": "Permanently interactive",
+    "url": "https://36kr.com/p/3512588484205697",
+    "source": "36kr",
+    "publishedAt": "2025-10-17",
+    "category": "Model,Event"
+  },
+  {
+    "id": 49,
+    "title": "The fruits of AI monetization are first harvested by Taobao, WeChat, Douyin, and Kuaishou",
+    "description": "AI \"radically transforms\" core business operations",
+    "url": "https://36kr.com/p/3512612596096130",
+    "source": "36kr",
+    "publishedAt": "2025-10-17",
+    "category": "Industry,Product"
+  },
+  {
     "id": 50,
-    "title": "为何你的老板不担心人工智能——“难道不能直接关掉吗？”",
-    "description": "1小时前",
-    "url": "https://news.ycombinator.com/item?id=45583180",
-    "source": "hackernews",
-    "publishedAt": "2025-10-14",
-    "category": "Industry,Policy"
+    "title": "OpenAI's Latest Business: Hired a Black Hole Physicist",
+    "description": "\"Artificial Intelligence Will Completely Transform Scientific Research\"",
+    "url": "https://www.qbitai.com/2025/10/342661.html",
+    "source": "qbitai",
+    "publishedAt": "2025-10-17",
+    "category": "Company,Event"
   },
   {
     "id": 51,
-    "title": "人工智能如何识别口音：口音集群的可听化视觉呈现",
-    "description": "2小时前",
-    "url": "https://news.ycombinator.com/item?id=45581735",
-    "source": "hackernews",
-    "publishedAt": "2025-10-14",
-    "category": "Model,Other"
+    "title": "AI Makes Answers Cheap, But Good Questions Make You Stand Out",
+    "description": "The ability to ask questions is becoming the most scarce and important skill in the AI era.",
+    "url": "https://36kr.com/p/3512532086578051",
+    "source": "36kr",
+    "publishedAt": "2025-10-17",
+    "category": "Learning,Industry"
   },
   {
     "id": 52,
-    "title": "Vista Equity首席执行官罗伯特·史密斯：自主式AI企业软件蕴含巨大机遇",
-    "description": "26分钟前",
-    "url": "https://www.cnbc.com/video/2025/10/14/vista-equity-ceo-robert-smith-massive-opportunity-ahead-in-agentic-ai-enterprise-software.html",
-    "source": "arsTechnica",
-    "publishedAt": "2025-10-14",
-    "category": "Agent,Industry"
+    "title": "Musk Says OpenAI Is Overvalued: How Much AI Bubble Exists?",
+    "description": "Whether investors, entrepreneurs, or the general public, all should maintain calm and rationality. While embracing AI, we must cut through the noisy hype bubble and focus on the essence of technology, practical application effectiveness, and business logic.",
+    "url": "https://36kr.com/p/3510204459915656",
+    "source": "36kr",
+    "publishedAt": "2025-10-17",
+    "category": "Company,Industry"
   },
   {
     "id": 53,
-    "title": "安杜里尔新型鹰眼MR头盔标志帕尔默·拉奇回归VR初心",
-    "description": "阿里亚·阿拉马尔霍达伊",
-    "url": "https://techcrunch.com/2025/10/13/andurils-new-eagleeye-mr-helmet-sees-palmer-luckey-return-to-his-vr-roots/",
-    "source": "techcrunch",
-    "publishedAt": "2025-10-14",
-    "category": "Product,Robot"
+    "title": "Analyzing NVIDIA's Nearly 100 AI Investments: What Is the Present and Future of the AI Industry?",
+    "description": "AI Models Are the Present, Physical AI Is the Future",
+    "url": "https://36kr.com/p/3511827665131911",
+    "source": "36kr",
+    "publishedAt": "2025-10-17",
+    "category": "Industry,Company"
   },
   {
     "id": 54,
-    "title": "优化食品补贴：应用数字平台实现营养最大化",
-    "description": "MIT助理教授兼J-WAFS研究员Ali Aouad指出，算法能够改变全球南方国家食品援助政策的面貌。",
-    "url": "https://news.mit.edu/2025/optimizing-food-subsidies-applying-digital-platforms-maximize-nutrition-1014",
-    "source": "mitnews",
-    "publishedAt": "2025-10-14",
-    "category": "Policy,Other"
+    "title": "Microsoft Lets Bosses See Who Uses AI Most at a Glance: Viva Becomes \"Panoramic Surveillance\"? Public Employee Copilot Usage Rates, Even Making Internal Leaderboards?",
+    "description": "Which teams are truly actively embracing AI, and which teams are still secretly \"avoiding\" it.",
+    "url": "https://36kr.com/p/3512458565557382",
+    "source": "36kr",
+    "publishedAt": "2025-10-17",
+    "category": "Product,Company"
   },
   {
     "id": 55,
-    "title": "Salesforce将把Agentforce软件引入OpenAI的ChatGPT",
-    "description": "3分钟前",
-    "url": "https://www.cnbc.com/technology/",
-    "source": "arsTechnica",
-    "publishedAt": "2025-10-14",
-    "category": "Product,Company"
+    "title": "\"Look, The Emperor Has No Clothes\"! Hedge Fund Manager: Can Trillions in AI Investment Be Recouped?",
+    "description": "Hedge fund manager Kuppy discusses the fatal flaw of the AI boom.",
+    "url": "https://36kr.com/p/3512459492465798",
+    "source": "36kr",
+    "publishedAt": "2025-10-17",
+    "category": "Industry,Other"
   },
   {
     "id": 56,
-    "title": "Google将让Gemini在Gmail中为您安排会议",
-    "description": "2025年10月14日",
-    "url": "https://arstechnica.com/google/2025/10/gemini-can-now-help-schedule-meetings-in-gmail/",
-    "source": "cnbc",
-    "publishedAt": "2025-10-14",
-    "category": "Product,Company"
+    "title": "Another Apple Chinese AI Executive Poached by Meta with a High Salary, This Time a Tsinghua Alumnus and CMU PhD",
+    "description": "Zuckerberg: If it's top AI talent, I want them. When the phone rings, I'm there.",
+    "url": "https://36kr.com/p/3512432523500672",
+    "source": "36kr",
+    "publishedAt": "2025-10-17",
+    "category": "Company,Event"
   },
   {
     "id": 57,
-    "title": "Mozilla Firefox将Perplexity的AI问答引擎新增为搜索选项",
-    "description": "莎拉·佩雷斯",
-    "url": "https://techcrunch.com/2025/10/14/mozillas-firefox-adds-perplexitys-ai-answer-engine-as-a-new-search-option/",
-    "source": "techcrunch",
-    "publishedAt": "2025-10-14",
-    "category": "Product,Company"
+    "title": "Google × Yale Jointly Release Anti-Cancer Tool: AI Reasoning Precisely Targets \"Invisible\" Cancer Cells",
+    "description": "Recently, the large model C2S-Scale, jointly released by Google and Yale University, proposed and validated a novel \"anti-cancer hypothesis\" for the first time. This achievement demonstrates that large models can not only replicate known scientific laws but also possess the ability to generate new, verifiable scientific hypotheses.",
+    "url": "https://36kr.com/p/3512432205536385",
+    "source": "36kr",
+    "publishedAt": "2025-10-17",
+    "category": "Model,Paper"
   },
   {
     "id": 58,
-    "title": "OpenAI组建专家委员会以在联邦贸易委员会调查后加强安全措施",
-    "description": "24分钟前",
-    "url": "https://www.cnbc.com/2025/10/14/open-ai-expert-council-safety-ftc.html",
-    "source": "arsTechnica",
-    "publishedAt": "2025-10-14",
-    "category": "Company,Policy"
+    "title": "The Leading AI Application Concept Stock, Is It Back?",
+    "description": "Does the Concept Win Hearts?",
+    "url": "https://36kr.com/p/3512450224675719",
+    "source": "36kr",
+    "publishedAt": "2025-10-17",
+    "category": "Industry,Product"
   },
   {
     "id": 59,
-    "title": "经济学家称美国经济可能正依赖不可持续的人工智能投资",
-    "description": "3小时前",
-    "url": "https://www.cnbc.com/2025/10/14/ai-infrastructure-boom-masks-potential-us-recession-analyst-warns.html",
-    "source": "arsTechnica",
-    "publishedAt": "2025-10-14",
-    "category": "Industry,Policy"
+    "title": "AI Reshapes Traffic Portals, Morgan Stanley: \"Vertical Websites\" Safe Short-Term but Potentially Bypassed Long-Term",
+    "description": "Generative AI is reshaping how users discover information, posing potential challenges to internet platforms reliant on traffic.",
+    "url": "https://36kr.com/p/3512452249754755",
+    "source": "36kr",
+    "publishedAt": "2025-10-17",
+    "category": "Industry,Model"
   },
   {
     "id": 60,
-    "title": "OpenAI公布\"健康咨询\"委员会名单 未纳入自杀预防专家",
-    "description": "2025年10月14日",
-    "url": "https://arstechnica.com/tech-policy/2025/10/openai-unveils-wellness-council-suicide-prevention-expert-not-included/",
-    "source": "cnbc",
-    "publishedAt": "2025-10-14",
-    "category": "Company,Policy"
+    "title": "Zhang Peng in Conversation with Zhu Xiaohu, Chu Ruisong, and Fu Sheng: In the Agentic AI Era, Don't Try to Do Everything Yourself",
+    "description": "The anxieties, struggles, and opportunities for practitioners in the era of Agentic AI.",
+    "url": "https://36kr.com/p/3512482657655680",
+    "source": "36kr",
+    "publishedAt": "2025-10-17",
+    "category": "Agent,Industry"
   },
   {
     "id": 61,
-    "title": "英伟达推出微型新电脑 可将强大AI置于桌面端",
-    "description": "2025年10月14日",
-    "url": "https://arstechnica.com/ai/2025/10/nvidia-sells-tiny-new-computer-that-puts-big-ai-on-your-desktop/",
-    "source": "cnbc",
-    "publishedAt": "2025-10-14",
-    "category": "Product,Company"
+    "title": "Jensen Huang's Eldest Daughter Makes Live Stream Debut, Discusses Embodied AI",
+    "description": "Simulation is the key to solving the data dilemma.",
+    "url": "https://36kr.com/p/3512499264985987",
+    "source": "36kr",
+    "publishedAt": "2025-10-17",
+    "category": "Robot,Industry"
   },
   {
     "id": 62,
-    "title": "幸福与人工智能专家委员会",
-    "description": "OpenAI新成立的幸福与人工智能专家委员会汇聚顶尖心理学家、临床医生和研究人员，共同指导ChatGPT如何支持用户（尤其是青少年）的情感健康。了解他们的专业见解如何塑造更安全、更富关怀的AI体验。",
-    "url": "https://openai.com/index/expert-council-on-well-being-and-ai",
-    "source": "openai",
-    "publishedAt": "2025-10-14",
-    "category": "Company,Policy"
+    "title": "Short Videos Accelerate into the AI Era",
+    "description": "Platforms need to find a balance between creative freedom and maintaining content authenticity.",
+    "url": "https://36kr.com/p/3512505695968393",
+    "source": "36kr",
+    "publishedAt": "2025-10-17",
+    "category": "Industry,Product"
   },
   {
     "id": 63,
-    "title": "谷歌Gemini现可协助您安排谷歌日历会议",
-    "description": "莎拉·佩雷斯",
-    "url": "https://techcrunch.com/2025/10/14/googles-gemini-can-now-help-you-schedule-google-calendar-meetings/",
-    "source": "techcrunch",
-    "publishedAt": "2025-10-14",
-    "category": "Product,Company"
+    "title": "AI Exhibits \"Split Personality,\" OpenAI Researchers Expose ChatGPT's Multiple Personas via Fine-Tuning",
+    "description": "Rather than fearing a single AI entity dominating the world, learning to coexist with diverse AI personalities may be a more prudent survival strategy for humanity.",
+    "url": "https://36kr.com/p/3512513771379589",
+    "source": "36kr",
+    "publishedAt": "2025-10-17",
+    "category": "Model,Event"
   },
   {
     "id": 64,
-    "title": "谷歌Meet推出AI美妆功能",
-    "description": "劳伦·福里斯特尔",
-    "url": "https://techcrunch.com/2025/10/14/google-meet-launches-an-ai-powered-makeup-feature/",
-    "source": "techcrunch",
-    "publishedAt": "2025-10-14",
+    "title": "Focusing on Store Operations and Delivery, Meituan Releases Three AI Assistants at Once, AI Investment Reaches Tens of Billions",
+    "description": "From the consumer-facing XiaoMei to the business-oriented \"Kangaroo Advisor,\" \"Kangaroo Butler,\" and \"Smart Butler,\" Meituan has built a matrix of AI assistants. How these AI assistants will coordinate and collaborate to form a new AI-native ecosystem is full of imagination but also challenges.",
+    "url": "https://36kr.com/p/3512515121077381",
+    "source": "36kr",
+    "publishedAt": "2025-10-17",
     "category": "Product,Company"
   },
   {
     "id": 65,
-    "title": "Coco Robotics聘请加州大学教授领导实体AI研究实验室",
-    "description": "丽贝卡·斯库塔克",
-    "url": "https://techcrunch.com/2025/10/14/coco-robotics-taps-ucla-professor-to-lead-new-physical-ai-research-lab/",
-    "source": "techcrunch",
-    "publishedAt": "2025-10-14",
-    "category": "Company,Robot"
+    "title": "Jensen Huang: 240W for Home Use, This Is the \"First AI\" Handed Over to Musk",
+    "description": "Not \"delivering a model,\" but \"handing over the torch.\"",
+    "url": "https://36kr.com/p/3512523825469570",
+    "source": "36kr",
+    "publishedAt": "2025-10-17",
+    "category": "Company,Product"
   },
   {
     "id": 66,
-    "title": "基因编辑新突破：CRISPR类似工具首次实现线粒体DNA编辑",
-    "description": "2小时前",
-    "url": "https://news.ycombinator.com/item?id=45579708",
-    "source": "hackernews",
-    "publishedAt": "2025-10-14",
-    "category": "Other"
-  },
-  {
-    "id": 67,
-    "title": "您很快就能通过ChatGPT购买沃尔玛商品",
-    "description": "莎拉·佩雷斯",
-    "url": "https://techcrunch.com/2025/10/14/youll-soon-be-able-to-shop-walmart-from-chatgpt/",
-    "source": "techcrunch",
-    "publishedAt": "2025-10-14",
-    "category": "Product,Company"
-  },
-  {
-    "id": 68,
-    "title": "OpenAI与博通合作开发人工智能硬件",
-    "description": "丽贝卡·斯库塔克",
-    "url": "https://techcrunch.com/2025/10/14/openai-and-broadcom-partner-on-ai-hardware/",
-    "source": "techcrunch",
-    "publishedAt": "2025-10-14",
-    "category": "Company,Event"
-  },
-  {
-    "id": 69,
-    "title": "麻省理工学院新倡议致力于变革罕见脑部疾病研究",
-    "description": "罕见脑部疾病联结计划旨在加速针对一系列非常见脑部疾病的新型疗法研发",
-    "url": "https://news.mit.edu/2025/new-mit-initiative-seeks-transform-rare-brain-disorders-research-1014",
-    "source": "mitnews",
-    "publishedAt": "2025-10-14",
-    "category": "Research,Other"
-  },
-  {
-    "id": 70,
-    "title": "GPT-5o-mini误报医学生住院医师申请成绩",
-    "description": "19分钟前",
-    "url": "https://news.ycombinator.com/item?id=45581029",
-    "source": "hackernews",
-    "publishedAt": "2025-10-14",
-    "category": "Model,Other"
-  },
-  {
-    "id": 71,
-    "title": "人工智能热潮正重塑美国经济 科技公司通过大规模资本支出押注推动增长",
-    "description": "32分钟前",
-    "url": "https://www.cnbc.com/2025/10/14/ai-infrastructure-boom-masks-potential-us-recession-analyst-warns.html",
-    "source": "arsTechnica",
-    "publishedAt": "2025-10-14",
-    "category": "Industry,Company"
-  },
-  {
-    "id": 72,
-    "title": "Google更新搜索与发现功能：新增可折叠广告、人工智能特性等",
-    "description": "莎拉·佩雷斯",
-    "url": "https://techcrunch.com/2025/10/14/google-updates-search-and-discover-with-collapsible-ads-ai-features-and-more/",
-    "source": "techcrunch",
-    "publishedAt": "2025-10-14",
-    "category": "Product,Company"
-  },
-  {
-    "id": 73,
-    "title": "获谢丽尔·桑德伯格支持的Flint公司计划利用人工智能自主构建及更新网站",
-    "description": "玛丽娜·特姆金",
-    "url": "https://techcrunch.com/2025/10/14/sheryl-sandberg-backed-flint-wants-to-use-ai-to-autonomously-build-and-update-websites/",
-    "source": "techcrunch",
-    "publishedAt": "2025-10-14",
-    "category": "Product,Company"
-  },
-  {
-    "id": 74,
-    "title": "雷·库兹韦尔（'70届）重申对科技发展的乐观态度",
-    "description": "这位技术专家兼作家在获得罗伯特·A·穆尔奖时，预言了人工智能的光明前景、长寿领域的突破性进展等积极展望。",
-    "url": "https://news.mit.edu/2025/ray-kurzwei-reinforces-his-optimism-tech-progress-1010",
-    "source": "mitnews",
-    "publishedAt": "2025-10-14",
-    "category": "Event,Industry"
-  },
-  {
-    "id": 75,
-    "title": "OpenAI希望阻止ChatGPT验证用户的政治观点",
-    "description": "2025年10月14日",
-    "url": "https://arstechnica.com/ai/2025/10/openai-wants-to-stop-chatgpt-from-validating-users-political-views/",
-    "source": "cnbc",
-    "publishedAt": "2025-10-14",
-    "category": "Product,Policy"
-  },
-  {
-    "id": 76,
-    "title": "阿根廷的人工智能发展机遇",
-    "description": "OpenAI与Sur Energy正携手探索阿根廷首个\"星门\"项目——这项人工智能与清洁能源的合作，或将使阿根廷成为拉丁美洲在人工智能、可持续基础设施和数字创新领域的领跑者。",
-    "url": "https://openai.com/global-affairs/argentinas-ai-opportunity",
-    "source": "openai",
-    "publishedAt": "2025-10-14",
-    "category": "Company,Event"
-  },
-  {
-    "id": 77,
-    "title": "Pyrefly：基于 Rust 的 Python 类型检查器与语言服务器",
-    "description": "1小时前",
-    "url": "https://news.ycombinator.com/item?id=45579275",
-    "source": "hackernews",
-    "publishedAt": "2025-10-14",
-    "category": "Resource,Other"
-  },
-  {
-    "id": 78,
-    "title": "Don't Be Fooled, Hollywood's Boycott of AI Is Just a Smokescreen, and the Backers Are Actually Themselves",
-    "description": "\"Who would have thought that even you, with your honest appearance, would betray us\"",
-    "url": "https://36kr.com/p/3508980724898946",
-    "source": "36kr",
-    "publishedAt": "2025-10-14",
-    "category": "Industry,Policy"
-  },
-  {
-    "id": 79,
-    "title": "贾里德·伯恩斯坦表示：若人工智能泡沫破裂，可能引发巨大的负面财富效应",
-    "description": "13分钟前",
-    "url": "https://www.cnbc.com/video/2025/10/14/we-could-have-a-really-large-negative-wealth-effect-if-the-ai-bubble-pops-says-jared-bernstein.html",
-    "source": "arsTechnica",
-    "publishedAt": "2025-10-14",
-    "category": "Industry,Policy"
-  },
-  {
-    "id": 80,
-    "title": "甲骨文云将部署5万枚AMD人工智能芯片，预示英伟达面临新竞争",
-    "description": "19分钟前",
-    "url": "https://www.cnbc.com/2025/10/14/oracle-cloud-to-deploy-50000-amd-ai-chips-as-alternative-to-nvidia.html",
-    "source": "arsTechnica",
-    "publishedAt": "2025-10-14",
+    "title": "NIO responds to foreign fund complaint: No factual basis; Leapmotor launches D19 flagship SUV with extra-large battery; Casio releases 40th anniversary \"Back to the Future\" collaboration watch",
+    "description": "Cao Dewang on resigning as chairman: No health issues at 80, wants to start retirement life; Tesla: Total shareholder return since IPO reaches 39,140%; Meituan's Wang Puzhong: Meituan's AI investment is at tens of billions RMB level",
+    "url": "https://www.geekpark.net/news/355077",
+    "source": "geekpark",
+    "publishedAt": "2025-10-17",
     "category": "Company,Industry"
   },
   {
-    "id": 81,
-    "title": "Aquawise将在TechCrunch Disrupt 2025科技大会上展示其人工智能驱动的水质检测技术",
-    "description": "丽贝卡·斯库塔克",
-    "url": "https://techcrunch.com/2025/10/14/aquawise-will-show-off-its-ai-driven-water-quality-tech-at-techcrunch-disrupt-2025/",
+    "id": 67,
+    "title": "2025年人工智能发展报告",
+    "description": "3小时前",
+    "url": "https://news.ycombinator.com/item?id=45564042",
+    "source": "hackernews",
+    "publishedAt": "2025-10-16",
+    "category": "Industry"
+  },
+  {
+    "id": 68,
+    "title": "韦德布什分析师丹·艾夫斯谈其人工智能看涨观点：亚洲市场对AI需求强劲",
+    "description": "22分钟前",
+    "url": "https://www.cnbc.com/video/2025/10/16/ai-demand-in-asia-is-strong-says-wedbushs-dan-ives-on-his-ai-bull-case.html",
+    "source": "arsTechnica",
+    "publishedAt": "2025-10-16",
+    "category": "Industry,Company"
+  },
+  {
+    "id": 69,
+    "title": "在医疗健康领域，人工智能并非取代人类，而是在恢复服务能力——Outcomes AI首席执行官如是说",
+    "description": "25分钟前",
+    "url": "https://www.cnbc.com/video/2025/10/16/in-healthcare-ai-isnt-replacing-people-its-restoring-capacity-says-outcomes-ai-ceo.html",
+    "source": "arsTechnica",
+    "publishedAt": "2025-10-16",
+    "category": "Company,Industry"
+  },
+  {
+    "id": 70,
+    "title": "展示HN：Inkeep（YC W23季）——支持代码与可视化构建的智能体开发平台",
+    "description": "8小时前",
+    "url": "https://news.ycombinator.com/item?id=45604700",
+    "source": "hackernews",
+    "publishedAt": "2025-10-16",
+    "category": "Product,Agent"
+  },
+  {
+    "id": 71,
+    "title": "Ars Live特别回顾：人工智能泡沫即将破裂？听Ed Zitron深度解析",
+    "description": "2025年10月16日",
+    "url": "https://arstechnica.com/ai/2025/10/ars-live-recap-is-the-ai-bubble-about-to-pop-ed-zitron-weighs-in/",
+    "source": "cnbc",
+    "publishedAt": "2025-10-16",
+    "category": "Industry,Event"
+  },
+  {
+    "id": 72,
+    "title": "一加发布OxygenOS 16更新：深度融合Gemini助手",
+    "description": "2025年10月16日",
+    "url": "https://arstechnica.com/google/2025/10/oneplus-unveils-oxygenos-16-update-with-deep-gemini-integration/",
+    "source": "cnbc",
+    "publishedAt": "2025-10-16",
+    "category": "Product,Model"
+  },
+  {
+    "id": 73,
+    "title": "展示HN：Inkeep（YC W23季）——支持可视化与代码双模式操作的智能体构建平台",
+    "description": "7小时前",
+    "url": "https://news.ycombinator.com/item?id=45604700",
+    "source": "hackernews",
+    "publishedAt": "2025-10-16",
+    "category": "Product,Agent"
+  },
+  {
+    "id": 74,
+    "title": "雷朋制造商依视路陆逊梯卡表示Meta智能眼镜正推动业绩增长",
+    "description": "23分钟前",
+    "url": "https://www.cnbc.com/2025/10/16/ray-ban-maker-essilorluxottica-says-meta-smart-glasses-boosting-growth.html",
+    "source": "arsTechnica",
+    "publishedAt": "2025-10-16",
+    "category": "Product,Company"
+  },
+  {
+    "id": 75,
+    "title": "SWE-Grep与SWE-Grep-Mini：基于强化学习的快速多轮上下文检索技术",
+    "description": "2小时前",
+    "url": "https://news.ycombinator.com/item?id=45607822",
+    "source": "hackernews",
+    "publishedAt": "2025-10-16",
+    "category": "Model,Paper"
+  },
+  {
+    "id": 76,
+    "title": "Kayak推出旅行咨询、搜索和预订的\"AI模式\"",
+    "description": "莎拉·佩雷斯",
+    "url": "https://techcrunch.com/2025/10/16/kayak-launches-an-ai-mode-for-travel-questions-search-and-bookings/",
     "source": "techcrunch",
-    "publishedAt": "2025-10-14",
-    "category": "Product,Event"
+    "publishedAt": "2025-10-16",
+    "category": "Product,Company"
+  },
+  {
+    "id": 77,
+    "title": "为何人工智能初创公司正将数据掌控权握在自己手中",
+    "description": "罗素·布兰多姆",
+    "url": "https://techcrunch.com/2025/10/16/why-ai-startups-are-taking-data-into-their-own-hands/",
+    "source": "techcrunch",
+    "publishedAt": "2025-10-16",
+    "category": "Industry,Resource"
+  },
+  {
+    "id": 78,
+    "title": "用MIT开放学习打破传统教育模式",
+    "description": "免费的MIT学习资料为16岁的维万·米尔昌达尼开辟了非传统学习路径，打开了科学研究和学术机会的大门。",
+    "url": "https://news.mit.edu/2025/breaking-old-model-education-mit-open-learning-1016",
+    "source": "mitnews",
+    "publishedAt": "2025-10-16",
+    "category": "Learning,Other"
+  },
+  {
+    "id": 79,
+    "title": "Innovator Capital的Ubranowicz表示：人工智能需求持续远超供应，我们希望获得市场敞口",
+    "description": "30分钟前",
+    "url": "https://www.cnbc.com/video/2025/10/16/ai-demand-continues-to-far-outweigh-supply-and-we-want-exposure.html",
+    "source": "arsTechnica",
+    "publishedAt": "2025-10-16",
+    "category": "Industry,Company"
+  },
+  {
+    "id": 80,
+    "title": "Poolside与Coreweave达成协议 将共同打造美国最大人工智能数据中心之一",
+    "description": "32分钟前",
+    "url": "https://www.cnbc.com/video/2025/10/16/poolside-coreweave-deal-to-develop-one-of-the-largest-ai-data-centers-in-the-u-s.html",
+    "source": "arsTechnica",
+    "publishedAt": "2025-10-16",
+    "category": "Company,Resource"
+  },
+  {
+    "id": 81,
+    "title": "Jack & Jill融资2000万美元 为求职领域引入对话式人工智能",
+    "description": "拉塞尔·布兰多姆",
+    "url": "https://techcrunch.com/2025/10/16/jack-jill-raises-20-million-to-bring-conversational-ai-to-job-hunting/",
+    "source": "techcrunch",
+    "publishedAt": "2025-10-16",
+    "category": "Company,Product"
   },
   {
     "id": 82,
-    "title": "Meta AI's New Inference Paper: Models Remember Patterns, Halving Reasoning Tokens",
-    "description": "AI's \"Behavioral Mnemonics\"",
-    "url": "https://36kr.com/p/3508953333505160",
-    "source": "36kr",
-    "publishedAt": "2025-10-14",
-    "category": "Paper,Model"
+    "title": "谷歌DeepMind与核聚变初创公司合作的真实原因",
+    "description": "蒂姆·德尚",
+    "url": "https://techcrunch.com/2025/10/16/the-real-reason-google-deepmind-is-working-with-a-fusion-energy-startup/",
+    "source": "techcrunch",
+    "publishedAt": "2025-10-16",
+    "category": "Company,Industry"
   },
   {
     "id": 83,
-    "title": "Got Your Own ChatGPT in 4 Hours; Karpathy Strikes Again by Revealing Unhelpful Agent; Handcrafted 8k Lines of Code Makes Netizens Feel Like ML Engineers",
-    "description": "\"This is one of the most delirious pieces I've ever written.\"",
-    "url": "https://36kr.com/p/3508936344689539",
-    "source": "36kr",
-    "publishedAt": "2025-10-14",
-    "category": "Model,Learning"
+    "title": "Gemini 3.0通过A/B测试在真实环境中被发现",
+    "description": "1小时前",
+    "url": "https://news.ycombinator.com/item?id=45607758",
+    "source": "hackernews",
+    "publishedAt": "2025-10-16",
+    "category": "Model,Product"
   },
   {
     "id": 84,
-    "title": "英伟达DGX Spark深度评测：本地AI推理新标杆",
-    "description": "11小时前",
-    "url": "https://news.ycombinator.com/item?id=45575127",
+    "title": "Codex已正式登陆Zed平台",
+    "description": "2小时前",
+    "url": "https://news.ycombinator.com/item?id=45606698",
     "source": "hackernews",
-    "publishedAt": "2025-10-14",
-    "category": "Product,Resource"
+    "publishedAt": "2025-10-16",
+    "category": "Product,Model"
   },
   {
     "id": 85,
-    "title": "volcengine / MineContext",
-    "description": "MineContext 是您主动感知情境的AI伙伴（情境工程+ChatGPT脉搏） | 喜欢：1,574 复刻：72",
-    "url": "https://github.com//volcengine/MineContext",
-    "source": "github",
-    "publishedAt": "2025-10-14",
-    "category": "Product"
+    "title": "美银Savita Subramanian：人工智能浪潮正涌入金融与医疗等非科技领域",
+    "description": "13分钟前",
+    "url": "https://www.cnbc.com/video/2025/10/16/ai-train-is-moving-to-non-tech-sectors-like-financials-and-health-care-bofas-savita-subramanian.html",
+    "source": "arsTechnica",
+    "publishedAt": "2025-10-16",
+    "category": "Industry,Other"
   },
   {
     "id": 86,
-    "title": "伯恩斯坦分析师斯泰西·拉斯贡表示：我们仍处于人工智能周期的早期阶段",
-    "description": "16分钟前",
-    "url": "https://www.cnbc.com/video/2025/10/14/were-still-early-in-the-ai-cycle-says-bernsteins-stacy-rasgon.html",
+    "title": "瑞穗Jared Holz表示：人工智能应用尚未渗透至医疗保健领域",
+    "description": "23分钟前",
+    "url": "https://www.cnbc.com/video/2025/10/16/ai-capabilities-havent-yet-bled-into-health-care-sector-says-mizuhos-jared-holz.html",
     "source": "arsTechnica",
-    "publishedAt": "2025-10-14",
+    "publishedAt": "2025-10-16",
     "category": "Industry,Other"
   },
   {
     "id": 87,
-    "title": "Salesforce将于今年晚些时候在OpenAI的ChatGPT平台推出Agentforce软件",
-    "description": "1小时前",
-    "url": "https://www.cnbc.com/2025/10/14/salesforce-will-bring-agentforce-to-openais-chatgpt-later-in-2025.html",
-    "source": "arsTechnica",
-    "publishedAt": "2025-10-14",
-    "category": "Product,Company"
+    "title": "开源GZDoom社区因开发者引入AI生成代码而分裂",
+    "description": "2025年10月16日",
+    "url": "https://arstechnica.com/gaming/2025/10/civil-war-gzdoom-fan-developers-split-off-over-use-of-chatgpt-generated-code/",
+    "source": "cnbc",
+    "publishedAt": "2025-10-16",
+    "category": "Event,Policy"
   },
   {
     "id": 88,
-    "title": "首款基于\"光热力学\"的设备实现无开关光路导引",
-    "description": "3小时前",
-    "url": "https://news.ycombinator.com/item?id=45522266",
+    "title": "克劳德技能",
+    "description": "1小时前",
+    "url": "https://news.ycombinator.com/item?id=45607117",
     "source": "hackernews",
-    "publishedAt": "2025-10-14",
-    "category": "Other"
-  },
-  {
-    "id": 89,
-    "title": "Salesforce的Agentforce软件将于今年晚些时候登陆OpenAI的ChatGPT平台",
-    "description": "30分钟前",
-    "url": "https://www.cnbc.com/2025/10/14/salesforce-will-bring-agentforce-to-openais-chatgpt-later-in-2025.html",
-    "source": "arsTechnica",
-    "publishedAt": "2025-10-14",
-    "category": "Product,Company"
-  },
-  {
-    "id": 90,
-    "title": "加州新出台的人工智能与社交媒体法律对科技巨头意味着什么",
-    "description": "20分钟前",
-    "url": "https://www.cnbc.com/2025/10/14/heres-what-californias-new-ai-social-media-laws-mean-for-big-tech.html",
-    "source": "arsTechnica",
-    "publishedAt": "2025-10-14",
-    "category": "Policy,Industry"
-  },
-  {
-    "id": 91,
-    "title": "Anthropic与Salesforce扩大合作 将Claude人工智能引入受监管行业",
-    "description": "查看详情了解更多信息",
-    "url": "https://www.anthropic.com/news/salesforce-anthropic-expanded-partnership",
-    "source": "anthropic",
-    "publishedAt": "2025-10-14",
-    "category": "Company,Product"
-  },
-  {
-    "id": 92,
-    "title": "复制与补丁：一份复制补丁技术教程",
-    "description": "6小时前",
-    "url": "https://news.ycombinator.com/item?id=45576502",
-    "source": "hackernews",
-    "publishedAt": "2025-10-14",
-    "category": "Learning,Resource"
-  },
-  {
-    "id": 93,
-    "title": "加州刚刚通过新的人工智能与社交媒体法案。这对科技巨头意味着什么",
-    "description": "13分钟前",
-    "url": "https://www.cnbc.com/2025/10/14/heres-what-californias-new-ai-social-media-laws-mean-for-big-tech.html",
-    "source": "arsTechnica",
-    "publishedAt": "2025-10-14",
-    "category": "Policy,Industry"
-  },
-  {
-    "id": 94,
-    "title": "谷歌将投资150亿美元在印度建设人工智能基础设施中心",
-    "description": "贾格米特·辛格",
-    "url": "https://techcrunch.com/2025/10/14/google-to-invest-15b-in-indian-ai-infrastructure-hub/",
-    "source": "techcrunch",
-    "publishedAt": "2025-10-14",
-    "category": "Company,Industry"
-  },
-  {
-    "id": 95,
-    "title": "\"Don't worry, AI won't replace you!\" Believing the boss's promise, a 17-year veteran employee proactively used AI, but ended up being among the first to be laid off.",
-    "description": "Faced with your boss demanding you use AI—should you comply or refuse?",
-    "url": "https://36kr.com/p/3508894875311234",
-    "source": "36kr",
-    "publishedAt": "2025-10-14",
-    "category": "Industry,Policy"
-  },
-  {
-    "id": 96,
-    "title": "Can everyone become a director? The illusion and truth of Sora 2.",
-    "description": "Has \"awakened,\" but hasn't yet \"become a master.\"",
-    "url": "https://36kr.com/p/3508875094006914",
-    "source": "36kr",
-    "publishedAt": "2025-10-14",
-    "category": "Model,Product"
-  },
-  {
-    "id": 97,
-    "title": "JSON River – 在数据流式传输时逐步解析JSON",
-    "description": "4小时前",
-    "url": "https://news.ycombinator.com/item?id=45518033",
-    "source": "hackernews",
-    "publishedAt": "2025-10-14",
-    "category": "Resource,Product"
-  },
-  {
-    "id": 98,
-    "title": "KellerJordan / modded-nanogpt",
-    "description": "三分钟实现NanoGPT（124M参数）| 点赞: 3,232 复刻: 446",
-    "url": "https://github.com//KellerJordan/modded-nanogpt",
-    "source": "github",
-    "publishedAt": "2025-10-14",
-    "category": "Model,Resource"
-  },
-  {
-    "id": 99,
-    "title": "\"Female Warren Buffett\": AI will double GDP within a decade, Musk's trillion-dollar compensation is reasonable",
-    "description": "Cathie Wood: Convergence of five major technologies will drive GDP doubling, supports Musk's compensation package.",
-    "url": "https://36kr.com/p/3508807679646594",
-    "source": "36kr",
-    "publishedAt": "2025-10-14",
-    "category": "Industry,Company"
-  },
-  {
-    "id": 100,
-    "title": "Meilisearch 对话系统",
-    "description": "我们为Meilisearch注入了对话式人工智能",
-    "url": "https://www.producthunt.com/products/meilisearch-cloud",
-    "source": "producthunts",
-    "publishedAt": "2025-10-14",
+    "publishedAt": "2025-10-16",
     "category": "Product,Model"
   },
   {
-    "id": 101,
-    "title": "Localized News: The \"Last Mile\" Beyond AI's Reach",
-    "description": "This is an era of information paradox.",
-    "url": "https://36kr.com/p/3508818738551684",
-    "source": "36kr",
-    "publishedAt": "2025-10-14",
-    "category": "Industry,Other"
-  },
-  {
-    "id": 102,
-    "title": "OpenAI, Anthropic, and DeepMind Jointly Publish: Current LLM Security Defenses Are Fragile",
-    "description": "We may have been using wrong methods to evaluate AI safety.",
-    "url": "https://36kr.com/p/3508761378741124",
-    "source": "36kr",
-    "publishedAt": "2025-10-14",
-    "category": "Model,Policy"
-  },
-  {
-    "id": 103,
-    "title": "亚洲人工智能视频淘金热",
-    "description": "2025年10月14日 09:30:02",
-    "url": "http://www.techinasia.com/asias-ai-video-gold-rush",
-    "source": "techinasia",
-    "publishedAt": "2025-10-14",
-    "category": "Industry,Product"
-  },
-  {
-    "id": 104,
-    "title": "工程化“自然杀伤”细胞有望助力抗癌斗争",
-    "description": "最新研究确定了能使这类免疫细胞（即CAR-NK细胞）更有效摧毁癌细胞的基因改造方案。",
-    "url": "https://news.mit.edu/2025/engineered-natural-killer-cells-could-help-fight-cancer-1008",
-    "source": "mitnews",
-    "publishedAt": "2025-10-14",
-    "category": "Other,Paper"
-  },
-  {
-    "id": 105,
-    "title": "AI expert Karpathy's open-source project goes viral, cloning ChatGPT with just 4 hours and 8,000 lines of code",
-    "description": "Karpathy open-sourced the nanochat project, training a ChatGPT clone in 4 hours with $100.",
-    "url": "https://36kr.com/p/3508807774067592",
-    "source": "36kr",
-    "publishedAt": "2025-10-14",
-    "category": "Model,Resource"
-  },
-  {
-    "id": 106,
-    "title": "Xie Saining's New Work: VAE Retired, RAE Takes Over",
-    "description": "Xie Saining Admits He Was Wrong Twice",
-    "url": "https://www.qbitai.com/2025/10/341609.html",
-    "source": "qbitai",
-    "publishedAt": "2025-10-14",
-    "category": "Model,Paper"
-  },
-  {
-    "id": 107,
-    "title": "No Need to Be Polite to AI! New Study: Ruder Tone Leads to Higher Accuracy",
-    "description": "Seriously, No Need for Politeness - The Harsher You Scold, The More Accurate the Answers!",
-    "url": "https://www.qbitai.com/2025/10/341586.html",
-    "source": "qbitai",
-    "publishedAt": "2025-10-14",
-    "category": "Paper,Other"
-  },
-  {
-    "id": 108,
-    "title": "How Rapidly Is AI Creating Wealth? Multi-million Dollar Mansions in the Area Are Selling Out, Even G.E.M. Casually Earned 10 Times Returns",
-    "description": "The new billionaires all come from this circle.",
-    "url": "https://36kr.com/p/3508745759710088",
-    "source": "36kr",
-    "publishedAt": "2025-10-14",
-    "category": "Industry,Company"
-  },
-  {
-    "id": 109,
-    "title": "\"As Difficult as Stuffing an Elephant into a Refrigerator\": Are On-Device Large Models a Gimmick or the Future?",
-    "description": "As large model technology advances into deeper waters, the user experience, cost, and privacy of AI applications are becoming increasingly critical issues.",
-    "url": "https://36kr.com/p/3508745440386183",
-    "source": "36kr",
-    "publishedAt": "2025-10-14",
-    "category": "Industry,Model"
-  },
-  {
-    "id": 110,
-    "title": "Amplitude首席执行官：人工智能市场即将迎来重大调整",
-    "description": "10分钟前",
-    "url": "https://www.cnbc.com/video/2025/10/14/amplitude-ceo-major-ai-market-correction-ahead.html",
-    "source": "arsTechnica",
-    "publishedAt": "2025-10-14",
-    "category": "Industry,Company"
-  },
-  {
-    "id": 111,
-    "title": "Cook's visit to China aims to address two issues",
-    "description": "Cook seeks to advance eSIM adoption and Apple's AI collaboration in China, both of which are currently in progress.",
-    "url": "https://36kr.com/p/3508745273236355",
-    "source": "36kr",
-    "publishedAt": "2025-10-14",
-    "category": "Company,Product"
-  },
-  {
-    "id": 112,
-    "title": "OpenAI courts the \"trillion-dollar club\", ushering in AI investment 2.0 era",
-    "description": "A high-stakes game involving global tech giants with trillions of dollars at play.",
-    "url": "https://36kr.com/p/3508582600268680",
-    "source": "36kr",
-    "publishedAt": "2025-10-14",
-    "category": "Company,Industry"
-  },
-  {
-    "id": 113,
-    "title": "模型连简单指令都难以遵循，为何还要强推智能体化？",
-    "description": "1小时前",
-    "url": "https://news.ycombinator.com/item?id=45577080",
+    "id": 89,
+    "title": "DoorDash与Waymo在凤凰城推出自动驾驶配送服务",
+    "description": "3小时前",
+    "url": "https://news.ycombinator.com/item?id=45605501",
     "source": "hackernews",
-    "publishedAt": "2025-10-14",
-    "category": "Agent,Model"
-  },
-  {
-    "id": 114,
-    "title": "Google VP of Search Products: The Ultimate Goal of AI Search is Clarity",
-    "description": "Making people feel understood without sensing complexity",
-    "url": "https://36kr.com/p/3508706406750343",
-    "source": "36kr",
-    "publishedAt": "2025-10-14",
+    "publishedAt": "2025-10-16",
     "category": "Company,Product"
   },
   {
-    "id": 115,
-    "title": "Will Sora2 Disrupt TikTok? A New Trillion-Dollar Industry Emerges",
-    "description": "Sora2 upgrades AI video, blurring reality's boundaries, yet commercialization remains challenging.",
-    "url": "https://36kr.com/p/3508510494021767",
-    "source": "36kr",
-    "publishedAt": "2025-10-14",
-    "category": "Model,Product"
+    "id": 90,
+    "title": "花边：一种关注连接关系的新型元胞自动机",
+    "description": "3小时前",
+    "url": "https://news.ycombinator.com/item?id=45605153",
+    "source": "hackernews",
+    "publishedAt": "2025-10-16",
+    "category": "Model,Other"
   },
   {
-    "id": 116,
-    "title": "字节跳动/FaceCLIP",
-    "description": "字节跳动/FaceCLIP 文生图 · 44次下载",
-    "url": "https://huggingface.co/ByteDance/FaceCLIP",
-    "source": "huggingface",
-    "publishedAt": "2025-10-14",
-    "category": "Model,Product"
+    "id": 91,
+    "title": "社区内战：GZDoom爱好者开发者因使用ChatGPT生成代码而分裂",
+    "description": "2025年10月16日",
+    "url": "https://arstechnica.com/gaming/2025/10/civil-war-gzdoom-fan-developers-split-off-over-use-of-chatgpt-generated-code/",
+    "source": "cnbc",
+    "publishedAt": "2025-10-16",
+    "category": "Event,Other"
   },
   {
-    "id": 117,
-    "title": "From Map-Free to Map-Light: The New Competition Among Map Providers in the Era of Large Models",
-    "description": "Maps Are Not a \"Burden\" for Assisted Driving",
-    "url": "https://www.qbitai.com/2025/10/341514.html",
-    "source": "qbitai",
-    "publishedAt": "2025-10-14",
-    "category": "Industry,Model"
-  },
-  {
-    "id": 118,
-    "title": "Bento网格生成器",
-    "description": "在线创建精美的Bento风格布局",
-    "url": "https://www.producthunt.com/products/bento-grid-generator",
-    "source": "producthunts",
-    "publishedAt": "2025-10-14",
-    "category": "Product,Resource"
-  },
-  {
-    "id": 119,
-    "title": "Jotform Salesforce助手",
-    "description": "适用于Salesforce的AI聊天机器人",
-    "url": "https://www.producthunt.com/products/jotform",
-    "source": "producthunts",
-    "publishedAt": "2025-10-14",
-    "category": "Product,Agent"
-  },
-  {
-    "id": 120,
-    "title": "全局模糊",
-    "description": "即时模糊屏幕，保护隐私或辅助内容创作",
-    "url": "https://www.producthunt.com/products/all-blur",
-    "source": "producthunts",
-    "publishedAt": "2025-10-14",
-    "category": "Product"
-  },
-  {
-    "id": 121,
-    "title": "Deckless",
-    "description": "从Markdown即时生成演示文稿幻灯片",
-    "url": "https://www.producthunt.com/products/deckless",
-    "source": "producthunts",
-    "publishedAt": "2025-10-14",
-    "category": "Product"
-  },
-  {
-    "id": 122,
-    "title": "nanochat",
-    "description": "百元价位最超值的ChatGPT解决方案",
-    "url": "https://www.producthunt.com/products/nanochat",
-    "source": "producthunts",
-    "publishedAt": "2025-10-14",
-    "category": "Product"
-  },
-  {
-    "id": 123,
-    "title": "n8n AI工作流构建器",
-    "description": "将提示词转化为动态工作流",
-    "url": "https://www.producthunt.com/products/n8n-io",
-    "source": "producthunts",
-    "publishedAt": "2025-10-14",
-    "category": "Product"
-  },
-  {
-    "id": 124,
-    "title": "Strawberry",
-    "description": "自动驾驶浏览器",
-    "url": "https://www.producthunt.com/products/strawberry",
-    "source": "producthunts",
-    "publishedAt": "2025-10-14",
-    "category": "Product,Agent"
-  },
-  {
-    "id": 125,
-    "title": "Mailmodo AI",
-    "description": "全流程AI邮件营销——从设计到推广活动",
-    "url": "https://www.producthunt.com/products/mailmodo",
-    "source": "producthunts",
-    "publishedAt": "2025-10-14",
-    "category": "Product"
-  },
-  {
-    "id": 126,
-    "title": "CometChat AI智能体平台",
-    "description": "为网站/应用配备AI副驾驶，前500个团队免费使用",
-    "url": "https://www.producthunt.com/products/full-stack-ai-agent-platform-cometchat",
-    "source": "producthunts",
-    "publishedAt": "2025-10-14",
-    "category": "Product,Agent"
-  },
-  {
-    "id": 127,
-    "title": "Zero Human Involvement in Achieving Gradient Updates: MIT's New Framework Enables AI to Automatically Generate Fine-Tuning Data and Autonomously Upgrade Weights",
-    "description": "Surpassing High-Quality Prompt Data Generated by GPT-4.1",
-    "url": "https://36kr.com/p/3508669177240707",
-    "source": "36kr",
-    "publishedAt": "2025-10-14",
-    "category": "Model,Resource"
-  },
-  {
-    "id": 128,
-    "title": "Elevation Capital 投资1600万美元支持印度教育科技公司 SpeakX.ai",
-    "description": "2025年10月14日 06:30:46",
-    "url": "http://www.techinasia.com/news/elevation-capital-backs-16m-round-in-indian-edtech-firm-speakx-ai",
-    "source": "techinasia",
-    "publishedAt": "2025-10-14",
-    "category": "Company,Product"
-  },
-  {
-    "id": 129,
-    "title": "OpenAI's In-House Chip Development Details Revealed! Began Using AI to Optimize Chip Design 18 Months Ago",
-    "description": "Started Developing Proprietary Inference Chips Several Months Ago",
-    "url": "https://www.qbitai.com/2025/10/341421.html",
-    "source": "qbitai",
-    "publishedAt": "2025-10-14",
+    "id": 92,
+    "title": "OpenAI认为埃隆·马斯克资助了其最激烈的批评者——而这些批评者同样厌恶马斯克",
+    "description": "2025年10月16日",
+    "url": "https://arstechnica.com/tech-policy/2025/10/openai-thinks-elon-musk-funded-its-biggest-critics-who-also-hate-musk/",
+    "source": "cnbc",
+    "publishedAt": "2025-10-16",
     "category": "Company,Event"
   },
   {
-    "id": 130,
-    "title": "Naver成立CEO牵头的专项小组以推进人工智能与智慧城市工作",
-    "description": "2025年10月14日 05:42:39",
-    "url": "http://www.techinasia.com/news/naver-launches-ceo-led-task-force-to-advance-ai-smart-cities-work",
-    "source": "techinasia",
-    "publishedAt": "2025-10-14",
+    "id": 93,
+    "title": "使用DeepSomatic人工智能技术识别肿瘤中的基因变异",
+    "description": "2025年10月16日",
+    "url": "https://research.google//blog/using-ai-to-identify-genetic-variants-in-tumors-with-deepsomatic/",
+    "source": "googleresearch",
+    "publishedAt": "2025-10-16",
+    "category": "Model,Product"
+  },
+  {
+    "id": 94,
+    "title": "Claude与您的生产力平台",
+    "description": "查看详情了解更多信息",
+    "url": "https://www.anthropic.com/news/productivity-platforms",
+    "source": "anthropic",
+    "publishedAt": "2025-10-16",
+    "category": "Product,Company"
+  },
+  {
+    "id": 95,
+    "title": "推出Claude技能",
+    "description": "查看详情了解更多信息",
+    "url": "https://www.anthropic.com/news/skills",
+    "source": "anthropic",
+    "publishedAt": "2025-10-16",
+    "category": "Product,Model"
+  },
+  {
+    "id": 96,
+    "title": "Spotify携手索尼/环球/华纳深化AI音乐领域布局",
+    "description": "5分钟前",
+    "url": "https://www.cnbc.com/2025/10/16/spotify-ai-music-sony-universal-warner.html",
+    "source": "arsTechnica",
+    "publishedAt": "2025-10-16",
+    "category": "Product,Company"
+  },
+  {
+    "id": 97,
+    "title": "苹果再失AI高管，人才转投Meta麾下",
+    "description": "丽贝卡·贝兰",
+    "url": "https://techcrunch.com/2025/10/16/apple-loses-another-ai-exec-to-meta/",
+    "source": "techcrunch",
+    "publishedAt": "2025-10-16",
+    "category": "Company,Event"
+  },
+  {
+    "id": 98,
+    "title": "Pinterest新增调控功能：可限制信息流中“AI泛内容”数量",
+    "description": "莎拉·佩雷斯",
+    "url": "https://techcrunch.com/2025/10/16/pinterest-adds-controls-to-let-you-limit-the-amount-of-ai-slop-in-your-feed/",
+    "source": "techcrunch",
+    "publishedAt": "2025-10-16",
+    "category": "Product,Policy"
+  },
+  {
+    "id": 99,
+    "title": "Tor浏览器移除多种Firefox人工智能功能",
+    "description": "43分钟前",
+    "url": "https://news.ycombinator.com/item?id=45605842",
+    "source": "hackernews",
+    "publishedAt": "2025-10-16",
+    "category": "Product,Policy"
+  },
+  {
+    "id": 100,
+    "title": "使用自修复DOM映射的有状态浏览器代理",
+    "description": "2小时前",
+    "url": "https://news.ycombinator.com/item?id=45604451",
+    "source": "hackernews",
+    "publishedAt": "2025-10-16",
+    "category": "Agent,Product"
+  },
+  {
+    "id": 101,
+    "title": "优步将为司机提供非驾驶时段的零工工作，例如人工智能数据标注",
+    "description": "25分钟前",
+    "url": "https://www.cnbc.com/2025/10/16/uber-will-offer-us-drivers-more-gig-work-including-ai-data-labeling.html",
+    "source": "arsTechnica",
+    "publishedAt": "2025-10-16",
     "category": "Company,Industry"
   },
   {
-    "id": 131,
-    "title": "inclusionAI/Ring-1T",
-    "description": "inclusionAI/Ring-1T 文本生成 · 约7小时前更新 下载 · 43人点赞",
-    "url": "https://huggingface.co/inclusionAI/Ring-1T",
+    "id": 102,
+    "title": "微软将测试可对本地文件执行操作的Windows 11 Copilot功能",
+    "description": "1小时前",
+    "url": "https://www.cnbc.com/2025/10/16/microsoft-test-copilot-manus-windows-11.html",
+    "source": "arsTechnica",
+    "publishedAt": "2025-10-16",
+    "category": "Product,Company"
+  },
+  {
+    "id": 103,
+    "title": "蚂蚁集团发布AI框架 速度较英伟达产品快十倍",
+    "description": "2025年10月16日 05:12:09",
+    "url": "http://www.techinasia.com/news/ant-group-unveils-ai-framework-that-is-10-times-faster-than-nvidias",
+    "source": "techinasia",
+    "publishedAt": "2025-10-16",
+    "category": "Model,Company"
+  },
+  {
+    "id": 104,
+    "title": "阿联酋G42集团携手顶尖科技公司共建1千兆瓦人工智能算力集群",
+    "description": "2025年10月16日 14:07:09",
+    "url": "http://www.techinasia.com/news/abu-dhabis-g42-builds-1-gw-ai-cluster-backed-top-tech-firms",
+    "source": "techinasia",
+    "publishedAt": "2025-10-16",
+    "category": "Company,Industry"
+  },
+  {
+    "id": 105,
+    "title": "General Intuition获1.34亿美元种子轮融资，利用电子游戏片段训练AI智能体空间推理能力",
+    "description": "作者：丽贝卡·贝兰",
+    "url": "https://techcrunch.com/2025/10/16/general-intuition-lands-134m-seed-to-teach-agents-spatial-reasoning-using-video-game-clips/",
+    "source": "techcrunch",
+    "publishedAt": "2025-10-16",
+    "category": "Company,Agent"
+  },
+  {
+    "id": 106,
+    "title": "PaddlePaddle/PaddleOCR-VL",
+    "description": "PaddlePaddle/PaddleOCR-VL 图文转文本 · 47 次下载",
+    "url": "https://huggingface.co/PaddlePaddle/PaddleOCR-VL",
     "source": "huggingface",
-    "publishedAt": "2025-10-14",
+    "publishedAt": "2025-10-16",
+    "category": "Product,Resource"
+  },
+  {
+    "id": 107,
+    "title": "Spotify与唱片公司合作打造\"艺术家优先\"的AI音乐产品",
+    "description": "莎拉·佩雷斯",
+    "url": "https://techcrunch.com/2025/10/16/spotify-partners-with-record-labels-to-create-artist-first-ai-music-products/",
+    "source": "techcrunch",
+    "publishedAt": "2025-10-16",
+    "category": "Product,Company"
+  },
+  {
+    "id": 108,
+    "title": "微软将测试在Windows 11中处理本地文件的Copilot AI功能",
+    "description": "1分钟前",
+    "url": "https://www.cnbc.com/2025/10/16/microsoft-test-copilot-manus-windows-11.html",
+    "source": "arsTechnica",
+    "publishedAt": "2025-10-16",
+    "category": "Product,Company"
+  },
+  {
+    "id": 109,
+    "title": "AI Writes Match Reports on Messi: Are Sports Reporters Losing Their Jobs?",
+    "description": "The fundamental reasons sports reporters continue to hold their ground are that AI writing still falls short in practical applications and fans naturally remain wary of AI-generated content.",
+    "url": "https://36kr.com/p/3511781102869379",
+    "source": "36kr",
+    "publishedAt": "2025-10-16",
+    "category": "Industry,Other"
+  },
+  {
+    "id": 110,
+    "title": "Waymo将于2026年在伦敦推出全自动驾驶出租车服务",
+    "description": "4小时前",
+    "url": "https://news.ycombinator.com/item?id=45602884",
+    "source": "hackernews",
+    "publishedAt": "2025-10-16",
+    "category": "Company,Product"
+  },
+  {
+    "id": 111,
+    "title": "TaxCalcBench：评估前沿模型在税务计算任务中的表现",
+    "description": "8小时前",
+    "url": "https://news.ycombinator.com/item?id=45601230",
+    "source": "hackernews",
+    "publishedAt": "2025-10-16",
     "category": "Model,Resource"
+  },
+  {
+    "id": 112,
+    "title": "Y Combinator支持的Ego AI获670万美元融资 推出类人角色",
+    "description": "2025年10月16日 12:00:15",
+    "url": "http://www.techinasia.com/news/y-combinator-backed-ego-ai-bags-6-7m-to-launch-human-like-characters",
+    "source": "techinasia",
+    "publishedAt": "2025-10-16",
+    "category": "Company,Product"
+  },
+  {
+    "id": 113,
+    "title": "Jack & Jill 融资2000万美元 将对话式人工智能引入求职领域",
+    "description": "拉塞尔·布兰多姆",
+    "url": "https://techcrunch.com/2025/10/16/jack-jill-raises-20-million-to-bring-conversational-ai-to-job-hunting/",
+    "source": "techcrunch",
+    "publishedAt": "2025-10-16",
+    "category": "Company,Product"
+  },
+  {
+    "id": 114,
+    "title": "Tech Giants Take Different Paths to \"Open Source\" AI",
+    "description": "Open source transforms AI competition from \"single-point technology battles\" to \"long-term ecosystem wars,\" where giants compete not on \"parameter counts\" but on \"industrial implementation capabilities.\"",
+    "url": "https://36kr.com/p/3511764073569154",
+    "source": "36kr",
+    "publishedAt": "2025-10-16",
+    "category": "Industry,Company"
+  },
+  {
+    "id": 115,
+    "title": "科技巨头AI人才争夺战：Meta再次挖角苹果顶级高管",
+    "description": "36分钟前",
+    "url": "https://www.cnbc.com/video/2025/10/16/megacap-ai-talent-wars-meta-poaches-another-top-apple-executive.html",
+    "source": "arsTechnica",
+    "publishedAt": "2025-10-16",
+    "category": "Company,Event"
+  },
+  {
+    "id": 116,
+    "title": "罗杰·弗格森：多数CEO预计未来4-5年内人工智能将引发就业市场重大变革",
+    "description": "21分钟前",
+    "url": "https://www.cnbc.com/video/2025/10/16/majority-of-ceos-expect-a-major-transformation-of-jobs-in-next-4-5-years-from-ai-roger-ferguson.html",
+    "source": "arsTechnica",
+    "publishedAt": "2025-10-16",
+    "category": "Industry,Policy"
+  },
+  {
+    "id": 117,
+    "title": "报道称肯·格里芬表示生成式人工智能未能助力对冲基金跑赢市场",
+    "description": "21分钟前",
+    "url": "https://www.cnbc.com/video/2025/10/16/ken-griffin-says-generative-ai-isnt-helping-hedge-funds-outperform-market-report.html",
+    "source": "arsTechnica",
+    "publishedAt": "2025-10-16",
+    "category": "Industry,Other"
+  },
+  {
+    "id": 118,
+    "title": "网络基础设施对谷歌AI概览功能的抵制内幕",
+    "description": "2025年10月16日",
+    "url": "https://arstechnica.com/ai/2025/10/inside-the-web-infrastructure-revolt-over-googles-ai-overviews/",
+    "source": "cnbc",
+    "publishedAt": "2025-10-16",
+    "category": "Product,Company"
+  },
+  {
+    "id": 119,
+    "title": "Jensen Huang's Daughter Makes Live Stream Debut, Discusses Embodied AI",
+    "description": "Simulation is the Key to Solving the Data Dilemma",
+    "url": "https://www.qbitai.com/2025/10/342649.html",
+    "source": "qbitai",
+    "publishedAt": "2025-10-16",
+    "category": "Robot,Industry"
+  },
+  {
+    "id": 120,
+    "title": "Tsinghua Liu Jia: The AI Era Belongs to the Young, Don't Bind Them with Outdated Experience",
+    "description": "Resisting the trend is foolish; the only way out is to顺应并利用它。",
+    "url": "https://36kr.com/p/3511725775789188",
+    "source": "36kr",
+    "publishedAt": "2025-10-16",
+    "category": "Policy,Industry"
+  },
+  {
+    "id": 121,
+    "title": "全新编程模型与集成方案",
+    "description": "1小时前",
+    "url": "https://news.ycombinator.com/item?id=45601834",
+    "source": "hackernews",
+    "publishedAt": "2025-10-16",
+    "category": "Model,Product"
+  },
+  {
+    "id": 122,
+    "title": "DataDog / datadog-agent",
+    "description": "Datadog智能代理主代码库 | 点赞: 3,283 复刻: 1,341",
+    "url": "https://github.com//DataDog/datadog-agent",
+    "source": "github",
+    "publishedAt": "2025-10-16",
+    "category": "Product,Resource"
+  },
+  {
+    "id": 123,
+    "title": "datawhalechina / llm-cookbook",
+    "description": "面向开发者的LLM入门教程，吴恩达大模型系列课程中文版 | 点赞: 21,435 复刻: 2,570",
+    "url": "https://github.com//datawhalechina/llm-cookbook",
+    "source": "github",
+    "publishedAt": "2025-10-16",
+    "category": "Learning,Resource"
+  },
+  {
+    "id": 124,
+    "title": "\"All Bubbles\"? Silicon Valley's AI Bubble Theory is Rapidly Gaining Traction",
+    "description": "Can the AI Boom Escape the Fate of the 2000 Internet Era?",
+    "url": "https://36kr.com/p/3511606940392323",
+    "source": "36kr",
+    "publishedAt": "2025-10-16",
+    "category": "Industry,Event"
+  },
+  {
+    "id": 125,
+    "title": "vandijklab/C2S-Scale-Gemma-2-27B",
+    "description": "vandijklab/C2S-Scale-Gemma-2-27B 文本生成 · 约20小时前更新 · 下载",
+    "url": "https://huggingface.co/vandijklab/C2S-Scale-Gemma-2-27B",
+    "source": "huggingface",
+    "publishedAt": "2025-10-16",
+    "category": "Model,Resource"
+  },
+  {
+    "id": 126,
+    "title": "具身化人工智能的巨大力量与责任",
+    "description": "2025年10月16日 10:00:47",
+    "url": "http://www.techinasia.com/great-power-responsibility-agentic-ai",
+    "source": "techinasia",
+    "publishedAt": "2025-10-16",
+    "category": "Agent,Industry"
+  },
+  {
+    "id": 127,
+    "title": "Post-Sora Reflections: From AI Tools to AI Platforms, Industrial AGI Takes Another Step Forward",
+    "description": "A Clear Framework for Industrial AGI",
+    "url": "https://36kr.com/p/3511645941062791",
+    "source": "36kr",
+    "publishedAt": "2025-10-16",
+    "category": "Industry,Model"
+  },
+  {
+    "id": 128,
+    "title": "AI Moves Beyond \"Selling Dreams\" as Anthropic Teaches the Industry to Articulate Value in the Language of CFOs",
+    "description": "An \"AI-Native\" Paradigm for Enterprise Growth",
+    "url": "https://36kr.com/p/3511604437998473",
+    "source": "36kr",
+    "publishedAt": "2025-10-16",
+    "category": "Company,Industry"
   }
 ]
