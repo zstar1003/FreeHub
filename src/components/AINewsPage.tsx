@@ -5,7 +5,11 @@ import { useState, useEffect } from 'react';
 interface NewsItem {
   id: number;
   title: string;
+  titleZh?: string;
+  titleEn?: string;
   description: string;
+  descriptionZh?: string;
+  descriptionEn?: string;
   url: string;
   source: string;
   publishedAt: string;
@@ -48,7 +52,7 @@ export function AINewsPage() {
   }, []);
 
   const getCategoryColor = (category: string) => {
-    const colors: { [key: string]: string } = {
+    const colors: { [key: string]: string} = {
       '大模型': 'from-purple-100 to-purple-200 dark:from-purple-900/40 dark:to-purple-800/40 text-purple-700 dark:text-purple-300 border-purple-200 dark:border-purple-700',
       '开源': 'from-green-100 to-green-200 dark:from-green-900/40 dark:to-green-800/40 text-green-700 dark:text-green-300 border-green-200 dark:border-green-700',
       '产品': 'from-blue-100 to-blue-200 dark:from-blue-900/40 dark:to-blue-800/40 text-blue-700 dark:text-blue-300 border-blue-200 dark:border-blue-700',
@@ -59,6 +63,24 @@ export function AINewsPage() {
       '国产': 'from-red-100 to-red-200 dark:from-red-900/40 dark:to-red-800/40 text-red-700 dark:text-red-300 border-red-200 dark:border-red-700',
     };
     return colors[category] || 'from-gray-100 to-gray-200 dark:from-gray-900/40 dark:to-gray-800/40 text-gray-700 dark:text-gray-300 border-gray-200 dark:border-gray-700';
+  };
+
+  // 根据当前语言获取标题
+  const getTitle = (item: NewsItem) => {
+    if (language === 'zh') {
+      return item.titleZh || item.title;
+    } else {
+      return item.titleEn || item.title;
+    }
+  };
+
+  // 根据当前语言获取描述
+  const getDescription = (item: NewsItem) => {
+    if (language === 'zh') {
+      return item.descriptionZh || item.description;
+    } else {
+      return item.descriptionEn || item.description;
+    }
   };
 
   return (
@@ -111,7 +133,7 @@ export function AINewsPage() {
                   {/* Title and Category */}
                   <div className="flex flex-col sm:flex-row items-start justify-between gap-2 sm:gap-4 mb-3">
                     <h2 className="text-base sm:text-xl font-bold text-gray-900 dark:text-gray-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors line-clamp-2 flex-1">
-                      {item.title}
+                      {getTitle(item)}
                     </h2>
                     <span className={`inline-flex items-center gap-1 px-2.5 py-0.5 sm:px-3 sm:py-1 rounded-full text-xs font-medium bg-gradient-to-r border whitespace-nowrap flex-shrink-0 self-start ${getCategoryColor(item.category)}`}>
                       <Tag className="h-3 w-3" />
@@ -121,7 +143,7 @@ export function AINewsPage() {
 
                   {/* Description */}
                   <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-400 leading-relaxed mb-3 sm:mb-4 line-clamp-2">
-                    {item.description}
+                    {getDescription(item)}
                   </p>
 
                   {/* Meta Information */}

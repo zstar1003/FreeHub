@@ -2,6 +2,101 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
 
+// 检测文本语言（简单判断）
+function detectLanguage(text) {
+  // 如果包含中文字符，认为是中文
+  const chineseRegex = /[\u4e00-\u9fa5]/;
+  return chineseRegex.test(text) ? 'zh' : 'en';
+}
+
+// 使用Google翻译API进行翻译（免费版）
+async function translateText(text, fromLang, toLang) {
+  try {
+    const url = 'https://translate.googleapis.com/translate_a/single';
+    const params = new URLSearchParams({
+      client: 'gtx',
+      sl: fromLang === 'zh-Hans' ? 'zh-CN' : fromLang,
+      tl: toLang === 'zh-Hans' ? 'zh-CN' : toLang,
+      dt: 't',
+      q: text
+    });
+
+    const response = await fetch(`${url}?${params}`, {
+      method: 'GET',
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+      }
+    });
+
+    if (!response.ok) {
+      throw new Error(`Translation failed: ${response.status}`);
+    }
+
+    const data = await response.json();
+
+    // Google翻译API返回的数据结构: [[["translated text", "original text", ...]]]
+    if (data && data[0] && data[0][0] && data[0][0][0]) {
+      return data[0][0][0];
+    }
+
+    return text;
+  } catch (error) {
+    console.warn(`Translation error: ${error.message}`);
+    return text; // 翻译失败时返回原文
+  }
+}
+
+// 批量延迟，避免API限流
+function delay(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+// 翻译新闻项
+async function translateNewsItem(item, index, total) {
+  console.log(`  Translating ${index + 1}/${total}: ${item.title.substring(0, 40)}...`);
+
+  const titleLang = detectLanguage(item.title);
+  const descLang = detectLanguage(item.description);
+
+  let titleZh = item.title;
+  let titleEn = item.title;
+  let descZh = item.description;
+  let descEn = item.description;
+
+  try {
+    // 翻译标题
+    if (titleLang === 'zh') {
+      titleEn = await translateText(item.title, 'zh-Hans', 'en');
+      await delay(500); // 避免请求过快
+    } else {
+      titleZh = await translateText(item.title, 'en', 'zh-Hans');
+      await delay(500);
+    }
+
+    // 翻译描述
+    if (descLang === 'zh') {
+      descEn = await translateText(item.description, 'zh-Hans', 'en');
+      await delay(500);
+    } else {
+      descZh = await translateText(item.description, 'en', 'zh-Hans');
+      await delay(500);
+    }
+  } catch (error) {
+    console.warn(`  Translation failed for item ${index + 1}, using original text`);
+  }
+
+  return {
+    ...item,
+    titleZh,
+    titleEn,
+    descriptionZh: descZh,
+    descriptionEn: descEn,
+    // 保留原始字段以兼容
+    title: titleZh,
+    description: descZh
+  };
+}
+
 async function fetchAINews() {
   let browser;
 
@@ -79,14 +174,23 @@ async function fetchAINews() {
       throw new Error('No news items could be parsed');
     }
 
+    // 翻译所有新闻项为双语
+    console.log('\nTranslating news items to bilingual...');
+    const translatedItems = [];
+    for (let i = 0; i < newsItems.length; i++) {
+      const translated = await translateNewsItem(newsItems[i], i, newsItems.length);
+      translatedItems.push(translated);
+    }
+
     // 保存到JSON文件
     const outputPath = path.join(__dirname, '../public/ai-news.json');
-    fs.writeFileSync(outputPath, JSON.stringify(newsItems, null, 2));
+    fs.writeFileSync(outputPath, JSON.stringify(translatedItems, null, 2));
 
-    console.log(`\n✅ Successfully updated ${newsItems.length} AI news items`);
+    console.log(`\n✅ Successfully updated ${translatedItems.length} AI news items with bilingual support`);
     console.log('\nTop 5:');
-    newsItems.slice(0, 5).forEach(item => {
-      console.log(`  ${item.id}. ${item.title.substring(0, 60)}...`);
+    translatedItems.slice(0, 5).forEach(item => {
+      console.log(`  ${item.id}. [ZH] ${item.titleZh.substring(0, 60)}...`);
+      console.log(`      [EN] ${item.titleEn.substring(0, 60)}...`);
       console.log(`     URL: ${item.url.substring(0, 80)}`);
     });
 
