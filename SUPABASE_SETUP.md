@@ -99,6 +99,26 @@ npm run dev
 - ✅ `.env` 文件已添加到 `.gitignore`，不会被提交
 - ℹ️ `service_role` 密钥仅在需要后台管理时使用（当前不需要）
 
+### 4.2 GitHub Pages 部署配置
+
+如果你使用 GitHub Pages 部署，需要配置 GitHub Secrets：
+
+1. 进入你的 GitHub 仓库
+2. 进入 **Settings** → **Secrets and variables** → **Actions**
+3. 点击 **New repository secret** 添加以下密钥：
+
+| Name | Value |
+|------|-------|
+| `VITE_SUPABASE_URL` | 你的 Project URL |
+| `VITE_SUPABASE_ANON_KEY` | 你的 anon key |
+
+4. 提交代码并推送到 master 分支，GitHub Actions 会自动部署
+
+**注意**：
+- 这些环境变量在构建时会被打包到静态文件中
+- `anon key` 是公开密钥，可以安全暴露
+- 部署后访问你的 GitHub Pages 应该能正常使用许愿池功能
+
 ## 第五步：测试功能
 
 ### 5.1 测试提交和显示
