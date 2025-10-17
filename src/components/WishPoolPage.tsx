@@ -15,6 +15,7 @@ interface Wish {
 export function WishPoolPage() {
   const { language } = useLanguage();
   const [wishes, setWishes] = useState<Wish[]>([]);
+  const [loading, setLoading] = useState(true);
   const [showForm, setShowForm] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'submitting' | 'submitted'>('idle');
   const [formData, setFormData] = useState({
@@ -30,6 +31,7 @@ export function WishPoolPage() {
 
   const loadWishes = async () => {
     try {
+      setLoading(true);
       // 从 Supabase 加载已批准的愿望
       const { data, error } = await supabase
         .from('wishes')
@@ -60,6 +62,8 @@ export function WishPoolPage() {
       } catch (jsonError) {
         console.error('Failed to load wishes from JSON:', jsonError);
       }
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -71,24 +75,35 @@ export function WishPoolPage() {
 
     try {
       // 提交到 Supabase，直接设为 approved 状态
-      const { error } = await supabase
+      const { data, error } = await supabase
         .from('wishes')
         .insert({
           feature_request: formData.featureRequest,
           similar_product: formData.similarProduct || null,
           submitter: formData.submitter || (language === 'zh' ? '匿名用户' : 'Anonymous'),
           status: 'approved'  // 直接批准，无需审核
-        });
+        })
+        .select()
+        .single();
 
       if (error) throw error;
 
-      // 提交成功
+      // 提交成功，将新愿望添加到列表开头
+      if (data) {
+        const newWish: Wish = {
+          id: data.id,
+          featureRequest: data.feature_request,
+          similarProduct: data.similar_product || '',
+          submitter: data.submitter,
+          isImplemented: data.is_implemented,
+          timestamp: data.created_at
+        };
+        setWishes([newWish, ...wishes]);
+      }
+
       setSubmitStatus('submitted');
       setFormData({ featureRequest: '', similarProduct: '', submitter: '' });
       setShowForm(false);
-
-      // 立即刷新列表以显示新提交的愿望
-      await loadWishes();
 
       // 3秒后重置状态
       setTimeout(() => setSubmitStatus('idle'), 3000);
@@ -249,7 +264,14 @@ export function WishPoolPage() {
 
         {/* Wishes Table */}
         <div className="max-w-4xl mx-auto">
-          {wishes.length === 0 ? (
+          {loading ? (
+            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-card border border-gray-200 dark:border-gray-700 p-12 text-center animate-fade-in">
+              <div className="mx-auto mb-4 h-12 w-12 animate-spin rounded-full border-4 border-primary-200 dark:border-primary-800 border-t-primary-600 dark:border-t-primary-400"></div>
+              <p className="text-sm text-gray-600 dark:text-gray-400">
+                {language === 'zh' ? '加载中...' : 'Loading...'}
+              </p>
+            </div>
+          ) : wishes.length === 0 ? (
             <div className="bg-white dark:bg-gray-800 rounded-xl shadow-card border border-gray-200 dark:border-gray-700 p-12 text-center animate-fade-in-up">
               <div className="text-6xl mb-4">✨</div>
               <p className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2">
