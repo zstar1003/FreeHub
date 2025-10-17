@@ -27,23 +27,23 @@ export const storage = {
     this.saveProjects(projects);
   },
 
-  updateProject(id: string, updates: Partial<Project>): void {
+  updateProject(url: string, updates: Partial<Project>): void {
     const projects = this.getProjects();
-    const index = projects.findIndex((p) => p.id === id);
+    const index = projects.findIndex((p) => p.url === url);
     if (index !== -1) {
       projects[index] = { ...projects[index], ...updates };
       this.saveProjects(projects);
     }
   },
 
-  deleteProject(id: string): void {
+  deleteProject(url: string): void {
     const projects = this.getProjects();
-    const filtered = projects.filter((p) => p.id !== id);
+    const filtered = projects.filter((p) => p.url !== url);
     this.saveProjects(filtered);
   },
 
-  getProjectById(id: string): Project | undefined {
+  getProjectByUrl(url: string): Project | undefined {
     const projects = this.getProjects();
-    return projects.find((p) => p.id === id);
+    return projects.find((p) => p.url === url);
   },
 };
