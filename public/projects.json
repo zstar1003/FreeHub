@@ -9,11 +9,11 @@
         "categories": ["Python", "AI", "桌面应用", "Windows", "macOS"],
         "submittedBy": "zstar",
         "submittedAt": "2025-10-17",
-        "logo": "public/product/FreeTex.png"
+        "logo": "product/FreeTex.png"
     },
     {
         "name": "FreePDF",
-        "nameEn": "ReFreePDFact",
+        "nameEn": "FreePDF",
         "summary": "一个免费的PDF文献阅读器",
         "summaryEn": "A free PDF reader that supports translating PDF",
         "description": "一个免费的PDF文献阅读器，支持将各语言的PDF文献转成中文，并支持接入大模型基于文献内容进行问答。",
@@ -22,7 +22,7 @@
         "categories": ["JavaScript", "Python", "桌面应用", "Windows", "macOS"],
         "submittedBy": "zstar",
         "submittedAt": "2025-10-17",
-        "logo": "public/product/FreePDF.ico"
+        "logo": "product/FreePDF.ico"
     },
     {
         "name": "FreeEditor",
@@ -35,7 +35,7 @@
         "categories": ["TypeScript", "React", "Web 应用"],
         "submittedBy": "zstar",
         "submittedAt": "2025-10-17",
-        "logo": "public/product/FreeEditor.png"
+        "logo": "product/FreeEditor.png"
     },
     {
         "name": "FreeGIF",
@@ -48,7 +48,7 @@
         "categories": ["JavaScript", "桌面应用", "Windows", "macOS"],
         "submittedBy": "zstar",
         "submittedAt": "2025-10-17",
-        "logo": "public/product/FreeGIF.ico"
+        "logo": "product/FreeGIF.ico"
     },
     {
         "name": "ragflow-plus",
@@ -61,6 +61,6 @@
         "categories": ["React", "Python", "Docker", "Web 应用"],
         "submittedBy": "zstar",
         "submittedAt": "2025-10-17",
-        "logo": "public/product/ragflowplus.ico"
+        "logo": "product/ragflowplus.ico"
     }
 ]

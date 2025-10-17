@@ -14,15 +14,18 @@ export function ProjectCard({ project }: ProjectCardProps) {
   const displayDescription = language === 'zh' ? project.description : project.descriptionEn;
   const displaySummary = language === 'zh' ? project.summary : project.summaryEn;
 
+  // 处理 logo 路径，添加 BASE_URL 前缀
+  const logoSrc = project.logo ? `${import.meta.env.BASE_URL}${project.logo}` : null;
+
   return (
     <article className="group relative overflow-hidden rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 shadow-card transition-all duration-300 hover:shadow-card-hover hover:border-primary-300 dark:hover:border-primary-600">
       <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-6 p-4 sm:p-5">
         {/* Logo and Header (Mobile) */}
         <div className="flex items-start gap-4 w-full sm:w-auto">
           <div className="flex-shrink-0">
-            {project.logo ? (
+            {logoSrc ? (
               <div className="flex h-12 w-12 sm:h-16 sm:w-16 items-center justify-center rounded-lg bg-gradient-to-br from-primary-50 to-primary-100 dark:from-primary-900/30 dark:to-primary-800/30 p-2 sm:p-3">
-                <img src={project.logo} alt={displayName} className="h-full w-full object-contain" />
+                <img src={logoSrc} alt={displayName} className="h-full w-full object-contain" />
               </div>
             ) : (
               <div className="flex h-12 w-12 sm:h-16 sm:w-16 items-center justify-center rounded-lg bg-gradient-to-br from-primary-500 to-primary-600 dark:from-primary-600 dark:to-primary-700 text-white font-bold text-lg sm:text-xl">
