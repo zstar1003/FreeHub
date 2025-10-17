@@ -16,8 +16,6 @@ function AppContent() {
   const [filters, setFilters] = useState<FilterOptions>({
     search: '',
     category: '',
-    tags: [],
-    status: 'all',
     sortBy: 'latest',
   });
   const [loading, setLoading] = useState(true);
@@ -72,19 +70,12 @@ function AppContent() {
           project.name.toLowerCase().includes(searchLower) ||
           project.nameEn.toLowerCase().includes(searchLower) ||
           project.description.toLowerCase().includes(searchLower) ||
-          project.descriptionEn.toLowerCase().includes(searchLower) ||
-          project.tags.some((tag) => tag.toLowerCase().includes(searchLower)) ||
-          project.tagsEn.some((tag) => tag.toLowerCase().includes(searchLower));
+          project.descriptionEn.toLowerCase().includes(searchLower);
         if (!matchesSearch) return false;
       }
 
       // Category filter
       if (filters.category && !project.categories.includes(filters.category)) {
-        return false;
-      }
-
-      // Status filter
-      if (filters.status !== 'all' && project.status !== filters.status) {
         return false;
       }
 
@@ -103,7 +94,7 @@ function AppContent() {
   return (
     <>
       <Header
-        projectCount={projects.filter((p) => p.status === 'approved').length}
+        projectCount={projects.length}
         activeMenu={activeMenu}
         onMenuChange={handleMenuChange}
       />
@@ -155,7 +146,7 @@ function AppContent() {
                     <div className="space-y-3 sm:space-y-4">
                       {filteredProjects.map((project, index) => (
                         <div
-                          key={project.id}
+                          key={project.url}
                           className="animate-fade-in-up"
                           style={{ animationDelay: `${index * 50}ms` }}
                         >

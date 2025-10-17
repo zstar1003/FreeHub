@@ -1,5 +1,4 @@
 export interface Project {
-  id: string;
   name: string;
   nameEn: string;
   description: string;
@@ -8,11 +7,8 @@ export interface Project {
   summaryEn?: string;
   url: string;
   categories: string[]; // 支持多个分类
-  tags: string[];
-  tagsEn: string[];
   submittedBy: string;
-  submittedAt: string;
-  status: 'pending' | 'approved' | 'rejected';
+  submittedAt: string; // 格式: YYYY-MM-DD
   logo?: string;
 }
 
@@ -37,7 +33,5 @@ export type ProjectCategory = string;
 export interface FilterOptions {
   search: string;
   category: string;
-  tags: string[];
-  status: 'all' | 'pending' | 'approved' | 'rejected';
   sortBy: 'latest' | 'score' | 'popular';
 }
