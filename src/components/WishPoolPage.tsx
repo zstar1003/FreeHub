@@ -315,7 +315,7 @@ export function WishPoolPage() {
                           {index + 1}
                         </td>
                         <td className="px-4 py-4 text-base text-gray-700 dark:text-gray-300">
-                          <div className="line-clamp-2">{wish.featureRequest}</div>
+                          <div>{wish.featureRequest}</div>
                           <div className="flex items-center gap-1.5 mt-1 text-xs text-gray-500 dark:text-gray-400">
                             <Calendar className="h-3 w-3" />
                             <span>
@@ -328,7 +328,7 @@ export function WishPoolPage() {
                           </div>
                         </td>
                         <td className="px-4 py-4 text-base text-gray-600 dark:text-gray-400">
-                          <div className="line-clamp-2">{wish.similarProduct || '-'}</div>
+                          <div>{wish.similarProduct || '-'}</div>
                         </td>
                         <td className="px-4 py-4 text-base text-gray-600 dark:text-gray-400">
                           <div className="flex items-center gap-1.5">
