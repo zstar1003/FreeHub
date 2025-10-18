@@ -1,6 +1,7 @@
 <div align="center">
-  <img src="assets\logo_with_text.png"  width="800" alt="LOGO">
+  <img src="Assets\logo_with_text.png"  width="800" alt="LOGO">
 </div>
+
 
 <div align="center">
   <h4>
