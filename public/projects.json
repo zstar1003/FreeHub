@@ -62,5 +62,18 @@
         "submittedBy": "zstar",
         "submittedAt": "2025-10-17",
         "logo": "product/ragflowplus.ico"
+    },
+    {
+        "name": "拼字幕",
+        "nameEn": "FreeCaption",
+        "summary": "微信小程序：拼字幕-长图拼接助手",
+        "summaryEn": "WeChat Mini Program: Subtitle Splicing - Long Image Splicing Assistant",
+        "description": "微信小程序：拼字幕-长图拼接助手，用于制作长图字幕拼接。",
+        "descriptionEn": "WeChat applet: Splice subtitles - long image stitching assistant, used to create long image subtitle stitching.",
+        "url": "https://github.com/zstar1003/FreeCaption",
+        "categories": ["TypeScript", "效率工具"],
+        "submittedBy": "zstar",
+        "submittedAt": "2025-10-17",
+        "logo": "product/FreeCaption.png"
     }
 ]
