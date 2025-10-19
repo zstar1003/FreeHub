@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - master  # 当推送到 master 分支时触发
+  schedule: 
+    # 每天 UTC 时间 00:05 运行（北京时间上午 8:05）
+    - cron: '5 0 * * *'
   workflow_dispatch:  # 允许手动触发
 
 # 设置 GitHub Pages 部署权限
