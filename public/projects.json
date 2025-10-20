@@ -75,5 +75,18 @@
         "submittedBy": "zstar",
         "submittedAt": "2025-10-17",
         "logo": "product/FreeCaption.png"
+    },
+    {
+        "name": "FreeCut",
+        "nameEn": "FreeCut",
+        "summary": "一个PowerPoint插件",
+        "summaryEn": "a PowerPoint plug-in",
+        "description": "一个PowerPoint插件，支持页面自动裁剪并导出为PDF文件。",
+        "descriptionEn": "a PowerPoint plug-in that supports automatic cropping and exporting to PDF files.",
+        "url": "https://github.com/zstar1003/FreeCut",
+        "categories": ["C#", "效率工具"],
+        "submittedBy": "zstar",
+        "submittedAt": "2025-10-20",
+        "logo": "product/FreeCut.svg"
     }
 ]
