@@ -1,102 +1,102 @@
 [
   {
     "rank": 1,
-    "name": "anthropics/claude-cookbooks",
-    "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
-    "language": "Jupyter Notebook",
-    "stars": 23501,
-    "forks": 2411,
-    "todayStars": 1305,
-    "url": "https://github.com/anthropics/claude-cookbooks"
+    "name": "mountain-loop/yaak",
+    "description": "The most intuitive desktop API client. Organize and execute REST, GraphQL, WebSockets, Server Sent Events, and gRPC 🦬",
+    "language": "TypeScript",
+    "stars": 10292,
+    "forks": 358,
+    "todayStars": 640,
+    "url": "https://github.com/mountain-loop/yaak"
   },
   {
     "rank": 2,
-    "name": "SagerNet/sing-box",
-    "description": "The universal proxy platform",
-    "language": "Go",
-    "stars": 27359,
-    "forks": 3192,
-    "todayStars": 28,
-    "url": "https://github.com/SagerNet/sing-box"
+    "name": "louislam/uptime-kuma",
+    "description": "A fancy self-hosted monitoring tool",
+    "language": "JavaScript",
+    "stars": 76470,
+    "forks": 6777,
+    "todayStars": 128,
+    "url": "https://github.com/louislam/uptime-kuma"
   },
   {
     "rank": 3,
-    "name": "DrewThomasson/ebook2audiobook",
-    "description": "Generate audiobooks from e-books, voice cloning & 1107+ languages!",
-    "language": "Python",
-    "stars": 12466,
-    "forks": 946,
-    "todayStars": 324,
-    "url": "https://github.com/DrewThomasson/ebook2audiobook"
-  },
-  {
-    "rank": 4,
-    "name": "x1xhlol/system-prompts-and-models-of-ai-tools",
-    "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus Agent Tools, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
-    "language": "Unknown",
-    "stars": 92231,
-    "forks": 25009,
-    "todayStars": 233,
-    "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools"
-  },
-  {
-    "rank": 5,
-    "name": "huggingface/lerobot",
-    "description": "🤗 LeRobot: Making AI for Robotics more accessible with end-to-end learning",
-    "language": "Python",
-    "stars": 18281,
-    "forks": 2797,
-    "todayStars": 89,
-    "url": "https://github.com/huggingface/lerobot"
-  },
-  {
-    "rank": 6,
-    "name": "wavetermdev/waveterm",
-    "description": "An open-source, cross-platform terminal for seamless workflows",
-    "language": "Go",
-    "stars": 12199,
-    "forks": 489,
-    "todayStars": 201,
-    "url": "https://github.com/wavetermdev/waveterm"
-  },
-  {
-    "rank": 7,
-    "name": "karpathy/micrograd",
-    "description": "A tiny scalar-valued autograd engine and a neural net library on top of it with PyTorch-like API",
-    "language": "Jupyter Notebook",
-    "stars": 13162,
-    "forks": 1954,
-    "todayStars": 114,
-    "url": "https://github.com/karpathy/micrograd"
-  },
-  {
-    "rank": 8,
-    "name": "huggingface/chat-ui",
-    "description": "Open source codebase powering the HuggingChat app",
-    "language": "TypeScript",
-    "stars": 9599,
-    "forks": 1463,
-    "todayStars": 223,
-    "url": "https://github.com/huggingface/chat-ui"
-  },
-  {
-    "rank": 9,
-    "name": "TheAlgorithms/Python",
-    "description": "All Algorithms implemented in Python",
-    "language": "Python",
-    "stars": 211625,
-    "forks": 48843,
-    "todayStars": 234,
-    "url": "https://github.com/TheAlgorithms/Python"
-  },
-  {
-    "rank": 10,
     "name": "lfnovo/open-notebook",
     "description": "An Open Source implementation of Notebook LM with more flexibility and features",
     "language": "TypeScript",
-    "stars": 6168,
-    "forks": 622,
-    "todayStars": 527,
+    "stars": 6749,
+    "forks": 683,
+    "todayStars": 480,
     "url": "https://github.com/lfnovo/open-notebook"
+  },
+  {
+    "rank": 4,
+    "name": "DrewThomasson/ebook2audiobook",
+    "description": "Generate audiobooks from e-books, voice cloning & 1107+ languages!",
+    "language": "Python",
+    "stars": 12903,
+    "forks": 975,
+    "todayStars": 474,
+    "url": "https://github.com/DrewThomasson/ebook2audiobook"
+  },
+  {
+    "rank": 5,
+    "name": "anthropics/claude-cookbooks",
+    "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+    "language": "Jupyter Notebook",
+    "stars": 24334,
+    "forks": 2455,
+    "todayStars": 1413,
+    "url": "https://github.com/anthropics/claude-cookbooks"
+  },
+  {
+    "rank": 6,
+    "name": "sharkdp/bat",
+    "description": "A cat(1) clone with wings.",
+    "language": "Rust",
+    "stars": 55320,
+    "forks": 1382,
+    "todayStars": 75,
+    "url": "https://github.com/sharkdp/bat"
+  },
+  {
+    "rank": 7,
+    "name": "Skyvern-AI/skyvern",
+    "description": "Automate browser-based workflows with LLMs and Computer Vision",
+    "language": "Python",
+    "stars": 15132,
+    "forks": 1282,
+    "todayStars": 189,
+    "url": "https://github.com/Skyvern-AI/skyvern"
+  },
+  {
+    "rank": 8,
+    "name": "oceanbase/miniob",
+    "description": "MiniOB is a compact database that assists developers in understanding the fundamental workings of a database.",
+    "language": "C++",
+    "stars": 4107,
+    "forks": 1478,
+    "todayStars": 15,
+    "url": "https://github.com/oceanbase/miniob"
+  },
+  {
+    "rank": 9,
+    "name": "k2-fsa/sherpa-onnx",
+    "description": "Speech-to-text, text-to-speech, speaker diarization, speech enhancement, source separation, and VAD using next-gen Kaldi with onnxruntime without Internet connection. Support embedded systems, Android, iOS, HarmonyOS, Raspberry Pi, RISC-V, x86_64 servers, websocket server/client, support 12 programming languages",
+    "language": "C++",
+    "stars": 7921,
+    "forks": 912,
+    "todayStars": 17,
+    "url": "https://github.com/k2-fsa/sherpa-onnx"
+  },
+  {
+    "rank": 10,
+    "name": "servo/servo",
+    "description": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications.",
+    "language": "Rust",
+    "stars": 32482,
+    "forks": 3291,
+    "todayStars": 509,
+    "url": "https://github.com/servo/servo"
   }
 ]
