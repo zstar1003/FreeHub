@@ -4,99 +4,99 @@
     "name": "mountain-loop/yaak",
     "description": "The most intuitive desktop API client. Organize and execute REST, GraphQL, WebSockets, Server Sent Events, and gRPC 🦬",
     "language": "TypeScript",
-    "stars": 10292,
-    "forks": 358,
-    "todayStars": 640,
+    "stars": 12041,
+    "forks": 428,
+    "todayStars": 1826,
     "url": "https://github.com/mountain-loop/yaak"
   },
   {
     "rank": 2,
-    "name": "louislam/uptime-kuma",
-    "description": "A fancy self-hosted monitoring tool",
-    "language": "JavaScript",
-    "stars": 76470,
-    "forks": 6777,
-    "todayStars": 128,
-    "url": "https://github.com/louislam/uptime-kuma"
-  },
-  {
-    "rank": 3,
-    "name": "lfnovo/open-notebook",
-    "description": "An Open Source implementation of Notebook LM with more flexibility and features",
-    "language": "TypeScript",
-    "stars": 6749,
-    "forks": 683,
-    "todayStars": 480,
-    "url": "https://github.com/lfnovo/open-notebook"
-  },
-  {
-    "rank": 4,
-    "name": "DrewThomasson/ebook2audiobook",
-    "description": "Generate audiobooks from e-books, voice cloning & 1107+ languages!",
-    "language": "Python",
-    "stars": 12903,
-    "forks": 975,
-    "todayStars": 474,
-    "url": "https://github.com/DrewThomasson/ebook2audiobook"
-  },
-  {
-    "rank": 5,
-    "name": "anthropics/claude-cookbooks",
-    "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
-    "language": "Jupyter Notebook",
-    "stars": 24334,
-    "forks": 2455,
-    "todayStars": 1413,
-    "url": "https://github.com/anthropics/claude-cookbooks"
-  },
-  {
-    "rank": 6,
-    "name": "sharkdp/bat",
-    "description": "A cat(1) clone with wings.",
-    "language": "Rust",
-    "stars": 55320,
-    "forks": 1382,
-    "todayStars": 75,
-    "url": "https://github.com/sharkdp/bat"
-  },
-  {
-    "rank": 7,
-    "name": "Skyvern-AI/skyvern",
-    "description": "Automate browser-based workflows with LLMs and Computer Vision",
-    "language": "Python",
-    "stars": 15132,
-    "forks": 1282,
-    "todayStars": 189,
-    "url": "https://github.com/Skyvern-AI/skyvern"
-  },
-  {
-    "rank": 8,
-    "name": "oceanbase/miniob",
-    "description": "MiniOB is a compact database that assists developers in understanding the fundamental workings of a database.",
-    "language": "C++",
-    "stars": 4107,
-    "forks": 1478,
-    "todayStars": 15,
-    "url": "https://github.com/oceanbase/miniob"
-  },
-  {
-    "rank": 9,
-    "name": "k2-fsa/sherpa-onnx",
-    "description": "Speech-to-text, text-to-speech, speaker diarization, speech enhancement, source separation, and VAD using next-gen Kaldi with onnxruntime without Internet connection. Support embedded systems, Android, iOS, HarmonyOS, Raspberry Pi, RISC-V, x86_64 servers, websocket server/client, support 12 programming languages",
-    "language": "C++",
-    "stars": 7921,
-    "forks": 912,
-    "todayStars": 17,
-    "url": "https://github.com/k2-fsa/sherpa-onnx"
-  },
-  {
-    "rank": 10,
     "name": "servo/servo",
     "description": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications.",
     "language": "Rust",
-    "stars": 32482,
-    "forks": 3291,
-    "todayStars": 509,
+    "stars": 32800,
+    "forks": 3302,
+    "todayStars": 375,
     "url": "https://github.com/servo/servo"
+  },
+  {
+    "rank": 3,
+    "name": "emcie-co/parlant",
+    "description": "LLM agents built for control. Designed for real-world use. Deployed in minutes.",
+    "language": "Python",
+    "stars": 14216,
+    "forks": 1149,
+    "todayStars": 151,
+    "url": "https://github.com/emcie-co/parlant"
+  },
+  {
+    "rank": 4,
+    "name": "guofei9987/blind_watermark",
+    "description": "Blind&Invisible Watermark ，图片盲水印，提取水印无须原图！",
+    "language": "Python",
+    "stars": 7788,
+    "forks": 872,
+    "todayStars": 342,
+    "url": "https://github.com/guofei9987/blind_watermark"
+  },
+  {
+    "rank": 5,
+    "name": "lfnovo/open-notebook",
+    "description": "An Open Source implementation of Notebook LM with more flexibility and features",
+    "language": "TypeScript",
+    "stars": 7307,
+    "forks": 728,
+    "todayStars": 587,
+    "url": "https://github.com/lfnovo/open-notebook"
+  },
+  {
+    "rank": 6,
+    "name": "dyad-sh/dyad",
+    "description": "Free, local, open-source AI app builder ✨ v0 / lovable / Bolt alternative 🌟 Star if you like it!",
+    "language": "TypeScript",
+    "stars": 16726,
+    "forks": 1812,
+    "todayStars": 222,
+    "url": "https://github.com/dyad-sh/dyad"
+  },
+  {
+    "rank": 7,
+    "name": "fishaudio/fish-speech",
+    "description": "SOTA Open Source TTS",
+    "language": "Python",
+    "stars": 23487,
+    "forks": 1934,
+    "todayStars": 62,
+    "url": "https://github.com/fishaudio/fish-speech"
+  },
+  {
+    "rank": 8,
+    "name": "huggingface/chat-ui",
+    "description": "Open source codebase powering the HuggingChat app",
+    "language": "TypeScript",
+    "stars": 9972,
+    "forks": 1493,
+    "todayStars": 201,
+    "url": "https://github.com/huggingface/chat-ui"
+  },
+  {
+    "rank": 9,
+    "name": "rossant/awesome-math",
+    "description": "A curated list of awesome mathematics resources",
+    "language": "Python",
+    "stars": 10430,
+    "forks": 1063,
+    "todayStars": 64,
+    "url": "https://github.com/rossant/awesome-math"
+  },
+  {
+    "rank": 10,
+    "name": "drawdb-io/drawdb",
+    "description": "Free, simple, and intuitive online database diagram editor and SQL generator.",
+    "language": "JavaScript",
+    "stars": 33639,
+    "forks": 2538,
+    "todayStars": 67,
+    "url": "https://github.com/drawdb-io/drawdb"
   }
 ]
