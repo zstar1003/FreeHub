@@ -1,102 +1,102 @@
 [
   {
     "rank": 1,
-    "name": "mountain-loop/yaak",
-    "description": "The most intuitive desktop API client. Organize and execute REST, GraphQL, WebSockets, Server Sent Events, and gRPC 🦬",
-    "language": "TypeScript",
-    "stars": 12041,
-    "forks": 428,
-    "todayStars": 1826,
-    "url": "https://github.com/mountain-loop/yaak"
+    "name": "minio/minio",
+    "description": "MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.",
+    "language": "Go",
+    "stars": 56569,
+    "forks": 6304,
+    "todayStars": 146,
+    "url": "https://github.com/minio/minio"
   },
   {
     "rank": 2,
-    "name": "servo/servo",
-    "description": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications.",
-    "language": "Rust",
-    "stars": 32800,
-    "forks": 3302,
-    "todayStars": 375,
-    "url": "https://github.com/servo/servo"
-  },
-  {
-    "rank": 3,
-    "name": "emcie-co/parlant",
-    "description": "LLM agents built for control. Designed for real-world use. Deployed in minutes.",
-    "language": "Python",
-    "stars": 14216,
-    "forks": 1149,
-    "todayStars": 151,
-    "url": "https://github.com/emcie-co/parlant"
-  },
-  {
-    "rank": 4,
     "name": "guofei9987/blind_watermark",
     "description": "Blind&Invisible Watermark ，图片盲水印，提取水印无须原图！",
     "language": "Python",
-    "stars": 7788,
-    "forks": 872,
-    "todayStars": 342,
+    "stars": 8786,
+    "forks": 935,
+    "todayStars": 904,
     "url": "https://github.com/guofei9987/blind_watermark"
   },
   {
-    "rank": 5,
-    "name": "lfnovo/open-notebook",
-    "description": "An Open Source implementation of Notebook LM with more flexibility and features",
+    "rank": 3,
+    "name": "mountain-loop/yaak",
+    "description": "The most intuitive desktop API client. Organize and execute REST, GraphQL, WebSockets, Server Sent Events, and gRPC 🦬",
     "language": "TypeScript",
-    "stars": 7307,
-    "forks": 728,
-    "todayStars": 587,
-    "url": "https://github.com/lfnovo/open-notebook"
+    "stars": 13240,
+    "forks": 458,
+    "todayStars": 1823,
+    "url": "https://github.com/mountain-loop/yaak"
+  },
+  {
+    "rank": 4,
+    "name": "LadybirdBrowser/ladybird",
+    "description": "Truly independent web browser",
+    "language": "C++",
+    "stars": 50436,
+    "forks": 2207,
+    "todayStars": 334,
+    "url": "https://github.com/LadybirdBrowser/ladybird"
+  },
+  {
+    "rank": 5,
+    "name": "paperless-ngx/paperless-ngx",
+    "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
+    "language": "Python",
+    "stars": 33158,
+    "forks": 2066,
+    "todayStars": 39,
+    "url": "https://github.com/paperless-ngx/paperless-ngx"
   },
   {
     "rank": 6,
     "name": "dyad-sh/dyad",
     "description": "Free, local, open-source AI app builder ✨ v0 / lovable / Bolt alternative 🌟 Star if you like it!",
     "language": "TypeScript",
-    "stars": 16726,
-    "forks": 1812,
-    "todayStars": 222,
+    "stars": 16938,
+    "forks": 1827,
+    "todayStars": 215,
     "url": "https://github.com/dyad-sh/dyad"
   },
   {
     "rank": 7,
-    "name": "fishaudio/fish-speech",
-    "description": "SOTA Open Source TTS",
-    "language": "Python",
-    "stars": 23487,
-    "forks": 1934,
-    "todayStars": 62,
-    "url": "https://github.com/fishaudio/fish-speech"
+    "name": "k2-fsa/sherpa-onnx",
+    "description": "Speech-to-text, text-to-speech, speaker diarization, speech enhancement, source separation, and VAD using next-gen Kaldi with onnxruntime without Internet connection. Support embedded systems, Android, iOS, HarmonyOS, Raspberry Pi, RISC-V, x86_64 servers, websocket server/client, support 12 programming languages",
+    "language": "C++",
+    "stars": 8165,
+    "forks": 926,
+    "todayStars": 30,
+    "url": "https://github.com/k2-fsa/sherpa-onnx"
   },
   {
     "rank": 8,
-    "name": "huggingface/chat-ui",
-    "description": "Open source codebase powering the HuggingChat app",
-    "language": "TypeScript",
-    "stars": 9972,
-    "forks": 1493,
-    "todayStars": 201,
-    "url": "https://github.com/huggingface/chat-ui"
-  },
-  {
-    "rank": 9,
     "name": "rossant/awesome-math",
     "description": "A curated list of awesome mathematics resources",
     "language": "Python",
-    "stars": 10430,
-    "forks": 1063,
-    "todayStars": 64,
+    "stars": 11094,
+    "forks": 1112,
+    "todayStars": 602,
     "url": "https://github.com/rossant/awesome-math"
   },
   {
-    "rank": 10,
-    "name": "drawdb-io/drawdb",
-    "description": "Free, simple, and intuitive online database diagram editor and SQL generator.",
+    "rank": 9,
+    "name": "louislam/uptime-kuma",
+    "description": "A fancy self-hosted monitoring tool",
     "language": "JavaScript",
-    "stars": 33639,
-    "forks": 2538,
-    "todayStars": 67,
-    "url": "https://github.com/drawdb-io/drawdb"
+    "stars": 76952,
+    "forks": 6804,
+    "todayStars": 107,
+    "url": "https://github.com/louislam/uptime-kuma"
+  },
+  {
+    "rank": 10,
+    "name": "harvard-edge/cs249r_book",
+    "description": "Introduction to Machine Learning Systems",
+    "language": "Python",
+    "stars": 4662,
+    "forks": 475,
+    "todayStars": 370,
+    "url": "https://github.com/harvard-edge/cs249r_book"
   }
 ]
