@@ -88,5 +88,18 @@
         "submittedBy": "zstar",
         "submittedAt": "2025-10-20",
         "logo": "product/FreeCut.svg"
+    },
+    {
+        "name": "FreeP2W",
+        "nameEn": "FreeP2W",
+        "summary": "一个将 PDF 转换成 Word 的CLI工具",
+        "summaryEn": "A CLI tool to convert PDF to Word",
+        "description": "一个将 PDF 转换成 Word 的CLI工具，在 pdf2docx 的基础上，优化了图片和数学公式表现。",
+        "descriptionEn": "A CLI tool for converting PDF to Word, based on pdf2docx, with optimized image and math formula performance.",
+        "url": "https://github.com/zstar1003/FreeP2W",
+        "categories": ["Python", "CLI", "效率工具"],
+        "submittedBy": "zstar",
+        "submittedAt": "2025-10-25",
+        "logo": "product/FreeP2W.png"
     }
 ]
