@@ -4,99 +4,99 @@
     "name": "LadybirdBrowser/ladybird",
     "description": "Truly independent web browser",
     "language": "C++",
-    "stars": 51429,
-    "forks": 2269,
-    "todayStars": 315,
+    "stars": 52535,
+    "forks": 2316,
+    "todayStars": 1387,
     "url": "https://github.com/LadybirdBrowser/ladybird"
   },
   {
     "rank": 2,
-    "name": "guofei9987/blind_watermark",
-    "description": "Blind&Invisible Watermark ，图片盲水印，提取水印无须原图！",
-    "language": "Python",
-    "stars": 9619,
-    "forks": 988,
-    "todayStars": 680,
-    "url": "https://github.com/guofei9987/blind_watermark"
+    "name": "TheRobotStudio/SO-ARM100",
+    "description": "Standard Open Arm 100",
+    "language": "Unknown",
+    "stars": 3806,
+    "forks": 321,
+    "todayStars": 154,
+    "url": "https://github.com/TheRobotStudio/SO-ARM100"
   },
   {
     "rank": 3,
-    "name": "hoppscotch/hoppscotch",
-    "description": "Open source API development ecosystem - https://hoppscotch.io (open-source alternative to Postman, Insomnia)",
+    "name": "coinbase/x402",
+    "description": "A payments protocol for the internet. Built on HTTP.",
     "language": "TypeScript",
-    "stars": 75674,
-    "forks": 5322,
-    "todayStars": 355,
-    "url": "https://github.com/hoppscotch/hoppscotch"
+    "stars": 2557,
+    "forks": 397,
+    "todayStars": 91,
+    "url": "https://github.com/coinbase/x402"
   },
   {
     "rank": 4,
-    "name": "zephyrproject-rtos/zephyr",
-    "description": "Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures.",
-    "language": "C",
-    "stars": 13401,
-    "forks": 8106,
-    "todayStars": 17,
-    "url": "https://github.com/zephyrproject-rtos/zephyr"
+    "name": "guofei9987/blind_watermark",
+    "description": "Blind&Invisible Watermark ，图片盲水印，提取水印无须原图！",
+    "language": "Python",
+    "stars": 10066,
+    "forks": 1021,
+    "todayStars": 839,
+    "url": "https://github.com/guofei9987/blind_watermark"
   },
   {
     "rank": 5,
-    "name": "minio/minio",
-    "description": "MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.",
-    "language": "Go",
-    "stars": 57139,
-    "forks": 6351,
-    "todayStars": 1127,
-    "url": "https://github.com/minio/minio"
-  },
-  {
-    "rank": 6,
-    "name": "emcie-co/parlant",
-    "description": "LLM agents built for control. Designed for real-world use. Deployed in minutes.",
-    "language": "Python",
-    "stars": 14633,
-    "forks": 1191,
-    "todayStars": 137,
-    "url": "https://github.com/emcie-co/parlant"
-  },
-  {
-    "rank": 7,
-    "name": "zyronon/TypeWords",
-    "description": "练习英语，一次敲击，一点进步；Practice English, one strike, one step forward",
-    "language": "Vue",
-    "stars": 4571,
-    "forks": 535,
-    "todayStars": 72,
-    "url": "https://github.com/zyronon/TypeWords"
-  },
-  {
-    "rank": 8,
     "name": "paperless-ngx/paperless-ngx",
     "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
     "language": "Python",
-    "stars": 33371,
-    "forks": 2082,
-    "todayStars": 238,
+    "stars": 33528,
+    "forks": 2096,
+    "todayStars": 151,
     "url": "https://github.com/paperless-ngx/paperless-ngx"
   },
   {
+    "rank": 6,
+    "name": "zephyrproject-rtos/zephyr",
+    "description": "Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures.",
+    "language": "C",
+    "stars": 13480,
+    "forks": 8116,
+    "todayStars": 80,
+    "url": "https://github.com/zephyrproject-rtos/zephyr"
+  },
+  {
+    "rank": 7,
+    "name": "hoppscotch/hoppscotch",
+    "description": "Open source API development ecosystem - https://hoppscotch.io (open-source alternative to Postman, Insomnia)",
+    "language": "TypeScript",
+    "stars": 75915,
+    "forks": 5344,
+    "todayStars": 274,
+    "url": "https://github.com/hoppscotch/hoppscotch"
+  },
+  {
+    "rank": 8,
+    "name": "public-apis/public-apis",
+    "description": "A collective list of free APIs",
+    "language": "Python",
+    "stars": 372571,
+    "forks": 39309,
+    "todayStars": 332,
+    "url": "https://github.com/public-apis/public-apis"
+  },
+  {
     "rank": 9,
-    "name": "PowerShell/PowerShell",
-    "description": "PowerShell for every system!",
-    "language": "C#",
-    "stars": 50475,
-    "forks": 8010,
-    "todayStars": 35,
-    "url": "https://github.com/PowerShell/PowerShell"
+    "name": "ubicloud/ubicloud",
+    "description": "Open source alternative to AWS. Elastic compute, block storage (non replicated), firewall and load balancer, managed Postgres, K8s, AI inference, and IAM services.",
+    "language": "Ruby",
+    "stars": 11058,
+    "forks": 498,
+    "todayStars": 73,
+    "url": "https://github.com/ubicloud/ubicloud"
   },
   {
     "rank": 10,
-    "name": "Lightricks/LTX-Video",
-    "description": "Official repository for LTX-Video",
+    "name": "yt-dlp/yt-dlp",
+    "description": "A feature-rich command-line audio/video downloader",
     "language": "Python",
-    "stars": 8434,
-    "forks": 755,
-    "todayStars": 58,
-    "url": "https://github.com/Lightricks/LTX-Video"
+    "stars": 132545,
+    "forks": 10644,
+    "todayStars": 342,
+    "url": "https://github.com/yt-dlp/yt-dlp"
   }
 ]
