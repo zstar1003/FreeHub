@@ -1,102 +1,102 @@
 [
   {
     "rank": 1,
-    "name": "LadybirdBrowser/ladybird",
-    "description": "Truly independent web browser",
-    "language": "C++",
-    "stars": 53611,
-    "forks": 2371,
-    "todayStars": 1105,
-    "url": "https://github.com/LadybirdBrowser/ladybird"
+    "name": "toeverything/AFFiNE",
+    "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
+    "language": "TypeScript",
+    "stars": 57138,
+    "forks": 3915,
+    "todayStars": 153,
+    "url": "https://github.com/toeverything/AFFiNE"
   },
   {
     "rank": 2,
     "name": "yeongpin/cursor-free-vip",
     "description": "[Support 0.49.x]（Reset Cursor AI MachineID & Bypass Higher Token Limit） Cursor Ai ，自动重置机器ID ， 免费升级使用Pro功能: You've reached your trial request limit. / Too many free trial accounts used on this machine. Please upgrade to pro. We have this limit in place to prevent abuse. Please let us know if you believe this is a mistake.",
     "language": "Python",
-    "stars": 37763,
-    "forks": 4630,
-    "todayStars": 611,
+    "stars": 38708,
+    "forks": 4709,
+    "todayStars": 1344,
     "url": "https://github.com/yeongpin/cursor-free-vip"
   },
   {
     "rank": 3,
-    "name": "cjpais/Handy",
-    "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
-    "language": "TypeScript",
-    "stars": 3430,
-    "forks": 212,
-    "todayStars": 200,
-    "url": "https://github.com/cjpais/Handy"
+    "name": "codecrafters-io/build-your-own-x",
+    "description": "Master programming by recreating your favorite technologies from scratch.",
+    "language": "Markdown",
+    "stars": 430533,
+    "forks": 40420,
+    "todayStars": 430,
+    "url": "https://github.com/codecrafters-io/build-your-own-x"
   },
   {
     "rank": 4,
-    "name": "Shubhamsaboo/awesome-llm-apps",
-    "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
-    "language": "Python",
-    "stars": 73178,
-    "forks": 9511,
-    "todayStars": 182,
-    "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
-  },
-  {
-    "rank": 5,
     "name": "microsoft/agent-lightning",
     "description": "The absolute trainer to light up AI agents.",
     "language": "Python",
-    "stars": 2300,
-    "forks": 183,
-    "todayStars": 186,
+    "stars": 2852,
+    "forks": 217,
+    "todayStars": 595,
     "url": "https://github.com/microsoft/agent-lightning"
   },
   {
+    "rank": 5,
+    "name": "LadybirdBrowser/ladybird",
+    "description": "Truly independent web browser",
+    "language": "C++",
+    "stars": 54350,
+    "forks": 2391,
+    "todayStars": 1223,
+    "url": "https://github.com/LadybirdBrowser/ladybird"
+  },
+  {
     "rank": 6,
-    "name": "public-apis/public-apis",
-    "description": "A collective list of free APIs",
-    "language": "Python",
-    "stars": 373140,
-    "forks": 39368,
-    "todayStars": 639,
-    "url": "https://github.com/public-apis/public-apis"
+    "name": "TheRobotStudio/SO-ARM100",
+    "description": "Standard Open Arm 100",
+    "language": "Unknown",
+    "stars": 4061,
+    "forks": 333,
+    "todayStars": 52,
+    "url": "https://github.com/TheRobotStudio/SO-ARM100"
   },
   {
     "rank": 7,
     "name": "coinbase/x402",
     "description": "A payments protocol for the internet. Built on HTTP.",
     "language": "TypeScript",
-    "stars": 2751,
-    "forks": 429,
-    "todayStars": 192,
+    "stars": 3035,
+    "forks": 475,
+    "todayStars": 262,
     "url": "https://github.com/coinbase/x402"
   },
   {
     "rank": 8,
-    "name": "donnemartin/system-design-primer",
-    "description": "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
+    "name": "public-apis/public-apis",
+    "description": "A collective list of free APIs",
     "language": "Python",
-    "stars": 324090,
-    "forks": 52856,
-    "todayStars": 113,
-    "url": "https://github.com/donnemartin/system-design-primer"
+    "stars": 373748,
+    "forks": 39444,
+    "todayStars": 617,
+    "url": "https://github.com/public-apis/public-apis"
   },
   {
     "rank": 9,
-    "name": "MHSanaei/3x-ui",
-    "description": "Xray panel supporting multi-protocol multi-user expire day & traffic & IP limit (Vmess, Vless, Trojan, ShadowSocks, Wireguard, Tunnel, Mixed, HTTP)",
-    "language": "HTML",
-    "stars": 25157,
-    "forks": 5147,
-    "todayStars": 39,
-    "url": "https://github.com/MHSanaei/3x-ui"
+    "name": "bol-van/zapret",
+    "description": "DPI bypass multi platform",
+    "language": "C",
+    "stars": 12936,
+    "forks": 912,
+    "todayStars": 30,
+    "url": "https://github.com/bol-van/zapret"
   },
   {
     "rank": 10,
-    "name": "2dust/v2rayN",
-    "description": "A GUI client for Windows, Linux and macOS, support Xray and sing-box and others",
-    "language": "C#",
-    "stars": 88780,
-    "forks": 13500,
-    "todayStars": 80,
-    "url": "https://github.com/2dust/v2rayN"
+    "name": "block/goose",
+    "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+    "language": "Rust",
+    "stars": 20725,
+    "forks": 1890,
+    "todayStars": 79,
+    "url": "https://github.com/block/goose"
   }
 ]
