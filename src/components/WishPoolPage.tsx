@@ -10,6 +10,7 @@ interface Wish {
   submitter: string;
   isImplemented: boolean;
   timestamp: string;
+  response?: string;
 }
 
 export function WishPoolPage() {
@@ -48,7 +49,8 @@ export function WishPoolPage() {
           similarProduct: item.similar_product || '',
           submitter: item.submitter,
           isImplemented: item.is_implemented,
-          timestamp: item.created_at
+          timestamp: item.created_at,
+          response: item.response || ''
         }));
         setWishes(formattedWishes);
       }
@@ -130,8 +132,8 @@ export function WishPoolPage() {
           </div>
           <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-400 max-w-2xl mx-auto px-2">
             {language === 'zh'
-              ? '分享你的想法、需求或期待的功能，让我们一起构建更好的产品'
-              : 'Share your ideas, needs, or expected features, let\'s build better products together'}
+              ? '念念不忘，必有回响'
+              : 'Long cherished, never perished.'}
           </p>
         </div>
 
@@ -263,7 +265,7 @@ export function WishPoolPage() {
         )}
 
         {/* Wishes Table */}
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           {loading ? (
             <div className="bg-white dark:bg-gray-800 rounded-xl shadow-card border border-gray-200 dark:border-gray-700 p-12 text-center animate-fade-in">
               <div className="mx-auto mb-4 h-12 w-12 animate-spin rounded-full border-4 border-primary-200 dark:border-primary-800 border-t-primary-600 dark:border-t-primary-400"></div>
@@ -288,20 +290,23 @@ export function WishPoolPage() {
                 <table className="w-full">
                   <thead>
                     <tr className="bg-gradient-to-r from-primary-50 to-blue-50 dark:from-primary-900/30 dark:to-blue-900/30 border-b border-gray-200 dark:border-gray-700">
-                      <th className="px-4 py-4 text-left text-sm font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-wider w-16">
+                      <th className="px-4 py-4 text-center text-sm font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-wider w-16">
                         {language === 'zh' ? '序号' : 'No.'}
                       </th>
-                      <th className="px-4 py-4 text-left text-sm font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-wider">
+                      <th className="px-4 py-4 text-center text-sm font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-wider">
                         {language === 'zh' ? '功能需求' : 'Feature Request'}
                       </th>
-                      <th className="px-4 py-4 text-left text-sm font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-wider w-48">
+                      <th className="px-4 py-4 text-center text-sm font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-wider w-48">
                         {language === 'zh' ? '同类产品' : 'Similar Product'}
                       </th>
-                      <th className="px-4 py-4 text-left text-sm font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-wider w-32">
+                      <th className="px-4 py-4 text-center text-sm font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-wider w-32">
                         {language === 'zh' ? '提交者' : 'Submitter'}
                       </th>
                       <th className="px-4 py-4 text-center text-sm font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-wider w-24">
                         {language === 'zh' ? '已实现' : 'Done'}
+                      </th>
+                      <th className="px-4 py-4 text-center text-sm font-semibold text-gray-700 dark:text-gray-300 uppercase tracking-wider w-64">
+                        {language === 'zh' ? '回响' : 'Response'}
                       </th>
                     </tr>
                   </thead>
@@ -344,6 +349,9 @@ export function WishPoolPage() {
                               <Circle className="h-6 w-6 text-gray-300 dark:text-gray-600" />
                             )}
                           </div>
+                        </td>
+                        <td className="px-4 py-4 text-base text-gray-600 dark:text-gray-400">
+                          <div>{wish.response || '-'}</div>
                         </td>
                       </tr>
                     ))}
@@ -388,6 +396,17 @@ export function WishPoolPage() {
                         </div>
                         <p className="text-base text-gray-600 dark:text-gray-400">
                           {wish.similarProduct}
+                        </p>
+                      </div>
+                    )}
+
+                    {wish.response && (
+                      <div>
+                        <div className="text-sm font-semibold text-gray-500 dark:text-gray-400 mb-1">
+                          {language === 'zh' ? '回响' : 'Response'}
+                        </div>
+                        <p className="text-base text-gray-600 dark:text-gray-400">
+                          {wish.response}
                         </p>
                       </div>
                     )}
