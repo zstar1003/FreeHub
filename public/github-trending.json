@@ -1,102 +1,102 @@
 [
   {
     "rank": 1,
-    "name": "smartcontractkit/chainlink",
-    "description": "node of the decentralized oracle network, bridging on and off-chain computation",
+    "name": "helm/helm",
+    "description": "The Kubernetes Package Manager",
     "language": "Go",
-    "stars": 7894,
-    "forks": 1888,
-    "todayStars": 5,
-    "url": "https://github.com/smartcontractkit/chainlink"
+    "stars": 28787,
+    "forks": 7375,
+    "todayStars": 12,
+    "url": "https://github.com/helm/helm"
   },
   {
     "rank": 2,
-    "name": "cjpais/Handy",
-    "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
+    "name": "storybookjs/storybook",
+    "description": "Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation",
     "language": "TypeScript",
-    "stars": 4486,
-    "forks": 281,
-    "todayStars": 466,
-    "url": "https://github.com/cjpais/Handy"
+    "stars": 88366,
+    "forks": 9745,
+    "todayStars": 18,
+    "url": "https://github.com/storybookjs/storybook"
   },
   {
     "rank": 3,
-    "name": "qeeqbox/social-analyzer",
-    "description": "API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \\ websites",
-    "language": "JavaScript",
-    "stars": 15730,
-    "forks": 1293,
-    "todayStars": 692,
-    "url": "https://github.com/qeeqbox/social-analyzer"
-  },
-  {
-    "rank": 4,
     "name": "open-telemetry/opentelemetry-collector",
     "description": "OpenTelemetry Collector",
     "language": "Go",
-    "stars": 5970,
-    "forks": 1754,
-    "todayStars": 6,
+    "stars": 6065,
+    "forks": 1762,
+    "todayStars": 108,
     "url": "https://github.com/open-telemetry/opentelemetry-collector"
   },
   {
-    "rank": 5,
-    "name": "microsoft/Web-Dev-For-Beginners",
-    "description": "24 Lessons, 12 Weeks, Get Started as a Web Developer",
+    "rank": 4,
+    "name": "qeeqbox/social-analyzer",
+    "description": "API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \\ websites",
     "language": "JavaScript",
-    "stars": 92739,
-    "forks": 14382,
-    "todayStars": 59,
-    "url": "https://github.com/microsoft/Web-Dev-For-Beginners"
+    "stars": 16323,
+    "forks": 1330,
+    "todayStars": 672,
+    "url": "https://github.com/qeeqbox/social-analyzer"
+  },
+  {
+    "rank": 5,
+    "name": "patchy631/ai-engineering-hub",
+    "description": "In-depth tutorials on LLMs, RAGs and real-world AI agent applications.",
+    "language": "Jupyter Notebook",
+    "stars": 19837,
+    "forks": 3326,
+    "todayStars": 228,
+    "url": "https://github.com/patchy631/ai-engineering-hub"
   },
   {
     "rank": 6,
-    "name": "protocolbuffers/protobuf",
-    "description": "Protocol Buffers - Google's data interchange format",
+    "name": "yhirose/cpp-httplib",
+    "description": "A C++ header-only HTTP/HTTPS server and client library",
     "language": "C++",
-    "stars": 69440,
-    "forks": 15922,
-    "todayStars": 21,
-    "url": "https://github.com/protocolbuffers/protobuf"
+    "stars": 15269,
+    "forks": 2532,
+    "todayStars": 70,
+    "url": "https://github.com/yhirose/cpp-httplib"
   },
   {
     "rank": 7,
-    "name": "Beingpax/VoiceInk",
-    "description": "Voice-to-text app for macOS to transcribe what you say to text almost instantly",
-    "language": "Swift",
-    "stars": 2282,
-    "forks": 277,
-    "todayStars": 61,
-    "url": "https://github.com/Beingpax/VoiceInk"
-  },
-  {
-    "rank": 8,
-    "name": "block/goose",
-    "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
-    "language": "Rust",
-    "stars": 21059,
-    "forks": 1911,
-    "todayStars": 90,
-    "url": "https://github.com/block/goose"
-  },
-  {
-    "rank": 9,
     "name": "allenai/olmocr",
     "description": "Toolkit for linearizing PDFs for LLM datasets/training",
     "language": "Python",
-    "stars": 15081,
-    "forks": 1150,
-    "todayStars": 200,
+    "stars": 15363,
+    "forks": 1171,
+    "todayStars": 382,
     "url": "https://github.com/allenai/olmocr"
   },
   {
+    "rank": 8,
+    "name": "Project-MONAI/MONAI",
+    "description": "AI Toolkit for Healthcare Imaging",
+    "language": "Python",
+    "stars": 7128,
+    "forks": 1302,
+    "todayStars": 16,
+    "url": "https://github.com/Project-MONAI/MONAI"
+  },
+  {
+    "rank": 9,
+    "name": "janhq/jan",
+    "description": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
+    "language": "TypeScript",
+    "stars": 38587,
+    "forks": 2332,
+    "todayStars": 27,
+    "url": "https://github.com/janhq/jan"
+  },
+  {
     "rank": 10,
-    "name": "dotnet/eShop",
-    "description": "A reference .NET application implementing an eCommerce site",
-    "language": "C#",
-    "stars": 9403,
-    "forks": 3185,
-    "todayStars": 23,
-    "url": "https://github.com/dotnet/eShop"
+    "name": "mem0ai/mem0",
+    "description": "Universal memory layer for AI Agents; Announcing OpenMemory MCP - local and secure memory management.",
+    "language": "Python",
+    "stars": 42261,
+    "forks": 4543,
+    "todayStars": 112,
+    "url": "https://github.com/mem0ai/mem0"
   }
 ]
