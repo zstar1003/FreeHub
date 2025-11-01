@@ -1,102 +1,102 @@
 [
   {
     "rank": 1,
-    "name": "helm/helm",
-    "description": "The Kubernetes Package Manager",
-    "language": "Go",
-    "stars": 28787,
-    "forks": 7375,
-    "todayStars": 12,
-    "url": "https://github.com/helm/helm"
+    "name": "nvm-sh/nvm",
+    "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions",
+    "language": "Shell",
+    "stars": 88756,
+    "forks": 9503,
+    "todayStars": 103,
+    "url": "https://github.com/nvm-sh/nvm"
   },
   {
     "rank": 2,
-    "name": "storybookjs/storybook",
-    "description": "Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation",
-    "language": "TypeScript",
-    "stars": 88366,
-    "forks": 9745,
-    "todayStars": 18,
-    "url": "https://github.com/storybookjs/storybook"
+    "name": "Wei-Shaw/claude-relay-service",
+    "description": "CRS-自建Claude Code镜像，一站式开源中转服务，让 Claude、OpenAI、Gemini、Droid 订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+    "language": "JavaScript",
+    "stars": 4664,
+    "forks": 777,
+    "todayStars": 47,
+    "url": "https://github.com/Wei-Shaw/claude-relay-service"
   },
   {
     "rank": 3,
-    "name": "open-telemetry/opentelemetry-collector",
-    "description": "OpenTelemetry Collector",
-    "language": "Go",
-    "stars": 6065,
-    "forks": 1762,
-    "todayStars": 108,
-    "url": "https://github.com/open-telemetry/opentelemetry-collector"
+    "name": "ventoy/Ventoy",
+    "description": "A new bootable USB solution.",
+    "language": "C",
+    "stars": 71884,
+    "forks": 4542,
+    "todayStars": 225,
+    "url": "https://github.com/ventoy/Ventoy"
   },
   {
     "rank": 4,
-    "name": "qeeqbox/social-analyzer",
-    "description": "API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \\ websites",
+    "name": "projectdiscovery/nuclei-templates",
+    "description": "Community curated list of templates for the nuclei engine to find security vulnerabilities.",
     "language": "JavaScript",
-    "stars": 16323,
-    "forks": 1330,
-    "todayStars": 672,
-    "url": "https://github.com/qeeqbox/social-analyzer"
+    "stars": 11216,
+    "forks": 3115,
+    "todayStars": 71,
+    "url": "https://github.com/projectdiscovery/nuclei-templates"
   },
   {
     "rank": 5,
-    "name": "patchy631/ai-engineering-hub",
-    "description": "In-depth tutorials on LLMs, RAGs and real-world AI agent applications.",
-    "language": "Jupyter Notebook",
-    "stars": 19837,
-    "forks": 3326,
-    "todayStars": 228,
-    "url": "https://github.com/patchy631/ai-engineering-hub"
+    "name": "fmtlib/fmt",
+    "description": "A modern formatting library",
+    "language": "C++",
+    "stars": 22799,
+    "forks": 2764,
+    "todayStars": 10,
+    "url": "https://github.com/fmtlib/fmt"
   },
   {
     "rank": 6,
-    "name": "yhirose/cpp-httplib",
-    "description": "A C++ header-only HTTP/HTTPS server and client library",
-    "language": "C++",
-    "stars": 15269,
-    "forks": 2532,
-    "todayStars": 70,
-    "url": "https://github.com/yhirose/cpp-httplib"
+    "name": "qeeqbox/social-analyzer",
+    "description": "API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \\ websites",
+    "language": "JavaScript",
+    "stars": 16786,
+    "forks": 1366,
+    "todayStars": 532,
+    "url": "https://github.com/qeeqbox/social-analyzer"
   },
   {
     "rank": 7,
-    "name": "allenai/olmocr",
-    "description": "Toolkit for linearizing PDFs for LLM datasets/training",
-    "language": "Python",
-    "stars": 15363,
-    "forks": 1171,
-    "todayStars": 382,
-    "url": "https://github.com/allenai/olmocr"
+    "name": "open-telemetry/opentelemetry-collector",
+    "description": "OpenTelemetry Collector",
+    "language": "Go",
+    "stars": 6151,
+    "forks": 1766,
+    "todayStars": 85,
+    "url": "https://github.com/open-telemetry/opentelemetry-collector"
   },
   {
     "rank": 8,
-    "name": "Project-MONAI/MONAI",
-    "description": "AI Toolkit for Healthcare Imaging",
-    "language": "Python",
-    "stars": 7128,
-    "forks": 1302,
-    "todayStars": 16,
-    "url": "https://github.com/Project-MONAI/MONAI"
+    "name": "yhirose/cpp-httplib",
+    "description": "A C++ header-only HTTP/HTTPS server and client library",
+    "language": "C++",
+    "stars": 15370,
+    "forks": 2538,
+    "todayStars": 128,
+    "url": "https://github.com/yhirose/cpp-httplib"
   },
   {
     "rank": 9,
-    "name": "janhq/jan",
-    "description": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
-    "language": "TypeScript",
-    "stars": 38587,
-    "forks": 2332,
-    "todayStars": 27,
-    "url": "https://github.com/janhq/jan"
+    "name": "microsoft/agent-lightning",
+    "description": "The absolute trainer to light up AI agents.",
+    "language": "Python",
+    "stars": 5105,
+    "forks": 366,
+    "todayStars": 408,
+    "url": "https://github.com/microsoft/agent-lightning"
   },
   {
     "rank": 10,
-    "name": "mem0ai/mem0",
-    "description": "Universal memory layer for AI Agents; Announcing OpenMemory MCP - local and secure memory management.",
+    "name": "666ghj/BettaFish",
+    "description": "微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。",
     "language": "Python",
-    "stars": 42261,
-    "forks": 4543,
-    "todayStars": 112,
-    "url": "https://github.com/mem0ai/mem0"
+    "stars": 2278,
+    "forks": 305,
+    "todayStars": 105,
+    "url": "https://github.com/666ghj/BettaFish"
   }
 ]
