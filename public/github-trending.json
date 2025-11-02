@@ -1,102 +1,102 @@
 [
   {
     "rank": 1,
-    "name": "nvm-sh/nvm",
-    "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions",
-    "language": "Shell",
-    "stars": 88756,
-    "forks": 9503,
-    "todayStars": 103,
-    "url": "https://github.com/nvm-sh/nvm"
+    "name": "get-convex/chef",
+    "description": "The only AI app builder that knows backend",
+    "language": "TypeScript",
+    "stars": 2710,
+    "forks": 521,
+    "todayStars": 65,
+    "url": "https://github.com/get-convex/chef"
   },
   {
     "rank": 2,
-    "name": "Wei-Shaw/claude-relay-service",
-    "description": "CRS-自建Claude Code镜像，一站式开源中转服务，让 Claude、OpenAI、Gemini、Droid 订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
-    "language": "JavaScript",
-    "stars": 4664,
-    "forks": 777,
-    "todayStars": 47,
-    "url": "https://github.com/Wei-Shaw/claude-relay-service"
+    "name": "suitenumerique/docs",
+    "description": "A collaborative note taking, wiki and documentation platform that scales. Built with Django and React.",
+    "language": "Python",
+    "stars": 14202,
+    "forks": 430,
+    "todayStars": 28,
+    "url": "https://github.com/suitenumerique/docs"
   },
   {
     "rank": 3,
-    "name": "ventoy/Ventoy",
-    "description": "A new bootable USB solution.",
-    "language": "C",
-    "stars": 71884,
-    "forks": 4542,
-    "todayStars": 225,
-    "url": "https://github.com/ventoy/Ventoy"
+    "name": "Tencent/WeKnora",
+    "description": "LLM-powered framework for deep document understanding, semantic retrieval, and context-aware answers using RAG paradigm.",
+    "language": "Go",
+    "stars": 7187,
+    "forks": 811,
+    "todayStars": 36,
+    "url": "https://github.com/Tencent/WeKnora"
   },
   {
     "rank": 4,
-    "name": "projectdiscovery/nuclei-templates",
-    "description": "Community curated list of templates for the nuclei engine to find security vulnerabilities.",
-    "language": "JavaScript",
-    "stars": 11216,
-    "forks": 3115,
-    "todayStars": 71,
-    "url": "https://github.com/projectdiscovery/nuclei-templates"
+    "name": "janhq/jan",
+    "description": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
+    "language": "TypeScript",
+    "stars": 38945,
+    "forks": 2347,
+    "todayStars": 112,
+    "url": "https://github.com/janhq/jan"
   },
   {
     "rank": 5,
-    "name": "fmtlib/fmt",
-    "description": "A modern formatting library",
-    "language": "C++",
-    "stars": 22799,
-    "forks": 2764,
-    "todayStars": 10,
-    "url": "https://github.com/fmtlib/fmt"
+    "name": "microsoft/Web-Dev-For-Beginners",
+    "description": "24 Lessons, 12 Weeks, Get Started as a Web Developer",
+    "language": "JavaScript",
+    "stars": 93732,
+    "forks": 14549,
+    "todayStars": 331,
+    "url": "https://github.com/microsoft/Web-Dev-For-Beginners"
   },
   {
     "rank": 6,
-    "name": "qeeqbox/social-analyzer",
-    "description": "API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \\ websites",
-    "language": "JavaScript",
-    "stars": 16786,
-    "forks": 1366,
-    "todayStars": 532,
-    "url": "https://github.com/qeeqbox/social-analyzer"
+    "name": "hacksider/Deep-Live-Cam",
+    "description": "real time face swap and one-click video deepfake with only a single image",
+    "language": "Python",
+    "stars": 74739,
+    "forks": 10880,
+    "todayStars": 132,
+    "url": "https://github.com/hacksider/Deep-Live-Cam"
   },
   {
     "rank": 7,
-    "name": "open-telemetry/opentelemetry-collector",
-    "description": "OpenTelemetry Collector",
-    "language": "Go",
-    "stars": 6151,
-    "forks": 1766,
-    "todayStars": 85,
-    "url": "https://github.com/open-telemetry/opentelemetry-collector"
+    "name": "juspay/hyperswitch",
+    "description": "An open source payments switch written in Rust to make payments fast, reliable and affordable",
+    "language": "Rust",
+    "stars": 38914,
+    "forks": 4513,
+    "todayStars": 242,
+    "url": "https://github.com/juspay/hyperswitch"
   },
   {
     "rank": 8,
-    "name": "yhirose/cpp-httplib",
-    "description": "A C++ header-only HTTP/HTTPS server and client library",
-    "language": "C++",
-    "stars": 15370,
-    "forks": 2538,
-    "todayStars": 128,
-    "url": "https://github.com/yhirose/cpp-httplib"
+    "name": "nvm-sh/nvm",
+    "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions",
+    "language": "Shell",
+    "stars": 88835,
+    "forks": 9511,
+    "todayStars": 83,
+    "url": "https://github.com/nvm-sh/nvm"
   },
   {
     "rank": 9,
-    "name": "microsoft/agent-lightning",
-    "description": "The absolute trainer to light up AI agents.",
-    "language": "Python",
-    "stars": 5105,
-    "forks": 366,
-    "todayStars": 408,
-    "url": "https://github.com/microsoft/agent-lightning"
+    "name": "github/copilot-cli",
+    "description": "GitHub Copilot CLI brings the power of Copilot coding agent directly to your terminal.",
+    "language": "Unknown",
+    "stars": 4516,
+    "forks": 288,
+    "todayStars": 45,
+    "url": "https://github.com/github/copilot-cli"
   },
   {
     "rank": 10,
-    "name": "666ghj/BettaFish",
-    "description": "微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。",
-    "language": "Python",
-    "stars": 2278,
-    "forks": 305,
-    "todayStars": 105,
-    "url": "https://github.com/666ghj/BettaFish"
+    "name": "YunaiV/ruoyi-vue-pro",
+    "description": "🔥 官方推荐 🔥 RuoYi-Vue 全新 Pro 版本，优化重构所有功能。基于 Spring Boot + MyBatis Plus + Vue & Element 实现的后台管理系统 + 微信小程序，支持 RBAC 动态权限、数据权限、SaaS 多租户、Flowable 工作流、三方登录、支付、短信、商城、CRM、ERP、AI 大模型等功能。你的 ⭐️ Star ⭐️，是作者生发的动力！",
+    "language": "Java",
+    "stars": 33877,
+    "forks": 7313,
+    "todayStars": 12,
+    "url": "https://github.com/YunaiV/ruoyi-vue-pro"
   }
 ]
