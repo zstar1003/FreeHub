@@ -1,102 +1,102 @@
 [
   {
     "rank": 1,
-    "name": "get-convex/chef",
-    "description": "The only AI app builder that knows backend",
-    "language": "TypeScript",
-    "stars": 2710,
-    "forks": 521,
-    "todayStars": 65,
-    "url": "https://github.com/get-convex/chef"
+    "name": "666ghj/BettaFish",
+    "description": "微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。",
+    "language": "Python",
+    "stars": 4228,
+    "forks": 438,
+    "todayStars": 1149,
+    "url": "https://github.com/666ghj/BettaFish"
   },
   {
     "rank": 2,
-    "name": "suitenumerique/docs",
-    "description": "A collaborative note taking, wiki and documentation platform that scales. Built with Django and React.",
-    "language": "Python",
-    "stars": 14202,
-    "forks": 430,
-    "todayStars": 28,
-    "url": "https://github.com/suitenumerique/docs"
+    "name": "Wei-Shaw/claude-relay-service",
+    "description": "CRS-自建Claude Code镜像，一站式开源中转服务，让 Claude、OpenAI、Gemini、Droid 订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+    "language": "JavaScript",
+    "stars": 4830,
+    "forks": 798,
+    "todayStars": 32,
+    "url": "https://github.com/Wei-Shaw/claude-relay-service"
   },
   {
     "rank": 3,
-    "name": "Tencent/WeKnora",
-    "description": "LLM-powered framework for deep document understanding, semantic retrieval, and context-aware answers using RAG paradigm.",
-    "language": "Go",
-    "stars": 7187,
-    "forks": 811,
-    "todayStars": 36,
-    "url": "https://github.com/Tencent/WeKnora"
+    "name": "microsoft/agent-lightning",
+    "description": "The absolute trainer to light up AI agents.",
+    "language": "Python",
+    "stars": 6095,
+    "forks": 450,
+    "todayStars": 432,
+    "url": "https://github.com/microsoft/agent-lightning"
   },
   {
     "rank": 4,
-    "name": "janhq/jan",
-    "description": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
-    "language": "TypeScript",
-    "stars": 38945,
-    "forks": 2347,
-    "todayStars": 112,
-    "url": "https://github.com/janhq/jan"
+    "name": "HKUDS/DeepCode",
+    "description": "\"DeepCode: Open Agentic Coding (Paper2Code & Text2Web & Text2Backend)\"",
+    "language": "Python",
+    "stars": 8388,
+    "forks": 1184,
+    "todayStars": 240,
+    "url": "https://github.com/HKUDS/DeepCode"
   },
   {
     "rank": 5,
-    "name": "microsoft/Web-Dev-For-Beginners",
-    "description": "24 Lessons, 12 Weeks, Get Started as a Web Developer",
-    "language": "JavaScript",
-    "stars": 93732,
-    "forks": 14549,
-    "todayStars": 331,
-    "url": "https://github.com/microsoft/Web-Dev-For-Beginners"
+    "name": "GeeeekExplorer/nano-vllm",
+    "description": "Nano vLLM",
+    "language": "Python",
+    "stars": 7556,
+    "forks": 960,
+    "todayStars": 173,
+    "url": "https://github.com/GeeeekExplorer/nano-vllm"
   },
   {
     "rank": 6,
-    "name": "hacksider/Deep-Live-Cam",
-    "description": "real time face swap and one-click video deepfake with only a single image",
-    "language": "Python",
-    "stars": 74739,
-    "forks": 10880,
-    "todayStars": 132,
-    "url": "https://github.com/hacksider/Deep-Live-Cam"
+    "name": "sst/opencode",
+    "description": "The AI coding agent built for the terminal.",
+    "language": "TypeScript",
+    "stars": 30551,
+    "forks": 2355,
+    "todayStars": 269,
+    "url": "https://github.com/sst/opencode"
   },
   {
     "rank": 7,
-    "name": "juspay/hyperswitch",
-    "description": "An open source payments switch written in Rust to make payments fast, reliable and affordable",
-    "language": "Rust",
-    "stars": 38914,
-    "forks": 4513,
-    "todayStars": 242,
-    "url": "https://github.com/juspay/hyperswitch"
+    "name": "charmbracelet/glow",
+    "description": "Render markdown on the CLI, with pizzazz! 💅🏻",
+    "language": "Go",
+    "stars": 20110,
+    "forks": 486,
+    "todayStars": 110,
+    "url": "https://github.com/charmbracelet/glow"
   },
   {
     "rank": 8,
-    "name": "nvm-sh/nvm",
-    "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions",
-    "language": "Shell",
-    "stars": 88835,
-    "forks": 9511,
-    "todayStars": 83,
-    "url": "https://github.com/nvm-sh/nvm"
+    "name": "NARKOZ/hacker-scripts",
+    "description": "Based on a true story",
+    "language": "JavaScript",
+    "stars": 49075,
+    "forks": 6677,
+    "todayStars": 28,
+    "url": "https://github.com/NARKOZ/hacker-scripts"
   },
   {
     "rank": 9,
-    "name": "github/copilot-cli",
-    "description": "GitHub Copilot CLI brings the power of Copilot coding agent directly to your terminal.",
-    "language": "Unknown",
-    "stars": 4516,
-    "forks": 288,
-    "todayStars": 45,
-    "url": "https://github.com/github/copilot-cli"
+    "name": "moondevonyt/moon-dev-ai-agents",
+    "description": "autonomous ai agents for trading in python",
+    "language": "Python",
+    "stars": 2437,
+    "forks": 1109,
+    "todayStars": 188,
+    "url": "https://github.com/moondevonyt/moon-dev-ai-agents"
   },
   {
     "rank": 10,
-    "name": "YunaiV/ruoyi-vue-pro",
-    "description": "🔥 官方推荐 🔥 RuoYi-Vue 全新 Pro 版本，优化重构所有功能。基于 Spring Boot + MyBatis Plus + Vue & Element 实现的后台管理系统 + 微信小程序，支持 RBAC 动态权限、数据权限、SaaS 多租户、Flowable 工作流、三方登录、支付、短信、商城、CRM、ERP、AI 大模型等功能。你的 ⭐️ Star ⭐️，是作者生发的动力！",
-    "language": "Java",
-    "stars": 33877,
-    "forks": 7313,
-    "todayStars": 12,
-    "url": "https://github.com/YunaiV/ruoyi-vue-pro"
+    "name": "suitenumerique/docs",
+    "description": "A collaborative note taking, wiki and documentation platform that scales. Built with Django and React.",
+    "language": "Python",
+    "stars": 14358,
+    "forks": 438,
+    "todayStars": 178,
+    "url": "https://github.com/suitenumerique/docs"
   }
 ]
