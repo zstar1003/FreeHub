@@ -4,99 +4,99 @@
     "name": "666ghj/BettaFish",
     "description": "微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。",
     "language": "Python",
-    "stars": 11474,
-    "forks": 1863,
-    "todayStars": 4577,
+    "stars": 14847,
+    "forks": 2594,
+    "todayStars": 3843,
     "url": "https://github.com/666ghj/BettaFish"
   },
   {
     "rank": 2,
-    "name": "sst/opentui",
-    "description": "OpenTUI is a library for building terminal user interfaces (TUIs)",
-    "language": "TypeScript",
-    "stars": 4020,
-    "forks": 150,
-    "todayStars": 249,
-    "url": "https://github.com/sst/opentui"
+    "name": "Skyvern-AI/skyvern",
+    "description": "Automate browser based workflows with AI",
+    "language": "Python",
+    "stars": 16170,
+    "forks": 1376,
+    "todayStars": 207,
+    "url": "https://github.com/Skyvern-AI/skyvern"
   },
   {
     "rank": 3,
-    "name": "GeeeekExplorer/nano-vllm",
-    "description": "Nano vLLM",
-    "language": "Python",
-    "stars": 8185,
-    "forks": 1005,
-    "todayStars": 333,
-    "url": "https://github.com/GeeeekExplorer/nano-vllm"
-  },
-  {
-    "rank": 4,
-    "name": "mudler/LocalAI",
-    "description": "🤖 The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement for OpenAI, running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more. Features: Generate Text, Audio, Video, Images, Voice Cloning, Distributed, P2P and decentralized inference",
-    "language": "Go",
-    "stars": 36917,
-    "forks": 2918,
-    "todayStars": 333,
-    "url": "https://github.com/mudler/LocalAI"
-  },
-  {
-    "rank": 5,
-    "name": "1Panel-dev/MaxKB",
-    "description": "🔥 MaxKB is an open-source platform for building enterprise-grade agents. MaxKB 是强大易用的开源企业级智能体平台。",
-    "language": "Python",
-    "stars": 19106,
-    "forks": 2485,
-    "todayStars": 145,
-    "url": "https://github.com/1Panel-dev/MaxKB"
-  },
-  {
-    "rank": 6,
-    "name": "imthenachoman/How-To-Secure-A-Linux-Server",
-    "description": "An evolving how-to guide for securing a Linux server.",
-    "language": "Unknown",
-    "stars": 20813,
-    "forks": 1312,
-    "todayStars": 171,
-    "url": "https://github.com/imthenachoman/How-To-Secure-A-Linux-Server"
-  },
-  {
-    "rank": 7,
-    "name": "Raphire/Win11Debloat",
-    "description": "A simple, lightweight PowerShell script to remove pre-installed apps, disable telemetry, as well as perform various other changes to customize, declutter and improve your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.",
-    "language": "PowerShell",
-    "stars": 31762,
-    "forks": 1249,
-    "todayStars": 733,
-    "url": "https://github.com/Raphire/Win11Debloat"
-  },
-  {
-    "rank": 8,
-    "name": "DearVa/Everywhere",
-    "description": "A context-aware AI assistant for your desktop. Ready to respond intelligently, seamlessly integrating multiple LLMs and MCP tools.",
-    "language": "C#",
-    "stars": 2464,
-    "forks": 126,
-    "todayStars": 387,
-    "url": "https://github.com/DearVa/Everywhere"
-  },
-  {
-    "rank": 9,
     "name": "HKUDS/DeepCode",
     "description": "\"DeepCode: Open Agentic Coding (Paper2Code & Text2Web & Text2Backend)\"",
     "language": "Python",
-    "stars": 9121,
-    "forks": 1246,
-    "todayStars": 367,
+    "stars": 9439,
+    "forks": 1281,
+    "todayStars": 264,
     "url": "https://github.com/HKUDS/DeepCode"
   },
   {
+    "rank": 4,
+    "name": "nocobase/nocobase",
+    "description": "NocoBase is the most extensible AI-powered no-code/low-code platform for building business applications and enterprise solutions.",
+    "language": "TypeScript",
+    "stars": 17859,
+    "forks": 2039,
+    "todayStars": 223,
+    "url": "https://github.com/nocobase/nocobase"
+  },
+  {
+    "rank": 5,
+    "name": "mudler/LocalAI",
+    "description": "🤖 The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement for OpenAI, running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more. Features: Generate Text, Audio, Video, Images, Voice Cloning, Distributed, P2P and decentralized inference",
+    "language": "Go",
+    "stars": 37253,
+    "forks": 2939,
+    "todayStars": 335,
+    "url": "https://github.com/mudler/LocalAI"
+  },
+  {
+    "rank": 6,
+    "name": "sst/opentui",
+    "description": "OpenTUI is a library for building terminal user interfaces (TUIs)",
+    "language": "TypeScript",
+    "stars": 4457,
+    "forks": 162,
+    "todayStars": 790,
+    "url": "https://github.com/sst/opentui"
+  },
+  {
+    "rank": 7,
+    "name": "prometheus/alertmanager",
+    "description": "Prometheus Alertmanager",
+    "language": "Go",
+    "stars": 7350,
+    "forks": 2286,
+    "todayStars": 4,
+    "url": "https://github.com/prometheus/alertmanager"
+  },
+  {
+    "rank": 8,
+    "name": "GopeedLab/gopeed",
+    "description": "A modern download manager that supports all platforms. Built with Golang and Flutter.",
+    "language": "Dart",
+    "stars": 21174,
+    "forks": 1466,
+    "todayStars": 84,
+    "url": "https://github.com/GopeedLab/gopeed"
+  },
+  {
+    "rank": 9,
+    "name": "imthenachoman/How-To-Secure-A-Linux-Server",
+    "description": "An evolving how-to guide for securing a Linux server.",
+    "language": "Unknown",
+    "stars": 21674,
+    "forks": 1375,
+    "todayStars": 542,
+    "url": "https://github.com/imthenachoman/How-To-Secure-A-Linux-Server"
+  },
+  {
     "rank": 10,
-    "name": "Fosowl/agenticSeek",
-    "description": "Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity. 🔔 Official updates only via twitter @Martin993886460 (Beware of fake account)",
-    "language": "Python",
-    "stars": 23266,
-    "forks": 2500,
-    "todayStars": 315,
-    "url": "https://github.com/Fosowl/agenticSeek"
+    "name": "Raphire/Win11Debloat",
+    "description": "A simple, lightweight PowerShell script to remove pre-installed apps, disable telemetry, as well as perform various other changes to customize, declutter and improve your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.",
+    "language": "PowerShell",
+    "stars": 32161,
+    "forks": 1258,
+    "todayStars": 472,
+    "url": "https://github.com/Raphire/Win11Debloat"
   }
 ]
