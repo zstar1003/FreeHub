@@ -101,5 +101,18 @@
         "submittedBy": "zstar",
         "submittedAt": "2025-10-25",
         "logo": "product/FreeP2W.png"
+    }, 
+    {
+        "name": "羲和",
+        "nameEn": "羲和",
+        "summary": "一个桌面诗词摆件App",
+        "summaryEn": "A desktop poetry ornament app",
+        "description": "一个桌面诗词摆件App，已经上架App Store。",
+        "descriptionEn": "A desktop poetry ornament app has been put on the App Store.",
+        "url": "https://github.com/zstar1003/xihe",
+        "categories": ["Flutter", "Android", "iOS"],
+        "submittedBy": "zstar",
+        "submittedAt": "2025-11-8",
+        "logo": "product/xihe.png"
     }
 ]
