@@ -1,102 +1,102 @@
 [
   {
     "rank": 1,
-    "name": "666ghj/BettaFish",
-    "description": "微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。",
-    "language": "Python",
-    "stars": 18103,
-    "forks": 3512,
-    "todayStars": 3226,
-    "url": "https://github.com/666ghj/BettaFish"
+    "name": "prometheus/alertmanager",
+    "description": "Prometheus Alertmanager",
+    "language": "Go",
+    "stars": 7677,
+    "forks": 2325,
+    "todayStars": 20,
+    "url": "https://github.com/prometheus/alertmanager"
   },
   {
     "rank": 2,
-    "name": "Skyvern-AI/skyvern",
-    "description": "Automate browser based workflows with AI",
+    "name": "666ghj/BettaFish",
+    "description": "微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。",
     "language": "Python",
-    "stars": 16720,
-    "forks": 1416,
-    "todayStars": 889,
-    "url": "https://github.com/Skyvern-AI/skyvern"
+    "stars": 21528,
+    "forks": 4172,
+    "todayStars": 3550,
+    "url": "https://github.com/666ghj/BettaFish"
   },
   {
     "rank": 3,
-    "name": "nocobase/nocobase",
-    "description": "NocoBase is the most extensible AI-powered no-code/low-code platform for building business applications and enterprise solutions.",
+    "name": "simstudioai/sim",
+    "description": "Open-source platform to build and deploy AI agent workflows.",
     "language": "TypeScript",
-    "stars": 18196,
-    "forks": 2063,
-    "todayStars": 379,
-    "url": "https://github.com/nocobase/nocobase"
+    "stars": 17622,
+    "forks": 2340,
+    "todayStars": 36,
+    "url": "https://github.com/simstudioai/sim"
   },
   {
     "rank": 4,
-    "name": "mudler/LocalAI",
-    "description": "🤖 The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement for OpenAI, running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more. Features: Generate Text, Audio, Video, Images, Voice Cloning, Distributed, P2P and decentralized inference",
+    "name": "lima-vm/lima",
+    "description": "Linux virtual machines, with a focus on running containers",
     "language": "Go",
-    "stars": 37573,
-    "forks": 2957,
-    "todayStars": 351,
-    "url": "https://github.com/mudler/LocalAI"
+    "stars": 18437,
+    "forks": 728,
+    "todayStars": 15,
+    "url": "https://github.com/lima-vm/lima"
   },
   {
     "rank": 5,
-    "name": "sst/opentui",
-    "description": "OpenTUI is a library for building terminal user interfaces (TUIs)",
-    "language": "TypeScript",
-    "stars": 4633,
-    "forks": 172,
-    "todayStars": 204,
-    "url": "https://github.com/sst/opentui"
+    "name": "awslabs/mcp",
+    "description": "AWS MCP Servers — helping you get the most out of AWS, wherever you use MCP.",
+    "language": "Python",
+    "stars": 7061,
+    "forks": 1041,
+    "todayStars": 16,
+    "url": "https://github.com/awslabs/mcp"
   },
   {
     "rank": 6,
-    "name": "imthenachoman/How-To-Secure-A-Linux-Server",
-    "description": "An evolving how-to guide for securing a Linux server.",
-    "language": "Unknown",
-    "stars": 22293,
-    "forks": 1423,
-    "todayStars": 933,
-    "url": "https://github.com/imthenachoman/How-To-Secure-A-Linux-Server"
+    "name": "usestrix/strix",
+    "description": "✨ Open-source AI hackers for your apps 👨🏻‍💻",
+    "language": "Python",
+    "stars": 3333,
+    "forks": 416,
+    "todayStars": 376,
+    "url": "https://github.com/usestrix/strix"
   },
   {
     "rank": 7,
-    "name": "modelcontextprotocol/go-sdk",
-    "description": "The official Go SDK for Model Context Protocol servers and clients. Maintained in collaboration with Google.",
-    "language": "Go",
-    "stars": 2782,
-    "forks": 252,
-    "todayStars": 19,
-    "url": "https://github.com/modelcontextprotocol/go-sdk"
+    "name": "blakeblackshear/frigate",
+    "description": "NVR with realtime local object detection for IP cameras",
+    "language": "TypeScript",
+    "stars": 26853,
+    "forks": 2482,
+    "todayStars": 34,
+    "url": "https://github.com/blakeblackshear/frigate"
   },
   {
     "rank": 8,
-    "name": "ad-on-is/rachoon",
-    "description": "🦝 Rachoon — A self-hostable way to handle invoices",
-    "language": "TypeScript",
-    "stars": 433,
-    "forks": 22,
-    "todayStars": 45,
-    "url": "https://github.com/ad-on-is/rachoon"
+    "name": "imthenachoman/How-To-Secure-A-Linux-Server",
+    "description": "An evolving how-to guide for securing a Linux server.",
+    "language": "Unknown",
+    "stars": 22722,
+    "forks": 1447,
+    "todayStars": 529,
+    "url": "https://github.com/imthenachoman/How-To-Secure-A-Linux-Server"
   },
   {
     "rank": 9,
-    "name": "KotatsuApp/Kotatsu",
-    "description": "Manga reader for Android",
-    "language": "Kotlin",
-    "stars": 7249,
-    "forks": 374,
-    "todayStars": 26,
-    "url": "https://github.com/KotatsuApp/Kotatsu"
+    "name": "FFmpeg/asm-lessons",
+    "description": "FFmpeg Assembly Language Lessons",
+    "language": "Unknown",
+    "stars": 10230,
+    "forks": 307,
+    "todayStars": 283,
+    "url": "https://github.com/FFmpeg/asm-lessons"
   },
   {
     "rank": 10,
-    "name": "ggml-org/ggml",
-    "description": "Tensor library for machine learning",
-    "language": "C++",
-    "stars": 13447,
-    "forks": 1380,
-    "todayStars": 12,
-    "url": "https://github.com/ggml-org/ggml"
+    "name": "ad-on-is/rachoon",
+    "description": "🦝 Rachoon — A self-hostable way to handle invoices",
+    "language": "TypeScript",
+    "stars": 626,
+    "forks": 36,
+    "todayStars": 233,
+    "url": "https://github.com/ad-on-is/rachoon"
   }
 ]
