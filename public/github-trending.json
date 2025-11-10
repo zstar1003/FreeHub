@@ -4,9 +4,9 @@
     "name": "usestrix/strix",
     "description": "✨ Open-source AI hackers for your apps 👨🏻‍💻",
     "language": "Python",
-    "stars": 4713,
-    "forks": 519,
-    "todayStars": 593,
+    "stars": 6765,
+    "forks": 668,
+    "todayStars": 2131,
     "url": "https://github.com/usestrix/strix"
   },
   {
@@ -14,89 +14,89 @@
     "name": "umami-software/umami",
     "description": "Umami is a modern, privacy-focused alternative to Google Analytics.",
     "language": "TypeScript",
-    "stars": 32308,
-    "forks": 5792,
-    "todayStars": 294,
+    "stars": 32826,
+    "forks": 5818,
+    "todayStars": 838,
     "url": "https://github.com/umami-software/umami"
   },
   {
     "rank": 3,
-    "name": "prometheus/alertmanager",
-    "description": "Prometheus Alertmanager",
-    "language": "Go",
-    "stars": 7922,
-    "forks": 2343,
-    "todayStars": 474,
-    "url": "https://github.com/prometheus/alertmanager"
+    "name": "thinking-machines-lab/tinker-cookbook",
+    "description": "Post-training with Tinker",
+    "language": "Python",
+    "stars": 1617,
+    "forks": 130,
+    "todayStars": 76,
+    "url": "https://github.com/thinking-machines-lab/tinker-cookbook"
   },
   {
     "rank": 4,
-    "name": "lima-vm/lima",
-    "description": "Linux virtual machines, with a focus on running containers",
-    "language": "Go",
-    "stars": 18588,
-    "forks": 741,
-    "todayStars": 163,
-    "url": "https://github.com/lima-vm/lima"
+    "name": "mui/material-ui",
+    "description": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.",
+    "language": "JavaScript",
+    "stars": 97105,
+    "forks": 32713,
+    "todayStars": 8,
+    "url": "https://github.com/mui/material-ui"
   },
   {
     "rank": 5,
-    "name": "nocobase/nocobase",
-    "description": "NocoBase is the most extensible AI-powered no-code/low-code platform for building business applications and enterprise solutions.",
-    "language": "TypeScript",
-    "stars": 18923,
-    "forks": 2118,
-    "todayStars": 125,
-    "url": "https://github.com/nocobase/nocobase"
+    "name": "google/adk-go",
+    "description": "An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+    "language": "Go",
+    "stars": 624,
+    "forks": 36,
+    "todayStars": 182,
+    "url": "https://github.com/google/adk-go"
   },
   {
     "rank": 6,
-    "name": "dbeaver/dbeaver",
-    "description": "Free universal database tool and SQL client",
-    "language": "Java",
-    "stars": 46501,
-    "forks": 3914,
-    "todayStars": 287,
-    "url": "https://github.com/dbeaver/dbeaver"
+    "name": "axios/axios",
+    "description": "Promise based HTTP client for the browser and node.js",
+    "language": "JavaScript",
+    "stars": 108154,
+    "forks": 11400,
+    "todayStars": 7,
+    "url": "https://github.com/axios/axios"
   },
   {
     "rank": 7,
-    "name": "localstack/localstack",
-    "description": "💻 A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline",
-    "language": "Python",
-    "stars": 62581,
-    "forks": 4380,
-    "todayStars": 139,
-    "url": "https://github.com/localstack/localstack"
+    "name": "simstudioai/sim",
+    "description": "Open-source platform to build and deploy AI agent workflows.",
+    "language": "TypeScript",
+    "stars": 17787,
+    "forks": 2366,
+    "todayStars": 63,
+    "url": "https://github.com/simstudioai/sim"
   },
   {
     "rank": 8,
-    "name": "Shubhamsaboo/awesome-llm-apps",
-    "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
-    "language": "Python",
-    "stars": 75769,
-    "forks": 9975,
-    "todayStars": 231,
-    "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
-  },
-  {
-    "rank": 9,
-    "name": "666ghj/BettaFish",
-    "description": "微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。",
-    "language": "Python",
-    "stars": 23038,
-    "forks": 4415,
-    "todayStars": 1931,
-    "url": "https://github.com/666ghj/BettaFish"
-  },
-  {
-    "rank": 10,
     "name": "airweave-ai/airweave",
     "description": "Context retrieval for AI agents across apps and databases",
     "language": "Python",
-    "stars": 4759,
-    "forks": 576,
-    "todayStars": 119,
+    "stars": 4924,
+    "forks": 588,
+    "todayStars": 172,
     "url": "https://github.com/airweave-ai/airweave"
+  },
+  {
+    "rank": 9,
+    "name": "HyDE-Project/HyDE",
+    "description": "HyDE, your Development Environment 🖥️💻",
+    "language": "Shell",
+    "stars": 6904,
+    "forks": 490,
+    "todayStars": 20,
+    "url": "https://github.com/HyDE-Project/HyDE"
+  },
+  {
+    "rank": 10,
+    "name": "AUTOMATIC1111/stable-diffusion-webui",
+    "description": "Stable Diffusion web UI",
+    "language": "Python",
+    "stars": 157995,
+    "forks": 29329,
+    "todayStars": 43,
+    "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui"
   }
 ]
