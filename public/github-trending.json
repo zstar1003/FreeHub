@@ -1,102 +1,102 @@
 [
   {
     "rank": 1,
-    "name": "usestrix/strix",
-    "description": "✨ Open-source AI hackers for your apps 👨🏻‍💻",
-    "language": "Python",
-    "stars": 6765,
-    "forks": 668,
-    "todayStars": 2131,
-    "url": "https://github.com/usestrix/strix"
-  },
-  {
-    "rank": 2,
-    "name": "umami-software/umami",
-    "description": "Umami is a modern, privacy-focused alternative to Google Analytics.",
-    "language": "TypeScript",
-    "stars": 32826,
-    "forks": 5818,
-    "todayStars": 838,
-    "url": "https://github.com/umami-software/umami"
-  },
-  {
-    "rank": 3,
-    "name": "thinking-machines-lab/tinker-cookbook",
-    "description": "Post-training with Tinker",
-    "language": "Python",
-    "stars": 1617,
-    "forks": 130,
-    "todayStars": 76,
-    "url": "https://github.com/thinking-machines-lab/tinker-cookbook"
-  },
-  {
-    "rank": 4,
-    "name": "mui/material-ui",
-    "description": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.",
-    "language": "JavaScript",
-    "stars": 97105,
-    "forks": 32713,
-    "todayStars": 8,
-    "url": "https://github.com/mui/material-ui"
-  },
-  {
-    "rank": 5,
     "name": "google/adk-go",
     "description": "An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
     "language": "Go",
-    "stars": 624,
-    "forks": 36,
-    "todayStars": 182,
+    "stars": 1487,
+    "forks": 81,
+    "todayStars": 380,
     "url": "https://github.com/google/adk-go"
   },
   {
+    "rank": 2,
+    "name": "usestrix/strix",
+    "description": "✨ Open-source AI hackers for your apps 👨🏻‍💻",
+    "language": "Python",
+    "stars": 8761,
+    "forks": 793,
+    "todayStars": 2539,
+    "url": "https://github.com/usestrix/strix"
+  },
+  {
+    "rank": 3,
+    "name": "umami-software/umami",
+    "description": "Umami is a modern, privacy-focused alternative to Google Analytics.",
+    "language": "TypeScript",
+    "stars": 33168,
+    "forks": 5835,
+    "todayStars": 393,
+    "url": "https://github.com/umami-software/umami"
+  },
+  {
+    "rank": 4,
+    "name": "TapXWorld/ChinaTextbook",
+    "description": "所有小初高、大学PDF教材。",
+    "language": "Roff",
+    "stars": 54944,
+    "forks": 12339,
+    "todayStars": 181,
+    "url": "https://github.com/TapXWorld/ChinaTextbook"
+  },
+  {
+    "rank": 5,
+    "name": "thinking-machines-lab/tinker-cookbook",
+    "description": "Post-training with Tinker",
+    "language": "Python",
+    "stars": 1752,
+    "forks": 140,
+    "todayStars": 137,
+    "url": "https://github.com/thinking-machines-lab/tinker-cookbook"
+  },
+  {
     "rank": 6,
-    "name": "axios/axios",
-    "description": "Promise based HTTP client for the browser and node.js",
-    "language": "JavaScript",
-    "stars": 108154,
-    "forks": 11400,
-    "todayStars": 7,
-    "url": "https://github.com/axios/axios"
+    "name": "iptv-org/iptv",
+    "description": "Collection of publicly available IPTV channels from all over the world",
+    "language": "TypeScript",
+    "stars": 99180,
+    "forks": 4256,
+    "todayStars": 140,
+    "url": "https://github.com/iptv-org/iptv"
   },
   {
     "rank": 7,
-    "name": "simstudioai/sim",
-    "description": "Open-source platform to build and deploy AI agent workflows.",
-    "language": "TypeScript",
-    "stars": 17787,
-    "forks": 2366,
-    "todayStars": 63,
-    "url": "https://github.com/simstudioai/sim"
+    "name": "lzhoang2801/OpCore-Simplify",
+    "description": "A tool designed to simplify the creation of OpenCore EFI",
+    "language": "Python",
+    "stars": 2253,
+    "forks": 215,
+    "todayStars": 67,
+    "url": "https://github.com/lzhoang2801/OpCore-Simplify"
   },
   {
     "rank": 8,
-    "name": "airweave-ai/airweave",
-    "description": "Context retrieval for AI agents across apps and databases",
-    "language": "Python",
-    "stars": 4924,
-    "forks": 588,
-    "todayStars": 172,
-    "url": "https://github.com/airweave-ai/airweave"
+    "name": "YaLTeR/niri",
+    "description": "A scrollable-tiling Wayland compositor.",
+    "language": "Rust",
+    "stars": 14749,
+    "forks": 522,
+    "todayStars": 49,
+    "url": "https://github.com/YaLTeR/niri"
   },
   {
     "rank": 9,
-    "name": "HyDE-Project/HyDE",
-    "description": "HyDE, your Development Environment 🖥️💻",
-    "language": "Shell",
-    "stars": 6904,
-    "forks": 490,
-    "todayStars": 20,
-    "url": "https://github.com/HyDE-Project/HyDE"
+    "name": "bobeff/open-source-games",
+    "description": "A list of open source games.",
+    "language": "Unknown",
+    "stars": 2159,
+    "forks": 154,
+    "todayStars": 208,
+    "url": "https://github.com/bobeff/open-source-games"
   },
   {
     "rank": 10,
-    "name": "AUTOMATIC1111/stable-diffusion-webui",
-    "description": "Stable Diffusion web UI",
+    "name": "microsoft/call-center-ai",
+    "description": "Send a phone call from AI agent, in an API call. Or, directly call the bot from the configured phone number!",
     "language": "Python",
-    "stars": 157995,
-    "forks": 29329,
-    "todayStars": 43,
-    "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui"
+    "stars": 1634,
+    "forks": 286,
+    "todayStars": 236,
+    "url": "https://github.com/microsoft/call-center-ai"
   }
 ]
