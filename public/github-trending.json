@@ -1,102 +1,102 @@
 [
   {
     "rank": 1,
-    "name": "google/adk-go",
-    "description": "An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
-    "language": "Go",
-    "stars": 1487,
-    "forks": 81,
-    "todayStars": 380,
-    "url": "https://github.com/google/adk-go"
+    "name": "sansan0/TrendRadar",
+    "description": "🎯 告别信息过载，AI 助你看懂新闻资讯热点，简单的舆情监控分析 - 多平台热点聚合+基于 MCP 的AI分析工具。监控35个平台（抖音、知乎、B站、华尔街见闻、财联社等），智能筛选+自动推送+AI对话分析（用自然语言深度挖掘新闻：趋势追踪、情感分析、相似检索等13种工具）。支持企业微信/飞书/钉钉/Telegram/邮件/ntfy推送，30秒网页部署，1分钟手机通知，无需编程。支持Docker部署⭐ 让算法为你服务，用AI理解热点",
+    "language": "Python",
+    "stars": 6436,
+    "forks": 4615,
+    "todayStars": 444,
+    "url": "https://github.com/sansan0/TrendRadar"
   },
   {
     "rank": 2,
-    "name": "usestrix/strix",
-    "description": "✨ Open-source AI hackers for your apps 👨🏻‍💻",
-    "language": "Python",
-    "stars": 8761,
-    "forks": 793,
-    "todayStars": 2539,
-    "url": "https://github.com/usestrix/strix"
+    "name": "google/adk-go",
+    "description": "An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+    "language": "Go",
+    "stars": 2419,
+    "forks": 135,
+    "todayStars": 1299,
+    "url": "https://github.com/google/adk-go"
   },
   {
     "rank": 3,
-    "name": "umami-software/umami",
-    "description": "Umami is a modern, privacy-focused alternative to Google Analytics.",
-    "language": "TypeScript",
-    "stars": 33168,
-    "forks": 5835,
-    "todayStars": 393,
-    "url": "https://github.com/umami-software/umami"
+    "name": "usestrix/strix",
+    "description": "✨ Open-source AI hackers for your apps 👨🏻‍💻",
+    "language": "Python",
+    "stars": 9615,
+    "forks": 867,
+    "todayStars": 1137,
+    "url": "https://github.com/usestrix/strix"
   },
   {
     "rank": 4,
-    "name": "TapXWorld/ChinaTextbook",
-    "description": "所有小初高、大学PDF教材。",
-    "language": "Roff",
-    "stars": 54944,
-    "forks": 12339,
-    "todayStars": 181,
-    "url": "https://github.com/TapXWorld/ChinaTextbook"
-  },
-  {
-    "rank": 5,
-    "name": "thinking-machines-lab/tinker-cookbook",
-    "description": "Post-training with Tinker",
-    "language": "Python",
-    "stars": 1752,
-    "forks": 140,
-    "todayStars": 137,
-    "url": "https://github.com/thinking-machines-lab/tinker-cookbook"
-  },
-  {
-    "rank": 6,
-    "name": "iptv-org/iptv",
-    "description": "Collection of publicly available IPTV channels from all over the world",
-    "language": "TypeScript",
-    "stars": 99180,
-    "forks": 4256,
-    "todayStars": 140,
-    "url": "https://github.com/iptv-org/iptv"
-  },
-  {
-    "rank": 7,
-    "name": "lzhoang2801/OpCore-Simplify",
-    "description": "A tool designed to simplify the creation of OpenCore EFI",
-    "language": "Python",
-    "stars": 2253,
-    "forks": 215,
-    "todayStars": 67,
-    "url": "https://github.com/lzhoang2801/OpCore-Simplify"
-  },
-  {
-    "rank": 8,
-    "name": "YaLTeR/niri",
-    "description": "A scrollable-tiling Wayland compositor.",
-    "language": "Rust",
-    "stars": 14749,
-    "forks": 522,
-    "todayStars": 49,
-    "url": "https://github.com/YaLTeR/niri"
-  },
-  {
-    "rank": 9,
     "name": "bobeff/open-source-games",
     "description": "A list of open source games.",
     "language": "Unknown",
-    "stars": 2159,
-    "forks": 154,
-    "todayStars": 208,
+    "stars": 3061,
+    "forks": 222,
+    "todayStars": 511,
     "url": "https://github.com/bobeff/open-source-games"
   },
   {
-    "rank": 10,
-    "name": "microsoft/call-center-ai",
-    "description": "Send a phone call from AI agent, in an API call. Or, directly call the bot from the configured phone number!",
+    "rank": 5,
+    "name": "TapXWorld/ChinaTextbook",
+    "description": "所有小初高、大学PDF教材。",
+    "language": "Roff",
+    "stars": 55303,
+    "forks": 12394,
+    "todayStars": 392,
+    "url": "https://github.com/TapXWorld/ChinaTextbook"
+  },
+  {
+    "rank": 6,
+    "name": "serverless-dns/serverless-dns",
+    "description": "The RethinkDNS resolver that deploys to Cloudflare Workers, Deno Deploy, Fastly, and Fly.io",
+    "language": "JavaScript",
+    "stars": 2863,
+    "forks": 2078,
+    "todayStars": 17,
+    "url": "https://github.com/serverless-dns/serverless-dns"
+  },
+  {
+    "rank": 7,
+    "name": "yichuan-w/LEANN",
+    "description": "RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application on your personal device.",
     "language": "Python",
-    "stars": 1634,
-    "forks": 286,
-    "todayStars": 236,
-    "url": "https://github.com/microsoft/call-center-ai"
+    "stars": 4067,
+    "forks": 413,
+    "todayStars": 70,
+    "url": "https://github.com/yichuan-w/LEANN"
+  },
+  {
+    "rank": 8,
+    "name": "yangshun/tech-interview-handbook",
+    "description": "💯 Curated coding interview preparation materials for busy software engineers",
+    "language": "TypeScript",
+    "stars": 132016,
+    "forks": 16011,
+    "todayStars": 141,
+    "url": "https://github.com/yangshun/tech-interview-handbook"
+  },
+  {
+    "rank": 9,
+    "name": "microsoft/ai-agents-for-beginners",
+    "description": "12 Lessons to Get Started Building AI Agents",
+    "language": "Jupyter Notebook",
+    "stars": 44563,
+    "forks": 15098,
+    "todayStars": 124,
+    "url": "https://github.com/microsoft/ai-agents-for-beginners"
+  },
+  {
+    "rank": 10,
+    "name": "LizardByte/Sunshine",
+    "description": "Self-hosted game stream host for Moonlight.",
+    "language": "C++",
+    "stars": 31169,
+    "forks": 1490,
+    "todayStars": 47,
+    "url": "https://github.com/LizardByte/Sunshine"
   }
 ]
