@@ -23,6 +23,7 @@ export function HottestNewsPage() {
   const [news, setNews] = useState<NewsItem[]>([]);
   const [loading, setLoading] = useState(true);
   const [expandedSources, setExpandedSources] = useState<Record<string, boolean>>({});
+  const [updateTime, setUpdateTime] = useState('');
 
   useEffect(() => {
     const loadNews = async () => {
@@ -31,8 +32,18 @@ export function HottestNewsPage() {
         const response = await fetch(`${import.meta.env.BASE_URL}hottest-news.json?t=${timestamp}`);
         const data: NewsItem[] = await response.json();
         setNews(data);
+
+        // 获取最后更新时间
+        const lastModified = response.headers.get('last-modified');
+        if (lastModified) {
+          const date = new Date(lastModified);
+          setUpdateTime(date.toISOString().split('T')[0]);
+        } else {
+          setUpdateTime(new Date().toISOString().split('T')[0]);
+        }
       } catch (error) {
         console.error('Failed to load hottest news:', error);
+        setUpdateTime(new Date().toISOString().split('T')[0]);
       } finally {
         setLoading(false);
       }
@@ -140,6 +151,11 @@ export function HottestNewsPage() {
                 ? '精选AI、科技领域的热门话题，聚焦行业前沿动态'
                 : 'Curated trending topics in AI and technology, focusing on industry frontiers'}
             </p>
+            {updateTime && (
+              <p className="mt-2 text-xs text-gray-500 dark:text-gray-500">
+                {language === 'zh' ? `数据更新时间：${updateTime}` : `Data updated: ${updateTime}`}
+              </p>
+            )}
           </div>
 
           {/* News List */}
