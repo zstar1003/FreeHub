@@ -8,7 +8,7 @@
     "source": "Github",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "✰ 13,707",
+    "hot": "✰ 13,736",
     "description": "🎯 告别信息过载，AI 助你看懂新闻资讯热点，简单的舆情监控分析 - 多平台热点聚合+基于 MCP 的AI分析工具。监控35个平台（抖音、知乎、B站、华尔街见闻、财联社等），智能筛选+自动推送+AI对话分析（用自然语言深度挖掘新闻：趋势追踪、情感分析、相似检索等13种工具）。支持企业微信/飞书/钉钉/Telegram/邮件/ntfy推送，30秒网页部署，1分钟手机通知，无需编程。支持Docker部署⭐ 让算法为你服务，用AI理解热点",
     "descriptionEn": "🎯 告别信息过载，AI 助你看懂新闻资讯热点，简单的舆情监控分析 - 多平台热点聚合+基于 MCP 的AI分析工具。监控35个平台（抖音、知乎、B站、华尔街见闻、财联社等），智能筛选+自动推送+AI对话分析（用自然语言深度挖掘新闻：趋势追踪、情感分析、相似检索等13种工具）。支持企业微信/飞书/钉钉/Telegram/邮件/ntfy推送，30秒网页部署，1分钟手机通知，无需编程。支持Docker部署⭐ 让算法为你服务，用AI理解热点",
     "descriptionZh": "AI 🎯 告别信息过载助你看懂新闻资讯热点，简单的舆情监控分析 - 多平台热点聚合+基于 MCP 的AI分析工具。监控 35个平台 （抖音、知乎、 B站、华尔街见闻、财联社等 ） ，智能筛选 +自动推送 + AI对话分析 （用自然语言深度挖掘新闻 ：趋势追踪、情感分析、相似检索等 13种工具 ）。支持企业微信/飞书/钉钉/Telegram/邮件/ntfy推送 ， 30秒网页部署 ， 1分钟手机通知 ，无需编程。支持 Docker部署⭐ 让算法为你服务，用 AI理解热点"
@@ -22,7 +22,7 @@
     "source": "Github",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "✰ 3,417",
+    "hot": "✰ 3,423",
     "description": "An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
     "descriptionEn": "An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
     "descriptionZh": "一个开源、代码优先的Go工具包，用于构建、评估和部署具有灵活性和可控性的复杂AI代理。"
@@ -36,7 +36,7 @@
     "source": "Github",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "✰ 56,442",
+    "hot": "✰ 56,445",
     "description": "所有小初高、大学PDF教材。",
     "descriptionEn": "所有小初高、大学PDF教材。",
     "descriptionZh": "所有小初高、大学PDF教材。"
@@ -50,7 +50,7 @@
     "source": "Github",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "✰ 41,886",
+    "hot": "✰ 41,892",
     "description": "[Support 0.49.x]（Reset Cursor AI MachineID & Bypass Higher Token Limit） Cursor Ai ，自动重置机器ID ， 免费升级使用Pro功能: You've reached your trial request limit. / Too many free trial accounts used on this machine. Please upgrade to pro. We have this limit in place to prevent abuse. Please let us know if you believe this is a mistake.",
     "descriptionEn": "[Support 0.49.x]（Reset Cursor AI MachineID & Bypass Higher Token Limit） Cursor Ai ，自动重置机器ID ， 免费升级使用Pro功能: You've reached your trial request limit. / Too many free trial accounts used on this machine. Please upgrade to pro. We have this limit in place to prevent abuse. Please let us know if you believe this is a mistake.",
     "descriptionZh": "[支持0.49.x] （重置Cursor AI MachineID & Bypass Higher Token Limit ） Cursor Ai ，自动重置机器 ID ， 免费升级使用Pro功能 ：您已达到试用请求限制。/此机器上使用的免费试用帐户太多。请升级到专业版。我们制定了这一限制，以防止滥用。如果您认为这是个错误，请告知我们。"
@@ -64,7 +64,7 @@
     "source": "Github",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "✰ 89,270",
+    "hot": "✰ 89,274",
     "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions",
     "descriptionEn": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions",
     "descriptionZh": "节点版本管理器-兼容POSIX的bash脚本，用于管理多个活动的node.js版本"
@@ -78,7 +78,7 @@
     "source": "Github",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "✰ 58,175",
+    "hot": "✰ 58,178",
     "description": "The Cloud Native Application Proxy",
     "descriptionEn": "The Cloud Native Application Proxy",
     "descriptionZh": "云原生应用程序代理"
@@ -92,7 +92,7 @@
     "source": "Github",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "✰ 23,122",
+    "hot": "✰ 23,129",
     "description": "[EMNLP2025] \"LightRAG: Simple and Fast Retrieval-Augmented Generation\"",
     "descriptionEn": "[EMNLP2025] \"LightRAG: Simple and Fast Retrieval-Augmented Generation\"",
     "descriptionZh": "[EMNLP2025] “LightRAG ：简单快速的检索-增强生成”"
@@ -106,7 +106,7 @@
     "source": "Github",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "✰ 5,362",
+    "hot": "✰ 5,377",
     "description": "A list of open source games.",
     "descriptionEn": "A list of open source games.",
     "descriptionZh": "开源游戏列表。"
@@ -120,7 +120,7 @@
     "source": "Github",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "✰ 15,715",
+    "hot": "✰ 15,718",
     "description": "verl: Volcano Engine Reinforcement Learning for LLMs",
     "descriptionEn": "verl: Volcano Engine Reinforcement Learning for LLMs",
     "descriptionZh": "verl:面向LLM的Volcano引擎强化学习"
@@ -134,7 +134,7 @@
     "source": "Github",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "✰ 3,626",
+    "hot": "✰ 3,635",
     "description": "Open-Source Memory Engine for LLMs, AI Agents & Multi-Agent Systems",
     "descriptionEn": "Open-Source Memory Engine for LLMs, AI Agents & Multi-Agent Systems",
     "descriptionZh": "适用于LLM、AI Agent和多Agent系统的开源内存引擎"
@@ -148,7 +148,7 @@
     "source": "Github",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "✰ 132,878",
+    "hot": "✰ 132,884",
     "description": "Curated coding interview preparation materials for busy software engineers",
     "descriptionEn": "Curated coding interview preparation materials for busy software engineers",
     "descriptionZh": "为忙碌的软件工程师精心策划的编码面试准备材料"
@@ -162,7 +162,7 @@
     "source": "Github",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "✰ 2,861",
+    "hot": "✰ 2,868",
     "description": "Send a phone call from AI agent, in an API call. Or, directly call the bot from the configured phone number!",
     "descriptionEn": "Send a phone call from AI agent, in an API call. Or, directly call the bot from the configured phone number!",
     "descriptionZh": "通过API调用从AI代理发送电话。或者，从配置的电话号码直接拨打机器人！"
@@ -176,7 +176,7 @@
     "source": "Github",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "✰ 13,184",
+    "hot": "✰ 13,187",
     "description": "Run Windows Subsystem For Android on your Windows 10 and Windows 11 PC using prebuilt binaries with Google Play Store (MindTheGapps) and/or Magisk or KernelSU (root solutions) built in.",
     "descriptionEn": "Run Windows Subsystem For Android on your Windows 10 and Windows 11 PC using prebuilt binaries with Google Play Store (MindTheGapps) and/or Magisk or KernelSU (root solutions) built in.",
     "descriptionZh": "使用内置Google Play商店(MindTheGapps)和/或Magisk或KernelSU (根解决方案)的预构建二进制文件，在Windows 10和Windows 11 PC上运行Windows Subsystem For Android。"
@@ -190,7 +190,7 @@
     "source": "Github",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "✰ 11,768",
+    "hot": "✰ 11,774",
     "description": "Powerful web graphics runtime built on WebGL, WebGPU, WebXR and glTF",
     "descriptionEn": "Powerful web graphics runtime built on WebGL, WebGPU, WebXR and glTF",
     "descriptionZh": "基于WebGL、WebGPU、WebXR和glTF构建的强大Web图形运行时"
@@ -204,7 +204,7 @@
     "source": "Github",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "✰ 100,501",
+    "hot": "✰ 100,513",
     "description": "Collection of publicly available IPTV channels from all over the world",
     "descriptionEn": "Collection of publicly available IPTV channels from all over the world",
     "descriptionZh": "收集来自世界各地的公开IPTV频道"
@@ -218,7 +218,7 @@
     "source": "Github",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "✰ 40,704",
+    "hot": "✰ 40,706",
     "description": "all of the workflows of n8n i could find (also from the site itself)",
     "descriptionEn": "all of the workflows of n8n i could find (also from the site itself)",
     "descriptionZh": "我能找到的n8n的所有工作流程（也来自网站本身）"
@@ -232,7 +232,7 @@
     "source": "Github",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "✰ 38,922",
+    "hot": "✰ 38,929",
     "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
     "descriptionEn": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
     "descriptionZh": "Milvus是一个高性能的云原生矢量数据库，专为可扩展的矢量人工神经网络搜索而构建"
@@ -253,118 +253,107 @@
   },
   {
     "id": 19,
-    "title": "Our investigation into the suspicious pressure on Archive.today",
-    "titleZh": "Our investigation into the suspicious pressure on Archive.today",
-    "titleEn": "Our investigation into the suspicious pressure on Archive.today",
-    "url": "https://news.ycombinator.com/item?id=45936460",
-    "source": "Hacker News",
-    "publishedAt": "2025-11-15",
-    "category": "热榜",
-    "hot": "370 points"
-  },
-  {
-    "id": 20,
-    "title": "The Pen and the Spade: The Poems of Seamus Heaney",
-    "titleZh": "The Pen and the Spade: The Poems of Seamus Heaney",
-    "titleEn": "The Pen and the Spade: The Poems of Seamus Heaney",
-    "url": "https://news.ycombinator.com/item?id=45911396",
-    "source": "Hacker News",
-    "publishedAt": "2025-11-15",
-    "category": "热榜",
-    "hot": "7 points"
-  },
-  {
-    "id": 21,
-    "title": "The Internet Is Cool. Thank You, TCP",
-    "titleZh": "The Internet Is Cool. Thank You, TCP",
-    "titleEn": "The Internet Is Cool. Thank You, TCP",
-    "url": "https://news.ycombinator.com/item?id=45935503",
-    "source": "Hacker News",
-    "publishedAt": "2025-11-15",
-    "category": "热榜",
-    "hot": "148 points"
-  },
-  {
-    "id": 22,
-    "title": "AI World Clocks",
-    "titleZh": "AI World Clocks",
-    "titleEn": "AI World Clocks",
-    "url": "https://news.ycombinator.com/item?id=45930151",
-    "source": "Hacker News",
-    "publishedAt": "2025-11-15",
-    "category": "热榜",
-    "hot": "1145 points"
-  },
-  {
-    "id": 23,
-    "title": "The Nature of the Beast: Charles Le Brun's Human-Animal Hybrids (1806)",
-    "titleZh": "The Nature of the Beast: Charles Le Brun's Human-Animal Hybrids (1806)",
-    "titleEn": "The Nature of the Beast: Charles Le Brun's Human-Animal Hybrids (1806)",
-    "url": "https://news.ycombinator.com/item?id=45872519",
-    "source": "Hacker News",
-    "publishedAt": "2025-11-15",
-    "category": "热榜",
-    "hot": "4 points"
-  },
-  {
-    "id": 24,
     "title": "How to write type-safe generics in C",
-    "titleZh": "How to write type-safe generics in C",
+    "titleZh": "如何在C中编写类型安全泛型",
     "titleEn": "How to write type-safe generics in C",
     "url": "https://news.ycombinator.com/item?id=45937518",
     "source": "Hacker News",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "3 points"
+    "hot": "19 points"
+  },
+  {
+    "id": 20,
+    "title": "Our investigation into the suspicious pressure on Archive.today",
+    "titleZh": "我们对Archive.today可疑压力的调查",
+    "titleEn": "Our investigation into the suspicious pressure on Archive.today",
+    "url": "https://news.ycombinator.com/item?id=45936460",
+    "source": "Hacker News",
+    "publishedAt": "2025-11-15",
+    "category": "热榜",
+    "hot": "421 points"
+  },
+  {
+    "id": 21,
+    "title": "The Nature of the Beast: Charles Le Brun's Human-Animal Hybrids (1806)",
+    "titleZh": "野兽的本质：查尔斯·勒布伦（ Charles Le Brun ）的人-动物杂交种（ 1806年）",
+    "titleEn": "The Nature of the Beast: Charles Le Brun's Human-Animal Hybrids (1806)",
+    "url": "https://news.ycombinator.com/item?id=45872519",
+    "source": "Hacker News",
+    "publishedAt": "2025-11-15",
+    "category": "热榜",
+    "hot": "9 points"
+  },
+  {
+    "id": 22,
+    "title": "The Internet Is Cool. Thank You, TCP",
+    "titleZh": "互联网很酷。谢谢， TCP",
+    "titleEn": "The Internet Is Cool. Thank You, TCP",
+    "url": "https://news.ycombinator.com/item?id=45935503",
+    "source": "Hacker News",
+    "publishedAt": "2025-11-15",
+    "category": "热榜",
+    "hot": "160 points"
+  },
+  {
+    "id": 23,
+    "title": "The Pen and the Spade: The Poems of Seamus Heaney",
+    "titleZh": "钢笔与黑桃： Seamus Heaney的诗歌",
+    "titleEn": "The Pen and the Spade: The Poems of Seamus Heaney",
+    "url": "https://news.ycombinator.com/item?id=45911396",
+    "source": "Hacker News",
+    "publishedAt": "2025-11-15",
+    "category": "热榜",
+    "hot": "9 points"
+  },
+  {
+    "id": 24,
+    "title": "AI World Clocks",
+    "titleZh": "人工智能世界时钟",
+    "titleEn": "AI World Clocks",
+    "url": "https://news.ycombinator.com/item?id=45930151",
+    "source": "Hacker News",
+    "publishedAt": "2025-11-15",
+    "category": "热榜",
+    "hot": "1155 points"
   },
   {
     "id": 25,
     "title": "One Handed Keyboard",
-    "titleZh": "One Handed Keyboard",
+    "titleZh": "单手键盘",
     "titleEn": "One Handed Keyboard",
     "url": "https://news.ycombinator.com/item?id=45936262",
     "source": "Hacker News",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "55 points"
+    "hot": "64 points"
   },
   {
     "id": 26,
     "title": "Messing with Scraper Bots",
-    "titleZh": "Messing with Scraper Bots",
+    "titleZh": "玩弄刮刀机器人",
     "titleEn": "Messing with Scraper Bots",
     "url": "https://news.ycombinator.com/item?id=45935729",
     "source": "Hacker News",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "85 points"
+    "hot": "90 points"
   },
   {
     "id": 27,
     "title": "So, you want to design your own language? (2017)",
-    "titleZh": "So, you want to design your own language? (2017)",
+    "titleZh": "所以，你想设计自己的语言吗？ （ 2017 ）",
     "titleEn": "So, you want to design your own language? (2017)",
     "url": "https://news.ycombinator.com/item?id=45935342",
     "source": "Hacker News",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "101 points"
+    "hot": "108 points"
   },
   {
     "id": 28,
-    "title": "Can text be made to sound more than just its words? (2022)",
-    "titleZh": "Can text be made to sound more than just its words? (2022)",
-    "titleEn": "Can text be made to sound more than just its words? (2022)",
-    "url": "https://news.ycombinator.com/item?id=45793920",
-    "source": "Hacker News",
-    "publishedAt": "2025-11-15",
-    "category": "热榜",
-    "hot": "23 points"
-  },
-  {
-    "id": 29,
     "title": "Activeloop (YC S18) Is Hiring MTS(Back End)and AI Search Engineer",
-    "titleZh": "Activeloop (YC S18) Is Hiring MTS(Back End)and AI Search Engineer",
+    "titleZh": "Activeloop (YC S18)正在招聘MTS （后端）和人工智能搜索工程师",
     "titleEn": "Activeloop (YC S18) Is Hiring MTS(Back End)and AI Search Engineer",
     "url": "https://news.ycombinator.com/item?id=45936837",
     "source": "Hacker News",
@@ -373,84 +362,84 @@
     "hot": ""
   },
   {
-    "id": 30,
-    "title": "Kagi Bloopers – Search Results Gone Wrong",
-    "titleZh": "Kagi Bloopers – Search Results Gone Wrong",
-    "titleEn": "Kagi Bloopers – Search Results Gone Wrong",
-    "url": "https://news.ycombinator.com/item?id=45936964",
-    "source": "Hacker News",
-    "publishedAt": "2025-11-15",
-    "category": "热榜",
-    "hot": "106 points"
-  },
-  {
-    "id": 31,
+    "id": 29,
     "title": "Streaming AI Agent Desktops with Gaming Protocols",
-    "titleZh": "Streaming AI Agent Desktops with Gaming Protocols",
+    "titleZh": "采用游戏协议的流人工智能代理桌面",
     "titleEn": "Streaming AI Agent Desktops with Gaming Protocols",
     "url": "https://news.ycombinator.com/item?id=45825121",
     "source": "Hacker News",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "12 points"
+    "hot": "18 points"
   },
   {
-    "id": 32,
+    "id": 30,
+    "title": "Can text be made to sound more than just its words? (2022)",
+    "titleZh": "文字能不能让其发音不仅仅是它的文字？ （ 2022年）",
+    "titleEn": "Can text be made to sound more than just its words? (2022)",
+    "url": "https://news.ycombinator.com/item?id=45793920",
+    "source": "Hacker News",
+    "publishedAt": "2025-11-15",
+    "category": "热榜",
+    "hot": "26 points"
+  },
+  {
+    "id": 31,
     "title": "Unofficial Microsoft Teams client for Linux",
-    "titleZh": "Unofficial Microsoft Teams client for Linux",
+    "titleZh": "适用于Linux的非官方Microsoft Teams客户端",
     "titleEn": "Unofficial Microsoft Teams client for Linux",
     "url": "https://news.ycombinator.com/item?id=45808407",
     "source": "Hacker News",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "178 points"
+    "hot": "186 points"
   },
   {
-    "id": 33,
+    "id": 32,
     "title": "A new Google model is nearly perfect on automated handwriting recognition",
-    "titleZh": "A new Google model is nearly perfect on automated handwriting recognition",
+    "titleZh": "新的Google模型在自动手写识别方面几乎是完美的",
     "titleEn": "A new Google model is nearly perfect on automated handwriting recognition",
     "url": "https://news.ycombinator.com/item?id=45887262",
     "source": "Hacker News",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "391 points"
+    "hot": "396 points"
   },
   {
-    "id": 34,
+    "id": 33,
     "title": "Lawmakers want to ban VPNs and have no idea what they're doing",
-    "titleZh": "Lawmakers want to ban VPNs and have no idea what they're doing",
+    "titleZh": "立法者想要禁止VPN ，却不知道他们在做什么",
     "titleEn": "Lawmakers want to ban VPNs and have no idea what they're doing",
     "url": "https://news.ycombinator.com/item?id=45924483",
     "source": "Hacker News",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "345 points"
+    "hot": "365 points"
+  },
+  {
+    "id": 34,
+    "title": "Kagi Bloopers – Search Results Gone Wrong",
+    "titleZh": "Kagi Bloopers –搜索结果出错",
+    "titleEn": "Kagi Bloopers – Search Results Gone Wrong",
+    "url": "https://news.ycombinator.com/item?id=45936964",
+    "source": "Hacker News",
+    "publishedAt": "2025-11-15",
+    "category": "热榜",
+    "hot": "121 points"
   },
   {
     "id": 35,
     "title": "HipKittens: Fast and furious AMD kernels",
-    "titleZh": "HipKittens: Fast and furious AMD kernels",
+    "titleZh": "HipKittens ：快速而愤怒的AMD内核",
     "titleEn": "HipKittens: Fast and furious AMD kernels",
     "url": "https://news.ycombinator.com/item?id=45923188",
     "source": "Hacker News",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "203 points"
+    "hot": "206 points"
   },
   {
     "id": 36,
-    "title": "Löb and Möb: Loops in Haskell (2013)",
-    "titleZh": "Löb and Möb: Loops in Haskell (2013)",
-    "titleEn": "Löb and Möb: Loops in Haskell (2013)",
-    "url": "https://news.ycombinator.com/item?id=45845782",
-    "source": "Hacker News",
-    "publishedAt": "2025-11-15",
-    "category": "热榜",
-    "hot": "63 points"
-  },
-  {
-    "id": 37,
     "title": "Go's Sweet 16",
     "titleZh": "Go's Sweet 16",
     "titleEn": "Go's Sweet 16",
@@ -458,67 +447,122 @@
     "source": "Hacker News",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "169 points"
+    "hot": "173 points"
+  },
+  {
+    "id": 37,
+    "title": "History and use of the Estes AstroCam 110",
+    "titleZh": "Estes AstroCam 110的历史和使用",
+    "titleEn": "History and use of the Estes AstroCam 110",
+    "url": "https://news.ycombinator.com/item?id=45816208",
+    "source": "Hacker News",
+    "publishedAt": "2025-11-15",
+    "category": "热榜",
+    "hot": "10 points"
   },
   {
     "id": 38,
+    "title": "Löb and Möb: Loops in Haskell (2013)",
+    "titleZh": "Löb和Möb ： Haskell中的循环（ 2013 ）",
+    "titleEn": "Löb and Möb: Loops in Haskell (2013)",
+    "url": "https://news.ycombinator.com/item?id=45845782",
+    "source": "Hacker News",
+    "publishedAt": "2025-11-15",
+    "category": "热榜",
+    "hot": "65 points"
+  },
+  {
+    "id": 39,
     "title": "SSL Configuration Generator",
-    "titleZh": "SSL Configuration Generator",
+    "titleZh": "SSL配置生成器",
     "titleEn": "SSL Configuration Generator",
     "url": "https://news.ycombinator.com/item?id=45932798",
     "source": "Hacker News",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "198 points"
-  },
-  {
-    "id": 39,
-    "title": "Driving TFEL with RP2040: Offloading the CPU step by step (2021)",
-    "titleZh": "Driving TFEL with RP2040: Offloading the CPU step by step (2021)",
-    "titleEn": "Driving TFEL with RP2040: Offloading the CPU step by step (2021)",
-    "url": "https://news.ycombinator.com/item?id=45861463",
-    "source": "Hacker News",
-    "publishedAt": "2025-11-15",
-    "category": "热榜",
-    "hot": "16 points"
+    "hot": "201 points"
   },
   {
     "id": 40,
     "title": "Spec-Driven Development: The Waterfall Strikes Back",
-    "titleZh": "Spec-Driven Development: The Waterfall Strikes Back",
+    "titleZh": "规格驱动的开发：瀑布反击",
     "titleEn": "Spec-Driven Development: The Waterfall Strikes Back",
     "url": "https://news.ycombinator.com/item?id=45935763",
     "source": "Hacker News",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "147 points"
+    "hot": "155 points"
   },
   {
     "id": 41,
     "title": "'No One Lives Forever' turns 25 and you still can't buy it legitimately",
-    "titleZh": "'No One Lives Forever' turns 25 and you still can't buy it legitimately",
+    "titleZh": "“No One Lives Forever”年满25岁，您仍然无法合法购买",
     "titleEn": "'No One Lives Forever' turns 25 and you still can't buy it legitimately",
     "url": "https://news.ycombinator.com/item?id=45928492",
     "source": "Hacker News",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "288 points"
+    "hot": "291 points"
   },
   {
     "id": 42,
+    "title": "Driving TFEL with RP2040: Offloading the CPU step by step (2021)",
+    "titleZh": "使用RP2040驱动TFEL ：逐步卸载CPU （ 2021 ）",
+    "titleEn": "Driving TFEL with RP2040: Offloading the CPU step by step (2021)",
+    "url": "https://news.ycombinator.com/item?id=45861463",
+    "source": "Hacker News",
+    "publishedAt": "2025-11-15",
+    "category": "热榜",
+    "hot": "17 points"
+  },
+  {
+    "id": 43,
     "title": "All praise to the lunch ladies",
-    "titleZh": "All praise to the lunch ladies",
+    "titleZh": "向午餐女士们致敬",
     "titleEn": "All praise to the lunch ladies",
     "url": "https://news.ycombinator.com/item?id=45931403",
     "source": "Hacker News",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "217 points"
+    "hot": "221 points"
   },
   {
-    "id": 43,
+    "id": 44,
+    "title": "Edward Burtynsky's Warning",
+    "titleZh": "爱德华·伯廷斯基的警告",
+    "titleEn": "Edward Burtynsky's Warning",
+    "url": "https://news.ycombinator.com/item?id=45875188",
+    "source": "Hacker News",
+    "publishedAt": "2025-11-15",
+    "category": "热榜",
+    "hot": "3 points"
+  },
+  {
+    "id": 45,
+    "title": "Blending SQL and Python with Sqlorm",
+    "titleZh": "将SQL和Python与Sqlorm混合",
+    "titleEn": "Blending SQL and Python with Sqlorm",
+    "url": "https://news.ycombinator.com/item?id=45885699",
+    "source": "Hacker News",
+    "publishedAt": "2025-11-15",
+    "category": "热榜",
+    "hot": "29 points"
+  },
+  {
+    "id": 46,
+    "title": "Random Font – a typographic experiment exploring randomness [pdf]",
+    "titleZh": "随机字体–探索随机性的排版实验[pdf]",
+    "titleEn": "Random Font – a typographic experiment exploring randomness [pdf]",
+    "url": "https://news.ycombinator.com/item?id=45833047",
+    "source": "Hacker News",
+    "publishedAt": "2025-11-15",
+    "category": "热榜",
+    "hot": "32 points"
+  },
+  {
+    "id": 47,
     "title": "Structured outputs on the Claude Developer Platform",
-    "titleZh": "Structured outputs on the Claude Developer Platform",
+    "titleZh": "Claude开发者平台上的结构化输出",
     "titleEn": "Structured outputs on the Claude Developer Platform",
     "url": "https://news.ycombinator.com/item?id=45930598",
     "source": "Hacker News",
@@ -527,59 +571,15 @@
     "hot": "158 points"
   },
   {
-    "id": 44,
-    "title": "Random Font – a typographic experiment exploring randomness [pdf]",
-    "titleZh": "Random Font – a typographic experiment exploring randomness [pdf]",
-    "titleEn": "Random Font – a typographic experiment exploring randomness [pdf]",
-    "url": "https://news.ycombinator.com/item?id=45833047",
-    "source": "Hacker News",
-    "publishedAt": "2025-11-15",
-    "category": "热榜",
-    "hot": "29 points"
-  },
-  {
-    "id": 45,
+    "id": 48,
     "title": "No Leak, No Problem – Bypassing ASLR with a ROP Chain to Gain RCE",
-    "titleZh": "No Leak, No Problem – Bypassing ASLR with a ROP Chain to Gain RCE",
+    "titleZh": "无泄漏，无问题–使用ROP链绕过ASLR以获得RCE",
     "titleEn": "No Leak, No Problem – Bypassing ASLR with a ROP Chain to Gain RCE",
     "url": "https://news.ycombinator.com/item?id=45933497",
     "source": "Hacker News",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "91 points"
-  },
-  {
-    "id": 46,
-    "title": "Continuous Architecture: A decade of designing for change",
-    "titleZh": "Continuous Architecture: A decade of designing for change",
-    "titleEn": "Continuous Architecture: A decade of designing for change",
-    "url": "https://news.ycombinator.com/item?id=45809722",
-    "source": "Hacker News",
-    "publishedAt": "2025-11-15",
-    "category": "热榜",
-    "hot": "14 points"
-  },
-  {
-    "id": 47,
-    "title": "History and use of the Estes AstroCam 110",
-    "titleZh": "History and use of the Estes AstroCam 110",
-    "titleEn": "History and use of the Estes AstroCam 110",
-    "url": "https://news.ycombinator.com/item?id=45816208",
-    "source": "Hacker News",
-    "publishedAt": "2025-11-15",
-    "category": "热榜",
-    "hot": "8 points"
-  },
-  {
-    "id": 48,
-    "title": "Winamp clone in Swift for macOS",
-    "titleZh": "Winamp clone in Swift for macOS",
-    "titleEn": "Winamp clone in Swift for macOS",
-    "url": "https://news.ycombinator.com/item?id=45926224",
-    "source": "Hacker News",
-    "publishedAt": "2025-11-15",
-    "category": "热榜",
-    "hot": "244 points"
+    "hot": "94 points"
   },
   {
     "id": 49,
@@ -590,7 +590,7 @@
     "source": "Product Hunt",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": " △︎ 827"
+    "hot": " △︎ 828"
   },
   {
     "id": 50,
@@ -1133,17 +1133,6 @@
   },
   {
     "id": 99,
-    "title": "全运会乒乓球男单半决赛，樊振东 4-2 王楚钦，晋级决赛，如何评价本场比赛？",
-    "titleZh": "全运会乒乓球男单半决赛，樊振东 4-2 王楚钦，晋级决赛，如何评价本场比赛？",
-    "titleEn": "全运会乒乓球男单半决赛，樊振东 4-2 王楚钦，晋级决赛，如何评价本场比赛？",
-    "url": "https://www.zhihu.com/question/1972998743373607962",
-    "source": "知乎",
-    "publishedAt": "2025-11-15",
-    "category": "热榜",
-    "hot": "7309 万热度"
-  },
-  {
-    "id": 100,
     "title": "苹果与腾讯达成协议，对微信游戏等小程序支付加征 15%「苹果税」，会对用户和开发者有哪些影响？",
     "titleZh": "苹果与腾讯达成协议，对微信游戏等小程序支付加征 15%「苹果税」，会对用户和开发者有哪些影响？",
     "titleEn": "苹果与腾讯达成协议，对微信游戏等小程序支付加征 15%「苹果税」，会对用户和开发者有哪些影响？",
@@ -1151,10 +1140,10 @@
     "source": "知乎",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "294 万热度"
+    "hot": "291 万热度"
   },
   {
-    "id": 101,
+    "id": 100,
     "title": "如何看待影视飓风 TIM 发视频回应「相亲角事件」，称「整活性质，视频剪辑导致对内容曲解」?",
     "titleZh": "如何看待影视飓风 TIM 发视频回应「相亲角事件」，称「整活性质，视频剪辑导致对内容曲解」?",
     "titleEn": "如何看待影视飓风 TIM 发视频回应「相亲角事件」，称「整活性质，视频剪辑导致对内容曲解」?",
@@ -1162,18 +1151,29 @@
     "source": "知乎",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "287 万热度"
+    "hot": "234 万热度"
   },
   {
-    "id": 102,
-    "title": "易烊千玺凭《小小的我》刘春和获最佳男主角，宋佳二封影后，如何评价第 38 届中国电影金鸡奖获奖名单？",
-    "titleZh": "易烊千玺凭《小小的我》刘春和获最佳男主角，宋佳二封影后，如何评价第 38 届中国电影金鸡奖获奖名单？",
-    "titleEn": "易烊千玺凭《小小的我》刘春和获最佳男主角，宋佳二封影后，如何评价第 38 届中国电影金鸡奖获奖名单？",
-    "url": "https://www.zhihu.com/question/1973112809249330428",
+    "id": 101,
+    "title": "全运会乒乓球男单半决赛，樊振东 4-2 王楚钦，晋级决赛，如何评价本场比赛？",
+    "titleZh": "全运会乒乓球男单半决赛，樊振东 4-2 王楚钦，晋级决赛，如何评价本场比赛？",
+    "titleEn": "全运会乒乓球男单半决赛，樊振东 4-2 王楚钦，晋级决赛，如何评价本场比赛？",
+    "url": "https://www.zhihu.com/question/1972998743373607962",
     "source": "知乎",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "143 万热度"
+    "hot": "162 万热度"
+  },
+  {
+    "id": 102,
+    "title": "全运会乒乓球女单半决赛，孙颖莎 4-1 朱雨玲，如何评价本场比赛？",
+    "titleZh": "全运会乒乓球女单半决赛，孙颖莎 4-1 朱雨玲，如何评价本场比赛？",
+    "titleEn": "全运会乒乓球女单半决赛，孙颖莎 4-1 朱雨玲，如何评价本场比赛？",
+    "url": "https://www.zhihu.com/question/1973113473018847471",
+    "source": "知乎",
+    "publishedAt": "2025-11-15",
+    "category": "热榜",
+    "hot": "92 万热度"
   },
   {
     "id": 103,
@@ -1184,10 +1184,21 @@
     "source": "知乎",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "115 万热度"
+    "hot": "88 万热度"
   },
   {
     "id": 104,
+    "title": "易烊千玺凭《小小的我》刘春和获最佳男主角，宋佳二封影后，如何评价第 38 届中国电影金鸡奖获奖名单？",
+    "titleZh": "易烊千玺凭《小小的我》刘春和获最佳男主角，宋佳二封影后，如何评价第 38 届中国电影金鸡奖获奖名单？",
+    "titleEn": "易烊千玺凭《小小的我》刘春和获最佳男主角，宋佳二封影后，如何评价第 38 届中国电影金鸡奖获奖名单？",
+    "url": "https://www.zhihu.com/question/1973112809249330428",
+    "source": "知乎",
+    "publishedAt": "2025-11-15",
+    "category": "热榜",
+    "hot": "88 万热度"
+  },
+  {
+    "id": 105,
     "title": "话说为什么现在的游戏命名很多都是《12:3456》的形式？",
     "titleZh": "话说为什么现在的游戏命名很多都是《12:3456》的形式？",
     "titleEn": "话说为什么现在的游戏命名很多都是《12:3456》的形式？",
@@ -1195,29 +1206,18 @@
     "source": "知乎",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "110 万热度"
-  },
-  {
-    "id": 105,
-    "title": "现在来看，樊振东今年在德甲的历练，对他的状态以及技术进步，有哪些明显的作用？",
-    "titleZh": "现在来看，樊振东今年在德甲的历练，对他的状态以及技术进步，有哪些明显的作用？",
-    "titleEn": "现在来看，樊振东今年在德甲的历练，对他的状态以及技术进步，有哪些明显的作用？",
-    "url": "https://www.zhihu.com/question/1973025962808538863",
-    "source": "知乎",
-    "publishedAt": "2025-11-15",
-    "category": "热榜",
-    "hot": "107 万热度"
+    "hot": "88 万热度"
   },
   {
     "id": 106,
-    "title": "三大航司发布日本航线客票处理通知，机票可免费退改，释放哪些信息？",
-    "titleZh": "三大航司发布日本航线客票处理通知，机票可免费退改，释放哪些信息？",
-    "titleEn": "三大航司发布日本航线客票处理通知，机票可免费退改，释放哪些信息？",
-    "url": "https://www.zhihu.com/question/1973059674690560869",
+    "title": "如何看待网友爆料奇瑞强制规定员工早上 8 点 15 分穿正装集合跑操?",
+    "titleZh": "如何看待网友爆料奇瑞强制规定员工早上 8 点 15 分穿正装集合跑操?",
+    "titleEn": "如何看待网友爆料奇瑞强制规定员工早上 8 点 15 分穿正装集合跑操?",
+    "url": "https://www.zhihu.com/question/1972421950623188470",
     "source": "知乎",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "106 万热度"
+    "hot": "88 万热度"
   },
   {
     "id": 107,
@@ -1228,7 +1228,7 @@
     "source": "知乎",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "105 万热度"
+    "hot": "85 万热度"
   },
   {
     "id": 108,
@@ -1239,54 +1239,21 @@
     "source": "知乎",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "105 万热度"
+    "hot": "84 万热度"
   },
   {
     "id": 109,
-    "title": "我国探明新中国成立后首个千吨级金矿，黄金资源量 1444.49 吨，千吨级是何概念？对黄金有哪些影响？",
-    "titleZh": "我国探明新中国成立后首个千吨级金矿，黄金资源量 1444.49 吨，千吨级是何概念？对黄金有哪些影响？",
-    "titleEn": "我国探明新中国成立后首个千吨级金矿，黄金资源量 1444.49 吨，千吨级是何概念？对黄金有哪些影响？",
-    "url": "https://www.zhihu.com/question/1972584313942963690",
+    "title": "三大航司发布日本航线客票处理通知，机票可免费退改，释放哪些信息？",
+    "titleZh": "三大航司发布日本航线客票处理通知，机票可免费退改，释放哪些信息？",
+    "titleEn": "三大航司发布日本航线客票处理通知，机票可免费退改，释放哪些信息？",
+    "url": "https://www.zhihu.com/question/1973059674690560869",
     "source": "知乎",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "105 万热度"
+    "hot": "83 万热度"
   },
   {
     "id": 110,
-    "title": "快递藏有毒品，21 岁大学生帮人跨省取快递获刑无期，为何自称不知情无法免责？法律角度如何解读这一量刑？",
-    "titleZh": "快递藏有毒品，21 岁大学生帮人跨省取快递获刑无期，为何自称不知情无法免责？法律角度如何解读这一量刑？",
-    "titleEn": "快递藏有毒品，21 岁大学生帮人跨省取快递获刑无期，为何自称不知情无法免责？法律角度如何解读这一量刑？",
-    "url": "https://www.zhihu.com/question/1972675944444618540",
-    "source": "知乎",
-    "publishedAt": "2025-11-15",
-    "category": "热榜",
-    "hot": "104 万热度"
-  },
-  {
-    "id": 111,
-    "title": "演员张磊吐槽上海一商店文具贵，一款橡皮卖 1999 元，客服称 PVC 材质擦拭更干净，是真的吗？",
-    "titleZh": "演员张磊吐槽上海一商店文具贵，一款橡皮卖 1999 元，客服称 PVC 材质擦拭更干净，是真的吗？",
-    "titleEn": "演员张磊吐槽上海一商店文具贵，一款橡皮卖 1999 元，客服称 PVC 材质擦拭更干净，是真的吗？",
-    "url": "https://www.zhihu.com/question/1972793086460523818",
-    "source": "知乎",
-    "publishedAt": "2025-11-15",
-    "category": "热榜",
-    "hot": "104 万热度"
-  },
-  {
-    "id": 112,
-    "title": "全运会乒乓球女单半决赛，孙颖莎 4-1 朱雨玲，如何评价本场比赛？",
-    "titleZh": "全运会乒乓球女单半决赛，孙颖莎 4-1 朱雨玲，如何评价本场比赛？",
-    "titleEn": "全运会乒乓球女单半决赛，孙颖莎 4-1 朱雨玲，如何评价本场比赛？",
-    "url": "https://www.zhihu.com/question/1973113473018847471",
-    "source": "知乎",
-    "publishedAt": "2025-11-15",
-    "category": "热榜",
-    "hot": "85 万热度"
-  },
-  {
-    "id": 113,
     "title": "看完电影《三滴血》你有哪些感受？这部电影有怎样的社会意义？",
     "titleZh": "看完电影《三滴血》你有哪些感受？这部电影有怎样的社会意义？",
     "titleEn": "看完电影《三滴血》你有哪些感受？这部电影有怎样的社会意义？",
@@ -1297,7 +1264,7 @@
     "hot": "83 万热度"
   },
   {
-    "id": 114,
+    "id": 111,
     "title": "我该如何平衡「接纳出身」的坦然与「不甘平庸」的挣扎？",
     "titleZh": "我该如何平衡「接纳出身」的坦然与「不甘平庸」的挣扎？",
     "titleEn": "我该如何平衡「接纳出身」的坦然与「不甘平庸」的挣扎？",
@@ -1308,15 +1275,48 @@
     "hot": "80 万热度"
   },
   {
-    "id": 115,
-    "title": "什么样的家庭教出来的孩子会充满爱呢？",
-    "titleZh": "什么样的家庭教出来的孩子会充满爱呢？",
-    "titleEn": "什么样的家庭教出来的孩子会充满爱呢？",
-    "url": "https://www.zhihu.com/question/526397259",
+    "id": 112,
+    "title": "快递藏有毒品，21 岁大学生帮人跨省取快递获刑无期，为何自称不知情无法免责？法律角度如何解读这一量刑？",
+    "titleZh": "快递藏有毒品，21 岁大学生帮人跨省取快递获刑无期，为何自称不知情无法免责？法律角度如何解读这一量刑？",
+    "titleEn": "快递藏有毒品，21 岁大学生帮人跨省取快递获刑无期，为何自称不知情无法免责？法律角度如何解读这一量刑？",
+    "url": "https://www.zhihu.com/question/1972675944444618540",
     "source": "知乎",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "76 万热度"
+    "hot": "79 万热度"
+  },
+  {
+    "id": 113,
+    "title": "如果把多兰换成 bin，S15T1 还能夺冠吗？",
+    "titleZh": "如果把多兰换成 bin，S15T1 还能夺冠吗？",
+    "titleEn": "如果把多兰换成 bin，S15T1 还能夺冠吗？",
+    "url": "https://www.zhihu.com/question/1971215004335310091",
+    "source": "知乎",
+    "publishedAt": "2025-11-15",
+    "category": "热榜",
+    "hot": "78 万热度"
+  },
+  {
+    "id": 114,
+    "title": "我国探明新中国成立后首个千吨级金矿，黄金资源量 1444.49 吨，千吨级是何概念？对黄金有哪些影响？",
+    "titleZh": "我国探明新中国成立后首个千吨级金矿，黄金资源量 1444.49 吨，千吨级是何概念？对黄金有哪些影响？",
+    "titleEn": "我国探明新中国成立后首个千吨级金矿，黄金资源量 1444.49 吨，千吨级是何概念？对黄金有哪些影响？",
+    "url": "https://www.zhihu.com/question/1972584313942963690",
+    "source": "知乎",
+    "publishedAt": "2025-11-15",
+    "category": "热榜",
+    "hot": "77 万热度"
+  },
+  {
+    "id": 115,
+    "title": "熊猫杯 U22 中国 2:0 大胜韩国 U22，拜合拉木梅开二度，如何评价本场比赛？",
+    "titleZh": "熊猫杯 U22 中国 2:0 大胜韩国 U22，拜合拉木梅开二度，如何评价本场比赛？",
+    "titleEn": "熊猫杯 U22 中国 2:0 大胜韩国 U22，拜合拉木梅开二度，如何评价本场比赛？",
+    "url": "https://www.zhihu.com/question/1973140522475475969",
+    "source": "知乎",
+    "publishedAt": "2025-11-15",
+    "category": "热榜",
+    "hot": "77 万热度"
   },
   {
     "id": 116,
@@ -1327,18 +1327,18 @@
     "source": "知乎",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "76 万热度"
+    "hot": "75 万热度"
   },
   {
     "id": 117,
-    "title": "如何看待网友爆料奇瑞强制规定员工早上 8 点 15 分穿正装集合跑操?",
-    "titleZh": "如何看待网友爆料奇瑞强制规定员工早上 8 点 15 分穿正装集合跑操?",
-    "titleEn": "如何看待网友爆料奇瑞强制规定员工早上 8 点 15 分穿正装集合跑操?",
-    "url": "https://www.zhihu.com/question/1972421950623188470",
+    "title": "演员张磊吐槽上海一商店文具贵，一款橡皮卖 1999 元，客服称 PVC 材质擦拭更干净，是真的吗？",
+    "titleZh": "演员张磊吐槽上海一商店文具贵，一款橡皮卖 1999 元，客服称 PVC 材质擦拭更干净，是真的吗？",
+    "titleEn": "演员张磊吐槽上海一商店文具贵，一款橡皮卖 1999 元，客服称 PVC 材质擦拭更干净，是真的吗？",
+    "url": "https://www.zhihu.com/question/1972793086460523818",
     "source": "知乎",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "75 万热度"
+    "hot": "73 万热度"
   },
   {
     "id": 118,
@@ -1349,7 +1349,7 @@
     "source": "知乎",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "75 万热度"
+    "hot": "72 万热度"
   },
   {
     "id": 119,
@@ -2020,7 +2020,7 @@
     "source": "酷安",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "72.8万热度 12.4万讨论"
+    "hot": "72.6万热度 12.4万讨论"
   },
   {
     "id": 180,
@@ -2035,17 +2035,6 @@
   },
   {
     "id": 181,
-    "title": "别人教你  开“app缓存优化”",
-    "titleZh": "别人教你  开“app缓存优化”",
-    "titleEn": "别人教你  开“app缓存优化”",
-    "url": "https://www.coolapk.com/feed/68664253",
-    "source": "酷安",
-    "publishedAt": "2025-11-15",
-    "category": "热榜",
-    "hot": "34.5万热度 4.3万讨论"
-  },
-  {
-    "id": 182,
     "title": "下午发工资了，想买个打游戏爽的手机或者平板，大内存版本便宜点的，有啥推荐没[斗鸡眼滑稽]",
     "titleZh": "下午发工资了，想买个打游戏爽的手机或者平板，大内存版本便宜点的，有啥推荐没[斗鸡眼滑稽]",
     "titleEn": "下午发工资了，想买个打游戏爽的手机或者平板，大内存版本便宜点的，有啥推荐没[斗鸡眼滑稽]",
@@ -2053,7 +2042,18 @@
     "source": "酷安",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "416.4万热度 5.9万讨论"
+    "hot": "411.1万热度 5.9万讨论"
+  },
+  {
+    "id": 182,
+    "title": "别人教你  开“app缓存优化”",
+    "titleZh": "别人教你  开“app缓存优化”",
+    "titleEn": "别人教你  开“app缓存优化”",
+    "url": "https://www.coolapk.com/feed/68664253",
+    "source": "酷安",
+    "publishedAt": "2025-11-15",
+    "category": "热榜",
+    "hot": "34.3万热度 4.3万讨论"
   },
   {
     "id": 183,
@@ -2075,7 +2075,7 @@
     "source": "酷安",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "98.6万热度 31.4万讨论"
+    "hot": "98.2万热度 31.4万讨论"
   },
   {
     "id": 185,
@@ -2086,7 +2086,7 @@
     "source": "酷安",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "27.6万热度 20.5万讨论"
+    "hot": "27.4万热度 20.5万讨论"
   },
   {
     "id": 186,
@@ -2097,7 +2097,7 @@
     "source": "酷安",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "375.0万热度 4059讨论"
+    "hot": "371.8万热度 4062讨论"
   },
   {
     "id": 187,
@@ -2108,7 +2108,7 @@
     "source": "酷安",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "145.8万热度 2.8万讨论"
+    "hot": "144.7万热度 2.8万讨论"
   },
   {
     "id": 188,
@@ -2130,7 +2130,7 @@
     "source": "酷安",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "375.0万热度 4059讨论"
+    "hot": "371.8万热度 4062讨论"
   },
   {
     "id": 190,
@@ -2141,21 +2141,10 @@
     "source": "酷安",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "87.8万热度 3.4万讨论"
+    "hot": "86.7万热度 3.4万讨论"
   },
   {
     "id": 191,
-    "title": "大家有没有感觉vivo做的最好的功能就是这个功能了[受虐滑稽]#数码日常# #vivoX300# #OriginOS6#",
-    "titleZh": "大家有没有感觉vivo做的最好的功能就是这个功能了[受虐滑稽]#数码日常# #vivoX300# #OriginOS6#",
-    "titleEn": "大家有没有感觉vivo做的最好的功能就是这个功能了[受虐滑稽]#数码日常# #vivoX300# #OriginOS6#",
-    "url": "https://www.coolapk.com/feed/68661645",
-    "source": "酷安",
-    "publishedAt": "2025-11-15",
-    "category": "热榜",
-    "hot": "64.2万热度 9115讨论"
-  },
-  {
-    "id": 192,
     "title": "酷友们，pdd双十一3931买的m70pro到货了。但是我好像有点不敢拆了[捂脸]激活了好像不能退货。为什么有点犹豫呢？主要是刚毕业才领了2个月的工资，上了班才知道钱有多难挣。换机的主要动力是因为手上的华为nova7是128G存储，天天提示存储空间满，不停的清不停的删，删到现在已经删无可删了（我本身不玩手游，微信和照片视频占了大头）。所以特别想要个512G。本来是打算买个骁龙8至尊版的安卓机（小米15、vivo x200 pro啥的）价格低量大管饱，后来去店里摸了样机感觉还是鸿蒙系统顺手，再加上双十一有好价就入了m70pro，可惜是256G版本的，没有白色了所以选的绿色。如果现在拆了激活了这部手机会用好几年，但手机本身又充满了妥协，落后好几代的cpu，将将够用的内存和储存，而且我也暂时不打算升级鸿蒙6，钉在4.3更兼容。说到底还是觉得肉疼，觉得高的价格没有给到高的硬件罢了（软件方面没话说）... 查看更多",
     "titleZh": "酷友们，pdd双十一3931买的m70pro到货了。但是我好像有点不敢拆了[捂脸]激活了好像不能退货。为什么有点犹豫呢？主要是刚毕业才领了2个月的工资，上了班才知道钱有多难挣。换机的主要动力是因为手上的华为nova7是128G存储，天天提示存储空间满，不停的清不停的删，删到现在已经删无可删了（我本身不玩手游，微信和照片视频占了大头）。所以特别想要个512G。本来是打算买个骁龙8至尊版的安卓机（小米15、vivo x200 pro啥的）价格低量大管饱，后来去店里摸了样机感觉还是鸿蒙系统顺手，再加上双十一有好价就入了m70pro，可惜是256G版本的，没有白色了所以选的绿色。如果现在拆了激活了这部手机会用好几年，但手机本身又充满了妥协，落后好几代的cpu，将将够用的内存和储存，而且我也暂时不打算升级鸿蒙6，钉在4.3更兼容。说到底还是觉得肉疼，觉得高的价格没有给到高的硬件罢了（软件方面没话说）... 查看更多",
     "titleEn": "酷友们，pdd双十一3931买的m70pro到货了。但是我好像有点不敢拆了[捂脸]激活了好像不能退货。为什么有点犹豫呢？主要是刚毕业才领了2个月的工资，上了班才知道钱有多难挣。换机的主要动力是因为手上的华为nova7是128G存储，天天提示存储空间满，不停的清不停的删，删到现在已经删无可删了（我本身不玩手游，微信和照片视频占了大头）。所以特别想要个512G。本来是打算买个骁龙8至尊版的安卓机（小米15、vivo x200 pro啥的）价格低量大管饱，后来去店里摸了样机感觉还是鸿蒙系统顺手，再加上双十一有好价就入了m70pro，可惜是256G版本的，没有白色了所以选的绿色。如果现在拆了激活了这部手机会用好几年，但手机本身又充满了妥协，落后好几代的cpu，将将够用的内存和储存，而且我也暂时不打算升级鸿蒙6，钉在4.3更兼容。说到底还是觉得肉疼，觉得高的价格没有给到高的硬件罢了（软件方面没话说）... 查看更多",
@@ -2163,7 +2152,18 @@
     "source": "酷安",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "43.6万热度 2.7万讨论"
+    "hot": "43.3万热度 2.7万讨论"
+  },
+  {
+    "id": 192,
+    "title": "大家有没有感觉vivo做的最好的功能就是这个功能了[受虐滑稽]#数码日常# #vivoX300# #OriginOS6#",
+    "titleZh": "大家有没有感觉vivo做的最好的功能就是这个功能了[受虐滑稽]#数码日常# #vivoX300# #OriginOS6#",
+    "titleEn": "大家有没有感觉vivo做的最好的功能就是这个功能了[受虐滑稽]#数码日常# #vivoX300# #OriginOS6#",
+    "url": "https://www.coolapk.com/feed/68661645",
+    "source": "酷安",
+    "publishedAt": "2025-11-15",
+    "category": "热榜",
+    "hot": "63.9万热度 9116讨论"
   },
   {
     "id": 193,
@@ -2174,7 +2174,7 @@
     "source": "酷安",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "64.2万热度 9115讨论"
+    "hot": "63.9万热度 9116讨论"
   },
   {
     "id": 194,
@@ -2185,7 +2185,7 @@
     "source": "酷安",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "88.9万热度 1.2万讨论"
+    "hot": "89.1万热度 1.2万讨论"
   },
   {
     "id": 195,
@@ -2207,10 +2207,32 @@
     "source": "酷安",
     "publishedAt": "2025-11-15",
     "category": "热榜",
-    "hot": "88.9万热度 1.2万讨论"
+    "hot": "89.1万热度 1.2万讨论"
   },
   {
     "id": 197,
+    "title": "乌克兰总统宣布启动国有能源企业全面改革",
+    "titleZh": "乌克兰总统宣布启动国有能源企业全面改革",
+    "titleEn": "乌克兰总统宣布启动国有能源企业全面改革",
+    "url": "https://wallstreetcn.com/livenews/3005199",
+    "source": "华尔街见闻",
+    "publishedAt": "2025-11-15",
+    "category": "热榜",
+    "hot": ""
+  },
+  {
+    "id": 198,
+    "title": "欧洲央行执委Schnabel：量化宽松改变了欧元体系的资产负债表的构成。",
+    "titleZh": "欧洲央行执委Schnabel：量化宽松改变了欧元体系的资产负债表的构成。",
+    "titleEn": "欧洲央行执委Schnabel：量化宽松改变了欧元体系的资产负债表的构成。",
+    "url": "https://wallstreetcn.com/livenews/3005198",
+    "source": "华尔街见闻",
+    "publishedAt": "2025-11-15",
+    "category": "热榜",
+    "hot": ""
+  },
+  {
+    "id": 199,
     "title": "与“十三五”末相比，我国新型储能装机规模暴增超3000%",
     "titleZh": "与“十三五”末相比，我国新型储能装机规模暴增超3000%",
     "titleEn": "与“十三五”末相比，我国新型储能装机规模暴增超3000%",
@@ -2221,7 +2243,7 @@
     "hot": ""
   },
   {
-    "id": 198,
+    "id": 200,
     "title": "大湾区国际创客峰会暨Maker Faire Shenzhen 2025在深圳开幕",
     "titleZh": "大湾区国际创客峰会暨Maker Faire Shenzhen 2025在深圳开幕",
     "titleEn": "大湾区国际创客峰会暨Maker Faire Shenzhen 2025在深圳开幕",
@@ -2232,7 +2254,7 @@
     "hot": ""
   },
   {
-    "id": 199,
+    "id": 201,
     "title": "前三季度广西药品出口额同比增长27.23% 创历史新高",
     "titleZh": "前三季度广西药品出口额同比增长27.23% 创历史新高",
     "titleEn": "前三季度广西药品出口额同比增长27.23% 创历史新高",
@@ -2243,7 +2265,7 @@
     "hot": ""
   },
   {
-    "id": 200,
+    "id": 202,
     "title": "“十四五”期间 上海核电产业总产出保持‌每年两位数增长",
     "titleZh": "“十四五”期间 上海核电产业总产出保持‌每年两位数增长",
     "titleEn": "“十四五”期间 上海核电产业总产出保持‌每年两位数增长",
@@ -2254,7 +2276,7 @@
     "hot": ""
   },
   {
-    "id": 201,
+    "id": 203,
     "title": "填补行业空白《汽车数据出境安全评估方法》团体标准发布",
     "titleZh": "填补行业空白《汽车数据出境安全评估方法》团体标准发布",
     "titleEn": "填补行业空白《汽车数据出境安全评估方法》团体标准发布",
@@ -2265,7 +2287,7 @@
     "hot": ""
   },
   {
-    "id": 202,
+    "id": 204,
     "title": "红旗HS6 PHEV预售价公布：17.88万起",
     "titleZh": "红旗HS6 PHEV预售价公布：17.88万起",
     "titleEn": "红旗HS6 PHEV预售价公布：17.88万起",
@@ -2276,7 +2298,7 @@
     "hot": ""
   },
   {
-    "id": 203,
+    "id": 205,
     "title": "英法院裁定：必和必拓应为2015年巴西尾矿坝事故担责",
     "titleZh": "英法院裁定：必和必拓应为2015年巴西尾矿坝事故担责",
     "titleEn": "英法院裁定：必和必拓应为2015年巴西尾矿坝事故担责",
@@ -2287,7 +2309,7 @@
     "hot": ""
   },
   {
-    "id": 204,
+    "id": 206,
     "title": "浙江：“十五五”时期要加快建设人工智能创新发展高地",
     "titleZh": "浙江：“十五五”时期要加快建设人工智能创新发展高地",
     "titleEn": "浙江：“十五五”时期要加快建设人工智能创新发展高地",
@@ -2298,7 +2320,7 @@
     "hot": ""
   },
   {
-    "id": 205,
+    "id": 207,
     "title": "乘联分会崔东树：10月全国汽车市场总体走势较强 商用车市场现结构性增长",
     "titleZh": "乘联分会崔东树：10月全国汽车市场总体走势较强 商用车市场现结构性增长",
     "titleEn": "乘联分会崔东树：10月全国汽车市场总体走势较强 商用车市场现结构性增长",
@@ -2309,7 +2331,7 @@
     "hot": ""
   },
   {
-    "id": 206,
+    "id": 208,
     "title": "伊朗称在该国南部波斯湾海域扣押一艘油轮",
     "titleZh": "伊朗称在该国南部波斯湾海域扣押一艘油轮",
     "titleEn": "伊朗称在该国南部波斯湾海域扣押一艘油轮",
@@ -2320,7 +2342,7 @@
     "hot": ""
   },
   {
-    "id": 207,
+    "id": 209,
     "title": "茅台价格继续上涨，今日25年飞天原箱批价报1680元/瓶",
     "titleZh": "茅台价格继续上涨，今日25年飞天原箱批价报1680元/瓶",
     "titleEn": "茅台价格继续上涨，今日25年飞天原箱批价报1680元/瓶",
@@ -2331,7 +2353,7 @@
     "hot": ""
   },
   {
-    "id": 208,
+    "id": 210,
     "title": "特朗普集团正与沙特政府就房地产交易进行谈判。（纽约时报）",
     "titleZh": "特朗普集团正与沙特政府就房地产交易进行谈判。（纽约时报）",
     "titleEn": "特朗普集团正与沙特政府就房地产交易进行谈判。（纽约时报）",
@@ -2342,7 +2364,7 @@
     "hot": ""
   },
   {
-    "id": 209,
+    "id": 211,
     "title": "日本参议员：高市早苗应撤回涉台错误言论",
     "titleZh": "日本参议员：高市早苗应撤回涉台错误言论",
     "titleEn": "日本参议员：高市早苗应撤回涉台错误言论",
@@ -2353,7 +2375,7 @@
     "hot": ""
   },
   {
-    "id": 210,
+    "id": 212,
     "title": "苏丹武装部队宣布重新控制该国中部两个城市",
     "titleZh": "苏丹武装部队宣布重新控制该国中部两个城市",
     "titleEn": "苏丹武装部队宣布重新控制该国中部两个城市",
@@ -2364,7 +2386,7 @@
     "hot": ""
   },
   {
-    "id": 211,
+    "id": 213,
     "title": "针对高市早苗，马英九、洪秀柱发声",
     "titleZh": "针对高市早苗，马英九、洪秀柱发声",
     "titleEn": "针对高市早苗，马英九、洪秀柱发声",
@@ -2375,7 +2397,7 @@
     "hot": ""
   },
   {
-    "id": 212,
+    "id": 214,
     "title": "俄卢克石油公司海外资产寻新买家 美允许制裁生效后继续谈判",
     "titleZh": "俄卢克石油公司海外资产寻新买家 美允许制裁生效后继续谈判",
     "titleEn": "俄卢克石油公司海外资产寻新买家 美允许制裁生效后继续谈判",
@@ -2386,7 +2408,7 @@
     "hot": ""
   },
   {
-    "id": 213,
+    "id": 215,
     "title": "玉渊谭天：中方已做好对日实质反制准备",
     "titleZh": "玉渊谭天：中方已做好对日实质反制准备",
     "titleEn": "玉渊谭天：中方已做好对日实质反制准备",
@@ -2397,7 +2419,7 @@
     "hot": ""
   },
   {
-    "id": 214,
+    "id": 216,
     "title": "香港保安局更新日本外游警示资讯，呼吁游日港人注意安全",
     "titleZh": "香港保安局更新日本外游警示资讯，呼吁游日港人注意安全",
     "titleEn": "香港保安局更新日本外游警示资讯，呼吁游日港人注意安全",
@@ -2408,7 +2430,7 @@
     "hot": ""
   },
   {
-    "id": 215,
+    "id": 217,
     "title": "继三大航司后，多家航司同日发布通知：赴日机票可免费退改签",
     "titleZh": "继三大航司后，多家航司同日发布通知：赴日机票可免费退改签",
     "titleEn": "继三大航司后，多家航司同日发布通知：赴日机票可免费退改签",
@@ -2419,7 +2441,7 @@
     "hot": ""
   },
   {
-    "id": 216,
+    "id": 218,
     "title": "抖音低价茅台集体下线 商家：等待平台研判",
     "titleZh": "抖音低价茅台集体下线 商家：等待平台研判",
     "titleEn": "抖音低价茅台集体下线 商家：等待平台研判",
@@ -2430,7 +2452,7 @@
     "hot": ""
   },
   {
-    "id": 217,
+    "id": 219,
     "title": "科研人员研发“闪速退火”工艺，一秒“炼”就晶圆级高性能储能薄膜",
     "titleZh": "科研人员研发“闪速退火”工艺，一秒“炼”就晶圆级高性能储能薄膜",
     "titleEn": "科研人员研发“闪速退火”工艺，一秒“炼”就晶圆级高性能储能薄膜",
@@ -2441,7 +2463,7 @@
     "hot": ""
   },
   {
-    "id": 218,
+    "id": 220,
     "title": "全球首款“摄像”磁共振等一批实用型科技创新成果亮相高交会",
     "titleZh": "全球首款“摄像”磁共振等一批实用型科技创新成果亮相高交会",
     "titleEn": "全球首款“摄像”磁共振等一批实用型科技创新成果亮相高交会",
@@ -2452,7 +2474,7 @@
     "hot": ""
   },
   {
-    "id": 219,
+    "id": 221,
     "title": "东风与华为合作的汽车品牌将于11月20日发布",
     "titleZh": "东风与华为合作的汽车品牌将于11月20日发布",
     "titleEn": "东风与华为合作的汽车品牌将于11月20日发布",
@@ -2463,7 +2485,7 @@
     "hot": ""
   },
   {
-    "id": 220,
+    "id": 222,
     "title": "《深圳市低空经济标准体系2.0及标准化路线规划》发布",
     "titleZh": "《深圳市低空经济标准体系2.0及标准化路线规划》发布",
     "titleEn": "《深圳市低空经济标准体系2.0及标准化路线规划》发布",
@@ -2474,7 +2496,7 @@
     "hot": ""
   },
   {
-    "id": 221,
+    "id": 223,
     "title": "字节、红杉投资的AI公司接入网易《蛋仔派对》，融资数千万美元",
     "titleZh": "字节、红杉投资的AI公司接入网易《蛋仔派对》，融资数千万美元",
     "titleEn": "字节、红杉投资的AI公司接入网易《蛋仔派对》，融资数千万美元",
@@ -2485,7 +2507,7 @@
     "hot": ""
   },
   {
-    "id": 222,
+    "id": 224,
     "title": "美国南加州洪水预警覆盖逾两千万人",
     "titleZh": "美国南加州洪水预警覆盖逾两千万人",
     "titleEn": "美国南加州洪水预警覆盖逾两千万人",
@@ -2496,7 +2518,7 @@
     "hot": ""
   },
   {
-    "id": 223,
+    "id": 225,
     "title": "马斯克称擎天柱机器人将为所有人提供最优质的医疗服务",
     "titleZh": "马斯克称擎天柱机器人将为所有人提供最优质的医疗服务",
     "titleEn": "马斯克称擎天柱机器人将为所有人提供最优质的医疗服务",
@@ -2507,33 +2529,11 @@
     "hot": ""
   },
   {
-    "id": 224,
+    "id": 226,
     "title": "马斯克称Neuralink植入者的交流速度几乎和正常人一样快",
     "titleZh": "马斯克称Neuralink植入者的交流速度几乎和正常人一样快",
     "titleEn": "马斯克称Neuralink植入者的交流速度几乎和正常人一样快",
     "url": "https://wallstreetcn.com/livenews/3005167",
-    "source": "华尔街见闻",
-    "publishedAt": "2025-11-15",
-    "category": "热榜",
-    "hot": ""
-  },
-  {
-    "id": 225,
-    "title": "三大航司发布日本航线客票处理通知：机票可免费退改",
-    "titleZh": "三大航司发布日本航线客票处理通知：机票可免费退改",
-    "titleEn": "三大航司发布日本航线客票处理通知：机票可免费退改",
-    "url": "https://wallstreetcn.com/livenews/3005166",
-    "source": "华尔街见闻",
-    "publishedAt": "2025-11-15",
-    "category": "热榜",
-    "hot": ""
-  },
-  {
-    "id": 226,
-    "title": "OPPO官方发布声明：OPPO Reno 15系列发布会为定向邀约制，不存在任何售票渠道。请大家理性甄别，避免上当受骗。",
-    "titleZh": "OPPO官方发布声明：OPPO Reno 15系列发布会为定向邀约制，不存在任何售票渠道。请大家理性甄别，避免上当受骗。",
-    "titleEn": "OPPO官方发布声明：OPPO Reno 15系列发布会为定向邀约制，不存在任何售票渠道。请大家理性甄别，避免上当受骗。",
-    "url": "https://wallstreetcn.com/livenews/3005165",
     "source": "华尔街见闻",
     "publishedAt": "2025-11-15",
     "category": "热榜",

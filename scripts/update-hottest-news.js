@@ -83,7 +83,7 @@ async function processNewsItem(item, source) {
   const newsItem = {
     id: item.id || '',
     title: item.title || '',
-    titleZh: item.title || '', // GitHub 标题不翻译，保持原样
+    titleZh: item.title || '',
     titleEn: item.title || '',
     url: item.url || '',
     source: source.name,
@@ -92,11 +92,22 @@ async function processNewsItem(item, source) {
     hot: item.extra?.info || ''
   };
 
-  // 如果是 GitHub，添加 description 字段
+  // GitHub: 标题不翻译，但保存描述信息
   if (source.id === 'github' && item.extra?.hover) {
+    newsItem.titleZh = item.title; // GitHub 标题不翻译，保持原样
     newsItem.description = item.extra.hover;
     newsItem.descriptionEn = item.extra.hover;
     // 描述的翻译会在后续批量处理
+  }
+
+  // Hacker News: 标题需要翻译
+  if (source.id === 'hackernews') {
+    newsItem.titleEn = item.title;
+    // 标题的翻译会在后续批量处理
+    if (item.extra?.hover) {
+      newsItem.description = item.extra.hover;
+      newsItem.descriptionEn = item.extra.hover;
+    }
   }
 
   return newsItem;
@@ -159,12 +170,14 @@ async function main() {
 
     console.log(`\n\n✅ Total collected: ${allNews.length} items`);
 
-    // 翻译 GitHub 数据
-    console.log('\n🌐 Translating GitHub descriptions...');
+    // 翻译英文内容
+    console.log('\n🌐 Translating content...');
     const githubItems = allNews.filter(item => item.source === 'Github');
+    const hackerNewsItems = allNews.filter(item => item.source === 'Hacker News');
 
+    // 翻译 GitHub 描述
     if (githubItems.length > 0) {
-      console.log(`  Found ${githubItems.length} GitHub items to translate`);
+      console.log(`\n📦 GitHub: Found ${githubItems.length} items`);
 
       for (let i = 0; i < githubItems.length; i++) {
         const item = githubItems[i];
@@ -177,12 +190,46 @@ async function main() {
           if (!item.descriptionZh || item.descriptionZh === item.descriptionEn) {
             item.descriptionZh = item.descriptionEn;
           }
-          await new Promise(resolve => setTimeout(resolve, 500)); // 增加延迟到500ms
+          await new Promise(resolve => setTimeout(resolve, 500));
         }
       }
 
-      console.log('  ✅ Translation completed');
+      console.log('  ✅ GitHub translation completed');
     }
+
+    // 翻译 Hacker News 标题和描述
+    if (hackerNewsItems.length > 0) {
+      console.log(`\n🔶 Hacker News: Found ${hackerNewsItems.length} items`);
+
+      for (let i = 0; i < hackerNewsItems.length; i++) {
+        const item = hackerNewsItems[i];
+        console.log(`  [${i + 1}/${hackerNewsItems.length}] Translating title...`);
+
+        // 翻译标题
+        if (item.titleEn) {
+          item.titleZh = await translateText(item.titleEn);
+          // 如果翻译失败，使用原文
+          if (!item.titleZh || item.titleZh === item.titleEn) {
+            item.titleZh = item.titleEn;
+          }
+          await new Promise(resolve => setTimeout(resolve, 500));
+        }
+
+        // 翻译描述（如果有）
+        if (item.descriptionEn) {
+          console.log(`  [${i + 1}/${hackerNewsItems.length}] Translating description...`);
+          item.descriptionZh = await translateText(item.descriptionEn);
+          if (!item.descriptionZh || item.descriptionZh === item.descriptionEn) {
+            item.descriptionZh = item.descriptionEn;
+          }
+          await new Promise(resolve => setTimeout(resolve, 500));
+        }
+      }
+
+      console.log('  ✅ Hacker News translation completed');
+    }
+
+    console.log('\n✨ All translations completed!');
 
     // 保存数据
     const outputPath = path.join(__dirname, '../public/hottest-news.json');
