@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "update-rankings": "node scripts/update-rankings.js",
     "update-trending": "node scripts/update-trending.js",
-    "update-ai-news": "node scripts/update-ai-news.js"
+    "update-ai-news": "node scripts/update-ai-news.js",
+    "update-hottest-news": "node scripts/update-hottest-news.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.75.0",

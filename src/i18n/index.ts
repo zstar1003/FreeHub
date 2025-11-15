@@ -5,6 +5,7 @@ export interface Translations {
     home: string;
     trending: string;
     articles: string;
+    hottest: string;
     wishpool: string;
     about: string;
     projectCount: string;
@@ -40,6 +41,7 @@ export const translations: Record<Language, Translations> = {
       home: '首页',
       trending: '榜单',
       articles: 'AI 新闻',
+      hottest: '今日热榜',
       wishpool: '许愿池',
       about: '关于',
       projectCount: '已收录',
@@ -73,6 +75,7 @@ export const translations: Record<Language, Translations> = {
       home: 'Home',
       trending: 'Rankings',
       articles: 'AI News',
+      hottest: 'Hot Today',
       wishpool: 'Wish Pool',
       about: 'About',
       projectCount: 'Total',
