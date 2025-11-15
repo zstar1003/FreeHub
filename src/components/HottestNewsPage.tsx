@@ -132,7 +132,7 @@ export function HottestNewsPage() {
                 <TrendingUp className="h-6 w-6" />
               </div>
               <h1 className="text-3xl font-bold bg-gradient-to-r from-gray-900 to-gray-700 dark:from-white dark:to-gray-300 bg-clip-text text-transparent">
-                {language === 'zh' ? 'AI & 科技热榜' : 'AI & Tech Trending'}
+                {language === 'zh' ? '科技热榜' : 'Tech Trending'}
               </h1>
             </div>
             <p className="text-sm text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
