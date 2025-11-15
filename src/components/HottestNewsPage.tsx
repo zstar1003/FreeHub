@@ -12,6 +12,10 @@ interface NewsItem {
   publishedAt: string;
   category: string;
   hot?: string;
+  mobileUrl?: string;
+  description?: string;
+  descriptionZh?: string;
+  descriptionEn?: string;
 }
 
 export function HottestNewsPage() {
@@ -42,6 +46,14 @@ export function HottestNewsPage() {
       return item.titleZh || item.title;
     } else {
       return item.titleEn || item.title;
+    }
+  };
+
+  const getDescription = (item: NewsItem) => {
+    if (language === 'zh') {
+      return item.descriptionZh || item.description || '';
+    } else {
+      return item.descriptionEn || item.description || '';
     }
   };
 
@@ -175,6 +187,13 @@ export function HottestNewsPage() {
                           <h3 className="text-base font-medium text-gray-900 dark:text-gray-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors mb-1 line-clamp-2">
                             {getTitle(item)}
                           </h3>
+
+                          {/* 项目描述 */}
+                          {getDescription(item) && (
+                            <p className="text-sm text-gray-600 dark:text-gray-400 mb-2 line-clamp-2">
+                              {getDescription(item)}
+                            </p>
+                          )}
 
                           <div className="flex items-center gap-3 text-xs text-gray-500 dark:text-gray-400">
                             <span className="px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-700">

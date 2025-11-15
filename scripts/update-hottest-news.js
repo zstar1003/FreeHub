@@ -17,6 +17,40 @@ const DATA_SOURCES = [
   { id: '36kr', name: '36氪' }
 ];
 
+// 翻译函数 - 使用 MyMemory Translation API（更稳定）
+async function translateText(text) {
+  if (!text) return '';
+
+  try {
+    const fetch = (await import('node-fetch')).default;
+    // 使用 MyMemory Translation API，免费且更稳定
+    const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(text)}&langpair=en|zh-CN`;
+    const response = await fetch(url);
+    const data = await response.json();
+
+    if (data.responseStatus === 200 && data.responseData?.translatedText) {
+      return data.responseData.translatedText;
+    }
+
+    console.log(`  ⚠️  Translation response status: ${data.responseStatus}`);
+    return text;
+  } catch (error) {
+    console.error(`  ⚠️  Translation failed: ${error.message}`);
+    return text;
+  }
+}
+
+// 批量翻译（添加延迟避免请求过快）
+async function translateBatch(texts, delay = 500) {
+  const results = [];
+  for (const text of texts) {
+    const translated = await translateText(text);
+    results.push(translated);
+    await new Promise(resolve => setTimeout(resolve, delay));
+  }
+  return results;
+}
+
 async function fetchFromAPI(page, sourceConfig) {
   try {
     const apiUrl = `https://newsnow.busiyi.world/api/s?id=${sourceConfig.id}`;
@@ -45,11 +79,11 @@ async function fetchFromAPI(page, sourceConfig) {
   }
 }
 
-function processNewsItem(item, source) {
-  return {
+async function processNewsItem(item, source) {
+  const newsItem = {
     id: item.id || '',
     title: item.title || '',
-    titleZh: item.title || '',
+    titleZh: item.title || '', // GitHub 标题不翻译，保持原样
     titleEn: item.title || '',
     url: item.url || '',
     source: source.name,
@@ -57,6 +91,15 @@ function processNewsItem(item, source) {
     category: '热榜',
     hot: item.extra?.info || ''
   };
+
+  // 如果是 GitHub，添加 description 字段
+  if (source.id === 'github' && item.extra?.hover) {
+    newsItem.description = item.extra.hover;
+    newsItem.descriptionEn = item.extra.hover;
+    // 描述的翻译会在后续批量处理
+  }
+
+  return newsItem;
 }
 
 async function main() {
@@ -98,11 +141,11 @@ async function main() {
       if (data && data.items && Array.isArray(data.items)) {
         console.log(`  ✅ Found ${data.items.length} items`);
 
-        data.items.forEach(item => {
-          const newsItem = processNewsItem(item, source);
+        for (const item of data.items) {
+          const newsItem = await processNewsItem(item, source);
           newsItem.id = globalId++;
           allNews.push(newsItem);
-        });
+        }
       } else {
         console.log(`  ⚠️  No data available`);
       }
@@ -115,6 +158,31 @@ async function main() {
     await browser.close();
 
     console.log(`\n\n✅ Total collected: ${allNews.length} items`);
+
+    // 翻译 GitHub 数据
+    console.log('\n🌐 Translating GitHub descriptions...');
+    const githubItems = allNews.filter(item => item.source === 'Github');
+
+    if (githubItems.length > 0) {
+      console.log(`  Found ${githubItems.length} GitHub items to translate`);
+
+      for (let i = 0; i < githubItems.length; i++) {
+        const item = githubItems[i];
+        console.log(`  [${i + 1}/${githubItems.length}] Translating description...`);
+
+        // 只翻译描述，标题保持英文原样
+        if (item.descriptionEn) {
+          item.descriptionZh = await translateText(item.descriptionEn);
+          // 如果翻译失败或返回原文，使用原文
+          if (!item.descriptionZh || item.descriptionZh === item.descriptionEn) {
+            item.descriptionZh = item.descriptionEn;
+          }
+          await new Promise(resolve => setTimeout(resolve, 500)); // 增加延迟到500ms
+        }
+      }
+
+      console.log('  ✅ Translation completed');
+    }
 
     // 保存数据
     const outputPath = path.join(__dirname, '../public/hottest-news.json');
