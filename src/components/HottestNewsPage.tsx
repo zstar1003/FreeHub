@@ -166,11 +166,7 @@ export function HottestNewsPage() {
                         className="group flex items-start gap-4 p-4 rounded-xl bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:border-primary-300 dark:hover:border-primary-600 hover:shadow-md transition-all duration-200"
                       >
                         {/* Rank */}
-                        <div className={`flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-lg font-bold text-sm ${
-                          index < 3
-                            ? 'bg-gradient-to-br from-orange-400 to-red-500 text-white shadow-sm'
-                            : 'bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-400'
-                        }`}>
+                        <div className={`flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-lg font-bold text-sm ${config.bgColor} text-white shadow-sm`}>
                           {index + 1}
                         </div>
 
