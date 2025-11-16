@@ -120,7 +120,7 @@ async function main() {
     console.log('🚀 Launching browser...\n');
 
     browser = await puppeteer.launch({
-      headless: false, // 使用有头模式,更容易绕过检测
+      headless: 'new', // 使用新版 headless 模式
       args: [
         '--no-sandbox',
         '--disable-setuid-sandbox',
