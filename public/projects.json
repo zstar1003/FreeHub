@@ -114,5 +114,18 @@
         "submittedBy": "zstar",
         "submittedAt": "2025-11-8",
         "logo": "product/xihe.png"
+    },
+       {
+        "name": "FreeTool",
+        "nameEn": "FreeTool",
+        "summary": "一个多功能在线工具箱",
+        "summaryEn": "A versatile online toolbox",
+        "description": "一个多功能在线工具箱，整合很多实用小工具。",
+        "descriptionEn": "A multifunctional online toolbox that integrates many practical gadgets.",
+        "url": "https://github.com/zstar1003/FreeTool",
+        "categories": ["TypeScript", "React", "Web 应用"],
+        "submittedBy": "zstar",
+        "submittedAt": "2025-11-20",
+        "logo": "product/FreeTool.png"
     }
 ]
