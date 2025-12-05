@@ -127,5 +127,18 @@
         "submittedBy": "zstar",
         "submittedAt": "2025-11-20",
         "logo": "product/FreeTool.png"
+    },
+    {
+          "name": "GetFreeProxy",
+          "nameEn": "GetFreeProxy",
+          "summary": "Free Proxies, Checked Every 10 Mins - #1 Free Proxy List",
+          "summaryEn": "Free Proxies, Checked Every 10 Mins - #1 Free Proxy List ",
+          "description": "The web's #1 trusted source for free proxy lists, tested 24/7. Stop wasting time on dead proxies and find a working, reliable proxy in seconds!",
+          "descriptionEn": "The web's #1 trusted source for free proxy lists, tested 24/7. Stop wasting time on dead proxies and find a working, reliable proxy in seconds!",
+          "url": "https://getfreeproxy.com/",
+          "categories": ["VPN", "PROXY","Free Proxy", "Free Socks Proxy","Free SSL Proxy","Free Vless Server", "Free Vmess Server"],
+          "submittedBy": "getfreeproxy",
+          "submittedAt": "2025-12-01",
+          "logo": "https://getfreeproxy.com/assets/logo.png"
     }
 ]
