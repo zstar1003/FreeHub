@@ -115,7 +115,7 @@
         "submittedAt": "2025-11-8",
         "logo": "product/xihe.png"
     },
-       {
+    {
         "name": "FreeTool",
         "nameEn": "FreeTool",
         "summary": "一个多功能在线工具箱",
@@ -136,9 +136,9 @@
           "description": "The web's #1 trusted source for free proxy lists, tested 24/7. Stop wasting time on dead proxies and find a working, reliable proxy in seconds!",
           "descriptionEn": "The web's #1 trusted source for free proxy lists, tested 24/7. Stop wasting time on dead proxies and find a working, reliable proxy in seconds!",
           "url": "https://getfreeproxy.com/",
-          "categories": ["VPN", "PROXY","Free Proxy", "Free Socks Proxy","Free SSL Proxy","Free Vless Server", "Free Vmess Server"],
+          "categories": ["PROXY","Free Proxy"],
           "submittedBy": "getfreeproxy",
           "submittedAt": "2025-12-01",
-          "logo": "https://getfreeproxy.com/assets/logo.png"
+          "logo": "product/GetFreeProxy.png"
     }
 ]
