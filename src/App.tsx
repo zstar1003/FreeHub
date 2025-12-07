@@ -5,6 +5,7 @@ import { ProjectCard } from './components/ProjectCard';
 import { RankingPage } from './components/RankingPage';
 import { AINewsPage } from './components/AINewsPage';
 import { HottestNewsPage } from './components/HottestNewsPage';
+import { WebNavigationPage } from './components/WebNavigationPage';
 import { WishPoolPage } from './components/WishPoolPage';
 import { AboutPage } from './components/AboutPage';
 import { Project, FilterOptions } from './types';
@@ -25,7 +26,7 @@ function AppContent() {
   useEffect(() => {
     const updateMenuFromURL = () => {
       const hash = window.location.hash.slice(1); // 移除 #
-      if (hash && ['home', 'trending', 'articles', 'hottest', 'wishpool', 'about'].includes(hash)) {
+      if (hash && ['home', 'trending', 'articles', 'hottest', 'webnav', 'wishpool', 'about'].includes(hash)) {
         setActiveMenu(hash);
       }
     };
@@ -106,6 +107,8 @@ function AppContent() {
         <AINewsPage />
       ) : activeMenu === 'hottest' ? (
         <HottestNewsPage />
+      ) : activeMenu === 'webnav' ? (
+        <WebNavigationPage />
       ) : activeMenu === 'wishpool' ? (
         <WishPoolPage />
       ) : activeMenu === 'about' ? (
