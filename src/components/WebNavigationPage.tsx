@@ -1,6 +1,6 @@
 import { useLanguage } from '../contexts/LanguageContext';
 import { useState, useRef, useEffect } from 'react';
-import { ExternalLink, Globe, Code, Palette, Zap, BookOpen, Search, MessageSquare, Sparkles, Image, Video, Cpu, FileText, Briefcase, Boxes } from 'lucide-react';
+import { ExternalLink, Globe, Code, Palette, Zap, BookOpen, Search, MessageSquare, Sparkles, Image, Video, Cpu, FileText, Briefcase, Boxes, Compass } from 'lucide-react';
 
 interface WebLink {
   name: string;
@@ -98,6 +98,17 @@ export function WebNavigationPage() {
         { name: '天工AI搜索', nameEn: 'Tiangong', url: 'https://www.tiangong.cn', description: '昆仑万维的 AI 搜索助手', descriptionEn: 'Kunlun\'s AI search assistant' },
         { name: '360AI搜索', nameEn: '360 AI Search', url: 'https://so.360.com', description: '360推出的AI搜索引擎', descriptionEn: '360\'s AI search engine' },
         { name: '夸克AI', nameEn: 'Quark AI', url: 'https://www.quark.cn', description: '集 AI 搜索、网盘、文档等功能', descriptionEn: 'AI search with cloud storage' }
+      ]
+    },
+    {
+      id: 'ai-navigation',
+      name: 'AI 导航网站',
+      nameEn: 'AI Navigation',
+      icon: Compass,
+      links: [
+        { name: 'AI工具集', nameEn: 'AI-bot', url: 'https://ai-bot.cn', description: '收录国内外数百个AI工具的综合导航平台', descriptionEn: 'Comprehensive AI tools navigation platform' },
+        { name: '发现AI', nameEn: 'FaxianAI', url: 'https://www.faxianai.com', description: '专注于AI工具发现和推荐的导航网站', descriptionEn: 'AI tools discovery and recommendation site' },
+        { name: '1234.ist', nameEn: '1234.ist', url: 'https://1234.ist', description: 'AI工具和资源聚合导航', descriptionEn: 'AI tools and resources aggregation' }
       ]
     },
     {
