@@ -1,6 +1,6 @@
 import { useLanguage } from '../contexts/LanguageContext';
 import { useState, useRef, useEffect } from 'react';
-import { ExternalLink, Globe, Code, Palette, Zap, BookOpen, Search, MessageSquare, Sparkles, Image, Video, Cpu, FileText, Briefcase, Boxes, Compass } from 'lucide-react';
+import { ExternalLink, Globe, Code, Palette, Search, MessageSquare, Image, Video, Cpu, FileText, Briefcase, Boxes, Compass } from 'lucide-react';
 
 interface WebLink {
   name: string;
@@ -336,7 +336,7 @@ export function WebNavigationPage() {
                   return (
                     <div
                       key={category.id}
-                      ref={(el) => (categoryRefs.current[category.id] = el)}
+                      ref={(el) => { categoryRefs.current[category.id] = el; }}
                       className="animate-fade-in-up"
                     >
                       {/* Category Header */}
