@@ -12,7 +12,7 @@
 
 A free product collection platform that also provides AI-powered news aggregation and product wishing.
 
-Visit online: https://xdxsb.tozp/FreeHub
+Visit online: https://xdxsb.top/FreeHub
 
 ### ✨ Features
 

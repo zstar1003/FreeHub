@@ -13,7 +13,7 @@
 
 一个免费产品的集合平台，同时提供 AI 新闻自动汇总和产品需求许愿功能。
 
-在线访问：https://xdxsb.tozp/FreeHub
+在线访问：https://xdxsb.top/FreeHub
 
 ### ✨ 特点
 
