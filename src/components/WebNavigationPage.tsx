@@ -39,7 +39,7 @@ export function WebNavigationPage() {
     setActiveCategory(categoryId);
     const element = categoryRefs.current[categoryId];
     if (element) {
-      const offset = 120; // 顶部偏移量
+      const offset = 100; // 顶部偏移量
       const elementPosition = element.getBoundingClientRect().top;
       const offsetPosition = elementPosition + window.pageYOffset - offset;
 
@@ -53,7 +53,7 @@ export function WebNavigationPage() {
   // 监听滚动，更新激活的分类
   useEffect(() => {
     const handleScroll = () => {
-      const scrollPosition = window.scrollY + 200;
+      const scrollPosition = window.scrollY + 150;
 
       for (const categoryId in categoryRefs.current) {
         const element = categoryRefs.current[categoryId];
@@ -241,19 +241,26 @@ export function WebNavigationPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-gray-50 to-blue-50/30 dark:from-gray-900 dark:via-gray-900 dark:to-blue-950/30">
-      {/* Header */}
-      <div className="sticky top-[73px] z-40 bg-white/95 dark:bg-gray-900/95 backdrop-blur-sm border-b border-gray-200 dark:border-gray-700 shadow-sm">
-        <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
-          <div className="flex items-center gap-3 mb-4">
-            <div className="p-2 rounded-xl bg-gradient-to-br from-blue-500 to-purple-600 text-white shadow-lg">
-              <Globe className="h-5 w-5" />
+      <main className="mx-auto max-w-7xl px-4 py-6 sm:py-8 sm:px-6 lg:px-8">
+        {/* Header */}
+        <div className="mb-6 sm:mb-8 text-center animate-fade-in">
+          <div className="inline-flex items-center gap-2 sm:gap-3 mb-3 sm:mb-4">
+            <div className="p-2 sm:p-3 rounded-xl bg-gradient-to-br from-primary-500 to-blue-600 text-white shadow-lg">
+              <Globe className="h-5 w-5 sm:h-6 sm:w-6" />
             </div>
-            <h1 className="text-2xl font-bold bg-gradient-to-r from-gray-900 to-gray-700 dark:from-white dark:to-gray-300 bg-clip-text text-transparent">
+            <h1 className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-gray-900 to-gray-700 dark:from-white dark:to-gray-300 bg-clip-text text-transparent">
               {language === 'zh' ? '网站聚合' : 'Web Navigation'}
             </h1>
           </div>
+          <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-400 max-w-2xl mx-auto px-2">
+            {language === 'zh'
+              ? '精选优质网站资源，涵盖AI工具、开发平台、设计资源等多个领域'
+              : 'Curated quality web resources covering AI tools, dev platforms, design resources and more'}
+          </p>
+        </div>
 
-          {/* Search Bar */}
+        {/* Search Bar */}
+        <div className="mb-6 sm:mb-8 max-w-2xl mx-auto">
           <div className="relative">
             <Search className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-gray-400" />
             <input
@@ -261,18 +268,16 @@ export function WebNavigationPage() {
               placeholder={language === 'zh' ? '搜索网站...' : 'Search websites...'}
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full pl-12 pr-4 py-2.5 rounded-xl border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary-500 dark:focus:ring-primary-600 focus:border-transparent transition-all"
+              className="w-full pl-12 pr-4 py-3 rounded-xl border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary-500 dark:focus:ring-primary-600 focus:border-transparent transition-all"
             />
           </div>
         </div>
-      </div>
 
-      {/* Main Content - Left Sidebar + Right Content */}
-      <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+        {/* Main Content - Left Sidebar + Right Content */}
         <div className="flex gap-6">
           {/* Left Sidebar Navigation */}
           <aside className="hidden lg:block w-56 flex-shrink-0">
-            <div className="sticky top-[220px]">
+            <div className="sticky top-24">
               <nav className="space-y-1">
                 {filteredCategories.map((category) => {
                   const Icon = category.icon;
@@ -298,7 +303,7 @@ export function WebNavigationPage() {
           </aside>
 
           {/* Right Content */}
-          <main className="flex-1 min-w-0">
+          <div className="flex-1 min-w-0">
             {filteredCategories.length === 0 ? (
               <div className="flex min-h-[400px] items-center justify-center">
                 <div className="text-center">
@@ -384,9 +389,9 @@ export function WebNavigationPage() {
                 })}
               </div>
             )}
-          </main>
+          </div>
         </div>
-      </div>
+      </main>
     </div>
   );
 }
