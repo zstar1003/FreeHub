@@ -216,7 +216,8 @@ export function WebNavigationPage() {
         { name: 'Unsplash', nameEn: 'Unsplash', url: 'https://unsplash.com', description: '免费高质量图片库', descriptionEn: 'Free photo library' },
         { name: 'Coolors', nameEn: 'Coolors', url: 'https://coolors.co', description: '配色方案生成器', descriptionEn: 'Color scheme generator' },
         { name: 'iconify', nameEn: 'iconify', url: 'https://iconify.design', description: '海量开源图标库', descriptionEn: 'Massive icon library' },
-        { name: 'Behance', nameEn: 'Behance', url: 'https://www.behance.net', description: 'Adobe 设计作品展示平台', descriptionEn: 'Adobe\'s design showcase' }
+        { name: 'Behance', nameEn: 'Behance', url: 'https://www.behance.net', description: 'Adobe 设计作品展示平台', descriptionEn: 'Adobe\'s design showcase' },
+        { name: 'ConvertWebP', nameEn: 'ConvertWebP', url: 'https://www.convertwebp.top', description: '图片/动图免费在线格式转换', descriptionEn: 'Free Online Image/Animation Format Converter' },
       ]
     }
   ];
