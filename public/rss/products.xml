@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FreeHub - 免费产品</title>
+    <description>优质免费软件和工具推荐</description>
+    <link>https://xdxsb.top/FreeHub</link>
+    <atom:link href="https://xdxsb.top/FreeHub/rss/products.xml" rel="self" type="application/rss+xml"/>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 17 Dec 2025 07:57:24 GMT</lastBuildDate>
+    <generator>FreeHub RSS Generator</generator>
+    <item>
+      <title>GetFreeProxy</title>
+      <link>https://getfreeproxy.com/</link>
+      <description>The web&apos;s #1 trusted source for free proxy lists, tested 24/7. Stop wasting time on dead proxies and find a working, reliable proxy in seconds!
+
+分类: PROXY, Free Proxy</description>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://getfreeproxy.com/</guid>
+      <source url="https://getfreeproxy.com/">getfreeproxy</source>
+      <category>PROXY</category>
+    </item>
+    <item>
+      <title>FreeTool</title>
+      <link>https://xdxsb.top/FreeTool</link>
+      <description>一个多功能在线工具箱，整合很多实用小工具。
+
+分类: TypeScript, React, Web 应用</description>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://xdxsb.top/FreeTool</guid>
+      <source url="https://xdxsb.top/FreeTool">zstar</source>
+      <category>TypeScript</category>
+    </item>
+    <item>
+      <title>羲和</title>
+      <link>https://github.com/zstar1003/xihe</link>
+      <description>一个桌面诗词摆件App，已经上架App Store。
+
+分类: Flutter, Android, iOS</description>
+      <pubDate>Fri, 07 Nov 2025 16:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/zstar1003/xihe</guid>
+      <source url="https://github.com/zstar1003/xihe">zstar</source>
+      <category>Flutter</category>
+    </item>
+    <item>
+      <title>FreeP2W</title>
+      <link>https://github.com/zstar1003/FreeP2W</link>
+      <description>一个将 PDF 转换成 Word 的CLI工具，在 pdf2docx 的基础上，优化了图片和数学公式表现。
+
+分类: Python, CLI, 效率工具</description>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/zstar1003/FreeP2W</guid>
+      <source url="https://github.com/zstar1003/FreeP2W">zstar</source>
+      <category>Python</category>
+    </item>
+    <item>
+      <title>FreeCut</title>
+      <link>https://github.com/zstar1003/FreeCut</link>
+      <description>一个PowerPoint插件，支持页面自动裁剪并导出为PDF文件。
+
+分类: C#, 效率工具</description>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/zstar1003/FreeCut</guid>
+      <source url="https://github.com/zstar1003/FreeCut">zstar</source>
+      <category>C#</category>
+    </item>
+    <item>
+      <title>FreeTex</title>
+      <link>https://github.com/zstar1003/FreeTex</link>
+      <description>一个免费的公式智能识别软件，它可以识别图像中的数学公式并将其转换为可编辑的Word或Latex格式。
+
+分类: Python, AI, 桌面应用, Windows, macOS</description>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/zstar1003/FreeTex</guid>
+      <source url="https://github.com/zstar1003/FreeTex">zstar</source>
+      <category>Python</category>
+    </item>
+    <item>
+      <title>FreePDF</title>
+      <link>https://github.com/zstar1003/FreePDF</link>
+      <description>一个免费的PDF文献阅读器，支持将各语言的PDF文献转成中文，并支持接入大模型基于文献内容进行问答。
+
+分类: JavaScript, Python, 桌面应用, Windows, macOS</description>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/zstar1003/FreePDF</guid>
+      <source url="https://github.com/zstar1003/FreePDF">zstar</source>
+      <category>JavaScript</category>
+    </item>
+    <item>
+      <title>FreeEditor</title>
+      <link>https://xdxsb.top/FreeEditor</link>
+      <description>一款简洁的双栏 Markdown 编辑器，支持实时预览和微信公众号样式导出。
+
+分类: TypeScript, React, Web 应用</description>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://xdxsb.top/FreeEditor</guid>
+      <source url="https://xdxsb.top/FreeEditor">zstar</source>
+      <category>TypeScript</category>
+    </item>
+    <item>
+      <title>FreeGIF</title>
+      <link>https://github.com/zstar1003/FreeGIF</link>
+      <description>一个免费的GIF屏幕录制和编辑工具。
+
+分类: JavaScript, 桌面应用, Windows, macOS</description>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/zstar1003/FreeGIF</guid>
+      <source url="https://github.com/zstar1003/FreeGIF">zstar</source>
+      <category>JavaScript</category>
+    </item>
+    <item>
+      <title>ragflow-plus</title>
+      <link>https://github.com/zstar1003/ragflow-plus</link>
+      <description>一个基于Ragflow的二次开发的RAG应用框架。
+
+分类: React, Python, Docker, Web 应用</description>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/zstar1003/ragflow-plus</guid>
+      <source url="https://github.com/zstar1003/ragflow-plus">zstar</source>
+      <category>React</category>
+    </item>
+    <item>
+      <title>拼字幕</title>
+      <link>https://github.com/zstar1003/FreeCaption</link>
+      <description>微信小程序：拼字幕-长图拼接助手，用于制作长图字幕拼接。
+
+分类: TypeScript, 效率工具</description>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/zstar1003/FreeCaption</guid>
+      <source url="https://github.com/zstar1003/FreeCaption">zstar</source>
+      <category>TypeScript</category>
+    </item>
+  </channel>
+</rss>

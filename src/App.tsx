@@ -8,6 +8,7 @@ import { HottestNewsPage } from './components/HottestNewsPage';
 import { WebNavigationPage } from './components/WebNavigationPage';
 import { WishPoolPage } from './components/WishPoolPage';
 import { AboutPage } from './components/AboutPage';
+import { RSSPage } from './components/RSSPage';
 import { Project, FilterOptions } from './types';
 import { LanguageProvider, useLanguage } from './contexts/LanguageContext';
 
@@ -26,7 +27,7 @@ function AppContent() {
   useEffect(() => {
     const updateMenuFromURL = () => {
       const hash = window.location.hash.slice(1); // 移除 #
-      if (hash && ['home', 'trending', 'articles', 'hottest', 'webnav', 'wishpool', 'about'].includes(hash)) {
+      if (hash && ['home', 'trending', 'articles', 'hottest', 'webnav', 'wishpool', 'about', 'rss'].includes(hash)) {
         setActiveMenu(hash);
       }
     };
@@ -113,6 +114,8 @@ function AppContent() {
         <WishPoolPage />
       ) : activeMenu === 'about' ? (
         <AboutPage />
+      ) : activeMenu === 'rss' ? (
+        <RSSPage />
       ) : (
         <div className="min-h-screen bg-gradient-to-br from-gray-50 via-gray-50 to-blue-50/30 dark:from-gray-900 dark:via-gray-900 dark:to-blue-950/30">
           <main className="mx-auto max-w-7xl px-4 py-6 sm:py-8 sm:px-6 lg:px-8">

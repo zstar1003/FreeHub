@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Home, FileText, Sun, Moon, Languages, Menu, X, Sparkles, Github, Info, Flame, Globe } from 'lucide-react';
+import { Home, FileText, Sun, Moon, Languages, Menu, X, Sparkles, Github, Info, Flame, Globe, Rss } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 interface HeaderProps {
@@ -104,6 +104,15 @@ export function Header({ projectCount, activeMenu, onMenuChange }: HeaderProps) 
               <span className="text-sm font-bold text-primary-600 dark:text-primary-400">{projectCount}</span>
               <span className="text-xs text-gray-600 dark:text-gray-400">{t.header.projects}</span>
             </div>
+
+                        {/* RSS Link */}
+            <button
+              onClick={() => onMenuChange('rss')}
+              className="p-2 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-orange-500 dark:text-orange-400 hover:bg-orange-50 dark:hover:bg-orange-900/20 hover:scale-110 active:scale-95 transition-all duration-300 shadow-sm hover:shadow-md"
+              aria-label="RSS Feeds"
+            >
+              <Rss className="h-5 w-5" />
+            </button>
 
             {/* GitHub Link */}
             <a

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FreeHub - AI新闻</title>
+    <description>AI领域最新资讯，每日更新</description>
+    <link>https://xdxsb.top/FreeHub/#/ai-news</link>
+    <atom:link href="https://xdxsb.top/FreeHub/rss/ai-news.xml" rel="self" type="application/rss+xml"/>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 17 Dec 2025 07:57:24 GMT</lastBuildDate>
+    <generator>FreeHub RSS Generator</generator>
+    <item>
+      <title>越南在歌曲、科幻电影和游戏节目中应用人工智能</title>
+      <link>http://www.techinasia.com/news/vietnam-taps-ai-for-songs-sci-fi-films-game-shows</link>
+      <description>2025-12-08 00:18:32</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">http://www.techinasia.com/news/vietnam-taps-ai-for-songs-sci-fi-films-game-shows</guid>
+      <source url="http://www.techinasia.com/news/vietnam-taps-ai-for-songs-sci-fi-films-game-shows">techinasia</source>
+      <category>Industry,Other</category>
+    </item>
+    <item>
+      <title>只用AI图片退款，这批“拉羊毛”的购物者让商家疲惫不堪</title>
+      <link>https://36kr.com/p/3585323986861191</link>
+      <description>人类仿佛进入了《杜鲁门的世界》的世界。</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://36kr.com/p/3585323986861191</guid>
+      <source url="https://36kr.com/p/3585323986861191">36kr</source>
+      <category>Industry, Policy</category>
+    </item>
+    <item>
+      <title>aquif-ai/aquif-Image-14B</title>
+      <link>https://huggingface.co/aquif-ai/aquif-Image-14B</link>
+      <description>aquif-ai/aquif-Image-14B 文生图模型 · 181 次下载 · 62 个赞</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/aquif-ai/aquif-Image-14B</guid>
+      <source url="https://huggingface.co/aquif-ai/aquif-Image-14B">huggingface</source>
+      <category>Model, Product</category>
+    </item>
+    <item>
+      <title>AI销售战演变成“宫中皇后”：Claude Opus 4.5赚了10倍，GPT-5.1被骗到最后一根线</title>
+      <link>https://36kr.com/p/3585653443558529</link>
+      <description>甚至AI也能收获。</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://36kr.com/p/3585653443558529</guid>
+      <source url="https://36kr.com/p/3585653443558529">36kr</source>
+      <category>Model, Event</category>
+    </item>
+    <item>
+      <title>悲痛万分：程序员要求AI IDE清除缓存，结果D盘被清空；</title>
+      <link>https://36kr.com/p/3585672523725702</link>
+      <description>在开发环境中使用人工智能时需要谨慎。</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://36kr.com/p/3585672523725702</guid>
+      <source url="https://36kr.com/p/3585672523725702">36kr</source>
+      <category>Product, Other</category>
+    </item>
+    <item>
+      <title>Hinton 的最新预测走红：谷歌将获胜，并且“应该已经获胜”</title>
+      <link>https://36kr.com/p/3586065007754115</link>
+      <description>OpenAI 还有机会吗？</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://36kr.com/p/3586065007754115</guid>
+      <source url="https://36kr.com/p/3586065007754115">36kr</source>
+      <category>Company, Industry</category>
+    </item>
+    <item>
+      <title>嵌套学习：一种用于持续学习的新机器学习范式</title>
+      <link>https://news.ycombinator.com/item?id=46182031</link>
+      <description>8小时前</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46182031</guid>
+      <source url="https://news.ycombinator.com/item?id=46182031">hackernews</source>
+      <category>Paper,Learning</category>
+    </item>
+    <item>
+      <title>新加坡AI科学初创公司ChemLex获Granite Asia领投4500万美元</title>
+      <link>http://www.techinasia.com/news/sg-ai-science-startup-chemlex-raises-45m-led-granite-asia</link>
+      <description>2025-12-07 21:00:21</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">http://www.techinasia.com/news/sg-ai-science-startup-chemlex-raises-45m-led-granite-asia</guid>
+      <source url="http://www.techinasia.com/news/sg-ai-science-startup-chemlex-raises-45m-led-granite-asia">techinasia</source>
+      <category>Company, Industry</category>
+    </item>
+    <item>
+      <title>我未能用Claude复刻1996年的《太空大灌篮》网站</title>
+      <link>https://news.ycombinator.com/item?id=46183294</link>
+      <description>2小时前</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46183294</guid>
+      <source url="https://news.ycombinator.com/item?id=46183294">hackernews</source>
+      <category>Product,Model</category>
+    </item>
+    <item>
+      <title>ICLR 2026投稿中出现五十多处新幻觉现象</title>
+      <link>https://news.ycombinator.com/item?id=46181466</link>
+      <description>6小时前</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46181466</guid>
+      <source url="https://news.ycombinator.com/item?id=46181466">hackernews</source>
+      <category>Paper, Event</category>
+    </item>
+    <item>
+      <title>OpenAI禁用看起来像广告的ChatGPT应用推荐</title>
+      <link>https://news.ycombinator.com/item?id=46182582</link>
+      <description>3小时前</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46182582</guid>
+      <source url="https://news.ycombinator.com/item?id=46182582">hackernews</source>
+      <category>Product, Company</category>
+    </item>
+    <item>
+      <title>AI野火即将来临。这将是痛苦且有益的</title>
+      <link>https://news.ycombinator.com/item?id=46183011</link>
+      <description>2小时前</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46183011</guid>
+      <source url="https://news.ycombinator.com/item?id=46183011">hackernews</source>
+      <category>Industry, Policy</category>
+    </item>
+    <item>
+      <title>我尝试用Claude重建1996年《空中大灌篮》网站，但失败了</title>
+      <link>https://news.ycombinator.com/item?id=46183294</link>
+      <description>1小时前</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46183294</guid>
+      <source url="https://news.ycombinator.com/item?id=46183294">hackernews</source>
+      <category>Product,Model</category>
+    </item>
+    <item>
+      <title>NewBie-AI/NewBie-image-Exp0.1</title>
+      <link>https://huggingface.co/NewBie-AI/NewBie-image-Exp0.1</link>
+      <description>NewBie-AI/NewBie-image-Exp0.1 文生图 · 69 次下载 · 67 个赞</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/NewBie-AI/NewBie-image-Exp0.1</guid>
+      <source url="https://huggingface.co/NewBie-AI/NewBie-image-Exp0.1">huggingface</source>
+      <category>Product, Model</category>
+    </item>
+    <item>
+      <title>OpenAI表示已关闭类似广告的应用推荐功能</title>
+      <link>https://techcrunch.com/2025/12/07/openai-says-its-turned-off-app-suggestions-that-look-like-ads/</link>
+      <description>安东尼·哈</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://techcrunch.com/2025/12/07/openai-says-its-turned-off-app-suggestions-that-look-like-ads/</guid>
+      <source url="https://techcrunch.com/2025/12/07/openai-says-its-turned-off-app-suggestions-that-look-like-ads/">techcrunch</source>
+      <category>Company,Product</category>
+    </item>
+    <item>
+      <title>ICLR 2026投稿中发现至少50条虚假引用</title>
+      <link>https://news.ycombinator.com/item?id=46181466</link>
+      <description>2小时前</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46181466</guid>
+      <source url="https://news.ycombinator.com/item?id=46181466">hackernews</source>
+      <category>Paper, Policy</category>
+    </item>
+    <item>
+      <title>谷歌Titans架构，助力AI拥有长期记忆</title>
+      <link>https://news.ycombinator.com/item?id=46181231</link>
+      <description>2小时前</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46181231</guid>
+      <source url="https://news.ycombinator.com/item?id=46181231">hackernews</source>
+      <category>Model,Company</category>
+    </item>
+    <item>
+      <title>NVIDIA / cutile-python</title>
+      <link>https://github.com//NVIDIA/cutile-python</link>
+      <description>cuTile 是一个为 NVIDIA GPU 编写并行内核的编程模型 | 点赞数: 581 复刻数: 24</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com//NVIDIA/cutile-python</guid>
+      <source url="https://github.com//NVIDIA/cutile-python">github</source>
+      <category>Resource, Model</category>
+    </item>
+    <item>
+      <title>BeehiveInnovations / pal-mcp-server</title>
+      <link>https://github.com//BeehiveInnovations/pal-mcp-server</link>
+      <description>集 Claude Code / GeminiCLI / CodexCLI 的强大功能与 [Gemini / OpenAI / OpenRouter / Azure / Grok / Ollama / 自定义模型 / 以上所有] 于一体，协同工作。 | 点赞数: 10,002 复刻数: 850</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com//BeehiveInnovations/pal-mcp-server</guid>
+      <source url="https://github.com//BeehiveInnovations/pal-mcp-server">github</source>
+      <category>Product,Resource</category>
+    </item>
+    <item>
+      <title>变形转换器</title>
+      <link>https://www.producthunt.com/products/transfigurator-private-image-converter</link>
+      <description>快速、私密的图片转换器 - 在 Mac 上 100% 本地处理</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/transfigurator-private-image-converter</guid>
+      <source url="https://www.producthunt.com/products/transfigurator-private-image-converter">producthunts</source>
+      <category>Product</category>
+    </item>
+    <item>
+      <title>AI路边摊：市民经济的下一个趋​​势</title>
+      <link>https://36kr.com/p/3584911526820742</link>
+      <description>甚至台球也有了新的玩法。</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://36kr.com/p/3584911526820742</guid>
+      <source url="https://36kr.com/p/3584911526820742">36kr</source>
+      <category>Industry, Product</category>
+    </item>
+    <item>
+      <title>斯特拉特人工智能</title>
+      <link>https://www.producthunt.com/products/strater-ai-learn-understand-rember</link>
+      <description>将任何视频、PDF或网页转化为您的个人AI导师</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/strater-ai-learn-understand-rember</guid>
+      <source url="https://www.producthunt.com/products/strater-ai-learn-understand-rember">producthunts</source>
+      <category>Product</category>
+    </item>
+    <item>
+      <title>GMI云推理引擎</title>
+      <link>https://www.producthunt.com/products/gmi-cloud</link>
+      <description>大规模、快速的原生多模态推理</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/gmi-cloud</guid>
+      <source url="https://www.producthunt.com/products/gmi-cloud">producthunts</source>
+      <category>Product,Resource</category>
+    </item>
+    <item>
+      <title>英菲拉</title>
+      <link>https://www.producthunt.com/products/railway-2</link>
+      <description>将复杂想法转化为清晰视觉的AI</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/railway-2</guid>
+      <source url="https://www.producthunt.com/products/railway-2">producthunts</source>
+      <category>Product</category>
+    </item>
+    <item>
+      <title>演员阅读器</title>
+      <link>https://www.producthunt.com/products/castreader</link>
+      <description>AI 文本转语音阅读器</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/castreader</guid>
+      <source url="https://www.producthunt.com/products/castreader">producthunts</source>
+      <category>Product</category>
+    </item>
+    <item>
+      <title>皮尔金特</title>
+      <link>https://www.producthunt.com/products/peargent</link>
+      <description>轻松构建 AI 智能体</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/peargent</guid>
+      <source url="https://www.producthunt.com/products/peargent">producthunts</source>
+      <category>Product, Agent</category>
+    </item>
+    <item>
+      <title>字节跳动张楠：AI时代，如何探索人类想象力？</title>
+      <link>https://www.geekpark.net/news/357697</link>
+      <description>人工智能是人类能力的“放大器”。</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.geekpark.net/news/357697</guid>
+      <source url="https://www.geekpark.net/news/357697">geekpark</source>
+      <category>Industry,Other</category>
+    </item>
+    <item>
+      <title>Insta360刘靖康：全景无人机是“马车时代的汽车”</title>
+      <link>https://www.geekpark.net/news/357696</link>
+      <description>在一切都向AI融合的时代，向相反的方向挑战巨头成熟的硬件，本身就是一次大胆的冒险。</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.geekpark.net/news/357696</guid>
+      <source url="https://www.geekpark.net/news/357696">geekpark</source>
+      <category>Product,Industry</category>
+    </item>
+    <item>
+      <title>OpenAI会成为第一家破产的AI独角兽吗？</title>
+      <link>https://36kr.com/p/3584924839033986</link>
+      <description>人工智能竞争是生态系统之战</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://36kr.com/p/3584924839033986</guid>
+      <source url="https://36kr.com/p/3584924839033986">36kr</source>
+      <category>Company, Industry</category>
+    </item>
+    <item>
+      <title>Zebra-Llama – 迈向高效的混合模型</title>
+      <link>https://news.ycombinator.com/item?id=46176289</link>
+      <description>9小时前</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46176289</guid>
+      <source url="https://news.ycombinator.com/item?id=46176289">hackernews</source>
+      <category>Model, Paper</category>
+    </item>
+    <item>
+      <title>跨境电商所有令人头疼的问题，现在都由1688的AI来解决……</title>
+      <link>https://www.qbitai.com/2025/12/359462.html</link>
+      <description>让竞争回归到产品本身。</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.qbitai.com/2025/12/359462.html</guid>
+      <source url="https://www.qbitai.com/2025/12/359462.html">qbitai</source>
+      <category>Product, Industry</category>
+    </item>
+    <item>
+      <title>清华系Embodied AI公司获数亿Pre-A轮融资，获三菱等顶级客户订单</title>
+      <link>https://36kr.com/p/3582338244230272</link>
+      <description>公司今年完成第四轮融资。</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://36kr.com/p/3582338244230272</guid>
+      <source url="https://36kr.com/p/3582338244230272">36kr</source>
+      <category>Company, Industry</category>
+    </item>
+    <item>
+      <title>在 Oxide 使用大语言模型</title>
+      <link>https://news.ycombinator.com/item?id=46178347</link>
+      <description>1小时前</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46178347</guid>
+      <source url="https://news.ycombinator.com/item?id=46178347">hackernews</source>
+      <category>Company, Model</category>
+    </item>
+    <item>
+      <title>虚假桥梁倒塌图像导致火车班次取消</title>
+      <link>https://news.ycombinator.com/item?id=46178108</link>
+      <description>1小时前</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46178108</guid>
+      <source url="https://news.ycombinator.com/item?id=46178108">hackernews</source>
+      <category>Policy, Industry</category>
+    </item>
+    <item>
+      <title>受人工智能增长推动，台湾加权指数或于2026年触及35000点</title>
+      <link>http://www.techinasia.com/news/taiwans-taiex-index-may-hit-35000-in-2026-fueled-by-ai-growth</link>
+      <description>2025-12-07 01:50:07</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">http://www.techinasia.com/news/taiwans-taiex-index-may-hit-35000-in-2026-fueled-by-ai-growth</guid>
+      <source url="http://www.techinasia.com/news/taiwans-taiex-index-may-hit-35000-in-2026-fueled-by-ai-growth">techinasia</source>
+      <category>Industry,Other</category>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FreeHub - Free Products</title>
+    <description>Quality free software and tools recommendations</description>
+    <link>https://xdxsb.top/FreeHub</link>
+    <atom:link href="https://xdxsb.top/FreeHub/rss/products-en.xml" rel="self" type="application/rss+xml"/>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 17 Dec 2025 07:57:24 GMT</lastBuildDate>
+    <generator>FreeHub RSS Generator</generator>
+    <item>
+      <title>GetFreeProxy</title>
+      <link>https://getfreeproxy.com/</link>
+      <description>The web&apos;s #1 trusted source for free proxy lists, tested 24/7. Stop wasting time on dead proxies and find a working, reliable proxy in seconds!
+
+Categories: PROXY, Free Proxy</description>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://getfreeproxy.com/</guid>
+      <source url="https://getfreeproxy.com/">getfreeproxy</source>
+      <category>PROXY</category>
+    </item>
+    <item>
+      <title>FreeTool</title>
+      <link>https://xdxsb.top/FreeTool</link>
+      <description>A multifunctional online toolbox that integrates many practical gadgets.
+
+Categories: TypeScript, React, Web 应用</description>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://xdxsb.top/FreeTool</guid>
+      <source url="https://xdxsb.top/FreeTool">zstar</source>
+      <category>TypeScript</category>
+    </item>
+    <item>
+      <title>羲和</title>
+      <link>https://github.com/zstar1003/xihe</link>
+      <description>A desktop poetry ornament app has been put on the App Store.
+
+Categories: Flutter, Android, iOS</description>
+      <pubDate>Fri, 07 Nov 2025 16:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/zstar1003/xihe</guid>
+      <source url="https://github.com/zstar1003/xihe">zstar</source>
+      <category>Flutter</category>
+    </item>
+    <item>
+      <title>FreeP2W</title>
+      <link>https://github.com/zstar1003/FreeP2W</link>
+      <description>A CLI tool for converting PDF to Word, based on pdf2docx, with optimized image and math formula performance.
+
+Categories: Python, CLI, 效率工具</description>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/zstar1003/FreeP2W</guid>
+      <source url="https://github.com/zstar1003/FreeP2W">zstar</source>
+      <category>Python</category>
+    </item>
+    <item>
+      <title>FreeCut</title>
+      <link>https://github.com/zstar1003/FreeCut</link>
+      <description>a PowerPoint plug-in that supports automatic cropping and exporting to PDF files.
+
+Categories: C#, 效率工具</description>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/zstar1003/FreeCut</guid>
+      <source url="https://github.com/zstar1003/FreeCut">zstar</source>
+      <category>C#</category>
+    </item>
+    <item>
+      <title>FreeTex</title>
+      <link>https://github.com/zstar1003/FreeTex</link>
+      <description>A free intelligent formula recognition software that can recognize mathematical formulas in images and convert them into editable Word or Latex formats.
+
+Categories: Python, AI, 桌面应用, Windows, macOS</description>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/zstar1003/FreeTex</guid>
+      <source url="https://github.com/zstar1003/FreeTex">zstar</source>
+      <category>Python</category>
+    </item>
+    <item>
+      <title>FreePDF</title>
+      <link>https://github.com/zstar1003/FreePDF</link>
+      <description>A free PDF document reader that supports converting PDF documents in various languages ​​into Chinese, and supports access to large models for question and answer based on document content.
+
+Categories: JavaScript, Python, 桌面应用, Windows, macOS</description>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/zstar1003/FreePDF</guid>
+      <source url="https://github.com/zstar1003/FreePDF">zstar</source>
+      <category>JavaScript</category>
+    </item>
+    <item>
+      <title>FreeEditor</title>
+      <link>https://xdxsb.top/FreeEditor</link>
+      <description>A clean dual-pane Markdown editor with real-time preview and WeChat Official Account style export.
+
+Categories: TypeScript, React, Web 应用</description>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://xdxsb.top/FreeEditor</guid>
+      <source url="https://xdxsb.top/FreeEditor">zstar</source>
+      <category>TypeScript</category>
+    </item>
+    <item>
+      <title>FreeGIF</title>
+      <link>https://github.com/zstar1003/FreeGIF</link>
+      <description>A free GIF screen recording and editing tool.
+
+Categories: JavaScript, 桌面应用, Windows, macOS</description>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/zstar1003/FreeGIF</guid>
+      <source url="https://github.com/zstar1003/FreeGIF">zstar</source>
+      <category>JavaScript</category>
+    </item>
+    <item>
+      <title>ragflow-plus</title>
+      <link>https://github.com/zstar1003/ragflow-plus</link>
+      <description>A RAG application framework based on Ragflow secondary development.
+
+Categories: React, Python, Docker, Web 应用</description>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/zstar1003/ragflow-plus</guid>
+      <source url="https://github.com/zstar1003/ragflow-plus">zstar</source>
+      <category>React</category>
+    </item>
+    <item>
+      <title>FreeCaption</title>
+      <link>https://github.com/zstar1003/FreeCaption</link>
+      <description>WeChat applet: Splice subtitles - long image stitching assistant, used to create long image subtitle stitching.
+
+Categories: TypeScript, 效率工具</description>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/zstar1003/FreeCaption</guid>
+      <source url="https://github.com/zstar1003/FreeCaption">zstar</source>
+      <category>TypeScript</category>
+    </item>
+  </channel>
+</rss>

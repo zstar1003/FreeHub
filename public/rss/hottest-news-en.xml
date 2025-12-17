@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FreeHub - Hottest News</title>
+    <description>Hot news aggregated from multiple platforms</description>
+    <link>https://xdxsb.top/FreeHub/#/hottest</link>
+    <atom:link href="https://xdxsb.top/FreeHub/rss/hottest-news-en.xml" rel="self" type="application/rss+xml"/>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 17 Dec 2025 07:57:24 GMT</lastBuildDate>
+    <generator>FreeHub RSS Generator</generator>
+    <item>
+      <title>microsoft /      VibeVoice</title>
+      <link>https://github.com/microsoft/VibeVoice</link>
+      <description>Open-Source Frontier Voice AI | Hot: ✰ 12,144</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/microsoft/VibeVoice</guid>
+      <source url="https://github.com/microsoft/VibeVoice">Github</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>NVIDIA /      cutile-python</title>
+      <link>https://github.com/NVIDIA/cutile-python</link>
+      <description>cuTile is a programming model for writing parallel kernels for NVIDIA GPUs | Hot: ✰ 719</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/NVIDIA/cutile-python</guid>
+      <source url="https://github.com/NVIDIA/cutile-python">Github</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>patchy631 /      ai-engineering-hub</title>
+      <link>https://github.com/patchy631/ai-engineering-hub</link>
+      <description>In-depth tutorials on LLMs, RAGs and real-world AI agent applications. | Hot: ✰ 21,762</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/patchy631/ai-engineering-hub</guid>
+      <source url="https://github.com/patchy631/ai-engineering-hub">Github</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>TelegramMessenger /      Telegram-iOS</title>
+      <link>https://github.com/TelegramMessenger/Telegram-iOS</link>
+      <description>Telegram-iOS | Hot: ✰ 7,640</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/TelegramMessenger/Telegram-iOS</guid>
+      <source url="https://github.com/TelegramMessenger/Telegram-iOS">Github</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>anthropics /      claude-quickstarts</title>
+      <link>https://github.com/anthropics/claude-quickstarts</link>
+      <description>A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API | Hot: ✰ 11,142</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/anthropics/claude-quickstarts</guid>
+      <source url="https://github.com/anthropics/claude-quickstarts">Github</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>rustfs /      rustfs</title>
+      <link>https://github.com/rustfs/rustfs</link>
+      <description>🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph. | Hot: ✰ 15,526</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/rustfs/rustfs</guid>
+      <source url="https://github.com/rustfs/rustfs">Github</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>sst /      opencode</title>
+      <link>https://github.com/sst/opencode</link>
+      <description>The open source coding agent. | Hot: ✰ 36,747</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/sst/opencode</guid>
+      <source url="https://github.com/sst/opencode">Github</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>BeehiveInnovations /      pal-mcp-server</title>
+      <link>https://github.com/BeehiveInnovations/pal-mcp-server</link>
+      <description>The power of Claude Code / GeminiCLI / CodexCLI + [Gemini / OpenAI / OpenRouter / Azure / Grok / Ollama / Custom Model / All Of The Above] working as one. | Hot: ✰ 10,136</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/BeehiveInnovations/pal-mcp-server</guid>
+      <source url="https://github.com/BeehiveInnovations/pal-mcp-server">Github</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>microsoft /      Foundry-Local</title>
+      <link>https://github.com/microsoft/Foundry-Local</link>
+      <description> | Hot: ✰ 1,395</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/microsoft/Foundry-Local</guid>
+      <source url="https://github.com/microsoft/Foundry-Local">Github</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>sinelaw /      fresh</title>
+      <link>https://github.com/sinelaw/fresh</link>
+      <description>Text editor for your terminal: easy, powerful and fast | Hot: ✰ 1,059</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/sinelaw/fresh</guid>
+      <source url="https://github.com/sinelaw/fresh">Github</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>ashishpatel26 /      500-AI-Agents-Projects</title>
+      <link>https://github.com/ashishpatel26/500-AI-Agents-Projects</link>
+      <description>The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation, illustrating how AI agents are transforming sectors such as healthcare, finance, education, retail, and more. | Hot: ✰ 19,270</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/ashishpatel26/500-AI-Agents-Projects</guid>
+      <source url="https://github.com/ashishpatel26/500-AI-Agents-Projects">Github</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>blakeblackshear /      frigate</title>
+      <link>https://github.com/blakeblackshear/frigate</link>
+      <description>NVR with realtime local object detection for IP cameras | Hot: ✰ 27,664</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/blakeblackshear/frigate</guid>
+      <source url="https://github.com/blakeblackshear/frigate">Github</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>lfnovo /      open-notebook</title>
+      <link>https://github.com/lfnovo/open-notebook</link>
+      <description>An Open Source implementation of Notebook LM with more flexibility and features | Hot: ✰ 12,591</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/lfnovo/open-notebook</guid>
+      <source url="https://github.com/lfnovo/open-notebook">Github</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>activepieces /      activepieces</title>
+      <link>https://github.com/activepieces/activepieces</link>
+      <description>AI Agents &amp; MCPs &amp; AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows &amp; AI Agents • MCPs for AI Agents | Hot: ✰ 19,494</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/activepieces/activepieces</guid>
+      <source url="https://github.com/activepieces/activepieces">Github</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>I failed to recreate the 1996 Space Jam website with Claude</title>
+      <link>https://news.ycombinator.com/item?id=46183294</link>
+      <description> | Hot: 285 points</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46183294</guid>
+      <source url="https://news.ycombinator.com/item?id=46183294">Hacker News</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>Mechanical power generation using Earth&apos;s ambient radiation</title>
+      <link>https://news.ycombinator.com/item?id=46185576</link>
+      <description> | Hot: 38 points</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46185576</guid>
+      <source url="https://news.ycombinator.com/item?id=46185576">Hacker News</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>The C++ standard for the F-35 Fighter Jet [video]</title>
+      <link>https://news.ycombinator.com/item?id=46183657</link>
+      <description> | Hot: 173 points</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46183657</guid>
+      <source url="https://news.ycombinator.com/item?id=46183657">Hacker News</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>Dollar-stores overcharge customers while promising low prices</title>
+      <link>https://news.ycombinator.com/item?id=46181962</link>
+      <description> | Hot: 227 points</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46181962</guid>
+      <source url="https://news.ycombinator.com/item?id=46181962">Hacker News</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>Google Titans architecture, helping AI have long-term memory</title>
+      <link>https://news.ycombinator.com/item?id=46181231</link>
+      <description> | Hot: 375 points</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46181231</guid>
+      <source url="https://news.ycombinator.com/item?id=46181231">Hacker News</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>Bag of words, have mercy on us</title>
+      <link>https://news.ycombinator.com/item?id=46185957</link>
+      <description> | Hot: 23 points</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46185957</guid>
+      <source url="https://news.ycombinator.com/item?id=46185957">Hacker News</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>A two-person method to simulate die rolls (2023)</title>
+      <link>https://news.ycombinator.com/item?id=46166161</link>
+      <description> | Hot: 50 points</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46166161</guid>
+      <source url="https://news.ycombinator.com/item?id=46166161">Hacker News</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>An Interactive Guide to the Fourier Transform</title>
+      <link>https://news.ycombinator.com/item?id=46118358</link>
+      <description> | Hot: 134 points</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46118358</guid>
+      <source url="https://news.ycombinator.com/item?id=46118358">Hacker News</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>Scala 3 slowed us down?</title>
+      <link>https://news.ycombinator.com/item?id=46182202</link>
+      <description> | Hot: 173 points</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46182202</guid>
+      <source url="https://news.ycombinator.com/item?id=46182202">Hacker News</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>Work disincentives hit the near-poor hardest (2022)</title>
+      <link>https://news.ycombinator.com/item?id=46127412</link>
+      <description> | Hot: 14 points</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46127412</guid>
+      <source url="https://news.ycombinator.com/item?id=46127412">Hacker News</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>Uninitialized garbage on ia64 can be deadly (2004)</title>
+      <link>https://news.ycombinator.com/item?id=46147285</link>
+      <description> | Hot: 4 points</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46147285</guid>
+      <source url="https://news.ycombinator.com/item?id=46147285">Hacker News</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>Spinlocks vs. Mutexes: When to Spin and When to Sleep</title>
+      <link>https://news.ycombinator.com/item?id=46186997</link>
+      <description> | Hot: 12 points</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46186997</guid>
+      <source url="https://news.ycombinator.com/item?id=46186997">Hacker News</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>The Anatomy of a macOS App</title>
+      <link>https://news.ycombinator.com/item?id=46181268</link>
+      <description> | Hot: 186 points</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46181268</guid>
+      <source url="https://news.ycombinator.com/item?id=46181268">Hacker News</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>How I block all online ads</title>
+      <link>https://news.ycombinator.com/item?id=46185816</link>
+      <description> | Hot: 54 points</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46185816</guid>
+      <source url="https://news.ycombinator.com/item?id=46185816">Hacker News</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>Build a DIY magnetometer with a couple of seasoning bottles</title>
+      <link>https://news.ycombinator.com/item?id=46086923</link>
+      <description> | Hot: 61 points</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46086923</guid>
+      <source url="https://news.ycombinator.com/item?id=46086923">Hacker News</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>Estimates are difficult for developers and product owners</title>
+      <link>https://news.ycombinator.com/item?id=46184229</link>
+      <description> | Hot: 142 points</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46184229</guid>
+      <source url="https://news.ycombinator.com/item?id=46184229">Hacker News</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>Minimum Viable Arduino Project: Aeropress Timer</title>
+      <link>https://news.ycombinator.com/item?id=46124903</link>
+      <description> | Hot: 15 points</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46124903</guid>
+      <source url="https://news.ycombinator.com/item?id=46124903">Hacker News</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>The state of Schleswig-Holstein is consistently relying on open source</title>
+      <link>https://news.ycombinator.com/item?id=46181491</link>
+      <description> | Hot: 513 points</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46181491</guid>
+      <source url="https://news.ycombinator.com/item?id=46181491">Hacker News</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>Nested Learning: A new ML paradigm for continual learning</title>
+      <link>https://news.ycombinator.com/item?id=46182031</link>
+      <description> | Hot: 73 points</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46182031</guid>
+      <source url="https://news.ycombinator.com/item?id=46182031">Hacker News</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>What the heck is going on at Apple?</title>
+      <link>https://news.ycombinator.com/item?id=46183088</link>
+      <description> | Hot: 32 points</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46183088</guid>
+      <source url="https://news.ycombinator.com/item?id=46183088">Hacker News</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>Java Hello World, LLVM Edition</title>
+      <link>https://news.ycombinator.com/item?id=46181076</link>
+      <description> | Hot: 164 points</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46181076</guid>
+      <source url="https://news.ycombinator.com/item?id=46181076">Hacker News</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>Context plumbing</title>
+      <link>https://news.ycombinator.com/item?id=46122302</link>
+      <description> | Hot: 12 points</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46122302</guid>
+      <source url="https://news.ycombinator.com/item?id=46122302">Hacker News</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>Evidence from the One Laptop per Child program in rural Peru</title>
+      <link>https://news.ycombinator.com/item?id=46184575</link>
+      <description> | Hot: 89 points</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46184575</guid>
+      <source url="https://news.ycombinator.com/item?id=46184575">Hacker News</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>Proxmox delivers its software-defined datacenter contender and VMware escape</title>
+      <link>https://news.ycombinator.com/item?id=46185317</link>
+      <description> | Hot: 51 points</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46185317</guid>
+      <source url="https://news.ycombinator.com/item?id=46185317">Hacker News</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>Building a Toast Component</title>
+      <link>https://news.ycombinator.com/item?id=46135145</link>
+      <description> | Hot: 90 points</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46135145</guid>
+      <source url="https://news.ycombinator.com/item?id=46135145">Hacker News</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>Show HN: Spotify Wrapped but for LeetCode</title>
+      <link>https://news.ycombinator.com/item?id=46183952</link>
+      <description> | Hot: 21 points</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46183952</guid>
+      <source url="https://news.ycombinator.com/item?id=46183952">Hacker News</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>Over fifty new hallucinations in ICLR 2026 submissions</title>
+      <link>https://news.ycombinator.com/item?id=46181466</link>
+      <description> | Hot: 453 points</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46181466</guid>
+      <source url="https://news.ycombinator.com/item?id=46181466">Hacker News</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>Millions of Americans mess up their taxes, but a new law will help</title>
+      <link>https://news.ycombinator.com/item?id=46184128</link>
+      <description> | Hot: 26 points</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46184128</guid>
+      <source url="https://news.ycombinator.com/item?id=46184128">Hacker News</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>Vanity activities</title>
+      <link>https://news.ycombinator.com/item?id=46111448</link>
+      <description> | Hot: 56 points</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46111448</guid>
+      <source url="https://news.ycombinator.com/item?id=46111448">Hacker News</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>Semantic Compression (2014)</title>
+      <link>https://news.ycombinator.com/item?id=46183091</link>
+      <description> | Hot: 48 points</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46183091</guid>
+      <source url="https://news.ycombinator.com/item?id=46183091">Hacker News</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>Guideflow</title>
+      <link>https://www.producthunt.com/products/guideflow/launches/guideflow?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29</link>
+      <description> | Hot:  △︎ 1158</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/guideflow/launches/guideflow?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29</guid>
+      <source url="https://www.producthunt.com/products/guideflow/launches/guideflow?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29">Product Hunt</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>Welltory</title>
+      <link>https://www.producthunt.com/products/welltory/launches/welltory-2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29</link>
+      <description> | Hot:  △︎ 990</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/welltory/launches/welltory-2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29</guid>
+      <source url="https://www.producthunt.com/products/welltory/launches/welltory-2?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29">Product Hunt</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>Gemini 3</title>
+      <link>https://www.producthunt.com/products/gemini-6/launches/gemini-3-4?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29</link>
+      <description> | Hot:  △︎ 867</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/gemini-6/launches/gemini-3-4?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29</guid>
+      <source url="https://www.producthunt.com/products/gemini-6/launches/gemini-3-4?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29">Product Hunt</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>Talo</title>
+      <link>https://www.producthunt.com/products/talo/launches/talo?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29</link>
+      <description> | Hot:  △︎ 848</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/talo/launches/talo?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29</guid>
+      <source url="https://www.producthunt.com/products/talo/launches/talo?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29">Product Hunt</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>TrustMRR</title>
+      <link>https://www.producthunt.com/products/trustmrr/launches/trustmrr?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29</link>
+      <description> | Hot:  △︎ 788</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/trustmrr/launches/trustmrr?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29</guid>
+      <source url="https://www.producthunt.com/products/trustmrr/launches/trustmrr?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29">Product Hunt</source>
+      <category>热榜</category>
+    </item>
+    <item>
+      <title>Oskar by Skarbe</title>
+      <link>https://www.producthunt.com/products/skarbe/launches/oskar-by-skarbe?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29</link>
+      <description> | Hot:  △︎ 740</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/skarbe/launches/oskar-by-skarbe?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29</guid>
+      <source url="https://www.producthunt.com/products/skarbe/launches/oskar-by-skarbe?utm_campaign=producthunt-api&amp;utm_medium=api-v2&amp;utm_source=Application%3A+newsnow+%28ID%3A+239216%29">Product Hunt</source>
+      <category>热榜</category>
+    </item>
+  </channel>
+</rss>

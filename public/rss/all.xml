@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FreeHub - 全部订阅</title>
+    <description>FreeHub全部内容聚合订阅</description>
+    <link>https://xdxsb.top/FreeHub</link>
+    <atom:link href="https://xdxsb.top/FreeHub/rss/all.xml" rel="self" type="application/rss+xml"/>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 17 Dec 2025 07:57:24 GMT</lastBuildDate>
+    <generator>FreeHub RSS Generator</generator>
+    <item>
+      <title>[AI] 越南在歌曲、科幻电影和游戏节目中应用人工智能</title>
+      <link>http://www.techinasia.com/news/vietnam-taps-ai-for-songs-sci-fi-films-game-shows</link>
+      <description>2025-12-08 00:18:32</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">http://www.techinasia.com/news/vietnam-taps-ai-for-songs-sci-fi-films-game-shows</guid>
+      <source url="http://www.techinasia.com/news/vietnam-taps-ai-for-songs-sci-fi-films-game-shows">techinasia</source>
+      <category>AI News</category>
+    </item>
+    <item>
+      <title>[AI] 只用AI图片退款，这批“拉羊毛”的购物者让商家疲惫不堪</title>
+      <link>https://36kr.com/p/3585323986861191</link>
+      <description>人类仿佛进入了《杜鲁门的世界》的世界。</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://36kr.com/p/3585323986861191</guid>
+      <source url="https://36kr.com/p/3585323986861191">36kr</source>
+      <category>AI News</category>
+    </item>
+    <item>
+      <title>[AI] aquif-ai/aquif-Image-14B</title>
+      <link>https://huggingface.co/aquif-ai/aquif-Image-14B</link>
+      <description>aquif-ai/aquif-Image-14B 文生图模型 · 181 次下载 · 62 个赞</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/aquif-ai/aquif-Image-14B</guid>
+      <source url="https://huggingface.co/aquif-ai/aquif-Image-14B">huggingface</source>
+      <category>AI News</category>
+    </item>
+    <item>
+      <title>[Hot] microsoft /      VibeVoice</title>
+      <link>https://github.com/microsoft/VibeVoice</link>
+      <description>开源前沿语音AI</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/microsoft/VibeVoice</guid>
+      <source url="https://github.com/microsoft/VibeVoice">Github</source>
+      <category>Hottest</category>
+    </item>
+    <item>
+      <title>[Hot] NVIDIA /      cutile-python</title>
+      <link>https://github.com/NVIDIA/cutile-python</link>
+      <description>cuTile是为NVIDIA GPU编写并行内核的编程模型</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/NVIDIA/cutile-python</guid>
+      <source url="https://github.com/NVIDIA/cutile-python">Github</source>
+      <category>Hottest</category>
+    </item>
+    <item>
+      <title>[Hot] patchy631 /      ai-engineering-hub</title>
+      <link>https://github.com/patchy631/ai-engineering-hub</link>
+      <description>LLM、RAG和真实世界AI代理应用程序的深入教程。</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/patchy631/ai-engineering-hub</guid>
+      <source url="https://github.com/patchy631/ai-engineering-hub">Github</source>
+      <category>Hottest</category>
+    </item>
+    <item>
+      <title>[Hot] TelegramMessenger /      Telegram-iOS</title>
+      <link>https://github.com/TelegramMessenger/Telegram-iOS</link>
+      <description>Telegram-iOS</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/TelegramMessenger/Telegram-iOS</guid>
+      <source url="https://github.com/TelegramMessenger/Telegram-iOS">Github</source>
+      <category>Hottest</category>
+    </item>
+    <item>
+      <title>[Hot] anthropics /      claude-quickstarts</title>
+      <link>https://github.com/anthropics/claude-quickstarts</link>
+      <description>旨在帮助开发人员快速开始使用Claude API构建可部署应用程序的项目集合</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/anthropics/claude-quickstarts</guid>
+      <source url="https://github.com/anthropics/claude-quickstarts">Github</source>
+      <category>Hottest</category>
+    </item>
+    <item>
+      <title>[Hot] rustfs /      rustfs</title>
+      <link>https://github.com/rustfs/rustfs</link>
+      <description>对于4KB对象有效负载，比MinIO快🚀2.3倍。RustFS是一个开源的、兼容S3的高性能对象存储系统，支持与其他S3兼容平台（如MinIO和Ceph ）的迁移和共存。</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/rustfs/rustfs</guid>
+      <source url="https://github.com/rustfs/rustfs">Github</source>
+      <category>Hottest</category>
+    </item>
+    <item>
+      <title>[Hot] sst /      opencode</title>
+      <link>https://github.com/sst/opencode</link>
+      <description>开源编码代理。</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/sst/opencode</guid>
+      <source url="https://github.com/sst/opencode">Github</source>
+      <category>Hottest</category>
+    </item>
+    <item>
+      <title>[Hot] BeehiveInnovations /      pal-mcp-server</title>
+      <link>https://github.com/BeehiveInnovations/pal-mcp-server</link>
+      <description>Claude Code/GeminiCLI/CodexCLI + [Gemini/OpenAI/OpenRouter/Azure/Grok/Ollama/Custom Model/All Of The Above]的强大功能。</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/BeehiveInnovations/pal-mcp-server</guid>
+      <source url="https://github.com/BeehiveInnovations/pal-mcp-server">Github</source>
+      <category>Hottest</category>
+    </item>
+    <item>
+      <title>[Hot] microsoft /      Foundry-Local</title>
+      <link>https://github.com/microsoft/Foundry-Local</link>
+      <description></description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/microsoft/Foundry-Local</guid>
+      <source url="https://github.com/microsoft/Foundry-Local">Github</source>
+      <category>Hottest</category>
+    </item>
+    <item>
+      <title>[Hot] sinelaw /      fresh</title>
+      <link>https://github.com/sinelaw/fresh</link>
+      <description>适合您终端的文本编辑器：简单、强大、快速</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/sinelaw/fresh</guid>
+      <source url="https://github.com/sinelaw/fresh">Github</source>
+      <category>Hottest</category>
+    </item>
+    <item>
+      <title>[Hot] ashishpatel26 /      500-AI-Agents-Projects</title>
+      <link>https://github.com/ashishpatel26/500-AI-Agents-Projects</link>
+      <description>500个AI Agent项目是各行各业AI Agent用例的精选集合。它展示了实际应用，并提供了要实施的开源项目的链接，说明了人工智能代理如何改变医疗保健、金融、教育、零售等行业。</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/ashishpatel26/500-AI-Agents-Projects</guid>
+      <source url="https://github.com/ashishpatel26/500-AI-Agents-Projects">Github</source>
+      <category>Hottest</category>
+    </item>
+    <item>
+      <title>[Hot] blakeblackshear /      frigate</title>
+      <link>https://github.com/blakeblackshear/frigate</link>
+      <description>支持IP摄像机实时本地物体检测的NVR</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/blakeblackshear/frigate</guid>
+      <source url="https://github.com/blakeblackshear/frigate">Github</source>
+      <category>Hottest</category>
+    </item>
+    <item>
+      <title>[Hot] lfnovo /      open-notebook</title>
+      <link>https://github.com/lfnovo/open-notebook</link>
+      <description>笔记本LM的开源实现，具有更大的灵活性和功能</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/lfnovo/open-notebook</guid>
+      <source url="https://github.com/lfnovo/open-notebook">Github</source>
+      <category>Hottest</category>
+    </item>
+    <item>
+      <title>[Hot] activepieces /      activepieces</title>
+      <link>https://github.com/activepieces/activepieces</link>
+      <description>人工智能代理和MCP以及人工智能工作流程自动化• （人工智能代理约400个MCP服务器） •人工智能自动化/人工智能代理与MCP •人工智能工作流程和人工智能代理•人工智能代理的MCP</description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/activepieces/activepieces</guid>
+      <source url="https://github.com/activepieces/activepieces">Github</source>
+      <category>Hottest</category>
+    </item>
+    <item>
+      <title>[Hot] 我没有和Claude一起重建1996年的Space Jam网站</title>
+      <link>https://news.ycombinator.com/item?id=46183294</link>
+      <description></description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46183294</guid>
+      <source url="https://news.ycombinator.com/item?id=46183294">Hacker News</source>
+      <category>Hottest</category>
+    </item>
+    <item>
+      <title>[Hot] 使用地球环境辐射的机械发电</title>
+      <link>https://news.ycombinator.com/item?id=46185576</link>
+      <description></description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46185576</guid>
+      <source url="https://news.ycombinator.com/item?id=46185576">Hacker News</source>
+      <category>Hottest</category>
+    </item>
+    <item>
+      <title>[Hot] F-35战斗机的C + +标准[视频]</title>
+      <link>https://news.ycombinator.com/item?id=46183657</link>
+      <description></description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46183657</guid>
+      <source url="https://news.ycombinator.com/item?id=46183657">Hacker News</source>
+      <category>Hottest</category>
+    </item>
+    <item>
+      <title>[Hot] 美元商店向顾客收取过高费用，同时承诺低价</title>
+      <link>https://news.ycombinator.com/item?id=46181962</link>
+      <description></description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46181962</guid>
+      <source url="https://news.ycombinator.com/item?id=46181962">Hacker News</source>
+      <category>Hottest</category>
+    </item>
+    <item>
+      <title>[Hot] Google Titans架构，帮助人工智能拥有长期记忆</title>
+      <link>https://news.ycombinator.com/item?id=46181231</link>
+      <description></description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46181231</guid>
+      <source url="https://news.ycombinator.com/item?id=46181231">Hacker News</source>
+      <category>Hottest</category>
+    </item>
+    <item>
+      <title>[Hot] 一袋话，可怜可怜我们吧</title>
+      <link>https://news.ycombinator.com/item?id=46185957</link>
+      <description></description>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46185957</guid>
+      <source url="https://news.ycombinator.com/item?id=46185957">Hacker News</source>
+      <category>Hottest</category>
+    </item>
+    <item>
+      <title>[AI] AI销售战演变成“宫中皇后”：Claude Opus 4.5赚了10倍，GPT-5.1被骗到最后一根线</title>
+      <link>https://36kr.com/p/3585653443558529</link>
+      <description>甚至AI也能收获。</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://36kr.com/p/3585653443558529</guid>
+      <source url="https://36kr.com/p/3585653443558529">36kr</source>
+      <category>AI News</category>
+    </item>
+    <item>
+      <title>[AI] 悲痛万分：程序员要求AI IDE清除缓存，结果D盘被清空；</title>
+      <link>https://36kr.com/p/3585672523725702</link>
+      <description>在开发环境中使用人工智能时需要谨慎。</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://36kr.com/p/3585672523725702</guid>
+      <source url="https://36kr.com/p/3585672523725702">36kr</source>
+      <category>AI News</category>
+    </item>
+    <item>
+      <title>[AI] Hinton 的最新预测走红：谷歌将获胜，并且“应该已经获胜”</title>
+      <link>https://36kr.com/p/3586065007754115</link>
+      <description>OpenAI 还有机会吗？</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://36kr.com/p/3586065007754115</guid>
+      <source url="https://36kr.com/p/3586065007754115">36kr</source>
+      <category>AI News</category>
+    </item>
+    <item>
+      <title>[AI] 嵌套学习：一种用于持续学习的新机器学习范式</title>
+      <link>https://news.ycombinator.com/item?id=46182031</link>
+      <description>8小时前</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46182031</guid>
+      <source url="https://news.ycombinator.com/item?id=46182031">hackernews</source>
+      <category>AI News</category>
+    </item>
+    <item>
+      <title>[AI] 新加坡AI科学初创公司ChemLex获Granite Asia领投4500万美元</title>
+      <link>http://www.techinasia.com/news/sg-ai-science-startup-chemlex-raises-45m-led-granite-asia</link>
+      <description>2025-12-07 21:00:21</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">http://www.techinasia.com/news/sg-ai-science-startup-chemlex-raises-45m-led-granite-asia</guid>
+      <source url="http://www.techinasia.com/news/sg-ai-science-startup-chemlex-raises-45m-led-granite-asia">techinasia</source>
+      <category>AI News</category>
+    </item>
+    <item>
+      <title>[AI] 我未能用Claude复刻1996年的《太空大灌篮》网站</title>
+      <link>https://news.ycombinator.com/item?id=46183294</link>
+      <description>2小时前</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46183294</guid>
+      <source url="https://news.ycombinator.com/item?id=46183294">hackernews</source>
+      <category>AI News</category>
+    </item>
+    <item>
+      <title>[AI] ICLR 2026投稿中出现五十多处新幻觉现象</title>
+      <link>https://news.ycombinator.com/item?id=46181466</link>
+      <description>6小时前</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46181466</guid>
+      <source url="https://news.ycombinator.com/item?id=46181466">hackernews</source>
+      <category>AI News</category>
+    </item>
+    <item>
+      <title>[AI] OpenAI禁用看起来像广告的ChatGPT应用推荐</title>
+      <link>https://news.ycombinator.com/item?id=46182582</link>
+      <description>3小时前</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46182582</guid>
+      <source url="https://news.ycombinator.com/item?id=46182582">hackernews</source>
+      <category>AI News</category>
+    </item>
+    <item>
+      <title>[AI] AI野火即将来临。这将是痛苦且有益的</title>
+      <link>https://news.ycombinator.com/item?id=46183011</link>
+      <description>2小时前</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46183011</guid>
+      <source url="https://news.ycombinator.com/item?id=46183011">hackernews</source>
+      <category>AI News</category>
+    </item>
+    <item>
+      <title>[AI] 我尝试用Claude重建1996年《空中大灌篮》网站，但失败了</title>
+      <link>https://news.ycombinator.com/item?id=46183294</link>
+      <description>1小时前</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46183294</guid>
+      <source url="https://news.ycombinator.com/item?id=46183294">hackernews</source>
+      <category>AI News</category>
+    </item>
+    <item>
+      <title>[AI] NewBie-AI/NewBie-image-Exp0.1</title>
+      <link>https://huggingface.co/NewBie-AI/NewBie-image-Exp0.1</link>
+      <description>NewBie-AI/NewBie-image-Exp0.1 文生图 · 69 次下载 · 67 个赞</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://huggingface.co/NewBie-AI/NewBie-image-Exp0.1</guid>
+      <source url="https://huggingface.co/NewBie-AI/NewBie-image-Exp0.1">huggingface</source>
+      <category>AI News</category>
+    </item>
+    <item>
+      <title>[AI] OpenAI表示已关闭类似广告的应用推荐功能</title>
+      <link>https://techcrunch.com/2025/12/07/openai-says-its-turned-off-app-suggestions-that-look-like-ads/</link>
+      <description>安东尼·哈</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://techcrunch.com/2025/12/07/openai-says-its-turned-off-app-suggestions-that-look-like-ads/</guid>
+      <source url="https://techcrunch.com/2025/12/07/openai-says-its-turned-off-app-suggestions-that-look-like-ads/">techcrunch</source>
+      <category>AI News</category>
+    </item>
+    <item>
+      <title>[AI] ICLR 2026投稿中发现至少50条虚假引用</title>
+      <link>https://news.ycombinator.com/item?id=46181466</link>
+      <description>2小时前</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46181466</guid>
+      <source url="https://news.ycombinator.com/item?id=46181466">hackernews</source>
+      <category>AI News</category>
+    </item>
+    <item>
+      <title>[AI] 谷歌Titans架构，助力AI拥有长期记忆</title>
+      <link>https://news.ycombinator.com/item?id=46181231</link>
+      <description>2小时前</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=46181231</guid>
+      <source url="https://news.ycombinator.com/item?id=46181231">hackernews</source>
+      <category>AI News</category>
+    </item>
+    <item>
+      <title>[AI] NVIDIA / cutile-python</title>
+      <link>https://github.com//NVIDIA/cutile-python</link>
+      <description>cuTile 是一个为 NVIDIA GPU 编写并行内核的编程模型 | 点赞数: 581 复刻数: 24</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com//NVIDIA/cutile-python</guid>
+      <source url="https://github.com//NVIDIA/cutile-python">github</source>
+      <category>AI News</category>
+    </item>
+    <item>
+      <title>[AI] BeehiveInnovations / pal-mcp-server</title>
+      <link>https://github.com//BeehiveInnovations/pal-mcp-server</link>
+      <description>集 Claude Code / GeminiCLI / CodexCLI 的强大功能与 [Gemini / OpenAI / OpenRouter / Azure / Grok / Ollama / 自定义模型 / 以上所有] 于一体，协同工作。 | 点赞数: 10,002 复刻数: 850</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com//BeehiveInnovations/pal-mcp-server</guid>
+      <source url="https://github.com//BeehiveInnovations/pal-mcp-server">github</source>
+      <category>AI News</category>
+    </item>
+    <item>
+      <title>[AI] 变形转换器</title>
+      <link>https://www.producthunt.com/products/transfigurator-private-image-converter</link>
+      <description>快速、私密的图片转换器 - 在 Mac 上 100% 本地处理</description>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.producthunt.com/products/transfigurator-private-image-converter</guid>
+      <source url="https://www.producthunt.com/products/transfigurator-private-image-converter">producthunts</source>
+      <category>AI News</category>
+    </item>
+    <item>
+      <title>[Product] FreeTool</title>
+      <link>https://xdxsb.top/FreeTool</link>
+      <description>一个多功能在线工具箱，整合很多实用小工具。</description>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://xdxsb.top/FreeTool</guid>
+      <source url="https://xdxsb.top/FreeTool">zstar</source>
+      <category>Products</category>
+    </item>
+    <item>
+      <title>[Product] 羲和</title>
+      <link>https://github.com/zstar1003/xihe</link>
+      <description>一个桌面诗词摆件App，已经上架App Store。</description>
+      <pubDate>Fri, 07 Nov 2025 16:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/zstar1003/xihe</guid>
+      <source url="https://github.com/zstar1003/xihe">zstar</source>
+      <category>Products</category>
+    </item>
+    <item>
+      <title>[Product] FreeP2W</title>
+      <link>https://github.com/zstar1003/FreeP2W</link>
+      <description>一个将 PDF 转换成 Word 的CLI工具，在 pdf2docx 的基础上，优化了图片和数学公式表现。</description>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/zstar1003/FreeP2W</guid>
+      <source url="https://github.com/zstar1003/FreeP2W">zstar</source>
+      <category>Products</category>
+    </item>
+    <item>
+      <title>[Product] FreeCut</title>
+      <link>https://github.com/zstar1003/FreeCut</link>
+      <description>一个PowerPoint插件，支持页面自动裁剪并导出为PDF文件。</description>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/zstar1003/FreeCut</guid>
+      <source url="https://github.com/zstar1003/FreeCut">zstar</source>
+      <category>Products</category>
+    </item>
+    <item>
+      <title>[Product] FreeTex</title>
+      <link>https://github.com/zstar1003/FreeTex</link>
+      <description>一个免费的公式智能识别软件，它可以识别图像中的数学公式并将其转换为可编辑的Word或Latex格式。</description>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/zstar1003/FreeTex</guid>
+      <source url="https://github.com/zstar1003/FreeTex">zstar</source>
+      <category>Products</category>
+    </item>
+    <item>
+      <title>[Product] FreePDF</title>
+      <link>https://github.com/zstar1003/FreePDF</link>
+      <description>一个免费的PDF文献阅读器，支持将各语言的PDF文献转成中文，并支持接入大模型基于文献内容进行问答。</description>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/zstar1003/FreePDF</guid>
+      <source url="https://github.com/zstar1003/FreePDF">zstar</source>
+      <category>Products</category>
+    </item>
+    <item>
+      <title>[Product] FreeEditor</title>
+      <link>https://xdxsb.top/FreeEditor</link>
+      <description>一款简洁的双栏 Markdown 编辑器，支持实时预览和微信公众号样式导出。</description>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://xdxsb.top/FreeEditor</guid>
+      <source url="https://xdxsb.top/FreeEditor">zstar</source>
+      <category>Products</category>
+    </item>
+    <item>
+      <title>[Product] FreeGIF</title>
+      <link>https://github.com/zstar1003/FreeGIF</link>
+      <description>一个免费的GIF屏幕录制和编辑工具。</description>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/zstar1003/FreeGIF</guid>
+      <source url="https://github.com/zstar1003/FreeGIF">zstar</source>
+      <category>Products</category>
+    </item>
+    <item>
+      <title>[Product] ragflow-plus</title>
+      <link>https://github.com/zstar1003/ragflow-plus</link>
+      <description>一个基于Ragflow的二次开发的RAG应用框架。</description>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/zstar1003/ragflow-plus</guid>
+      <source url="https://github.com/zstar1003/ragflow-plus">zstar</source>
+      <category>Products</category>
+    </item>
+    <item>
+      <title>[Product] 拼字幕</title>
+      <link>https://github.com/zstar1003/FreeCaption</link>
+      <description>微信小程序：拼字幕-长图拼接助手，用于制作长图字幕拼接。</description>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/zstar1003/FreeCaption</guid>
+      <source url="https://github.com/zstar1003/FreeCaption">zstar</source>
+      <category>Products</category>
+    </item>
+  </channel>
+</rss>
