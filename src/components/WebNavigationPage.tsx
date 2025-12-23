@@ -175,7 +175,8 @@ export function WebNavigationPage() {
         { name: 'Gamma', nameEn: 'Gamma', url: 'https://gamma.app', description: 'AI 驱动的演示文稿制作工具', descriptionEn: 'AI presentation maker' },
         { name: 'WPS AI', nameEn: 'WPS AI', url: 'https://www.wps.cn', description: 'WPS 办公软件内置的 AI 助手', descriptionEn: 'Built-in AI in WPS Office' },
         { name: '飞书妙记', nameEn: 'Lark Minutes', url: 'https://www.feishu.cn', description: 'AI 会议记录和转写工具', descriptionEn: 'AI meeting transcription' },
-        { name: 'Notion AI', nameEn: 'Notion AI', url: 'https://www.notion.so', description: '全能型 AI 协作笔记工具', descriptionEn: 'All-in-one AI workspace' }
+        { name: 'Notion AI', nameEn: 'Notion AI', url: 'https://www.notion.so', description: '全能型 AI 协作笔记工具', descriptionEn: 'All-in-one AI workspace' },
+        { name: '猫头鹰AI网页订阅', nameEn: 'mtywatch', url: 'https://mtywatch.com', description: '一款AI网页信息订阅产品', descriptionEn: 'An AI-powered web monitoring tool' }
       ]
     },
     {
