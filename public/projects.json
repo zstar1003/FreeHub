@@ -129,16 +129,29 @@
         "logo": "product/FreeTool.png"
     },
     {
-          "name": "GetFreeProxy",
-          "nameEn": "GetFreeProxy",
-          "summary": "Free Proxies, Checked Every 10 Mins - #1 Free Proxy List",
-          "summaryEn": "Free Proxies, Checked Every 10 Mins - #1 Free Proxy List ",
-          "description": "The web's #1 trusted source for free proxy lists, tested 24/7. Stop wasting time on dead proxies and find a working, reliable proxy in seconds!",
-          "descriptionEn": "The web's #1 trusted source for free proxy lists, tested 24/7. Stop wasting time on dead proxies and find a working, reliable proxy in seconds!",
-          "url": "https://getfreeproxy.com/",
-          "categories": ["PROXY","Free Proxy"],
-          "submittedBy": "getfreeproxy",
-          "submittedAt": "2025-12-01",
-          "logo": "product/GetFreeProxy.png"
+        "name": "GetFreeProxy",
+        "nameEn": "GetFreeProxy",
+        "summary": "Free Proxies, Checked Every 10 Mins - #1 Free Proxy List",
+        "summaryEn": "Free Proxies, Checked Every 10 Mins - #1 Free Proxy List ",
+        "description": "The web's #1 trusted source for free proxy lists, tested 24/7. Stop wasting time on dead proxies and find a working, reliable proxy in seconds!",
+        "descriptionEn": "The web's #1 trusted source for free proxy lists, tested 24/7. Stop wasting time on dead proxies and find a working, reliable proxy in seconds!",
+        "url": "https://getfreeproxy.com/",
+        "categories": ["PROXY","Free Proxy"],
+        "submittedBy": "getfreeproxy",
+        "submittedAt": "2025-12-01",
+        "logo": "product/GetFreeProxy.png"
+    },
+    {
+        "name": "极速分镜",
+        "nameEn": "mediastory",
+        "summary": "一款专为影视创作者设计的 AIGC 分镜脚本工具",
+        "summaryEn": "AIGC storyboard tool designed for film creators",
+        "description": "一款专为影视创作者设计的 AIGC 分镜脚本工具，支持快速创建、编辑和管理分镜脚本。",
+        "descriptionEn": "An AIGC storyboard tool designed for film creators, supporting quick creation, editing, and management of storyboards.",
+        "url": "https://xdxsb.top/mediastory",
+        "categories": ["TypeScript", "React", "Web 应用"],
+        "submittedBy": "zstar",
+        "submittedAt": "2026-01-19",
+        "logo": "product/mediastory.png"
     }
 ]
