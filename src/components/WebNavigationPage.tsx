@@ -1,6 +1,6 @@
 import { useLanguage } from '../contexts/LanguageContext';
 import { useState, useRef, useEffect } from 'react';
-import { ExternalLink, Globe, Code, Palette, Search, MessageSquare, Image, Video, Cpu, FileText, Briefcase, Boxes, Compass } from 'lucide-react';
+import { ExternalLink, Globe, Code, Palette, Search, MessageSquare, Image, Video, Cpu, FileText, Briefcase, Boxes, Compass, Gift } from 'lucide-react';
 
 interface WebLink {
   name: string;
@@ -73,6 +73,34 @@ export function WebNavigationPage() {
 
   // 网站分类数据
   const categories: WebCategory[] = [
+    {
+      id: 'free-web',
+      name: '白嫖圣地',
+      nameEn: 'Freebie Paradise',
+      icon: Gift,
+      links: [
+        { name: 'LMArena', nameEn: 'LMArena', url: 'https://lmarena.ai/zh', description: '免费免登录，最高 2K 输出，可能存在不稳定', descriptionEn: 'Free, no login, up to 2K output, may be unstable' },
+        { name: 'Gemini', nameEn: 'Gemini', url: 'https://gemini.google.com', description: 'Google 官方多模态模型，Pro 模式下每日 4 次图像生成', descriptionEn: 'Google official multimodal model, 4 image generations daily in Pro mode' },
+        { name: 'Lovart', nameEn: 'Lovart', url: 'https://www.lovart.ai', description: '每日 80 积分，约 5–6 张图', descriptionEn: '80 daily credits, about 5-6 images' },
+        { name: 'RunningHub', nameEn: 'RunningHub', url: 'https://www.runninghub.cn/?inviteCode=ewzjljsb', description: '每日 5 次 Nano Banana Pro（全能图像 Pro）', descriptionEn: '5 daily uses of Nano Banana Pro' },
+        { name: 'StyleAI', nameEn: 'StyleAI', url: 'https://styleai.art/zh/nano-banana-pro', description: '每日 3 次，支持直接生成 4K 图像', descriptionEn: '3 daily uses, supports 4K image generation' },
+        { name: 'Genspark', nameEn: 'Genspark', url: 'https://www.genspark.ai', description: '每日 100 积分，约 2 张图', descriptionEn: '100 daily credits, about 2 images' },
+        { name: '椒图 AI', nameEn: 'Jiaotuai AI', url: 'https://www.jiaotuai.cn', description: '国内友好，支持 4K，每日 1–2 张', descriptionEn: 'China-friendly, supports 4K, 1-2 daily images' },
+        { name: 'Pixverse', nameEn: 'Pixverse', url: 'https://share.pix.video/referral/3LJOC0GP', description: '每日 1 张图', descriptionEn: '1 daily image' },
+        { name: 'Felo', nameEn: 'Felo', url: 'https://felo.ai/?invite=pPXQneBDZJn0P', description: '每日 2 张，新用户额外 1800 积分', descriptionEn: '2 daily images, 1800 bonus credits for new users' },
+        { name: 'YouMind', nameEn: 'YouMind', url: 'https://youmind.com', description: '每日 2–3 张，免费版带水印', descriptionEn: '2-3 daily images, free version has watermark' },
+        { name: 'Imyai', nameEn: 'Imyai', url: 'https://super.imyaigc.com/?inVitecode=POUFSDEBJP', description: '国内友好，支持 4K，签到可用', descriptionEn: 'China-friendly, supports 4K, daily check-in available' },
+        { name: 'Imaginex', nameEn: 'Imaginex', url: 'https://imaginex.video', description: '每日签到 1 张', descriptionEn: '1 image per daily check-in' },
+        { name: 'Firefly', nameEn: 'Firefly', url: 'https://firefly.adobe.com/generate', description: 'Adobe 官方，每月 10 次', descriptionEn: 'Adobe official, 10 monthly uses' },
+        { name: 'Trickle', nameEn: 'Trickle', url: 'https://trickle.so', description: '每日最高 4 张，每月上限 350 积分', descriptionEn: 'Up to 4 daily images, 350 monthly credits limit' },
+        { name: 'Higgsfield', nameEn: 'Higgsfield', url: 'https://higgsfield.ai', description: '每月 7 张图或 2 段视频', descriptionEn: '7 monthly images or 2 videos' },
+        { name: 'OpenArt', nameEn: 'OpenArt', url: 'https://openart.ai', description: '新用户 1 张体验', descriptionEn: '1 image for new users' },
+        { name: 'Flowith', nameEn: 'Flowith', url: 'https://flowith.io?inv=9479UM8TV6QVX1L1', description: '新用户 13 张', descriptionEn: '13 images for new users' },
+        { name: 'TapNow', nameEn: 'TapNow', url: 'https://www.tapnow.ai/referral/Z6w5UY3q', description: '新用户 13 张', descriptionEn: '13 images for new users' },
+        { name: 'Labnana', nameEn: 'Labnana', url: 'http://labnana.com', description: '签到累计可用，连签两天 1 张', descriptionEn: 'Accumulate from check-ins, 1 image per 2-day streak' },
+        { name: 'X-Design', nameEn: 'X-Design', url: 'https://www.x-design.com/fs/3nmdfq8f', description: '7 天会员试用，无日常积分', descriptionEn: '7-day member trial, no daily credits' }
+      ]
+    },
     {
       id: 'ai-chat',
       name: 'AI 聊天助手',
