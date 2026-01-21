@@ -98,7 +98,8 @@ export function WebNavigationPage() {
         { name: 'Flowith', nameEn: 'Flowith', url: 'https://flowith.io?inv=9479UM8TV6QVX1L1', description: '新用户 13 张', descriptionEn: '13 images for new users' },
         { name: 'TapNow', nameEn: 'TapNow', url: 'https://www.tapnow.ai/referral/Z6w5UY3q', description: '新用户 13 张', descriptionEn: '13 images for new users' },
         { name: 'Labnana', nameEn: 'Labnana', url: 'http://labnana.com', description: '签到累计可用，连签两天 1 张', descriptionEn: 'Accumulate from check-ins, 1 image per 2-day streak' },
-        { name: 'X-Design', nameEn: 'X-Design', url: 'https://www.x-design.com/fs/3nmdfq8f', description: '7 天会员试用，无日常积分', descriptionEn: '7-day member trial, no daily credits' }
+        { name: 'X-Design', nameEn: 'X-Design', url: 'https://www.x-design.com/fs/3nmdfq8f', description: '7 天会员试用，无日常积分', descriptionEn: '7-day member trial, no daily credits' },
+        { name: 'AIWind', nameEn: 'AIWind', url: 'https://www.aiwind.org', description: 'AI生图提示词大全', descriptionEn: 'Comprehensive prompt library for AI image generation' }
       ]
     },
     {
