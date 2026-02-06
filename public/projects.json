@@ -153,5 +153,18 @@
         "submittedBy": "zstar",
         "submittedAt": "2026-01-19",
         "logo": "product/mediastory.png"
+    },
+        {
+        "name": "吐司便签",
+        "nameEn": "Tosticker",
+        "summary": "一款跨平台桌面便签待办应用",
+        "summaryEn": "A cross-platform desktop sticky notes and to-do application",
+        "description": "一款跨平台桌面便签待办应用，支持用AI来辅助管理待办事项。",
+        "descriptionEn": "A cross-platform desktop sticky notes and to-do application that supports AI-assisted management of to-do items.",
+        "url": "https://github.com/zstar1003/Tosticker",
+        "categories": ["Rust", "React", "桌面应用"],
+        "submittedBy": "zstar",
+        "submittedAt": "2026-02-06",
+        "logo": "product/Tosticker.svg"
     }
 ]
