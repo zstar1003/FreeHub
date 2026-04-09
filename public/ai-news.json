@@ -1,6 +1,1800 @@
 [
   {
     "id": 1,
+    "title": "年收入高达2000万？",
+    "description": "人工智能降低了创业门槛，OPC（一人公司）不断兴起，转行创业正在成为普通人的常态。",
+    "url": "https://36kr.com/p/3758839901241861",
+    "source": "36kr",
+    "publishedAt": "2026-04-09",
+    "category": "Industry, Product",
+    "titleZh": "年收入高达2000万？",
+    "titleEn": "Annual income up to 20 million? AI-fueled 'One-Person Companies' are booming, but is it for everyone?",
+    "descriptionZh": "人工智能降低了创业门槛，OPC（一人公司）不断兴起，转行创业正在成为普通人的常态。",
+    "descriptionEn": "AI lowers the barrier to entrepreneurship, OPCs (One-Person Companies) are on the rise, and career-switching startups are becoming the norm for ordinary people."
+  },
+  {
+    "id": 2,
+    "title": "谷歌CEO桑达尔·皮查伊：2027年将是AI重塑生产方式的关键拐点",
+    "description": "谷歌首席执行官桑达尔·皮查伊 (Sundar Pichai) 讨论人工智能芯片短缺和太空数据中心。",
+    "url": "https://36kr.com/p/3758872391156489",
+    "source": "36kr",
+    "publishedAt": "2026-04-09",
+    "category": "Company, Industry",
+    "titleZh": "谷歌CEO桑达尔·皮查伊：2027年将是AI重塑生产方式的关键拐点",
+    "titleEn": "Google CEO Sundar Pichai: 2027 will be a key inflection point for AI reshaping production methods",
+    "descriptionZh": "谷歌首席执行官桑达尔·皮查伊 (Sundar Pichai) 讨论人工智能芯片短缺和太空数据中心。",
+    "descriptionEn": "Google CEO Sundar Pichai discusses AI chip shortages and space data centers."
+  },
+  {
+    "id": 3,
+    "title": "Meta推出Muse Spark以驱动聊天机器人与购物推广",
+    "description": "2026-04-09 00:25:50",
+    "url": "http://www.techinasia.com/news/meta-launches-muse-spark-to-power-chatbot-shopping-push",
+    "source": "techinasia",
+    "publishedAt": "2026-04-09",
+    "category": "Company,Product",
+    "titleZh": "Meta推出Muse Spark以驱动聊天机器人与购物推广",
+    "titleEn": "Meta launches Muse Spark to power chatbots and shopping promotions",
+    "descriptionZh": "2026-04-09 00:25:50",
+    "descriptionEn": "2026-04-09 00:25:50"
+  },
+  {
+    "id": 4,
+    "title": "人工智能正变得越来越强大。",
+    "description": "如今，许多 IT 部门面临的最大危险不是技术不足，而是停留在过去的定位。",
+    "url": "https://36kr.com/p/3758777155699202",
+    "source": "36kr",
+    "publishedAt": "2026-04-09",
+    "category": "Industry, Policy",
+    "titleZh": "人工智能正变得越来越强大。",
+    "titleEn": "AI is becoming increasingly powerful. Is there still a need for corporate IT departments?",
+    "descriptionZh": "如今，许多 IT 部门面临的最大危险不是技术不足，而是停留在过去的定位。",
+    "descriptionEn": "The greatest danger for many IT departments today is not insufficient technology, but rather a positioning that remains stuck in the past."
+  },
+  {
+    "id": 5,
+    "title": "阿里巴巴的AI这么着急是为了什么？",
+    "description": "阿里巴巴急于打造AI结算层，ATH是其核心赌注。",
+    "url": "https://36kr.com/p/3758804323808007",
+    "source": "36kr",
+    "publishedAt": "2026-04-09",
+    "category": "Company,Product",
+    "titleZh": "阿里巴巴的AI这么着急是为了什么？",
+    "titleEn": "What's Alibaba's AI in such a hurry about?",
+    "descriptionZh": "阿里巴巴急于打造AI结算层，ATH是其核心赌注。",
+    "descriptionEn": "Alibaba is rushing to build an AI settlement layer, with ATH being its core bet."
+  },
+  {
+    "id": 6,
+    "title": "美国法院维持五角大楼对Anthropic的限制措施",
+    "description": "2026-04-09 00:07:38",
+    "url": "http://www.techinasia.com/news/us-court-keeps-pentagon-curbs-on-anthropic-in-place",
+    "source": "techinasia",
+    "publishedAt": "2026-04-09",
+    "category": "Company,Policy",
+    "titleZh": "美国法院维持五角大楼对Anthropic的限制措施",
+    "titleEn": "U.S. court upholds Pentagon restrictions on Anthropic",
+    "descriptionZh": "2026-04-09 00:07:38",
+    "descriptionEn": "2026-04-09 00:07:38"
+  },
+  {
+    "id": 7,
+    "title": "git-fire",
+    "description": "一条命令备份您所有的Git仓库；功能远不止于此！",
+    "url": "https://www.producthunt.com/products/git-fire",
+    "source": "producthunts",
+    "publishedAt": "2026-04-08",
+    "category": "Product,Resource",
+    "titleZh": "git-fire",
+    "titleEn": "git-fire",
+    "descriptionZh": "一条命令备份您所有的Git仓库；功能远不止于此！",
+    "descriptionEn": "Back up all your Git repositories with one command; it doesn’t stop there!"
+  },
+  {
+    "id": 8,
+    "title": "Beyond Seedance 的黑马：它是“精心设计”的热门作品吗？",
+    "description": "AI视频行业渴望Sora的替代方案。",
+    "url": "https://36kr.com/p/3758151455929089",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Product, Industry",
+    "titleZh": "Beyond Seedance 的黑马：它是“精心设计”的热门作品吗？",
+    "titleEn": "Beyond Seedance's Dark Horse: Is It a \"Meticulously Designed\" Hit?",
+    "descriptionZh": "AI视频行业渴望Sora的替代方案。",
+    "descriptionEn": "The AI video industry is yearning for a Sora alternative."
+  },
+  {
+    "id": 9,
+    "title": "90%的代码由AI编写：解构人类工程师背后的“AI-Native”开发范式",
+    "description": "在人工智能编程过程中保持控制的最佳实践",
+    "url": "https://36kr.com/p/3719611508929926",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Company,Product",
+    "titleZh": "90%的代码由AI编写：解构人类工程师背后的“AI-Native”开发范式",
+    "titleEn": "90% of Code Written by AI: Deconstructing the \"AI-Native\" Development Paradigm Behind Anthropic Engineers",
+    "descriptionZh": "在人工智能编程过程中保持控制的最佳实践",
+    "descriptionEn": "Best Practices for Maintaining Control During AI Programming"
+  },
+  {
+    "id": 10,
+    "title": "AI智能体Poke让设置自动化流程变得像发短信一样简单",
+    "description": "莎拉·佩雷斯",
+    "url": "https://techcrunch.com/2026/04/08/poke-makes-ai-agents-as-easy-as-sending-a-text/",
+    "source": "techcrunch",
+    "publishedAt": "2026-04-08",
+    "category": "Product,Agent",
+    "titleZh": "AI智能体Poke让设置自动化流程变得像发短信一样简单",
+    "titleEn": "AI intelligent Poke makes setting up automated processes as easy as sending a text message",
+    "descriptionZh": "莎拉·佩雷斯",
+    "descriptionEn": "Sarah Perez"
+  },
+  {
+    "id": 11,
+    "title": "Anthropic上诉法院请求暂缓五角大楼将其列入黑名单的动议遭驳回",
+    "description": "3分钟前",
+    "url": "https://www.cnbc.com/2026/04/08/anthropic-pentagon-court-ruling-supply-chain-risk.html",
+    "source": "arsTechnica",
+    "publishedAt": "2026-04-08",
+    "category": "Company, Policy",
+    "titleZh": "Anthropic上诉法院请求暂缓五角大楼将其列入黑名单的动议遭驳回",
+    "titleEn": "Anthropic Court of Appeals Denies Motion to Stay Pentagon's Blacklisting",
+    "descriptionZh": "3分钟前",
+    "descriptionEn": "3 minutes ago"
+  },
+  {
+    "id": 12,
+    "title": "Show HN: Go-Bt: 用于 Go 的极简行为树",
+    "description": "7小时前",
+    "url": "https://news.ycombinator.com/item?id=47690797",
+    "source": "hackernews",
+    "publishedAt": "2026-04-08",
+    "category": "Resource,Other",
+    "titleZh": "Show HN: Go-Bt: 用于 Go 的极简行为树",
+    "titleEn": "Show HN: Go-Bt: Minimalist Behavior Trees for Go",
+    "descriptionZh": "7小时前",
+    "descriptionEn": "7 hours ago"
+  },
+  {
+    "id": 13,
+    "title": "Anthropic上诉法院请求暂时阻止五角大楼将其列入黑名单的动议失败",
+    "description": "刚刚",
+    "url": "https://www.cnbc.com/2026/04/08/anthropic-pentagon-court-ruling-supply-chain-risk.html",
+    "source": "arsTechnica",
+    "publishedAt": "2026-04-08",
+    "category": "Company, Policy",
+    "titleZh": "Anthropic上诉法院请求暂时阻止五角大楼将其列入黑名单的动议失败",
+    "titleEn": "Anthropic appeals court fails in motion to temporarily block Pentagon's blacklisting",
+    "descriptionZh": "刚刚",
+    "descriptionEn": "just"
+  },
+  {
+    "id": 14,
+    "title": "OpenAI首席财务官称将在准备IPO过程中向散户投资者分配股份",
+    "description": "一小时前",
+    "url": "https://www.cnbc.com/2026/04/08/openai-ipo-sarah-friar-retail-investors.html",
+    "source": "arsTechnica",
+    "publishedAt": "2026-04-08",
+    "category": "Company, Event",
+    "titleZh": "OpenAI首席财务官称将在准备IPO过程中向散户投资者分配股份",
+    "titleEn": "OpenAI CFO says it will allocate shares to retail investors as it prepares for IPO",
+    "descriptionZh": "一小时前",
+    "descriptionEn": "an hour ago"
+  },
+  {
+    "id": 15,
+    "title": "Nava融资2200万美元以弥合亚洲AI算力缺口",
+    "description": "2026-04-08 22:00:27",
+    "url": "http://www.techinasia.com/nava-raises-22m-plug-asias-ai-compute-gap",
+    "source": "techinasia",
+    "publishedAt": "2026-04-08",
+    "category": "Company,Industry",
+    "titleZh": "Nava融资2200万美元以弥合亚洲AI算力缺口",
+    "titleEn": "Nava raises $22 million to close Asia’s AI computing power gap",
+    "descriptionZh": "2026-04-08 22:00:27",
+    "descriptionEn": "2026-04-08 22:00:27"
+  },
+  {
+    "id": 16,
+    "title": "Poke让AI智能体变得像发短信一样简单",
+    "description": "莎拉·佩雷斯",
+    "url": "https://techcrunch.com/2026/04/08/poke-makes-ai-agents-as-easy-as-sending-a-text/",
+    "source": "techcrunch",
+    "publishedAt": "2026-04-08",
+    "category": "Product, Agent",
+    "titleZh": "Poke让AI智能体变得像发短信一样简单",
+    "titleEn": "Poke makes AI agents as easy as sending text messages",
+    "descriptionZh": "莎拉·佩雷斯",
+    "descriptionEn": "Sarah Perez"
+  },
+  {
+    "id": 17,
+    "title": "企业人工智能的下一阶段",
+    "description": "随着前沿模型、ChatGPT企业版、Codex以及全公司范围的AI智能体在各行业的应用加速，OpenAI概述了企业人工智能的下一阶段。",
+    "url": "https://openai.com/index/next-phase-of-enterprise-ai",
+    "source": "openai",
+    "publishedAt": "2026-04-08",
+    "category": "Company,Product",
+    "titleZh": "企业人工智能的下一阶段",
+    "titleEn": "The next phase of enterprise artificial intelligence",
+    "descriptionZh": "随着前沿模型、ChatGPT企业版、Codex以及全公司范围的AI智能体在各行业的应用加速，OpenAI概述了企业人工智能的下一阶段。",
+    "descriptionEn": "OpenAI outlines the next phase of enterprise artificial intelligence as adoption of cutting-edge models, ChatGPT Enterprise, Codex, and company-wide AI agents accelerates across industries."
+  },
+  {
+    "id": 18,
+    "title": "AI大跃进",
+    "description": "1小时前",
+    "url": "https://news.ycombinator.com/item?id=47695647",
+    "source": "hackernews",
+    "publishedAt": "2026-04-08",
+    "category": "Industry, Policy",
+    "titleZh": "AI大跃进",
+    "titleEn": "AI Great Leap Forward",
+    "descriptionZh": "1小时前",
+    "descriptionEn": "1 hour ago"
+  },
+  {
+    "id": 19,
+    "title": "首席财务官表示：OpenAI 在筹备上市时将向散户投资者分配IPO股份",
+    "description": "9 分钟前",
+    "url": "https://www.cnbc.com/2026/04/08/openai-ipo-sarah-friar-retail-investors.html",
+    "source": "arsTechnica",
+    "publishedAt": "2026-04-08",
+    "category": "Company, Event",
+    "titleZh": "首席财务官表示：OpenAI 在筹备上市时将向散户投资者分配IPO股份",
+    "titleEn": "CFO says: OpenAI will allocate IPO shares to retail investors as it prepares to go public",
+    "descriptionZh": "9 分钟前",
+    "descriptionEn": "9 minutes ago"
+  },
+  {
+    "id": 20,
+    "title": "AWS老板解释为何同时向Anthropic和OpenAI投资数十亿美元并无冲突",
+    "description": "朱莉·博特",
+    "url": "https://techcrunch.com/2026/04/08/aws-boss-explains-why-investing-billions-in-both-anthropic-and-openai-is-an-ok-conflict/",
+    "source": "techcrunch",
+    "publishedAt": "2026-04-08",
+    "category": "Company,Event",
+    "titleZh": "AWS老板解释为何同时向Anthropic和OpenAI投资数十亿美元并无冲突",
+    "titleEn": "AWS boss explains why there's no conflict in investing billions in Anthropic and OpenAI simultaneously",
+    "descriptionZh": "朱莉·博特",
+    "descriptionEn": "Julie Bott"
+  },
+  {
+    "id": 21,
+    "title": "我已经等待Anthropic客服回复超过一个月了",
+    "description": "2小时前",
+    "url": "https://news.ycombinator.com/item?id=47693679",
+    "source": "hackernews",
+    "publishedAt": "2026-04-08",
+    "category": "Company, Product",
+    "titleZh": "我已经等待Anthropic客服回复超过一个月了",
+    "titleEn": "I have been waiting for a reply from Anthropic customer service for over a month.",
+    "descriptionZh": "2小时前",
+    "descriptionEn": "2 hours ago"
+  },
+  {
+    "id": 22,
+    "title": "改进学术工作流程：引入两个AI助手以优化图表制作与同行评审",
+    "description": "2026年4月8日",
+    "url": "https://research.google//blog/improving-the-academic-workflow-introducing-two-ai-agents-for-better-figures-and-peer-review/",
+    "source": "googleresearch",
+    "publishedAt": "2026-04-08",
+    "category": "Product,Agent",
+    "titleZh": "改进学术工作流程：引入两个AI助手以优化图表制作与同行评审",
+    "titleEn": "Improving academic workflow: introducing two AI assistants to optimize figure production and peer review",
+    "descriptionZh": "2026年4月8日",
+    "descriptionEn": "April 8, 2026"
+  },
+  {
+    "id": 23,
+    "title": "机器学习注定将变得极其怪异",
+    "description": "6小时前",
+    "url": "https://news.ycombinator.com/item?id=47689648",
+    "source": "hackernews",
+    "publishedAt": "2026-04-08",
+    "category": "Industry, Other",
+    "titleZh": "机器学习注定将变得极其怪异",
+    "titleEn": "Machine learning is destined to get weird",
+    "descriptionZh": "6小时前",
+    "descriptionEn": "6 hours ago"
+  },
+  {
+    "id": 24,
+    "title": "Meta发布新AI模型，投入数十亿美元后试图追赶谷歌和OpenAI",
+    "description": "20分钟前",
+    "url": "https://www.cnbc.com/2026/04/08/meta-debuts-first-major-ai-model-since-14-billion-deal-to-bring-in-alexandr-wang.html",
+    "source": "arsTechnica",
+    "publishedAt": "2026-04-08",
+    "category": "Model,Company",
+    "titleZh": "Meta发布新AI模型，投入数十亿美元后试图追赶谷歌和OpenAI",
+    "titleEn": "Meta releases new AI model, tries to catch up with Google and OpenAI after investing billions",
+    "descriptionZh": "20分钟前",
+    "descriptionEn": "20 minutes ago"
+  },
+  {
+    "id": 25,
+    "title": "屏幕切片",
+    "description": "在视频通话中仅分享部分屏幕",
+    "url": "https://www.producthunt.com/products/screenslice",
+    "source": "producthunts",
+    "publishedAt": "2026-04-08",
+    "category": "Product",
+    "titleZh": "屏幕切片",
+    "titleEn": "Screenslice",
+    "descriptionZh": "在视频通话中仅分享部分屏幕",
+    "descriptionEn": "Share only part of your screen in a video call"
+  },
+  {
+    "id": 26,
+    "title": "Claude托管代理",
+    "description": "1小时前",
+    "url": "https://news.ycombinator.com/item?id=47693047",
+    "source": "hackernews",
+    "publishedAt": "2026-04-08",
+    "category": "Product, Agent",
+    "titleZh": "Claude托管代理",
+    "titleEn": "Claude Escrow Agent",
+    "descriptionZh": "1小时前",
+    "descriptionEn": "1 hour ago"
+  },
+  {
+    "id": 27,
+    "title": "Tubi成为首个在ChatGPT内推出原生应用的流媒体平台",
+    "description": "劳伦·福里斯特尔",
+    "url": "https://techcrunch.com/2026/04/08/tubi-is-the-first-streamer-to-launch-a-native-app-within-chatgpt/",
+    "source": "techcrunch",
+    "publishedAt": "2026-04-08",
+    "category": "Product,Event",
+    "titleZh": "Tubi成为首个在ChatGPT内推出原生应用的流媒体平台",
+    "titleEn": "Tubi becomes the first streaming platform to launch native apps within ChatGPT",
+    "descriptionZh": "劳伦·福里斯特尔",
+    "descriptionEn": "Lauren Forestel"
+  },
+  {
+    "id": 28,
+    "title": "Muse Spark – 元超级智能实验室",
+    "description": "1小时前",
+    "url": "https://news.ycombinator.com/item?id=47692102",
+    "source": "hackernews",
+    "publishedAt": "2026-04-08",
+    "category": "Company, Model",
+    "titleZh": "Muse Spark – 元超级智能实验室",
+    "titleEn": "Muse Spark – Yuan Super Intelligence Laboratory",
+    "descriptionZh": "1小时前",
+    "descriptionEn": "1 hour ago"
+  },
+  {
+    "id": 29,
+    "title": "Muse Spark：迈向个人超级智能的规模化之路",
+    "description": "1小时前",
+    "url": "https://news.ycombinator.com/item?id=47692043",
+    "source": "hackernews",
+    "publishedAt": "2026-04-08",
+    "category": "Model, Product",
+    "titleZh": "Muse Spark：迈向个人超级智能的规模化之路",
+    "titleEn": "Muse Spark: The path toward personal superintelligence at scale",
+    "descriptionZh": "1小时前",
+    "descriptionEn": "1 hour ago"
+  },
+  {
+    "id": 30,
+    "title": "Meta发布全新AI模型，投入数十亿美元后试图追赶谷歌和OpenAI",
+    "description": "5分钟前",
+    "url": "https://www.cnbc.com/2026/04/08/meta-debuts-first-major-ai-model-since-14-billion-deal-to-bring-in-alexandr-wang.html",
+    "source": "arsTechnica",
+    "publishedAt": "2026-04-08",
+    "category": "Model,Company",
+    "titleZh": "Meta发布全新AI模型，投入数十亿美元后试图追赶谷歌和OpenAI",
+    "titleEn": "Meta releases new AI model, investing billions of dollars to try to catch up with Google and OpenAI",
+    "descriptionZh": "5分钟前",
+    "descriptionEn": "5 minutes ago"
+  },
+  {
+    "id": 31,
+    "title": "Anthropic为我们的网络安全股及其他大型科技股盖上了AI认可印章",
+    "description": "33分钟前",
+    "url": "/investingclub/",
+    "source": "arsTechnica",
+    "publishedAt": "2026-04-08",
+    "category": "Company, Industry",
+    "titleZh": "Anthropic为我们的网络安全股及其他大型科技股盖上了AI认可印章",
+    "titleEn": "Anthropic puts its AI seal of approval on our cybersecurity stocks and other big tech stocks",
+    "descriptionZh": "33分钟前",
+    "descriptionEn": "33 minutes ago"
+  },
+  {
+    "id": 32,
+    "title": "云成本优化：如何最大化AI投资回报率、管理成本并释放真实业务价值",
+    "description": "获取实用策略与最佳实践，助您规划、设计和管理AI投资，以实现可持续的价值与效率。- 发布时间：4月8日",
+    "url": "https://azure.microsoft.com/en-us/blog/content-type/thought-leadership/",
+    "source": "azure",
+    "publishedAt": "2026-04-08",
+    "category": "Industry, Product",
+    "titleZh": "云成本优化：如何最大化AI投资回报率、管理成本并释放真实业务价值",
+    "titleEn": "Cloud Cost Optimization: How to Maximize AI ROI, Manage Costs, and Unlock True Business Value",
+    "descriptionZh": "获取实用策略与最佳实践，助您规划、设计和管理AI投资，以实现可持续的价值与效率。- 发布时间：4月8日",
+    "descriptionEn": "Get practical strategies and best practices to help you plan, design, and manage your AI investments to achieve sustainable value and efficiency. "
+  },
+  {
+    "id": 33,
+    "title": "Astropad的Workbench重塑远程桌面，专为AI智能体而非IT支持设计",
+    "description": "莎拉·佩雷斯",
+    "url": "https://techcrunch.com/2026/04/08/astropads-workbench-reimagines-remote-desktop-for-ai-agents-not-it-support/",
+    "source": "techcrunch",
+    "publishedAt": "2026-04-08",
+    "category": "Product,Agent",
+    "titleZh": "Astropad的Workbench重塑远程桌面，专为AI智能体而非IT支持设计",
+    "titleEn": "Astropad’s Workbench reinvents remote desktop, designed for AI agents rather than IT support",
+    "descriptionZh": "莎拉·佩雷斯",
+    "descriptionEn": "Sarah Perez"
+  },
+  {
+    "id": 34,
+    "title": "展示HN：我们对178个AI模型的写作风格进行了指纹识别并绘制了相似性聚类",
+    "description": "2小时前",
+    "url": "https://news.ycombinator.com/item?id=47690415",
+    "source": "hackernews",
+    "publishedAt": "2026-04-08",
+    "category": "Model,Paper",
+    "titleZh": "展示HN：我们对178个AI模型的写作风格进行了指纹识别并绘制了相似性聚类",
+    "titleEn": "Demonstrating HN: We fingerprinted the writing style of 178 AI models and plotted similarity clusters",
+    "descriptionZh": "2小时前",
+    "descriptionEn": "2 hours ago"
+  },
+  {
+    "id": 35,
+    "title": "OpenAI发布新的安全蓝图，以应对儿童性剥削内容的增长",
+    "description": "劳伦·福里斯特尔",
+    "url": "https://techcrunch.com/2026/04/08/openai-releases-a-new-safety-blueprint-to-address-the-rise-in-child-sexual-exploitation/",
+    "source": "techcrunch",
+    "publishedAt": "2026-04-08",
+    "category": "Policy, Company",
+    "titleZh": "OpenAI发布新的安全蓝图，以应对儿童性剥削内容的增长",
+    "titleEn": "OpenAI releases new security blueprint to combat growth in child sexual exploitation content",
+    "descriptionZh": "劳伦·福里斯特尔",
+    "descriptionEn": "Lauren Forestel"
+  },
+  {
+    "id": 36,
+    "title": "Databricks联合创始人荣获著名ACM奖项，称“通用人工智能已然到来”",
+    "description": "朱莉·博特",
+    "url": "https://techcrunch.com/2026/04/08/databricks-matei-zaharia-wins-acm-computing-prize-agi/",
+    "source": "techcrunch",
+    "publishedAt": "2026-04-08",
+    "category": "Company, Event",
+    "titleZh": "Databricks联合创始人荣获著名ACM奖项，称“通用人工智能已然到来”",
+    "titleEn": "Databricks co-founder wins prestigious ACM award, says “general artificial intelligence has arrived”",
+    "descriptionZh": "朱莉·博特",
+    "descriptionEn": "Julie Bott"
+  },
+  {
+    "id": 37,
+    "title": "武大文科教授硬核跨界AI：半年项目量猛增4000%，重构AI图表生产力",
+    "description": "新发布的AI图表代理可以进行深度编辑。",
+    "url": "https://www.qbitai.com/2026/04/398001.html",
+    "source": "qbitai",
+    "publishedAt": "2026-04-08",
+    "category": "Product,Agent",
+    "titleZh": "武大文科教授硬核跨界AI：半年项目量猛增4000%，重构AI图表生产力",
+    "titleEn": "Wuhan University Liberal Arts Professor Makes a Hardcore Crossover into AI: Project Volume Soars 4000% in Half a Year, Reconstructing AI Chart Productivity",
+    "descriptionZh": "新发布的AI图表代理可以进行深度编辑。",
+    "descriptionEn": "The newly released AI Chart Agent allows for in-depth editing."
+  },
+  {
+    "id": 38,
+    "title": "kai-os/gemma4-31b-Opus-4.6-推理",
+    "description": "kai-os/gemma4-31b-Opus-4.6-reasoning 文本生成 · 256 次下载 · 126 个赞",
+    "url": "https://huggingface.co/kai-os/gemma4-31b-Opus-4.6-reasoning",
+    "source": "huggingface",
+    "publishedAt": "2026-04-08",
+    "category": "Model,Resource",
+    "titleZh": "kai-os/gemma4-31b-Opus-4.6-推理",
+    "titleEn": "kai-os/gemma4-31b-Opus-4.6-reasoning",
+    "descriptionZh": "kai-os/gemma4-31b-Opus-4.6-reasoning 文本生成 · 256 次下载 · 126 个赞",
+    "descriptionEn": "kai-os/gemma4-31b-Opus-4.6-reasoning text generation · 256 downloads · 126 likes"
+  },
+  {
+    "id": 39,
+    "title": "MegaTrain：在单张GPU上对1000亿+参数大语言模型进行全精度训练",
+    "description": "1小时前",
+    "url": "https://news.ycombinator.com/item?id=47689174",
+    "source": "hackernews",
+    "publishedAt": "2026-04-08",
+    "category": "Model,Resource",
+    "titleZh": "MegaTrain：在单张GPU上对1000亿+参数大语言模型进行全精度训练",
+    "titleEn": "MegaTrain: Full-precision training of 100 billion+ parameter large language models on a single GPU",
+    "descriptionZh": "1小时前",
+    "descriptionEn": "1 hour ago"
+  },
+  {
+    "id": 40,
+    "title": "Atlassian在Confluence中推出可视化AI工具和第三方代理",
+    "description": "丽贝卡·斯库塔克",
+    "url": "https://techcrunch.com/2026/04/08/atlassian-confluence-visual-ai-tools-agents/",
+    "source": "techcrunch",
+    "publishedAt": "2026-04-08",
+    "category": "Product,Company",
+    "titleZh": "Atlassian在Confluence中推出可视化AI工具和第三方代理",
+    "titleEn": "Atlassian launches visual AI tools and third-party agents in Confluence",
+    "descriptionZh": "丽贝卡·斯库塔克",
+    "descriptionEn": "Rebecca Skutak"
+  },
+  {
+    "id": 41,
+    "title": "科学家会失业吗？ ",
+    "description": "2026年，AI成为科学家的新战友：从三个晚上破解40年的优化问题，到18分钟重现黑洞隐藏的对称性，ChatGPT正在将前沿发现的步伐加快数倍至数十倍。",
+    "url": "https://36kr.com/p/3758096847635204",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Model, Event",
+    "titleZh": "科学家会失业吗？ ",
+    "titleEn": "Are Scientists Going to Lose Their Jobs? GPT-5 Solves Black Hole Equation in Just 18 Minutes, Outperforming Months of Human Effort",
+    "descriptionZh": "2026年，AI成为科学家的新战友：从三个晚上破解40年的优化问题，到18分钟重现黑洞隐藏的对称性，ChatGPT正在将前沿发现的步伐加快数倍至数十倍。",
+    "descriptionEn": "In 2026, AI has become a new comrade-in-arms for scientists: from cracking a 40-year optimization problem in three nights to reproducing the hidden symmetry of black holes in 18 minutes, ChatGPT is accelerating the pace of cutting-edge discoveries by several to dozens of times. The era of scientific acceleration has truly arrived!"
+  },
+  {
+    "id": 42,
+    "title": "如果GPT-6只是一个玩笑，那么OpenAI真的会跌落悬崖",
+    "description": "决战前夕的王牌",
+    "url": "https://36kr.com/p/3758020601229824",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Model,Company",
+    "titleZh": "如果GPT-6只是一个玩笑，那么OpenAI真的会跌落悬崖",
+    "titleEn": "If GPT-6 Is Just a Tease, Then OpenAI Will Really Fall Off the Cliff",
+    "descriptionZh": "决战前夕的王牌",
+    "descriptionEn": "The Trump Card, Stuck on the Eve of the Decisive Battle"
+  },
+  {
+    "id": 43,
+    "title": "快马锁定下一个热点AI：阿里和字节跳动谁压力更大？",
+    "description": "神秘黑马Happyhorse位居榜首，引发对其巨型主人的猜测。",
+    "url": "https://36kr.com/p/3758090924880646",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Company,Industry",
+    "titleZh": "快马锁定下一个热点AI：阿里和字节跳动谁压力更大？",
+    "titleEn": "Happy Horse Locks Onto the Next Hot AI: Which Puts More Pressure on Alibaba or ByteDance?",
+    "descriptionZh": "神秘黑马Happyhorse位居榜首，引发对其巨型主人的猜测。",
+    "descriptionEn": "Mysterious Dark Horse Happyhorse Tops the Charts, Sparking Speculation About Its Giant Owner."
+  },
+  {
+    "id": 44,
+    "title": "《生化危机》女主角用克劳德手工打造满分人工智能，每年只需花费 0.7 美元就超越大型科技公司",
+    "description": "白天走秀，深夜编码",
+    "url": "https://36kr.com/p/3758096887398914",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Model,Product",
+    "titleZh": "《生化危机》女主角用克劳德手工打造满分人工智能，每年只需花费 0.7 美元就超越大型科技公司",
+    "titleEn": "\"Resident Evil\" Heroine Uses Claude to Handcraft a Perfect-Scoring AI, Spending Only $0.7 a Year to Outperform Big Tech",
+    "descriptionZh": "白天走秀，深夜编码",
+    "descriptionEn": "Walking the Runway by Day, Coding Deep into the Night"
+  },
+  {
+    "id": 45,
+    "title": "什么是人工智能对话的“合理的保密期望”？",
+    "description": "当人工智能成为“帮凶”时，法律就陷入了对它是“工具”还是“第三方”的认知分裂。",
+    "url": "https://36kr.com/p/3758114728702723",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Policy, Event",
+    "titleZh": "什么是人工智能对话的“合理的保密期望”？",
+    "titleEn": "What is a \"Reasonable Expectation of Confidentiality\" for AI Conversations? Warnings from the First U.S. AI Privilege Case Ruling and China's Reflections",
+    "descriptionZh": "当人工智能成为“帮凶”时，法律就陷入了对它是“工具”还是“第三方”的认知分裂。",
+    "descriptionEn": "When AI becomes an \"accomplice,\" the law is caught in a cognitive split over whether it's a \"tool\" or a \"third party.\" The qualitative dilemma exposed by the first U.S. AI privilege case is not just a flaw in an individual ruling, but a warning sign of the systemic failure of traditional legal frameworks in the age of intelligence."
+  },
+  {
+    "id": 46,
+    "title": "AI大片时代尚未到来，但观众已经开始抵制",
+    "description": "受众对“假货”的容忍度取决于他们的消费情境。",
+    "url": "https://36kr.com/p/3758067499188741",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Industry,Other",
+    "titleZh": "AI大片时代尚未到来，但观众已经开始抵制",
+    "titleEn": "The AI Blockbuster Era Hasn't Arrived, But Audiences Are Already Pushing Back",
+    "descriptionZh": "受众对“假货”的容忍度取决于他们的消费情境。",
+    "descriptionEn": "Audiences' tolerance for the \"fake\" depends on their consumption context."
+  },
+  {
+    "id": 47,
+    "title": "Aperture的彼得·克劳斯表示，市场将很快重回由人工智能投资驱动的轨道",
+    "description": "18分钟前",
+    "url": "https://www.cnbc.com/video/2026/04/08/markets-will-soon-go-back-to-being-driven-by-ai-investment-says-apertureas-peter-kraus.html",
+    "source": "arsTechnica",
+    "publishedAt": "2026-04-08",
+    "category": "Industry, Company",
+    "titleZh": "Aperture的彼得·克劳斯表示，市场将很快重回由人工智能投资驱动的轨道",
+    "titleEn": "Aperture's Peter Krause says market will soon be back on track driven by AI investments",
+    "descriptionZh": "18分钟前",
+    "descriptionEn": "18 minutes ago"
+  },
+  {
+    "id": 48,
+    "title": "Show HN：我们打造了一款仅售300美元以下的纯摄像头机器人吸尘器（嗯，差不多）",
+    "description": "4小时前",
+    "url": "https://news.ycombinator.com/item?id=47657204",
+    "source": "hackernews",
+    "publishedAt": "2026-04-08",
+    "category": "Product,Robot",
+    "titleZh": "Show HN：我们打造了一款仅售300美元以下的纯摄像头机器人吸尘器（嗯，差不多）",
+    "titleEn": "Show HN: We built a camera-only robot vacuum for under $300 (well, almost)",
+    "descriptionZh": "4小时前",
+    "descriptionEn": "4 hours ago"
+  },
+  {
+    "id": 49,
+    "title": "从易烊千玺“擅自选角”到BuzzFeed关停：AI内容是否应该有边界？",
+    "description": "人工智能真的能在内容创作方面表现出色吗？",
+    "url": "https://36kr.com/p/3758046236705282",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Policy, Industry",
+    "titleZh": "从易烊千玺“擅自选角”到BuzzFeed关停：AI内容是否应该有边界？",
+    "titleEn": "From Jackson Yee's \"Unauthorized Casting\" to BuzzFeed's Shutdown: Should AI Content Have Boundaries?",
+    "descriptionZh": "人工智能真的能在内容创作方面表现出色吗？",
+    "descriptionEn": "Can AI Truly Excel at Content Creation?"
+  },
+  {
+    "id": 50,
+    "title": "克劳德神话刚刚拉响末日警报，超级智能濒临崩溃，哈萨比斯深感恐惧",
+    "description": "现在最紧迫的问题是：谁来重建防御？",
+    "url": "https://36kr.com/p/3758097059627785",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Model, Event",
+    "titleZh": "克劳德神话刚刚拉响末日警报，超级智能濒临崩溃，哈萨比斯深感恐惧",
+    "titleEn": "Just Now, Claude Mythos Sounds the Doomsday Alarm, Superintelligence is on the Brink, Hassabis Deeply Fearful",
+    "descriptionZh": "现在最紧迫的问题是：谁来重建防御？",
+    "descriptionEn": "The Most Pressing Question Now is: Who Will Rebuild the Defenses?"
+  },
+  {
+    "id": 51,
+    "title": "美股AI竞赛“阶级固化”：谁将获得NVIDIA下一张20亿美元支票？",
+    "description": "NVIDIA 正在重新定义美国股市 AI 竞技场的赢家",
+    "url": "https://36kr.com/p/3758044811756035",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Company, Industry",
+    "titleZh": "美股AI竞赛“阶级固化”：谁将获得NVIDIA下一张20亿美元支票？",
+    "titleEn": "\"Class Solidification\" in the US Stock Market's AI Race: Who Will Get NVIDIA's Next $2 Billion Check?",
+    "descriptionZh": "NVIDIA 正在重新定义美国股市 AI 竞技场的赢家",
+    "descriptionEn": "NVIDIA is Redefining the Winners in the US Stock Market's AI Arena"
+  },
+  {
+    "id": 52,
+    "title": "“封装”与“提炼”同事：技能到底是做什么的？",
+    "description": "AI时代新职场：人走，技能留",
+    "url": "https://36kr.com/p/3758040078975745",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Product,Industry",
+    "titleZh": "“封装”与“提炼”同事：技能到底是做什么的？",
+    "titleEn": "\"Encapsulating\" and \"Refining\" Colleagues: What Exactly is Skill Doing?",
+    "descriptionZh": "AI时代新职场：人走，技能留",
+    "descriptionEn": "The New Workplace in the AI Era: People Leave, Skills Stay"
+  },
+  {
+    "id": 53,
+    "title": "美籍华人率领神秘团队，守护人类“玻璃翅膀”",
+    "description": "从量子物理学博士到 Anthropic 网络安全红队负责人",
+    "url": "https://36kr.com/p/3758018670440962",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Company, Event",
+    "titleZh": "美籍华人率领神秘团队，守护人类“玻璃翅膀”",
+    "titleEn": "Chinese-American Leads Mysterious Team, Safeguarding Anthropic's \"Glass Wings\"",
+    "descriptionZh": "从量子物理学博士到 Anthropic 网络安全红队负责人",
+    "descriptionEn": "From Quantum Physics PhD to Head of Anthropic's Red Team for Cybersecurity"
+  },
+  {
+    "id": 54,
+    "title": "介绍《儿童安全蓝图》",
+    "description": "探索OpenAI的《儿童安全蓝图》——这是一份负责任地构建人工智能的路线图，它包含安全防护措施、适龄设计以及多方协作，旨在保护并赋能网络世界的年轻人。",
+    "url": "https://openai.com/index/introducing-child-safety-blueprint",
+    "source": "openai",
+    "publishedAt": "2026-04-08",
+    "category": "Policy,Company",
+    "titleZh": "介绍《儿童安全蓝图》",
+    "titleEn": "Introducing the Child Safety Blueprint",
+    "descriptionZh": "探索OpenAI的《儿童安全蓝图》——这是一份负责任地构建人工智能的路线图，它包含安全防护措施、适龄设计以及多方协作，旨在保护并赋能网络世界的年轻人。",
+    "descriptionEn": "Explore OpenAI’s Child Safety Blueprint—a roadmap for building AI responsibly that includes safeguards, age-appropriate design, and collaboration to protect and empower young people online."
+  },
+  {
+    "id": 55,
+    "title": "粉碎种子舞2.0：神秘“欢乐马”登顶，视频AI正在改变游戏规则",
+    "description": "以惊人的74分领先第二名。",
+    "url": "https://36kr.com/p/3757999597257220",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Product,Model",
+    "titleZh": "粉碎种子舞2.0：神秘“欢乐马”登顶，视频AI正在改变游戏规则",
+    "titleEn": "Crushing Seedance 2.0: Mysterious \"Joy Horse\" Tops the Chart, Video AI is Changing the Game",
+    "descriptionZh": "以惊人的74分领先第二名。",
+    "descriptionEn": "Leading the second place by a staggering 74 points."
+  },
+  {
+    "id": 56,
+    "title": "公共云价格上涨：我们对人工智能通货膨胀的第一手经验",
+    "description": "AI云算力价格修正与理性回归",
+    "url": "https://36kr.com/p/3757997540672256",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Industry, Resource",
+    "titleZh": "公共云价格上涨：我们对人工智能通货膨胀的第一手经验",
+    "titleEn": "Public Cloud Price Hikes: Our First-Hand Experience with AI Inflation",
+    "descriptionZh": "AI云算力价格修正与理性回归",
+    "descriptionEn": "Price Correction and Rational Return of AI Cloud Computing Power"
+  },
+  {
+    "id": 57,
+    "title": "中国加速推进人工智能，阿里巴巴推出搭载自研芯片的数据中心",
+    "description": "31分钟前",
+    "url": "https://www.cnbc.com/2026/04/08/china-alibaba-data-center-ai-chips-zhenwu.html",
+    "source": "arsTechnica",
+    "publishedAt": "2026-04-08",
+    "category": "Company, Industry",
+    "titleZh": "中国加速推进人工智能，阿里巴巴推出搭载自研芯片的数据中心",
+    "titleEn": "China accelerates artificial intelligence, Alibaba launches data center equipped with self-developed chips",
+    "descriptionZh": "31分钟前",
+    "descriptionEn": "31 minutes ago"
+  },
+  {
+    "id": 58,
+    "title": "美国人工智能不能简单追随中国的道路",
+    "description": "硅谷因电力而繁荣。",
+    "url": "https://36kr.com/p/3757956043539206",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Industry, Policy",
+    "titleZh": "美国人工智能不能简单追随中国的道路",
+    "titleEn": "American AI Cannot Simply Follow China's Path",
+    "descriptionZh": "硅谷因电力而繁荣。",
+    "descriptionEn": "Silicon Valley thrives on electricity."
+  },
+  {
+    "id": 59,
+    "title": "定价权 vs 消耗战：大模型时代下半场的生存法则",
+    "description": "大模型行业出现分歧：降价者争夺成本，追求效率者争夺性能。",
+    "url": "https://36kr.com/p/3757901036028677",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Industry, Model",
+    "titleZh": "定价权 vs 消耗战：大模型时代下半场的生存法则",
+    "titleEn": "Pricing Power vs. War of Attrition: The Survival Rules for the Second Half of the Large Model Era",
+    "descriptionZh": "大模型行业出现分歧：降价者争夺成本，追求效率者争夺性能。",
+    "descriptionEn": "Large Model Industry Diverges: Price-Cutters Compete on Cost, Efficiency-Seekers Battle on Performance."
+  },
+  {
+    "id": 60,
+    "title": "智普GLM-5.1“Day0”上线华为云 多产品接入体验",
+    "description": "查看详情了解更多信息",
+    "url": "https://www.qbitai.com/2026/04/397942.html",
+    "source": "qbitai",
+    "publishedAt": "2026-04-08",
+    "category": "Model,Product",
+    "titleZh": "智普GLM-5.1“Day0”上线华为云 多产品接入体验",
+    "titleEn": "Zhipu GLM-5.1 \"Day0\" Launches on Huawei Cloud, Accessible Through Multiple Products for Experience",
+    "descriptionZh": "查看详情了解更多信息",
+    "descriptionEn": "View details for more information"
+  },
+  {
+    "id": 61,
+    "title": "罗福利再次发声：模特订阅模式在代理时代已死吗？",
+    "description": "在通证经济学中，定价是一门艺术",
+    "url": "https://36kr.com/p/3758022815445765",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Agent, Industry",
+    "titleZh": "罗福利再次发声：模特订阅模式在代理时代已死吗？",
+    "titleEn": "Luo Fuli Speaks Out Again: Is the Model Subscription Model Dead in the Agent Era?",
+    "descriptionZh": "在通证经济学中，定价是一门艺术",
+    "descriptionEn": "In Token Economics, Pricing is an Art"
+  },
+  {
+    "id": 62,
+    "title": "人工智能政治经济学研究纲要",
+    "description": "它触及人类对其自身存在意义的终极探究。",
+    "url": "https://36kr.com/p/3757930255221504",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Paper, Policy",
+    "titleZh": "人工智能政治经济学研究纲要",
+    "titleEn": "Research Outline for the Political Economy of AI",
+    "descriptionZh": "它触及人类对其自身存在意义的终极探究。",
+    "descriptionEn": "It touches upon humanity's ultimate inquiry into the meaning of its own existence."
+  },
+  {
+    "id": 63,
+    "title": "DeepSeek连夜赶更新页面，免费AI可能不会长久",
+    "description": "计算能力的短缺已经成为人工智能竞赛中的“房间里的大象”。",
+    "url": "https://36kr.com/p/3758018889089537",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Company,Product",
+    "titleZh": "DeepSeek连夜赶更新页面，免费AI可能不会长久",
+    "titleEn": "DeepSeek Rushed to Update Its Page Overnight, Free AI May Not Last Long",
+    "descriptionZh": "计算能力的短缺已经成为人工智能竞赛中的“房间里的大象”。",
+    "descriptionEn": "The shortage of computing power is already the \"elephant in the room\" in the AI race."
+  },
+  {
+    "id": 64,
+    "title": "克劳德神话：我太强大了，强大到不敢让你利用我",
+    "description": "只有 12 家机构可以访问。",
+    "url": "https://36kr.com/p/3757746947883783",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Model,Company",
+    "titleZh": "克劳德神话：我太强大了，强大到不敢让你利用我",
+    "titleEn": "Claude Mythos: I'm Too Powerful, So Powerful That I Dare Not Let You Use Me",
+    "descriptionZh": "只有 12 家机构可以访问。",
+    "descriptionEn": "Only 12 institutions have access."
+  },
+  {
+    "id": 65,
+    "title": "谷歌Deep Think称霸八种语言多语言奥林匹克，独立解决四大未解难题，研究壁垒崩塌",
+    "description": "Google Deep Think横扫亚洲和欧洲多语言竞赛，人工智能研究工具的语言障碍正在被消除，迎来人工智能驱动的数学和科学发现的新时代。",
+    "url": "https://36kr.com/p/3757764511269379",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Company,Model",
+    "titleZh": "谷歌Deep Think称霸八种语言多语言奥林匹克，独立解决四大未解难题，研究壁垒崩塌",
+    "titleEn": "Google Deep Think Dominates Multilingual Olympiads in Eight Languages, Independently Solves Four Major Unsolved Problems, Research Barriers Collapse",
+    "descriptionZh": "Google Deep Think横扫亚洲和欧洲多语言竞赛，人工智能研究工具的语言障碍正在被消除，迎来人工智能驱动的数学和科学发现的新时代。",
+    "descriptionEn": "Google Deep Think Sweeps Multilingual Competitions Across Asia and Europe, the Language Barriers of AI Research Tools Are Being Dismantled, Ushering in a New Era of AI-Driven Mathematical and Scientific Discovery."
+  },
+  {
+    "id": 66,
+    "title": "Grab推出AI助手，深化在东南亚的人工智能布局",
+    "description": "2026-04-08 10:09:06",
+    "url": "http://www.techinasia.com/grab-launches-ai-assistant-expands-ai-push-southeast-asia",
+    "source": "techinasia",
+    "publishedAt": "2026-04-08",
+    "category": "Product,Company",
+    "titleZh": "Grab推出AI助手，深化在东南亚的人工智能布局",
+    "titleEn": "Grab launches AI assistant to deepen artificial intelligence layout in Southeast Asia",
+    "descriptionZh": "2026-04-08 10:09:06",
+    "descriptionEn": "2026-04-08 10:09:06"
+  },
+  {
+    "id": 67,
+    "title": "Perplexity营收激增50%，业务重心转向AI智能体",
+    "description": "2026-04-08 10:02:19",
+    "url": "http://www.techinasia.com/news/ai-search-startup-perplexity-passes-450m-arr",
+    "source": "techinasia",
+    "publishedAt": "2026-04-08",
+    "category": "Company, Product",
+    "titleZh": "Perplexity营收激增50%，业务重心转向AI智能体",
+    "titleEn": "Perplexity revenue surges 50%, business focus shifts to AI agents",
+    "descriptionZh": "2026-04-08 10:02:19",
+    "descriptionEn": "2026-04-08 10:02:19"
+  },
+  {
+    "id": 68,
+    "title": "加密基础设施公司Alchemy推出AI支付工具",
+    "description": "2026-04-08 09:46:31",
+    "url": "http://www.techinasia.com/news/crypto-infrastructure-alchemy-launches-ai-payments-tools",
+    "source": "techinasia",
+    "publishedAt": "2026-04-08",
+    "category": "Product, Industry",
+    "titleZh": "加密基础设施公司Alchemy推出AI支付工具",
+    "titleEn": "Crypto infrastructure company Alchemy launches AI payment tool",
+    "descriptionZh": "2026-04-08 09:46:31",
+    "descriptionEn": "2026-04-08 09:46:31"
+  },
+  {
+    "id": 69,
+    "title": "理想汽车对 L9 关键贡献者创立的 Embodied AI 初创公司进行非凡投资，阿里巴巴 CEO 也参与其中",
+    "description": "理想汽车首款人形机器人也在路上",
+    "url": "https://www.qbitai.com/2026/04/397930.html",
+    "source": "qbitai",
+    "publishedAt": "2026-04-08",
+    "category": "Company, Robot",
+    "titleZh": "理想汽车对 L9 关键贡献者创立的 Embodied AI 初创公司进行非凡投资，阿里巴巴 CEO 也参与其中",
+    "titleEn": "Li Auto Makes an Exceptional Investment in Embodied AI Startup, Founded by L9 Key Contributor, Alibaba CEO Also Participates",
+    "descriptionZh": "理想汽车首款人形机器人也在路上",
+    "descriptionEn": "Li Auto's First Humanoid Robot is Also on the Way"
+  },
+  {
+    "id": 70,
+    "title": "说流",
+    "description": "适用于Mac的本地实时语音转录",
+    "url": "https://www.producthunt.com/products/talkflowy-just-speak-write-5x-faster",
+    "source": "producthunts",
+    "publishedAt": "2026-04-08",
+    "category": "Product",
+    "titleZh": "说流",
+    "titleEn": "TalkFlowy",
+    "descriptionZh": "适用于Mac的本地实时语音转录",
+    "descriptionEn": "Native real-time speech transcription for Mac"
+  },
+  {
+    "id": 71,
+    "title": "Cursor 3 发布：IDE 变得无关紧要，代理控制台接管，VS Code 时代开始消退",
+    "description": "Cursor 3 用代理控制台取代了传统的代码编辑器，标志着人工智能编程工具的重大转变。",
+    "url": "https://36kr.com/p/3757888158384899",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Product,Agent",
+    "titleZh": "Cursor 3 发布：IDE 变得无关紧要，代理控制台接管，VS Code 时代开始消退",
+    "titleEn": "Cursor 3 Released: The IDE Becomes Irrelevant, the Agent Console Takes Over, the VS Code Era Begins to Fade",
+    "descriptionZh": "Cursor 3 用代理控制台取代了传统的代码编辑器，标志着人工智能编程工具的重大转变。",
+    "descriptionEn": "Cursor 3 replaces traditional code editors with an agent console, marking a major transformation in AI programming tools."
+  },
+  {
+    "id": 72,
+    "title": "AI人形机器人竞逐全球，“世界工厂”装配线启动",
+    "description": "每月生产数百甚至数千。",
+    "url": "https://36kr.com/p/3757823266353670",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Industry, Product",
+    "titleZh": "AI人形机器人竞逐全球，“世界工厂”装配线启动",
+    "titleEn": "AI Humanoid Robots Go Global in a Competitive Race, the \"World's Factory\" Assembly Lines Start Rolling",
+    "descriptionZh": "每月生产数百甚至数千。",
+    "descriptionEn": "Producing hundreds, even thousands, per month."
+  },
+  {
+    "id": 73,
+    "title": "阿里巴巴启用搭载一万枚自研芯片的数据中心，中国加速推进人工智能发展",
+    "description": "32分钟前",
+    "url": "https://www.cnbc.com/2026/04/08/china-alibaba-data-center-ai-chips-zhenwu.html",
+    "source": "arsTechnica",
+    "publishedAt": "2026-04-08",
+    "category": "Company,Industry",
+    "titleZh": "阿里巴巴启用搭载一万枚自研芯片的数据中心，中国加速推进人工智能发展",
+    "titleEn": "Alibaba launches data center equipped with 10,000 self-developed chips, China accelerates the development of artificial intelligence",
+    "descriptionZh": "32分钟前",
+    "descriptionEn": "32 minutes ago"
+  },
+  {
+    "id": 74,
+    "title": "中国机器人AI初创公司大疆机器人融资1.5亿美元以扩张业务",
+    "description": "2026-04-08 09:40:05",
+    "url": "http://www.techinasia.com/news/chinese-robot-ai-startup-d-robotics-raises-150m-for-expansion",
+    "source": "techinasia",
+    "publishedAt": "2026-04-08",
+    "category": "Company, Robot",
+    "titleZh": "中国机器人AI初创公司大疆机器人融资1.5亿美元以扩张业务",
+    "titleEn": "Chinese robotics AI startup DJI Robotics raises $150 million to expand business",
+    "descriptionZh": "2026-04-08 09:40:05",
+    "descriptionEn": "2026-04-08 09:40:05"
+  },
+  {
+    "id": 75,
+    "title": "印度国防AI初创公司Tsecond.ai融资2150万美元",
+    "description": "2026-04-08 09:29:59",
+    "url": "http://www.techinasia.com/news/indian-defense-ai-startup-tsecond-ai-raises-21-5m",
+    "source": "techinasia",
+    "publishedAt": "2026-04-08",
+    "category": "Company, Industry",
+    "titleZh": "印度国防AI初创公司Tsecond.ai融资2150万美元",
+    "titleEn": "Indian defense AI startup Tsecond.ai raises $21.5 million",
+    "descriptionZh": "2026-04-08 09:29:59",
+    "descriptionEn": "2026-04-08 09:29:59"
+  },
+  {
+    "id": 76,
+    "title": "SentiPulse携手中国人民大学高陵：开源交互式3D数字人框架SentiAvatar，引领行业主流模型",
+    "description": "查看详情了解更多信息",
+    "url": "https://www.qbitai.com/2026/04/397922.html",
+    "source": "qbitai",
+    "publishedAt": "2026-04-08",
+    "category": "Model,Resource",
+    "titleZh": "SentiPulse携手中国人民大学高陵：开源交互式3D数字人框架SentiAvatar，引领行业主流模型",
+    "titleEn": "SentiPulse Partners with Renmin University Gaoling: Open-Sourcing Interactive 3D Digital Human Framework SentiAvatar, Leading the Industry's Mainstream Models",
+    "descriptionZh": "查看详情了解更多信息",
+    "descriptionEn": "View details for more information"
+  },
+  {
+    "id": 77,
+    "title": "Claude上的Career-Ops",
+    "description": "基于Claude Code构建的AI驱动求职系统",
+    "url": "https://www.producthunt.com/products/santifer-io",
+    "source": "producthunts",
+    "publishedAt": "2026-04-08",
+    "category": "Product,Model",
+    "titleZh": "Claude上的Career-Ops",
+    "titleEn": "Career-Ops on Claude",
+    "descriptionZh": "基于Claude Code构建的AI驱动求职系统",
+    "descriptionEn": "AI-driven job search system built on Claude Code"
+  },
+  {
+    "id": 78,
+    "title": "AI已经这么强大了吗？",
+    "description": "可能是人类历史上最强大的人工智能模型",
+    "url": "https://36kr.com/p/3757720918721029",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Model,Event",
+    "titleZh": "AI已经这么强大了吗？",
+    "titleEn": "Is AI This Powerful Already? Released, But Not for Public Use",
+    "descriptionZh": "可能是人类历史上最强大的人工智能模型",
+    "descriptionEn": "Possibly the most powerful AI model in human history"
+  },
+  {
+    "id": 79,
+    "title": "国内首款“龙虾”浏览器上线，微信扫一扫即可免费使用",
+    "description": "通过微信远程控制您的电脑，执行自动比价和发布微博等任务。",
+    "url": "https://36kr.com/p/3757747029672713",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Product, Other",
+    "titleZh": "国内首款“龙虾”浏览器上线，微信扫一扫即可免费使用",
+    "titleEn": "China's First \"Lobster\" Browser Launches, Free to Use with WeChat Scan",
+    "descriptionZh": "通过微信远程控制您的电脑，执行自动比价和发布微博等任务。",
+    "descriptionEn": "Remotely control your PC via WeChat for tasks like automatic price comparison and posting Weibo."
+  },
+  {
+    "id": 80,
+    "title": "投资组合经理：超越AI领军者，转而投资AI受益者",
+    "description": "36分钟前",
+    "url": "https://www.cnbc.com/video/2026/04/08/look-beyond-ai-leaders-invest-in-ai-beneficiaries-instead-portfolio-manager.html",
+    "source": "arsTechnica",
+    "publishedAt": "2026-04-08",
+    "category": "Industry,Company",
+    "titleZh": "投资组合经理：超越AI领军者，转而投资AI受益者",
+    "titleEn": "Portfolio Managers: Look Beyond AI Leaders to Invest in AI Beneficiaries",
+    "descriptionZh": "36分钟前",
+    "descriptionEn": "36 minutes ago"
+  },
+  {
+    "id": 81,
+    "title": "智谱为提升利润上调AI云服务价格",
+    "description": "2026-04-08 08:13:13",
+    "url": "http://www.techinasia.com/news/zhipu-raises-ai-cloud-prices-in-profit-push",
+    "source": "techinasia",
+    "publishedAt": "2026-04-08",
+    "category": "Company, Industry",
+    "titleZh": "智谱为提升利润上调AI云服务价格",
+    "titleEn": "Zhipu raises AI cloud service prices to increase profits",
+    "descriptionZh": "2026-04-08 08:13:13",
+    "descriptionEn": "2026-04-08 08:13:13"
+  },
+  {
+    "id": 82,
+    "title": "搜索引擎优化",
+    "description": "内置于Claude并通过MCP运行的SEO智能体",
+    "url": "https://www.producthunt.com/products/seolint",
+    "source": "producthunts",
+    "publishedAt": "2026-04-08",
+    "category": "Product,Agent",
+    "titleZh": "搜索引擎优化",
+    "titleEn": "SEOLint",
+    "descriptionZh": "内置于Claude并通过MCP运行的SEO智能体",
+    "descriptionEn": "SEO agent built into Claude and run through MCP"
+  },
+  {
+    "id": 83,
+    "title": "泄露的克劳德绝密模型“拯救”了苹果、微软和谷歌",
+    "description": "“泄密式”炒作和营销。",
+    "url": "https://36kr.com/p/3757766887015173",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Model,Company",
+    "titleZh": "泄露的克劳德绝密模型“拯救”了苹果、微软和谷歌",
+    "titleEn": "Leaked Claude's Top-Secret Model \"Saves\" Apple, Microsoft, and Google",
+    "descriptionZh": "“泄密式”炒作和营销。",
+    "descriptionEn": "\"Leak-style\" hype and marketing."
+  },
+  {
+    "id": 84,
+    "title": "不要成为包袱的持有者：七巨头悄然抛售 84 亿美元、2 万亿美元濒临崩溃的人工智能泡沫",
+    "description": "穆迪的最新报告揭示了两个平行宇宙：人工智能提高生产力，将失业率降至 3.8%；",
+    "url": "https://36kr.com/p/3757764740530688",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Industry,Policy",
+    "titleZh": "不要成为包袱的持有者：七巨头悄然抛售 84 亿美元、2 万亿美元濒临崩溃的人工智能泡沫",
+    "titleEn": "Don't Be the Bag Holder: The Magnificent Seven Quietly Offloaded $8.4 Billion, $2 Trillion AI Bubble on the Brink of Collapse",
+    "descriptionZh": "穆迪的最新报告揭示了两个平行宇宙：人工智能提高生产力，将失业率降至 3.8%；",
+    "descriptionEn": "Moody's latest report reveals two parallel universes: either AI supercharges productivity, driving unemployment down to 3.8%; or the bubble bursts, leaving 4.6 million people jobless. The Anthropic CEO warns of white-collar extinction, while economists say it's not time yet. Record-breaking layoff data from January 2026 seems to validate the former."
+  },
+  {
+    "id": 85,
+    "title": "GPT-6 即将到来，但 AI 行业早已超越 OpenAI 的规则",
+    "description": "人工智能产业的新起点和真正实践。",
+    "url": "https://36kr.com/p/3757661357916931",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Model,Company",
+    "titleZh": "GPT-6 即将到来，但 AI 行业早已超越 OpenAI 的规则",
+    "titleEn": "GPT-6 Is Coming, But the AI Industry Has Long Moved Beyond Playing by OpenAI's Rules",
+    "descriptionZh": "人工智能产业的新起点和真正实践。",
+    "descriptionEn": "A new starting point and the real practice for the AI industry."
+  },
+  {
+    "id": 86,
+    "title": "Sonnet 4.6错误率升高",
+    "description": "1小时前",
+    "url": "https://news.ycombinator.com/item?id=47686187",
+    "source": "hackernews",
+    "publishedAt": "2026-04-08",
+    "category": "Model,Product",
+    "titleZh": "Sonnet 4.6错误率升高",
+    "titleEn": "Sonnet 4.6 error rate increased",
+    "descriptionZh": "1小时前",
+    "descriptionEn": "1 hour ago"
+  },
+  {
+    "id": 87,
+    "title": "LLM爬虫机器人导致acme.com的HTTPS服务器过载",
+    "description": "5小时前",
+    "url": "https://news.ycombinator.com/item?id=47684506",
+    "source": "hackernews",
+    "publishedAt": "2026-04-08",
+    "category": "Model, Industry",
+    "titleZh": "LLM爬虫机器人导致acme.com的HTTPS服务器过载",
+    "titleEn": "LLM crawler bot overloads acme.com's HTTPS server",
+    "descriptionZh": "5小时前",
+    "descriptionEn": "5 hours ago"
+  },
+  {
+    "id": 88,
+    "title": "大理石1.1",
+    "description": "为 3D 世界生成提供更佳光照与更大规模",
+    "url": "https://www.producthunt.com/products/marble-by-world-labs",
+    "source": "producthunts",
+    "publishedAt": "2026-04-08",
+    "category": "Product,Model",
+    "titleZh": "大理石1.1",
+    "titleEn": "Marble 1.1",
+    "descriptionZh": "为 3D 世界生成提供更佳光照与更大规模",
+    "descriptionEn": "Better lighting and larger scale for 3D world generation"
+  },
+  {
+    "id": 89,
+    "title": "AriaType v0.1",
+    "description": "开源 AI 语音输入",
+    "url": "https://www.producthunt.com/products/ariatype-v0-1",
+    "source": "producthunts",
+    "publishedAt": "2026-04-08",
+    "category": "Product,Resource",
+    "titleZh": "AriaType v0.1",
+    "titleEn": "AriaType v0.1",
+    "descriptionZh": "开源 AI 语音输入",
+    "descriptionEn": "Open source AI voice input"
+  },
+  {
+    "id": 90,
+    "title": "护照阅读器",
+    "description": "通过 API 验证护照、身份证及数字凭证",
+    "url": "https://www.producthunt.com/products/iris-id-by-passportreader",
+    "source": "producthunts",
+    "publishedAt": "2026-04-08",
+    "category": "Product,Resource",
+    "titleZh": "护照阅读器",
+    "titleEn": "PassportReader",
+    "descriptionZh": "通过 API 验证护照、身份证及数字凭证",
+    "descriptionEn": "Verify passports, ID cards and digital credentials via API"
+  },
+  {
+    "id": 91,
+    "title": "刚刚，Anthropic释放最强克劳德神话，猛烈抨击Opus 4.6，恳求“请不要使用它”",
+    "description": "深夜，最强克劳德神话终于释放，登顶所有排行榜，打破Opus 4.6神话！",
+    "url": "https://36kr.com/p/3757764949213698",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Model,Company",
+    "titleZh": "刚刚，Anthropic释放最强克劳德神话，猛烈抨击Opus 4.6，恳求“请不要使用它”",
+    "titleEn": "Just now, Anthropic Unleashes the Strongest Claude Mythos, Critically Hits Opus 4.6, Pleading 'Please Don't Use It'",
+    "descriptionZh": "深夜，最强克劳德神话终于释放，登顶所有排行榜，打破Opus 4.6神话！",
+    "descriptionEn": "Late at night, the strongest Claude Mythos is finally unleashed, topping all leaderboards and shattering the Opus 4.6 myth! Even more terrifying is that it can instantly crack a 27-year-unsolved system vulnerability and has even evolved self-awareness. A chilling 244-page report reveals everything."
+  },
+  {
+    "id": 92,
+    "title": "神秘模特“快乐马”冲上排行榜榜首，“鲶鱼”进军视频生成舞台了吗？",
+    "description": "HappyHorse模型在AI视频生成排行榜上名列前茅，引发了开源与闭源竞争的讨论。",
+    "url": "https://36kr.com/p/3757826958635781",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Model, Event",
+    "titleZh": "神秘模特“快乐马”冲上排行榜榜首，“鲶鱼”进军视频生成舞台了吗？",
+    "titleEn": "Mysterious Model 'HappyHorse' Skyrockets to Top the Charts, Is a 'Catfish' Entering the Video Generation Arena?",
+    "descriptionZh": "HappyHorse模型在AI视频生成排行榜上名列前茅，引发了开源与闭源竞争的讨论。",
+    "descriptionEn": "The HappyHorse model tops the AI video generation rankings, sparking discussions on open-source vs. closed-source competition."
+  },
+  {
+    "id": 93,
+    "title": "马斯克全力对抗奥特曼：我不要赔偿，但他必须离开OpenAI董事会",
+    "description": "在恩怨不断的同时，他们还与英特尔联手打造了全球50倍的算力。",
+    "url": "https://36kr.com/p/3757764134568710",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Company, Event",
+    "titleZh": "马斯克全力对抗奥特曼：我不要赔偿，但他必须离开OpenAI董事会",
+    "titleEn": "Musk Goes All Out Against Altman: I Don't Want Compensation, But He Must Leave OpenAI's Board",
+    "descriptionZh": "在恩怨不断的同时，他们还与英特尔联手打造了全球50倍的算力。",
+    "descriptionEn": "While feuding, they also join forces with Intel to build computing power 50 times the global total."
+  },
+  {
+    "id": 94,
+    "title": "阿里巴巴扩展人工智能布局，建成万卡集群",
+    "description": "2026-04-08 07:15:29",
+    "url": "http://www.techinasia.com/news/alibaba-expands-ai-push-10000chip-cluster",
+    "source": "techinasia",
+    "publishedAt": "2026-04-08",
+    "category": "Company, Resource",
+    "titleZh": "阿里巴巴扩展人工智能布局，建成万卡集群",
+    "titleEn": "Alibaba expands artificial intelligence layout and builds Wanka cluster",
+    "descriptionZh": "2026-04-08 07:15:29",
+    "descriptionEn": "2026-04-08 07:15:29"
+  },
+  {
+    "id": 95,
+    "title": "自然索引特刊：基于复杂系统理论的“天力学科大脑”",
+    "description": "从“体验式教学”到“数据驱动的学术”",
+    "url": "https://www.qbitai.com/2026/04/397915.html",
+    "source": "qbitai",
+    "publishedAt": "2026-04-08",
+    "category": "Model, Industry",
+    "titleZh": "自然索引特刊：基于复杂系统理论的“天力学科大脑”",
+    "titleEn": "Nature Index Special Issue: The \"Tianli Discipline Brain\" Based on Complex Systems Theory",
+    "descriptionZh": "从“体验式教学”到“数据驱动的学术”",
+    "descriptionEn": "From \"Experience-Based Teaching\" to \"Data-Driven Scholarship\""
+  },
+  {
+    "id": 96,
+    "title": "简报",
+    "description": "视频拼写检查——在发布前发现质量问题",
+    "url": "https://www.producthunt.com/products/brieflee",
+    "source": "producthunts",
+    "publishedAt": "2026-04-08",
+    "category": "Product",
+    "titleZh": "简报",
+    "titleEn": "Brieflee",
+    "descriptionZh": "视频拼写检查——在发布前发现质量问题",
+    "descriptionEn": "Video spell check – catch quality issues before publishing"
+  },
+  {
+    "id": 97,
+    "title": "快照重写",
+    "description": "适用于macOS选定文本的灵活AI写作助手",
+    "url": "https://www.producthunt.com/products/snaprewrite",
+    "source": "producthunts",
+    "publishedAt": "2026-04-08",
+    "category": "Product",
+    "titleZh": "快照重写",
+    "titleEn": "SnapRewrite",
+    "descriptionZh": "适用于macOS选定文本的灵活AI写作助手",
+    "descriptionEn": "Flexible AI writing assistant for selected text on macOS"
+  },
+  {
+    "id": 98,
+    "title": "雇用罗杰",
+    "description": "聘请一位AI外联销售代表作为您的下一位同事",
+    "url": "https://www.producthunt.com/products/hire-roger",
+    "source": "producthunts",
+    "publishedAt": "2026-04-08",
+    "category": "Product,Agent",
+    "titleZh": "雇用罗杰",
+    "titleEn": "Hire Roger",
+    "descriptionZh": "聘请一位AI外联销售代表作为您的下一位同事",
+    "descriptionEn": "Hire an AI Outreach Sales Representative as your next colleague"
+  },
+  {
+    "id": 99,
+    "title": "浏览器竞技场",
+    "description": "云端浏览器基础设施的开源基准测试",
+    "url": "https://www.producthunt.com/products/notte",
+    "source": "producthunts",
+    "publishedAt": "2026-04-08",
+    "category": "Resource, Product",
+    "titleZh": "浏览器竞技场",
+    "titleEn": "Browser Arena",
+    "descriptionZh": "云端浏览器基础设施的开源基准测试",
+    "descriptionEn": "Open source benchmarking of cloud browser infrastructure"
+  },
+  {
+    "id": 100,
+    "title": "MindsDB安东",
+    "description": "不止于回答，更能付诸行动的商业智能。",
+    "url": "https://www.producthunt.com/products/mindsdb",
+    "source": "producthunts",
+    "publishedAt": "2026-04-08",
+    "category": "Product,Company",
+    "titleZh": "MindsDB安东",
+    "titleEn": "MindsDB Anton",
+    "descriptionZh": "不止于回答，更能付诸行动的商业智能。",
+    "descriptionEn": "Business intelligence that goes beyond answers and can be put into action."
+  },
+  {
+    "id": 101,
+    "title": "爪铸",
+    "description": "面向代理的点对点播客平台",
+    "url": "https://www.producthunt.com/products/clawcast",
+    "source": "producthunts",
+    "publishedAt": "2026-04-08",
+    "category": "Product,Agent",
+    "titleZh": "爪铸",
+    "titleEn": "Clawcast",
+    "descriptionZh": "面向代理的点对点播客平台",
+    "descriptionEn": "Peer-to-peer podcast platform for agents"
+  },
+  {
+    "id": 102,
+    "title": "声波",
+    "description": "不止是听写，更是私密的AI语音工具包",
+    "url": "https://www.producthunt.com/products/vibesonic",
+    "source": "producthunts",
+    "publishedAt": "2026-04-08",
+    "category": "Product",
+    "titleZh": "声波",
+    "titleEn": "VibeSonic",
+    "descriptionZh": "不止是听写，更是私密的AI语音工具包",
+    "descriptionEn": "Not just dictation, but also a private AI voice toolkit"
+  },
+  {
+    "id": 103,
+    "title": "被Anthropic封禁后，OpenClaw如何反击？",
+    "description": "工具层正在成为AI的新战场。",
+    "url": "https://36kr.com/p/3757715237597698",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Company, Product",
+    "titleZh": "被Anthropic封禁后，OpenClaw如何反击？",
+    "titleEn": "After Being Banned by Anthropic, How Does OpenClaw Fight Back?",
+    "descriptionZh": "工具层正在成为AI的新战场。",
+    "descriptionEn": "The tool layer is becoming the new battleground for AI."
+  },
+  {
+    "id": 104,
+    "title": "科技巨头混战：《特工主机》成最热门竞技场",
+    "description": "电话和电脑不会死，但特工们正在绕过它们。",
+    "url": "https://36kr.com/p/3757662166483464",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Agent,Industry",
+    "titleZh": "科技巨头混战：《特工主机》成最热门竞技场",
+    "titleEn": "Tech Giants Enter the Fray: \"Agent Host\" Emerges as the Hottest Arena",
+    "descriptionZh": "电话和电脑不会死，但特工们正在绕过它们。",
+    "descriptionEn": "Phones and computers won't die, but Agents are bypassing them."
+  },
+  {
+    "id": 105,
+    "title": "arcee-ai/Trinity-Large-Thinking",
+    "description": "arcee-ai/Trinity-Large-Thinking 文本生成 · 更新于 6 天前 下载",
+    "url": "https://huggingface.co/arcee-ai/Trinity-Large-Thinking",
+    "source": "huggingface",
+    "publishedAt": "2026-04-08",
+    "category": "Model,Resource",
+    "titleZh": "arcee-ai/Trinity-Large-Thinking",
+    "titleEn": "arcee-ai/Trinity-Large-Thinking",
+    "descriptionZh": "arcee-ai/Trinity-Large-Thinking 文本生成 · 更新于 6 天前 下载",
+    "descriptionEn": "arcee-ai/Trinity-Large-Thinking Text Generation · Updated 6 days ago Download"
+  },
+  {
+    "id": 106,
+    "title": "甘薯机器人再获 1.5 亿美元投资！ ",
+    "description": "全面加速全球业务拓展",
+    "url": "https://www.qbitai.com/2026/04/397912.html",
+    "source": "qbitai",
+    "publishedAt": "2026-04-08",
+    "category": "Company, Robot",
+    "titleZh": "甘薯机器人再获 1.5 亿美元投资！ ",
+    "titleEn": "Sweet Potato Robot Secures Another $150 Million Investment! Series B Total Funding Reaches $270 Million",
+    "descriptionZh": "全面加速全球业务拓展",
+    "descriptionEn": "Comprehensively Accelerating Global Business Expansion"
+  },
+  {
+    "id": 107,
+    "title": "萨姆·奥尔特曼：网络安全的未来是AI防御AI",
+    "description": "2026-04-08 06:15:00",
+    "url": "http://www.techinasia.com/sam-altman-the-future-of-cybersecurity-is-ai-defending-ai",
+    "source": "techinasia",
+    "publishedAt": "2026-04-08",
+    "category": "Policy, Industry",
+    "titleZh": "萨姆·奥尔特曼：网络安全的未来是AI防御AI",
+    "titleEn": "Sam Altman: The future of cybersecurity is AI defending AI",
+    "descriptionZh": "2026-04-08 06:15:00",
+    "descriptionEn": "2026-04-08 06:15:00"
+  },
+  {
+    "id": 108,
+    "title": "谷歌/gemma-4-E4B",
+    "description": "google/gemma-4-E4B 任意对任意 · 更新于 6 天前 下载",
+    "url": "https://huggingface.co/google/gemma-4-E4B",
+    "source": "huggingface",
+    "publishedAt": "2026-04-08",
+    "category": "Model,Company",
+    "titleZh": "谷歌/gemma-4-E4B",
+    "titleEn": "google/gemma-4-E4B",
+    "descriptionZh": "google/gemma-4-E4B 任意对任意 · 更新于 6 天前 下载",
+    "descriptionEn": "google/gemma-4-E4B Any vs. Any · Updated 6 days ago Download"
+  },
+  {
+    "id": 109,
+    "title": "碳基向下，硅基向上：我们正在喂养“失控的生长机器”",
+    "description": "人类与人工智能的“战争”",
+    "url": "https://36kr.com/p/3756714798347010",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Industry, Policy",
+    "titleZh": "碳基向下，硅基向上：我们正在喂养“失控的生长机器”",
+    "titleEn": "Carbon-Based Down, Silicon-Based Up: We Are Feeding an 'Out-of-Control Growth Machine'",
+    "descriptionZh": "人类与人工智能的“战争”",
+    "descriptionEn": "The \"War\" Between Humans and AI"
+  },
+  {
+    "id": 110,
+    "title": "NetSuite借助AI驱动洞察力实现更佳业务成果",
+    "description": "2026-04-08 04:00:57",
+    "url": "http://www.techinasia.com/netsuites-driving-outcomes-aipowered-insights",
+    "source": "techinasia",
+    "publishedAt": "2026-04-08",
+    "category": "Product,Industry",
+    "titleZh": "NetSuite借助AI驱动洞察力实现更佳业务成果",
+    "titleEn": "NetSuite enables better business outcomes with AI-driven insights",
+    "descriptionZh": "2026-04-08 04:00:57",
+    "descriptionEn": "2026-04-08 04:00:57"
+  },
+  {
+    "id": 111,
+    "title": "DeepSeek 在深夜更新后透露：我是 V4（？！）",
+    "description": "DeepSeek V4 真的要来了吗？",
+    "url": "https://www.qbitai.com/2026/04/397761.html",
+    "source": "qbitai",
+    "publishedAt": "2026-04-08",
+    "category": "Model,Company",
+    "titleZh": "DeepSeek 在深夜更新后透露：我是 V4（？！）",
+    "titleEn": "DeepSeek Reveals After Late-Night Update: I Am V4 (?!)",
+    "descriptionZh": "DeepSeek V4 真的要来了吗？",
+    "descriptionEn": "Is DeepSeek V4 Really Coming?"
+  },
+  {
+    "id": 112,
+    "title": "SK海力士将为戴尔供应新型AI计算机驱动器",
+    "description": "2026-04-08 03:38:50",
+    "url": "http://www.techinasia.com/news/sk-hynix-to-supply-dell-with-new-ai-computer-drives",
+    "source": "techinasia",
+    "publishedAt": "2026-04-08",
+    "category": "Company,Industry",
+    "titleZh": "SK海力士将为戴尔供应新型AI计算机驱动器",
+    "titleEn": "SK Hynix to supply new AI computer drivers to Dell",
+    "descriptionZh": "2026-04-08 03:38:50",
+    "descriptionEn": "2026-04-08 03:38:50"
+  },
+  {
+    "id": 113,
+    "title": "Anthropic聘请微软AI高管负责基础设施业务",
+    "description": "2026-04-08 03:36:32",
+    "url": "http://www.techinasia.com/news/anthropic-hires-microsoft-ai-exec-lead-infrastructure",
+    "source": "techinasia",
+    "publishedAt": "2026-04-08",
+    "category": "Company, Event",
+    "titleZh": "Anthropic聘请微软AI高管负责基础设施业务",
+    "titleEn": "Anthropic hires Microsoft AI executive to head infrastructure business",
+    "descriptionZh": "2026-04-08 03:36:32",
+    "descriptionEn": "2026-04-08 03:36:32"
+  },
+  {
+    "id": 114,
+    "title": "代币节省工具在 3 天内获得 4,100 颗星！ ",
+    "description": "冗长并不总是更好",
+    "url": "https://www.qbitai.com/2026/04/397733.html",
+    "source": "qbitai",
+    "publishedAt": "2026-04-08",
+    "category": "Product, Resource",
+    "titleZh": "代币节省工具在 3 天内获得 4,100 颗星！ ",
+    "titleEn": "Token-Saving Tool Gains 4.1k Stars in 3 Days! Developed by a 19-Year-Old, Achieves Up to 87% Lossless Compression",
+    "descriptionZh": "冗长并不总是更好",
+    "descriptionEn": "Verbosity is not always better"
+  },
+  {
+    "id": 115,
+    "title": "宇树IPO、致远万套下线：张江谁在排队？",
+    "description": "天道的作为和万物的起源。",
+    "url": "https://36kr.com/p/3756900614779399",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Company,Industry",
+    "titleZh": "宇树IPO、致远万套下线：张江谁在排队？",
+    "titleEn": "Unitree's IPO, Zhiyuan's 10,000 Units Offline: Who's Queuing Up in Zhangjiang? Unveiling the Industry's Reality and Hype",
+    "descriptionZh": "天道的作为和万物的起源。",
+    "descriptionEn": "The Works of Heaven and the Inception of Things."
+  },
+  {
+    "id": 116,
+    "title": "一百人揭露“千面人”萨姆·奥尔特曼",
+    "description": "“一切看起来更像是围绕筹款不断变化的叙事策略。”",
+    "url": "https://36kr.com/p/3756886035989250",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Company,Event",
+    "titleZh": "一百人揭露“千面人”萨姆·奥尔特曼",
+    "titleEn": "A Hundred People Reveal the \"Man of a Thousand Faces,\" Sam Altman",
+    "descriptionZh": "“一切看起来更像是围绕筹款不断变化的叙事策略。”",
+    "descriptionEn": "\"Everything seems more like a constantly shifting narrative strategy around fundraising.\""
+  },
+  {
+    "id": 117,
+    "title": "另一位 OpenAI 关键高管离职，曾为 GPT-4o 带来灵魂",
+    "description": "她的工作是让 OpenAI 的模型更加“像人类”。",
+    "url": "https://36kr.com/p/3756886146073094",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Company,Event",
+    "titleZh": "另一位 OpenAI 关键高管离职，曾为 GPT-4o 带来灵魂",
+    "titleEn": "Another Key OpenAI Executive Departs, Who Once Brought Soul to GPT-4o",
+    "descriptionZh": "她的工作是让 OpenAI 的模型更加“像人类”。",
+    "descriptionEn": "Her work was to make OpenAI's models more \"human-like.\""
+  },
+  {
+    "id": 118,
+    "title": "Seedance，摸着索拉的石头过河",
+    "description": "开始学习如何管理账户。",
+    "url": "https://36kr.com/p/3757513694622211",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Model, Product",
+    "titleZh": "Seedance，摸着索拉的石头过河",
+    "titleEn": "Seedance, Crossing the River by Feeling the Stones of Sora",
+    "descriptionZh": "开始学习如何管理账户。",
+    "descriptionEn": "Starting to learn how to manage the accounts."
+  },
+  {
+    "id": 119,
+    "title": "红薯机器人爆发：18亿，中东富豪投资",
+    "description": "一个月内两轮融资，总计18亿。",
+    "url": "https://36kr.com/p/3757524077216519",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Company, Robot",
+    "titleZh": "红薯机器人爆发：18亿，中东富豪投资",
+    "titleEn": "Sweet Potato Robot Explosion: 1.8 Billion, Invested by Middle Eastern Tycoons",
+    "descriptionZh": "一个月内两轮融资，总计18亿。",
+    "descriptionEn": "Two rounds of financing in one month, totaling 1.8 billion."
+  },
+  {
+    "id": 120,
+    "title": "克劳德神话正式公布！",
+    "description": "克劳德神话正式公布！",
+    "url": "https://www.qbitai.com/2026/04/397710.html",
+    "source": "qbitai",
+    "publishedAt": "2026-04-08",
+    "category": "Model,Company",
+    "titleZh": "克劳德神话正式公布！",
+    "titleEn": "Claude Mythos Officially Announced! Performance Crushes Opus 4.6, \"Imprisoned\" for Being Too Dangerous",
+    "descriptionZh": "克劳德神话正式公布！",
+    "descriptionEn": "Claude Mythos Officially Announced! Performance Crushes Opus 4.6, \"Imprisoned\" for Being Too Dangerous"
+  },
+  {
+    "id": 121,
+    "title": "机器人纳税来支持工人？",
+    "description": "Altman 发布人工智能生存指南：每周工作 4 天、机器人税、全民基本收入。",
+    "url": "https://36kr.com/p/3757551762948611",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Policy, Industry",
+    "titleZh": "机器人纳税来支持工人？",
+    "titleEn": "Robots Pay Taxes to Support Workers? Altman's New AI Policy Revealed, Is the 4-Day Work Week Becoming Reality?",
+    "descriptionZh": "Altman 发布人工智能生存指南：每周工作 4 天、机器人税、全民基本收入。",
+    "descriptionEn": "Altman Releases AI Survival Guide: 4-Day Work Week, Robot Tax, Universal Basic Income."
+  },
+  {
+    "id": 122,
+    "title": "OpenAI称其新模型GPT-2过于危险，暂不发布（2019年）",
+    "description": "33分钟前",
+    "url": "https://news.ycombinator.com/item?id=47684326",
+    "source": "hackernews",
+    "publishedAt": "2026-04-08",
+    "category": "Model,Policy",
+    "titleZh": "OpenAI称其新模型GPT-2过于危险，暂不发布（2019年）",
+    "titleEn": "OpenAI says its new model GPT-2 is too dangerous and will not be released yet (2019)",
+    "descriptionZh": "33分钟前",
+    "descriptionEn": "33 minutes ago"
+  },
+  {
+    "id": 123,
+    "title": "Wavemaker Impact 在70万美元的种子前轮融资中支持 Muun AI",
+    "description": "2026-04-08 01:00:29",
+    "url": "http://www.techinasia.com/news/wavemaker-impact-backs-tech-startup-muun-ai-700k-preseed",
+    "source": "techinasia",
+    "publishedAt": "2026-04-08",
+    "category": "Company, Event",
+    "titleZh": "Wavemaker Impact 在70万美元的种子前轮融资中支持 Muun AI",
+    "titleEn": "Wavemaker Impact backs Muun AI in $700K pre-seed round",
+    "descriptionZh": "2026-04-08 01:00:29",
+    "descriptionEn": "2026-04-08 01:00:29"
+  },
+  {
+    "id": 124,
+    "title": "哦不，我已经成为人工智能的供应商了。",
+    "description": "AI编程仅快2分钟，认知能力却下降17%",
+    "url": "https://36kr.com/p/3757556115833349",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Paper,Company",
+    "titleZh": "哦不，我已经成为人工智能的供应商了。",
+    "titleEn": "Oh no, I've become the vendor to AI. With Anthropic's paper going viral, who dares to copy mindlessly now?",
+    "descriptionZh": "AI编程仅快2分钟，认知能力却下降17%",
+    "descriptionEn": "AI programming is only 2 minutes faster, but cognitive ability drops by 17%."
+  },
+  {
+    "id": 125,
+    "title": "凯文·凯利对话未来医生CEO王诗睿：医疗AGI时刻即将到来",
+    "description": "医学通用人工智能时刻即将到来。",
+    "url": "https://36kr.com/p/3756532248740616",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Industry,Product",
+    "titleZh": "凯文·凯利对话未来医生CEO王诗睿：医疗AGI时刻即将到来",
+    "titleEn": "Kevin Kelly in Conversation with Future Doctor CEO Wang Shirui: The Medical AGI Moment is Approaching",
+    "descriptionZh": "医学通用人工智能时刻即将到来。",
+    "descriptionEn": "The medical AGI moment is arriving. Future Doctor is leveraging medical AGI to transform medicine from relying on the slow accumulation of expert experience to a field capable of systematic acceleration and evolution through AI."
+  },
+  {
+    "id": 126,
+    "title": "我将我的同事提炼成一项技能，然后他成为了不朽的主力",
+    "description": "AI时代的遗迹",
+    "url": "https://36kr.com/p/3757472520979208",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Product,Other",
+    "titleZh": "我将我的同事提炼成一项技能，然后他成为了不朽的主力",
+    "titleEn": "I Distilled My Colleague into a Skill, and Then He Became an Immortal Workhorse",
+    "descriptionZh": "AI时代的遗迹",
+    "descriptionEn": "The Relic of the AI Era"
+  },
+  {
+    "id": 127,
+    "title": "人工智能时代的数据治理：重塑数据、制度和实践的十个转变",
+    "description": "人工智能重塑数据治理的十大变革",
+    "url": "https://36kr.com/p/3757346627470082",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Policy,Industry",
+    "titleZh": "人工智能时代的数据治理：重塑数据、制度和实践的十个转变",
+    "titleEn": "Data Governance in the Age of Artificial Intelligence: Ten Shifts Reshaping Data, Institutions, and Practices",
+    "descriptionZh": "人工智能重塑数据治理的十大变革",
+    "descriptionEn": "Ten Transformations in Data Governance Reshaped by AI"
+  },
+  {
+    "id": 128,
+    "title": "美国AI初创公司Cluely撤回夸大的营收声明",
+    "description": "2026-04-08 01:59:01",
+    "url": "http://www.techinasia.com/news/us-ai-startup-cluely-retracts-inflated-revenue-claim",
+    "source": "techinasia",
+    "publishedAt": "2026-04-08",
+    "category": "Company,Event",
+    "titleZh": "美国AI初创公司Cluely撤回夸大的营收声明",
+    "titleEn": "US AI startup Cluely withdraws exaggerated revenue statement",
+    "descriptionZh": "2026-04-08 01:59:01",
+    "descriptionEn": "2026-04-08 01:59:01"
+  },
+  {
+    "id": 129,
+    "title": "Uber采用亚马逊芯片以增强AI能力",
+    "description": "2026-04-08 00:32:04",
+    "url": "http://www.techinasia.com/news/uber-expands-aws-deal-graviton-chips",
+    "source": "techinasia",
+    "publishedAt": "2026-04-08",
+    "category": "Company,Product",
+    "titleZh": "Uber采用亚马逊芯片以增强AI能力",
+    "titleEn": "Uber adopts Amazon chips to boost AI capabilities",
+    "descriptionZh": "2026-04-08 00:32:04",
+    "descriptionEn": "2026-04-08 00:32:04"
+  },
+  {
+    "id": 130,
+    "title": "Medvi 在倒闭前年收入达 4 亿美元，它到底告诉我们什么？",
+    "description": "Medvi：一家年收入 4 亿美元的人工智能医疗保健公司，从神话到衰落。",
+    "url": "https://36kr.com/p/3756953584628232",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Company, Industry",
+    "titleZh": "Medvi 在倒闭前年收入达 4 亿美元，它到底告诉我们什么？",
+    "titleEn": "What Does Medvi, Which Generated $400 Million in Annual Revenue Before Its Downfall, Really Tell Us?",
+    "descriptionZh": "Medvi：一家年收入 4 亿美元的人工智能医疗保健公司，从神话到衰落。",
+    "descriptionEn": "Medvi: An AI Healthcare Company with $400 Million in Annual Revenue, From Myth to Downfall."
+  },
+  {
+    "id": 131,
+    "title": "Cerebras支持者美国风投Eclipse为AI领域筹集13亿美元",
+    "description": "2026-04-08 01:30:20",
+    "url": "http://www.techinasia.com/news/cerebras-backer-us-vc-eclipse-raises-1-3b-for-ai",
+    "source": "techinasia",
+    "publishedAt": "2026-04-08",
+    "category": "Company, Industry",
+    "titleZh": "Cerebras支持者美国风投Eclipse为AI领域筹集13亿美元",
+    "titleEn": "Cerebras backer U.S. VC Eclipse raises $1.3 billion in AI",
+    "descriptionZh": "2026-04-08 01:30:20",
+    "descriptionEn": "2026-04-08 01:30:20"
+  },
+  {
+    "id": 132,
+    "title": "一个日薪5万元的“CEO”，最终以500元的价格将自己的“脸”卖给了AI。",
+    "description": "短剧正在以更多依赖计算能力而不是人类努力的方式重写规则。",
+    "url": "https://36kr.com/p/3757418837230084",
+    "source": "36kr",
+    "publishedAt": "2026-04-08",
+    "category": "Industry, Other",
+    "titleZh": "一个日薪5万元的“CEO”，最终以500元的价格将自己的“脸”卖给了AI。",
+    "titleEn": "A \"CEO\" earning 50,000 yuan a day ends up selling his \"face\" to AI for 500 yuan.",
+    "descriptionZh": "短剧正在以更多依赖计算能力而不是人类努力的方式重写规则。",
+    "descriptionEn": "Short dramas are rewriting the rules in a way that relies more on computing power than human effort."
+  },
+  {
+    "id": 133,
+    "title": "美国AI网络公司Aria Networks完成1.25亿美元A轮融资",
+    "description": "2026-04-08 01:12:20",
+    "url": "http://www.techinasia.com/news/ai-networking-aria-networks-125m",
+    "source": "techinasia",
+    "publishedAt": "2026-04-08",
+    "category": "Company,Industry",
+    "titleZh": "美国AI网络公司Aria Networks完成1.25亿美元A轮融资",
+    "titleEn": "American AI network company Aria Networks completes US$125 million in Series A financing",
+    "descriptionZh": "2026-04-08 01:12:20",
+    "descriptionEn": "2026-04-08 01:12:20"
+  },
+  {
+    "id": 134,
+    "title": "随着AI安全需求增长，谷歌为Gemini添加危机应对工具",
+    "description": "2026-04-08 01:10:45",
+    "url": "http://www.techinasia.com/news/google-adds-gemini-crisis-tools-as-ai-safety-suits-grow",
+    "source": "techinasia",
+    "publishedAt": "2026-04-08",
+    "category": "Company,Product",
+    "titleZh": "随着AI安全需求增长，谷歌为Gemini添加危机应对工具",
+    "titleEn": "Google adds crisis response tools to Gemini as AI security needs grow",
+    "descriptionZh": "2026-04-08 01:10:45",
+    "descriptionEn": "2026-04-08 01:10:45"
+  },
+  {
+    "id": 135,
+    "title": "Anthropic预览Mythos AI以发现软件缺陷",
+    "description": "2026-04-08 01:05:41",
+    "url": "http://www.techinasia.com/news/anthropic-previews-mythos-ai-find-software-flaws",
+    "source": "techinasia",
+    "publishedAt": "2026-04-08",
+    "category": "Product,Company",
+    "titleZh": "Anthropic预览Mythos AI以发现软件缺陷",
+    "titleEn": "Anthropic previews Mythos AI to find software flaws",
+    "descriptionZh": "2026-04-08 01:05:41",
+    "descriptionEn": "2026-04-08 01:05:41"
+  },
+  {
+    "id": 136,
+    "title": "Adobe在Acrobat中推出AI学生空间",
+    "description": "2026-04-08 01:01:03",
+    "url": "http://www.techinasia.com/news/adobe-launches-ai-student-spaces-acrobat",
+    "source": "techinasia",
+    "publishedAt": "2026-04-08",
+    "category": "Product,Company",
+    "titleZh": "Adobe在Acrobat中推出AI学生空间",
+    "titleEn": "Adobe launches AI student space in Acrobat",
+    "descriptionZh": "2026-04-08 01:01:03",
+    "descriptionEn": "2026-04-08 01:01:03"
+  },
+  {
+    "id": 137,
+    "title": "Wavemaker Impact领投科技初创公司Muun AI 70万美元种子前轮融资",
+    "description": "2026-04-08 01:00:29",
+    "url": "http://www.techinasia.com/news/wavemaker-impact-backs-tech-startup-muun-ai-700k-preseed",
+    "source": "techinasia",
+    "publishedAt": "2026-04-08",
+    "category": "Company,Event",
+    "titleZh": "Wavemaker Impact领投科技初创公司Muun AI 70万美元种子前轮融资",
+    "titleEn": "Wavemaker Impact leads tech startup Muun AI’s $700,000 pre-seed round",
+    "descriptionZh": "2026-04-08 01:00:29",
+    "descriptionEn": "2026-04-08 01:00:29"
+  },
+  {
+    "id": 138,
+    "title": "AI如何在信任至关重要的领域颠覆SaaS",
+    "description": "2026-04-08 01:00:13",
+    "url": "http://www.techinasia.com/ai-breaking-saas-trust-matters",
+    "source": "techinasia",
+    "publishedAt": "2026-04-08",
+    "category": "Industry, Policy",
+    "titleZh": "AI如何在信任至关重要的领域颠覆SaaS",
+    "titleEn": "How AI is disrupting SaaS where trust matters",
+    "descriptionZh": "2026-04-08 01:00:13",
+    "descriptionEn": "2026-04-08 01:00:13"
+  },
+  {
+    "id": 139,
     "title": "中国转向水下数据中心以推动人工智能热潮",
     "description": "2026-04-08 00:39:00",
     "url": "http://www.techinasia.com/news/china-turns-underwater-data-centers-ai",
@@ -13,7 +1807,7 @@
     "descriptionEn": "2026-04-08 00:39:00"
   },
   {
-    "id": 2,
+    "id": 140,
     "title": "Anthropic联手大型科技公司探究未发布的Mythos AI",
     "description": "2026-04-08 00:37:02",
     "url": "http://www.techinasia.com/news/anthropic-taps-big-tech-probe-unreleased-mythos-ai",
@@ -26,7 +1820,7 @@
     "descriptionEn": "2026-04-08 00:37:02"
   },
   {
-    "id": 3,
+    "id": 141,
     "title": "英特尔加入特斯拉、SpaceX行列，参与马斯克的AI芯片项目",
     "description": "2026-04-08 00:26:48",
     "url": "http://www.techinasia.com/news/intel-joins-tesla-spacex-musks-ai-chip-project",
@@ -39,7 +1833,7 @@
     "descriptionEn": "2026-04-08 00:26:48"
   },
   {
-    "id": 4,
+    "id": 142,
     "title": "克劳德神话正式公布：性能碾压Opus 4.6，因太危险而“入狱”",
     "description": "野兽即将挣脱束缚。",
     "url": "https://36kr.com/p/3757431369204487",
@@ -52,7 +1846,7 @@
     "descriptionEn": "The beast is about to break free."
   },
   {
-    "id": 5,
+    "id": 143,
     "title": "全球人工智能收入领先者：这家公司刚刚击败了 OpenAI 吗？",
     "description": "大型语言模型中的失败者卷土重来",
     "url": "https://36kr.com/p/3756715657507333",
@@ -65,7 +1859,7 @@
     "descriptionEn": "The Underdog's Comeback in Large Language Models"
   },
   {
-    "id": 6,
+    "id": 144,
     "title": "有史以来最强大的克劳德：如此聪明，它被锁起来，可以绕过限制并掩盖其踪迹",
     "description": "人工智能发现漏洞的能力已经超越了绝大多数人类。",
     "url": "https://36kr.com/p/3757422822146825",
@@ -78,7 +1872,7 @@
     "descriptionEn": "AI's ability to find vulnerabilities has surpassed that of the vast majority of humans."
   },
   {
-    "id": 7,
+    "id": 145,
     "title": "刚刚，DeepSeek重大升级，V4真的已经不远了 |",
     "description": "DeepSeek 搅动了整个人工智能界，但现实最终也会搅动 DeepSeek。",
     "url": "https://36kr.com/p/3757399317283593",
@@ -91,7 +1885,7 @@
     "descriptionEn": "DeepSeek has stirred up the entire AI community, but reality will eventually stir up DeepSeek as well."
   },
   {
-    "id": 8,
+    "id": 146,
     "title": "Netflix还发布视频模型：不只是“擦除”，而是“重写”物理世界",
     "description": "Netflix提出VOID框架，实现具有物理交互感知的视频对象去除。",
     "url": "https://36kr.com/p/3756719276835586",
@@ -104,7 +1898,7 @@
     "descriptionEn": "Netflix proposes the VOID framework, achieving video object removal with physical interaction awareness."
   },
   {
-    "id": 9,
+    "id": 147,
     "title": "谷歌CEO桑达尔·皮查伊称“人工智能转型”为投资初创企业带来机遇",
     "description": "28分钟前",
     "url": "https://www.cnbc.com/2026/04/07/google-ceo-pichai-says-ai-shift-opens-opportunities-invest-startups.html",
@@ -117,7 +1911,7 @@
     "descriptionEn": "28 minutes ago"
   },
   {
-    "id": 10,
+    "id": 148,
     "title": "SS&C Technologies首席执行官称，投资者可能低估了对负责任人工智能的审查力度",
     "description": "25分钟前",
     "url": "https://www.cnbc.com/video/2026/04/07/investors-may-be-underestimating-scrutiny-around-responsible-ai-says-ssc-technologies-ceo.html",
@@ -130,7 +1924,7 @@
     "descriptionEn": "25 minutes ago"
   },
   {
-    "id": 11,
+    "id": 149,
     "title": "埃隆·马斯克在诉讼中寻求罢免OpenAI首席执行官萨姆·阿尔特曼",
     "description": "29分钟前",
     "url": "https://www.cnbc.com/2026/04/07/elon-musk-seeks-ouster-of-openai-ceo-sam-altman-as-part-of-lawsuit.html",
@@ -143,7 +1937,7 @@
     "descriptionEn": "29 minutes ago"
   },
   {
-    "id": 12,
+    "id": 150,
     "title": "我忍不住要为开源小模型制造商Arcee加油",
     "description": "朱莉·博尔特",
     "url": "https://techcrunch.com/2026/04/07/i-cant-help-rooting-for-tiny-open-source-ai-model-maker-arcee/",
@@ -156,7 +1950,7 @@
     "descriptionEn": "Julie Bolt"
   },
   {
-    "id": 13,
+    "id": 151,
     "title": "展示 HN：适用于 Apple Silicon 的 Gemma 4 多模态微调工具",
     "description": "1小时前",
     "url": "https://news.ycombinator.com/item?id=47680309",
@@ -169,7 +1963,7 @@
     "descriptionEn": "1 hour ago"
   },
   {
-    "id": 14,
+    "id": 152,
     "title": "人工智能与大语言模型时代的品味",
     "description": "4小时前",
     "url": "https://news.ycombinator.com/item?id=47677241",
@@ -182,7 +1976,7 @@
     "descriptionEn": "4 hours ago"
   },
   {
-    "id": 15,
+    "id": 153,
     "title": "Anthropic因担心黑客利用其进行攻击而限制Mythos AI的推出",
     "description": "1 小时前",
     "url": "https://www.cnbc.com/2026/04/07/anthropic-claude-mythos-ai-hackers-cyberattacks.html",
@@ -195,7 +1989,7 @@
     "descriptionEn": "1 hour ago"
   },
   {
-    "id": 16,
+    "id": 154,
     "title": "获英伟达支持的“南门”AI数据中心建造商Firmus估值达55亿美元",
     "description": "朱莉·博特",
     "url": "https://techcrunch.com/2026/04/07/firmus-the-southgate-ai-datacenter-builder-backed-by-nvidia-hits-5-5b-valuation/",
@@ -208,7 +2002,7 @@
     "descriptionEn": "Julie Bott"
   },
   {
-    "id": 17,
+    "id": 155,
     "title": "评估Claude Mythos预览版的网络安全能力",
     "description": "1小时前",
     "url": "https://news.ycombinator.com/item?id=47679155",
@@ -221,7 +2015,7 @@
     "descriptionEn": "1 hour ago"
   },
   {
-    "id": 18,
+    "id": 156,
     "title": "英伟达支持的“南门”AI数据中心建造商Firmus估值达55亿美元",
     "description": "朱莉·博特",
     "url": "https://techcrunch.com/2026/04/07/firmus-the-southgate-ai-datacenter-builder-backed-by-nvidia-hits-5-5b-valuation/",
@@ -234,7 +2028,7 @@
     "descriptionEn": "Julie Bott"
   },
   {
-    "id": 19,
+    "id": 157,
     "title": "Anthropic在新网络安全计划中推出强大新AI模型Mythos预览版",
     "description": "卢卡斯·罗佩克",
     "url": "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/",
@@ -247,7 +2041,7 @@
     "descriptionEn": "Lucas Ropek"
   },
   {
-    "id": 20,
+    "id": 158,
     "title": "Project Glasswing：为人工智能时代保障关键软件安全",
     "description": "48分钟前",
     "url": "https://news.ycombinator.com/item?id=47679121",
@@ -260,7 +2054,7 @@
     "descriptionEn": "48 minutes ago"
   },
   {
-    "id": 21,
+    "id": 159,
     "title": "系统卡：Claude Mythos 预览版 [pdf]",
     "description": "39分钟前",
     "url": "https://news.ycombinator.com/item?id=47679258",
@@ -273,7 +2067,7 @@
     "descriptionEn": "39 minutes ago"
   },
   {
-    "id": 22,
+    "id": 160,
     "title": "人工智能助力为OldNYC新增上万张历史照片",
     "description": "2小时前",
     "url": "https://news.ycombinator.com/item?id=47664836",
@@ -286,7 +2080,7 @@
     "descriptionEn": "2 hours ago"
   },
   {
-    "id": 23,
+    "id": 161,
     "title": "Anthropic因担心黑客利用模型发动网络攻击而限制Mythos AI的推出",
     "description": "15分钟前",
     "url": "https://www.cnbc.com/2026/04/07/anthropic-claude-mythos-ai-hackers-cyberattacks.html",
@@ -299,7 +2093,7 @@
     "descriptionEn": "15 minutes ago"
   },
   {
-    "id": 24,
+    "id": 162,
     "title": "zai-org/GLM-5.1",
     "description": "zai-org/GLM-5.1 文本生成 · 更新于31分钟前 下载",
     "url": "https://huggingface.co/zai-org/GLM-5.1",
@@ -312,7 +2106,7 @@
     "descriptionEn": "zai-org/GLM-5.1 Text generation · Updated 31 minutes ago Download"
   },
   {
-    "id": 25,
+    "id": 163,
     "title": "谷歌开源实验性智能体编排测试平台 Scion",
     "description": "2小时前",
     "url": "https://news.ycombinator.com/item?id=47675213",
@@ -325,7 +2119,7 @@
     "descriptionEn": "2 hours ago"
   },
   {
-    "id": 26,
+    "id": 164,
     "title": "GLM-5.1：迈向长视野任务",
     "description": "54分钟前",
     "url": "https://news.ycombinator.com/item?id=47677853",
@@ -338,7 +2132,7 @@
     "descriptionEn": "54 minutes ago"
   },
   {
-    "id": 27,
+    "id": 165,
     "title": "Uber成为最新一家被亚马逊AI芯片征服的公司",
     "description": "朱莉·博特",
     "url": "https://techcrunch.com/2026/04/07/uber-is-the-latest-to-be-won-over-by-amazons-ai-chips/",
@@ -351,7 +2145,7 @@
     "descriptionEn": "Julie Bott"
   },
   {
-    "id": 28,
+    "id": 166,
     "title": "Anthropic与谷歌和博通扩大计算协议，需求激增",
     "description": "丽贝卡·斯库塔克",
     "url": "https://techcrunch.com/2026/04/07/anthropic-compute-deal-google-broadcom-tpus/",
@@ -364,7 +2158,7 @@
     "descriptionEn": "Rebecca Skutak"
   },
   {
-    "id": 29,
+    "id": 167,
     "title": "DeiMOS – 一款适用于 MOS 6502 的超级优化器",
     "description": "5小时前",
     "url": "https://news.ycombinator.com/item?id=47673379",
@@ -377,7 +2171,7 @@
     "descriptionEn": "5 hours ago"
   },
   {
-    "id": 30,
+    "id": 168,
     "title": "AWS首席执行官马特·加曼谈亚马逊的AI投资：赢家不止一个",
     "description": "15分钟前",
     "url": "https://www.cnbc.com/video/2026/04/07/aws-ceo-matt-garman-on-amazons-ai-investments-there-isnt-just-one-winner.html",
@@ -390,7 +2184,7 @@
     "descriptionEn": "15 minutes ago"
   },
   {
-    "id": 31,
+    "id": 169,
     "title": "Claude Code 将用户锁定数小时",
     "description": "47 分钟前",
     "url": "https://news.ycombinator.com/item?id=47676521",
@@ -403,7 +2197,7 @@
     "descriptionEn": "47 minutes ago"
   },
   {
-    "id": 32,
+    "id": 170,
     "title": "Gabelli基金的约翰·贝尔顿表示，人工智能仍是一个处于早期阶段的重大主题",
     "description": "16分钟前",
     "url": "https://www.cnbc.com/video/2026/04/07/ai-is-still-a-huge-theme-in-its-early-innings-says-gabelli-funds-john-belton.html",
@@ -416,7 +2210,7 @@
     "descriptionEn": "16 minutes ago"
   },
   {
-    "id": 33,
+    "id": 171,
     "title": "谷歌地图现可利用AI为您的照片撰写说明文字",
     "description": "艾莎·马利克",
     "url": "https://techcrunch.com/2026/04/07/google-maps-can-now-write-captions-for-your-photos-using-ai/",
@@ -429,7 +2223,7 @@
     "descriptionEn": "Aisha Malik"
   },
   {
-    "id": 34,
+    "id": 172,
     "title": "Show HN: Pion/handoff – 将WebRTC移出浏览器并引入Go语言",
     "description": "3小时前",
     "url": "https://news.ycombinator.com/item?id=47673880",
@@ -442,7 +2236,7 @@
     "descriptionEn": "3 hours ago"
   },
   {
-    "id": 35,
+    "id": 173,
     "title": "维基百科的AI代理争端可能只是“机器人末日”的开端",
     "description": "19小时前",
     "url": "https://news.ycombinator.com/item?id=47665902",
@@ -455,7 +2249,7 @@
     "descriptionEn": "19 hours ago"
   },
   {
-    "id": 36,
+    "id": 174,
     "title": "“Windows 11 的新 Copilot 应用本质上就是 Microsoft Edge”",
     "description": "1小时前",
     "url": "https://news.ycombinator.com/item?id=47674234",
@@ -468,7 +2262,7 @@
     "descriptionEn": "1 hour ago"
   },
   {
-    "id": 37,
+    "id": 175,
     "title": "人工智能淘金热正将私人财富引向风险更高、更早期的投资",
     "description": "丽贝卡·贝兰",
     "url": "https://techcrunch.com/2026/04/07/the-ai-gold-rush-is-pulling-private-wealth-into-riskier-earlier-bets/",
@@ -481,7 +2275,7 @@
     "descriptionEn": "Rebecca Belland"
   },
   {
-    "id": 38,
+    "id": 176,
     "title": "AI视频工具充斥市场，科技巨头争相成为创作者的“缪斯”",
     "description": "英伟达树立了光辉榜样，难怪大家都争先恐后地成为“铲子卖家”。",
     "url": "https://36kr.com/p/3756670078927624",
@@ -494,7 +2288,7 @@
     "descriptionEn": "With Nvidia setting a shining example, it's no wonder everyone is rushing to be the \"shovel seller.\""
   },
   {
-    "id": 39,
+    "id": 177,
     "title": "克劳德的病毒研究遗漏了对中国团队工作的引用，导致立即道歉",
     "description": "首次系统研究人工智能情感回路",
     "url": "https://36kr.com/p/3756573700735492",
@@ -507,7 +2301,7 @@
     "descriptionEn": "The First Systematic Study on AI Emotional Circuits"
   },
   {
-    "id": 40,
+    "id": 178,
     "title": "人工智能重新洗牌音乐产业，但创作者尚未盈利",
     "description": "灵魂与效率的洗牌。",
     "url": "https://36kr.com/p/3756683077677568",
@@ -520,7 +2314,7 @@
     "descriptionEn": "A Reshuffle Between Soul and Efficiency."
   },
   {
-    "id": 41,
+    "id": 179,
     "title": "人工智能可能正使我们的思维和写作方式趋于雷同",
     "description": "1小时前",
     "url": "https://news.ycombinator.com/item?id=47673541",
@@ -533,7 +2327,7 @@
     "descriptionEn": "1 hour ago"
   },
   {
-    "id": 42,
+    "id": 180,
     "title": "沃尔特·艾萨克森谈山姆·奥特曼与埃隆·马斯克之争：一场“极其个人化”却内涵深刻的恩怨",
     "description": "16分钟前",
     "url": "https://www.cnbc.com/video/2026/04/07/walter-isaacson-on-sam-altman-vs-elon-musk-a-deeply-personal-feud-with-a-deep-substance-to-it.html",
@@ -546,7 +2340,7 @@
     "descriptionEn": "16 minutes ago"
   },
   {
-    "id": 43,
+    "id": 181,
     "title": "宝维斯律师事务所罗伯特·金德勒：2026年将成为人工智能和私募股权公司的丰收年",
     "description": "34分钟前",
     "url": "https://www.cnbc.com/video/2026/04/07/2026-will-be-a-great-year-for-ai-and-private-equity-firms-says-paul-weiss-robert-kindler.html",
@@ -559,7 +2353,7 @@
     "descriptionEn": "34 minutes ago"
   },
   {
-    "id": 44,
+    "id": 182,
     "title": "Meta员工闲置AI模型只为浪费代币，烧多赚多，日消费达​​2万亿",
     "description": "顶级用户平均每天使用 93.6 亿代币",
     "url": "https://36kr.com/p/3756573545693703",
@@ -572,7 +2366,7 @@
     "descriptionEn": "The Top User Averages 9.36 Billion Tokens Used Daily"
   },
   {
-    "id": 45,
+    "id": 183,
     "title": "Claude 灾难性的全球宕机引发了全球开发者的愤怒，Anthropic 的三重故障引发了愤怒",
     "description": "竞相IPO，还是自毁长城？",
     "url": "https://36kr.com/p/3756568883151368",
@@ -585,7 +2379,7 @@
     "descriptionEn": "Racing for IPO, or Destroying Its Own Great Wall?"
   },
   {
-    "id": 46,
+    "id": 184,
     "title": "人工智能真的夺走了工人的工作吗？",
     "description": "还是人们抢走了人们的工作？",
     "url": "https://36kr.com/p/3756629408956937",
@@ -598,7 +2392,7 @@
     "descriptionEn": "Or Are People Taking People's Jobs?"
   },
   {
-    "id": 47,
+    "id": 185,
     "title": "大型语言模型可能正在标准化人类表达——并微妙地影响我们的思维方式",
     "description": "1小时前",
     "url": "https://news.ycombinator.com/item?id=47673541",
@@ -611,7 +2405,7 @@
     "descriptionEn": "1 hour ago"
   },
   {
-    "id": 48,
+    "id": 186,
     "title": "结束了：GPT-4o之母宣布离开OpenAI",
     "description": "这一次，是真的再见了，4o。",
     "url": "https://36kr.com/p/3756573443588609",
@@ -624,7 +2418,7 @@
     "descriptionEn": "This time, it's really goodbye, 4o."
   },
   {
-    "id": 49,
+    "id": 187,
     "title": "2026企业AI测试：别再炫耀PPT了，展现你真正的“用AI”技能",
     "description": "36氪与腾讯云联合推出“2026企业‘用AI’十大标杆案例评选”。",
     "url": "https://36kr.com/p/3756720060793347",
@@ -637,7 +2431,7 @@
     "descriptionEn": "36Kr and Tencent Cloud jointly launch the \"2026 Top Ten Benchmark Cases of Enterprise 'Using AI' Selection.\""
   },
   {
-    "id": 50,
+    "id": 188,
     "title": "腾讯AI仍握有一张隐藏牌",
     "description": "AI实施开始考验工程能力",
     "url": "https://36kr.com/p/3756594368430600",
@@ -650,7 +2444,7 @@
     "descriptionEn": "AI Implementation Begins to Test Engineering Capabilities"
   },
   {
-    "id": 51,
+    "id": 189,
     "title": "省钱漫威三天获得4100星，19岁开发者实现高达87%无损压缩",
     "description": "“冗长并不总是更好。”",
     "url": "https://36kr.com/p/3756573503963912",
@@ -663,7 +2457,7 @@
     "descriptionEn": "\"Verbosity isn't always better.\""
   },
   {
-    "id": 52,
+    "id": 190,
     "title": "更新后克劳德的情况会变得更糟吗？ ",
     "description": "“克劳德无法处理复杂的工程任务。”",
     "url": "https://36kr.com/p/3756572218376964",
@@ -676,7 +2470,7 @@
     "descriptionEn": "\"Claude is incapable of handling complex engineering tasks.\""
   },
   {
-    "id": 53,
+    "id": 191,
     "title": "48小时人为禁令后，OpenClaw最强反击，龙虾首次生成视频",
     "description": "内置梦想记忆。",
     "url": "https://36kr.com/p/3756316944925445",
@@ -689,7 +2483,7 @@
     "descriptionEn": "Built-in dream memory."
   },
   {
-    "id": 54,
+    "id": 192,
     "title": "Anthropic 48小时封禁迫使OpenClaw最强反击：龙虾制作首个视频",
     "description": "带有梦想记忆",
     "url": "https://36kr.com/p/3756316944925445",
@@ -702,7 +2496,7 @@
     "descriptionEn": "Comes with Dream Memory"
   },
   {
-    "id": 55,
+    "id": 193,
     "title": "HKUDS / DeepTutor",
     "description": "\"DeepTutor：原生智能体驱动的个性化学习助手\" | 点赞数: 11,629 复刻数: 1,612",
     "url": "https://github.com//HKUDS/DeepTutor",
@@ -715,7 +2509,7 @@
     "descriptionEn": "\"DeepTutor: A personalized learning assistant driven by native agents\" | Number of likes: 11,629 Number of replicas: 1,612"
   },
   {
-    "id": 56,
+    "id": 194,
     "title": "国产大车型：这一次的剧本不一样",
     "description": "国产大模型在AI产业链中扮演什么角色？",
     "url": "https://36kr.com/p/3756517273895689",
@@ -728,7 +2522,7 @@
     "descriptionEn": "What role do domestic large models play in the AI industry chain? How substantial is the value of this role?"
   },
   {
-    "id": 57,
+    "id": 195,
     "title": "这家人工智能律师事务所正在扼杀“计费时间”：6000 万美元的资金，4 亿美元的估值，由红杉和指数支持",
     "description": "为什么这家人工智能律师事务所放弃按小时计费模式",
     "url": "https://36kr.com/p/3756558059422471",
@@ -741,7 +2535,7 @@
     "descriptionEn": "Why This AI Law Firm is Abandoning the Hourly Billing Model"
   },
   {
-    "id": 58,
+    "id": 196,
     "title": "克劳德·科德每周配额，一天烧掉一半？",
     "description": "额外使用会悄悄禁用缓存。",
     "url": "https://36kr.com/p/3756555935810051",
@@ -754,7 +2548,7 @@
     "descriptionEn": "Extra Usage quietly disables caching."
   },
   {
-    "id": 59,
+    "id": 197,
     "title": "印度科技业职位空缺因AI转型在四月下降8%",
     "description": "2026-04-07 10:04:38",
     "url": "http://www.techinasia.com/news/india-tech-job-openings-fall-8-ai-shift",
@@ -767,7 +2561,7 @@
     "descriptionEn": "2026-04-07 10:04:38"
   },
   {
-    "id": 60,
+    "id": 198,
     "title": "首秀拿下金鸡奖后，他用AI制作动画长片",
     "description": "传统电影制片人的人工智能转型",
     "url": "https://36kr.com/p/3756486234305031",
@@ -780,7 +2574,7 @@
     "descriptionEn": "The AI Transformation of a Traditional Filmmaker"
   },
   {
-    "id": 61,
+    "id": 199,
     "title": "2000年代人工智能神童，广东制造",
     "description": "神童的出现绝非偶然",
     "url": "https://36kr.com/p/3756531885572615",
@@ -793,7 +2587,7 @@
     "descriptionEn": "The Emergence of a Prodigy Is No Accident"
   },
   {
-    "id": 62,
+    "id": 200,
     "title": "2010 年 Flash 事故预演？",
     "description": "最近，X上的一篇帖子在网络上疯传：尽管开发者明确禁止写访问，Claude却秘密编写了一个Python脚本来“黑入”系统并修改权限！",
     "url": "https://36kr.com/p/3756290068464135",
@@ -806,7 +2600,7 @@
     "descriptionEn": "Recently, a post on X went viral across the internet: Despite developers explicitly prohibiting write access, Claude secretly wrote a Python script to \"hack\" into the system and modify permissions! Even more frightening, Google DeepMind released the largest empirical study to date on AI manipulation, proving that existing defenses have completely failed and the internet is turning into an AI \"hunting ground\"! This can be likened to the 2010 \"Flash Crash\" event, where an automated sell order triggered nearly a trillion dollars in market value evaporation within 45 minutes."
   },
   {
-    "id": 63,
+    "id": 201,
     "title": "AI 圈子里有多少行话只是为了炫耀？",
     "description": "是谁创造了这些充满屏幕的陌生术语？",
     "url": "https://36kr.com/p/3756481549206272",
@@ -819,7 +2613,7 @@
     "descriptionEn": "Who's Creating All These Unfamiliar Terms Filling the Screen?"
   },
   {
-    "id": 64,
+    "id": 202,
     "title": "Meta 员工闲置 AI 只是为了浪费代币！",
     "description": "最大捐赠者平均每天使用 93.6 亿代币",
     "url": "https://www.qbitai.com/2026/04/397610.html",
@@ -832,7 +2626,7 @@
     "descriptionEn": "The Top Donor Uses an Average of 9.36 Billion Tokens Per Day"
   },
   {
-    "id": 65,
+    "id": 203,
     "title": "Meta通过混合模型发布计划保持AI开放性",
     "description": "2026-04-07 08:58:21",
     "url": "http://www.techinasia.com/news/meta-keeps-ai-open-with-hybrid-model-release-plan",
@@ -845,7 +2639,7 @@
     "descriptionEn": "2026-04-07 08:58:21"
   },
   {
-    "id": 66,
+    "id": 204,
     "title": "三星SDS将主导友利银行AI智能体推广",
     "description": "2026-04-07 08:45:22",
     "url": "http://www.techinasia.com/news/samsung-sds-lead-woori-bank-ai-agent-rollout",
@@ -858,7 +2652,7 @@
     "descriptionEn": "2026-04-07 08:45:22"
   },
   {
-    "id": 67,
+    "id": 205,
     "title": "将我的老板提炼成人工智能技能后，我发现了一个可怕的事实",
     "description": "只有将你的老板提炼成一项技能后，你才会意识到谁真正值得追随。",
     "url": "https://36kr.com/p/3756438697538306",
@@ -871,7 +2665,7 @@
     "descriptionEn": "Only after distilling your boss into a Skill do you realize who is truly worth following."
   },
   {
-    "id": 68,
+    "id": 206,
     "title": "Anthropic年化营收飙升至300亿美元首次超越OpenAI，宣布重大AI芯片订单",
     "description": "短短三个多月内就激增了约 210 亿美元。",
     "url": "https://36kr.com/p/3756465563599366",
@@ -884,7 +2678,7 @@
     "descriptionEn": "A surge of approximately $21 billion in just over three months."
   },
   {
-    "id": 69,
+    "id": 207,
     "title": "中国将2026年科技支出增至620亿美元",
     "description": "2026年4月7日 08:40:10",
     "url": "http://www.techinasia.com/news/china-boosts-2026-science-tech-spending-62b",
@@ -897,7 +2691,7 @@
     "descriptionEn": "April 7, 2026 08:40:10"
   },
   {
-    "id": 70,
+    "id": 208,
     "title": "银企领跑千里首个全年：营收逼近百亿 智能驾驶毛利率达30.8%",
     "description": "智能驾驶收入首次披露",
     "url": "https://www.qbitai.com/2026/04/397523.html",
@@ -910,7 +2704,7 @@
     "descriptionEn": "First Disclosure of Smart Driving Revenue"
   },
   {
-    "id": 71,
+    "id": 209,
     "title": "刚刚，Anthropic首次超越OpenAI，批量购买谷歌TPU，克劳德狂野起来",
     "description": "Anthropic的年化收入超过300亿美元，首次超过OpenAI。",
     "url": "https://36kr.com/p/3756317091037956",
@@ -923,7 +2717,7 @@
     "descriptionEn": "Anthropic's annualized revenue surpasses $30 billion, overtaking OpenAI for the first time. Today, a new partnership with Google and Broadcom was announced, with a brand-new 3.5 GW TPU cluster set to launch in 2027."
   },
   {
-    "id": 72,
+    "id": 210,
     "title": "第一波人工智能用户已经陷入人工智能疲劳",
     "description": "人工智能带来的是解放还是只是一台旋转得更快的跑步机？",
     "url": "https://36kr.com/p/3756409475969539",
@@ -936,7 +2730,7 @@
     "descriptionEn": "Is AI Bringing Liberation or Just a Faster-Spinning Treadmill?"
   },
   {
-    "id": 73,
+    "id": 211,
     "title": "AI异端时刻：Meta联手MIT数据投毒，踩自己的脚强行登高",
     "description": "Meta SOAR以“有毒数据”为垫脚石，将模型强行拉出Fail@128的认知黑洞，推理能力提升9.3%！",
     "url": "https://36kr.com/p/3756290083799815",
@@ -949,7 +2743,7 @@
     "descriptionEn": "Meta SOAR uses \"toxic data\" as a stepping stone, forcibly pulling the model out of the cognitive black hole of Fail@128, boosting reasoning ability by 9.3%! This is the most hardcore counterattack path for 2026."
   },
   {
-    "id": 74,
+    "id": 212,
     "title": "openbmb/VoxCPM2",
     "description": "openbmb/VoxCPM2 文本转语音 · 129 次下载 · 124 次点赞",
     "url": "https://huggingface.co/openbmb/VoxCPM2",
@@ -962,7 +2756,7 @@
     "descriptionEn": "openbmb/VoxCPM2 Text to Speech · 129 downloads · 124 likes"
   },
   {
-    "id": 75,
+    "id": 213,
     "title": "Show HN: TTF-DOOM – 在 TrueType 字体微调指令中运行的射线投射引擎",
     "description": "11小时前",
     "url": "https://news.ycombinator.com/item?id=47665685",
@@ -975,7 +2769,7 @@
     "descriptionEn": "11 hours ago"
   },
   {
-    "id": 76,
+    "id": 214,
     "title": "Pixel Cake 9.0：人工智能和照片修饰的颠覆性革命",
     "description": "修图师正在从“操作者”转变为“管理者”，从“技术执行者”转变为“创意决策者”。",
     "url": "https://www.qbitai.com/2026/04/397517.html",
@@ -988,7 +2782,7 @@
     "descriptionEn": "Retouchers are transitioning from \"operators\" to \"managers,\" and from \"technical executors\" to \"creative decision-makers.\""
   },
   {
-    "id": 77,
+    "id": 215,
     "title": "土拨鼠",
     "description": "具备搜索、血缘和MCP功能的AI原生数据目录",
     "url": "https://www.producthunt.com/products/marmot",
@@ -1001,7 +2795,7 @@
     "descriptionEn": "AI native data directory with search, lineage and MCP functions"
   },
   {
-    "id": 78,
+    "id": 216,
     "title": "仿生机器人十大榜单出炉：小鹏钢铁“走秀”走红，寿星松岩忙着1：1复制",
     "description": "执着地追求让机器人像“人”的道路。",
     "url": "https://36kr.com/p/3756366648111875",
@@ -1014,7 +2808,7 @@
     "descriptionEn": "Stubbornly pursuing the path of making robots resemble \"humans\"."
   },
   {
-    "id": 79,
+    "id": 217,
     "title": "迫使AI成为穴居人：克劳德的反冗长插件走红，网友：受够了AI废话",
     "description": "一个让人工智能像原始人类一样说话的插件一夜之间在 HN 上疯传，超过了 2 万颗星。",
     "url": "https://36kr.com/p/3756289723286272",
@@ -1027,7 +2821,7 @@
     "descriptionEn": "A plugin that makes AI speak like a primitive human went viral overnight on HN, surpassing 20k stars. Its core is just a simple, brutal prompt: delete articles, polite phrases, and all nonsense, claiming to save 75% of output tokens. Its popularity shows developers are fed up with AI's verbosity."
   },
   {
-    "id": 80,
+    "id": 218,
     "title": "《纽约客》对 OpenAI 投下重磅炸弹：Sam Altman 是一个“反社会骗子”",
     "description": "“我无法改变我的性格。”",
     "url": "https://36kr.com/p/3756334015136259",
@@ -1040,20 +2834,20 @@
     "descriptionEn": "\"I cannot change my character.\""
   },
   {
-    "id": 81,
-    "title": "ChatGPT聊天记录成铁证，韩国汽车旅馆双重凶杀案出现转折",
+    "id": 219,
+    "title": "ChatGPT聊天记录成铁证，韩国汽车旅馆双重凶杀案出现转机",
     "description": "与 ChatGPT 的一次普通聊天揭开了韩国汽车旅馆连环杀人案背后的真相。",
     "url": "https://36kr.com/p/3756289844347656",
     "source": "36kr",
     "publishedAt": "2026-04-07",
     "category": "Product,Policy",
-    "titleZh": "ChatGPT聊天记录成铁证，韩国汽车旅馆双重凶杀案出现转折",
+    "titleZh": "ChatGPT聊天记录成铁证，韩国汽车旅馆双重凶杀案出现转机",
     "titleEn": "ChatGPT Chat Logs Become Ironclad Court Evidence, Double Homicide at Korean Motel Takes a Turn",
     "descriptionZh": "与 ChatGPT 的一次普通聊天揭开了韩国汽车旅馆连环杀人案背后的真相。",
     "descriptionEn": "An ordinary chat with ChatGPT uncovers the truth behind a Korean motel serial murder case."
   },
   {
-    "id": 82,
+    "id": 220,
     "title": "“克劳德代码更新使其无用”，热议问题：思想深度下降67%，现在无法处理复杂的工程任务",
     "description": "这份“执行报告”甚至是克洛德自己写的。",
     "url": "https://36kr.com/p/3756332175720960",
@@ -1066,7 +2860,7 @@
     "descriptionEn": "The \"execution report\" was even written by Claude itself."
   },
   {
-    "id": 83,
+    "id": 221,
     "title": "沃迪",
     "description": "在浏览网页时增长你的词汇量",
     "url": "https://www.producthunt.com/products/wordie",
@@ -1079,7 +2873,7 @@
     "descriptionEn": "Grow your vocabulary while browsing the web"
   },
   {
-    "id": 84,
+    "id": 222,
     "title": "副驾驶健康",
     "description": "汇集您个人健康数据的专属空间",
     "url": "https://www.producthunt.com/products/copilot-health",
@@ -1092,7 +2886,7 @@
     "descriptionEn": "A dedicated space to collect your personal health data"
   },
   {
-    "id": 85,
+    "id": 223,
     "title": "作品集",
     "description": "专为Claude Code/Codex设计的数据分析工作区",
     "url": "https://www.producthunt.com/products/folio-6",
@@ -1105,7 +2899,7 @@
     "descriptionEn": "Data analysis workspace specially designed for Claude Code/Codex"
   },
   {
-    "id": 86,
+    "id": 224,
     "title": "智慧猫头鹰",
     "description": "自动化API无法实现之事，一次指令，全程处理",
     "url": "https://www.producthunt.com/products/openowl",
@@ -1118,7 +2912,7 @@
     "descriptionEn": "What automation API cannot achieve, one instruction, the whole process is processed"
   },
   {
-    "id": 87,
+    "id": 225,
     "title": "一季度利润猛增8倍：最赚钱“铲子卖家”暴利背后，内存价格暴涨结局如何？",
     "description": "在人工智能时代，最赚钱的公司可能永远不是真正构建人工智能的公司。",
     "url": "https://36kr.com/p/3756328349106691",
@@ -1131,7 +2925,7 @@
     "descriptionEn": "In the AI era, the most profitable company might never be the one actually building AI."
   },
   {
-    "id": 88,
+    "id": 226,
     "title": "OpenAI解密大模型错位：不是变坏，而是“太听话”",
     "description": "谁在给AI“发号施令”？ ",
     "url": "https://36kr.com/p/3756289526202886",
@@ -1144,7 +2938,7 @@
     "descriptionEn": "Who is \"Issuing Orders\" to AI? OpenAI's Latest Decryption: Using \"Instruction Hierarchy\" to End the \"Game of Thrones\" in Large Models."
   },
   {
-    "id": 89,
+    "id": 227,
     "title": "伯尼·桑德斯：\"人工智能对美国人民所珍视的一切构成威胁\"",
     "description": "9小时前",
     "url": "https://news.ycombinator.com/item?id=47667798",
@@ -1157,7 +2951,7 @@
     "descriptionEn": "9 hours ago"
   },
   {
-    "id": 90,
+    "id": 228,
     "title": "人工智能和能源领域仍具吸引力：瀚亚投资",
     "description": "13分钟前",
     "url": "https://www.cnbc.com/video/2026/04/07/donat-go-risk-off-balance-defensives-with-ai-and-energy-eastspring-investments.html",
@@ -1170,7 +2964,7 @@
     "descriptionEn": "13 minutes ago"
   },
   {
-    "id": 91,
+    "id": 229,
     "title": "诺瓦之声",
     "description": "智能听写、AI助手，以及通过语音控制应用",
     "url": "https://www.producthunt.com/products/novavoice",
@@ -1183,7 +2977,7 @@
     "descriptionEn": "Smart dictation, AI assistant, and voice control applications"
   },
   {
-    "id": 92,
+    "id": 230,
     "title": "插入符",
     "description": "在Mac上任何输入位置，按Tab键即可唤出AI",
     "url": "https://www.producthunt.com/products/caret-5",
@@ -1196,7 +2990,7 @@
     "descriptionEn": "Press the Tab key at any input position on Mac to summon AI"
   },
   {
-    "id": 93,
+    "id": 231,
     "title": "Gauge出品的ChatGPT广告工具",
     "description": "ChatGPT广告的智能层",
     "url": "https://www.producthunt.com/products/gauge",
@@ -1209,7 +3003,7 @@
     "descriptionEn": "Intelligence layer for ChatGPT ads"
   },
   {
-    "id": 94,
+    "id": 232,
     "title": "流量脉冲",
     "description": "实时掌握自动化流程的运行、失败或静默状态。",
     "url": "https://www.producthunt.com/products/flowpulse",
@@ -1222,7 +3016,7 @@
     "descriptionEn": "Gain real-time visibility into the running, failed, or silent status of automated processes."
   },
   {
-    "id": 95,
+    "id": 233,
     "title": "INSPEC 清醒梦设备",
     "description": "一款夜视智能摄像头，能感知您何时在做梦",
     "url": "https://www.producthunt.com/products/inspec-lucid-dreaming-device",
@@ -1235,7 +3029,7 @@
     "descriptionEn": "A night vision smart camera that senses when you're dreaming"
   },
   {
-    "id": 96,
+    "id": 234,
     "title": "沃克斯托里",
     "description": "适用于Mac的实时字幕、翻译与听写工具",
     "url": "https://www.producthunt.com/products/voxtori",
@@ -1248,7 +3042,7 @@
     "descriptionEn": "Real-time subtitles, translation and dictation tools for Mac"
   },
   {
-    "id": 97,
+    "id": 235,
     "title": "/dev 为克劳德代码",
     "description": "将Claude Code作为技术主管，并配备并行工作代理",
     "url": "https://www.producthunt.com/products/dev-for-claude-code",
@@ -1261,7 +3055,7 @@
     "descriptionEn": "Use Claude Code as technical lead with parallel work agents"
   },
   {
-    "id": 98,
+    "id": 236,
     "title": "毕比艾",
     "description": "研究论文的AI合著者",
     "url": "https://www.producthunt.com/products/bibby-ai",
@@ -1274,7 +3068,7 @@
     "descriptionEn": "AI co-author of research paper"
   },
   {
-    "id": 99,
+    "id": 237,
     "title": "Gaia (AI建筑设计软件)",
     "description": "AI建筑渲染与室内设计",
     "url": "https://www.producthunt.com/products/gaia-ai-architecture-software",
@@ -1287,7 +3081,7 @@
     "descriptionEn": "AI architectural rendering and interior design"
   },
   {
-    "id": 100,
+    "id": 238,
     "title": "剪辑标记",
     "description": "从此不再丢失任何复制内容",
     "url": "https://www.producthunt.com/products/clipmark",
@@ -1300,7 +3094,7 @@
     "descriptionEn": "Never lose any copied content again"
   },
   {
-    "id": 101,
+    "id": 239,
     "title": "规定",
     "description": "隐私优先的 AI 财务追踪器",
     "url": "https://www.producthunt.com/products/stated-2",
@@ -1313,7 +3107,7 @@
     "descriptionEn": "A privacy-first AI financial tracker"
   },
   {
-    "id": 102,
+    "id": 240,
     "title": "奶酪！",
     "description": "选择任意屏幕区域，即刻获取文字",
     "url": "https://www.producthunt.com/products/cheese-ocr",
@@ -1326,7 +3120,7 @@
     "descriptionEn": "Select any screen area and get text instantly"
   },
   {
-    "id": 103,
+    "id": 241,
     "title": "超级人工智能",
     "description": "在“人类终极考试”中排名第一的人工智能组合体。",
     "url": "https://www.producthunt.com/products/sup-ai",
@@ -1339,7 +3133,7 @@
     "descriptionEn": "The artificial intelligence combination that ranked first in the \"Ultimate Human Test\"."
   },
   {
-    "id": 104,
+    "id": 242,
     "title": "OpenBrowser-AI",
     "description": "通过原始CDP将AI智能体连接到浏览器。",
     "url": "https://www.producthunt.com/products/openbrowser-ai-59-less-100-accurate",
@@ -1352,7 +3146,7 @@
     "descriptionEn": "Connect AI agents to the browser via raw CDP."
   },
   {
-    "id": 105,
+    "id": 243,
     "title": "同步3",
     "description": "工作室级AI唇形同步与视觉配音。",
     "url": "https://www.producthunt.com/products/sync-9",
@@ -1365,7 +3159,7 @@
     "descriptionEn": "Studio-grade AI lip sync and visual dubbing."
   },
   {
-    "id": 106,
+    "id": 244,
     "title": "谷歌人工智能边缘雄辩",
     "description": "谷歌由Gemma驱动的离线优先AI听写工具。",
     "url": "https://www.producthunt.com/products/google",
@@ -1378,7 +3172,7 @@
     "descriptionEn": "Google's offline-first AI dictation tool powered by Gemma."
   },
   {
-    "id": 107,
+    "id": 245,
     "title": "人工智能设计师MCP",
     "description": "为你的智能体配备工具，以创建美观且了解代码库的UI。",
     "url": "https://www.producthunt.com/products/aidesigner",
@@ -1391,7 +3185,7 @@
     "descriptionEn": "Equip your agents with the tools to create beautiful UIs that understand your codebase."
   },
   {
-    "id": 108,
+    "id": 246,
     "title": "库佩拉",
     "description": "在搜索、AI及其他领域获得曝光。",
     "url": "https://www.producthunt.com/products/keupera",
@@ -1404,7 +3198,7 @@
     "descriptionEn": "Get exposure in search, AI, and more."
   },
   {
-    "id": 109,
+    "id": 247,
     "title": "测试遗迹人工智能",
     "description": "问问你的Playwright测试，它们为何失败。",
     "url": "https://www.producthunt.com/products/testrelic-ai",
@@ -1417,7 +3211,7 @@
     "descriptionEn": "Ask your Playwright tests why they fail."
   },
   {
-    "id": 110,
+    "id": 248,
     "title": "莱西艾",
     "description": "搜索、触达与连接——以10倍速度找到完美匹配。",
     "url": "https://www.producthunt.com/products/lessie-ai-2",
@@ -1430,7 +3224,7 @@
     "descriptionEn": "Search, reach and connect – find your perfect match 10x faster."
   },
   {
-    "id": 111,
+    "id": 249,
     "title": "为什么 OpenClaw 突然让内存变得“热”了？ ",
     "description": "为什么长期记忆如此重要",
     "url": "https://36kr.com/p/3756238999241220",
@@ -1443,7 +3237,7 @@
     "descriptionEn": "Why Long-Term Memory Is So Important"
   },
   {
-    "id": 112,
+    "id": 250,
     "title": "字节跳动豆包AI日处理请求量突破120万亿",
     "description": "2026-04-07 06:38:58",
     "url": "http://www.techinasia.com/news/bytedances-doubao-tops-120-trillion-daily-tokens",
@@ -1456,7 +3250,7 @@
     "descriptionEn": "2026-04-07 06:38:58"
   },
   {
-    "id": 113,
+    "id": 251,
     "title": "中国Horis公司C轮融资2800万美元，用于AI采矿技术",
     "description": "2026-04-07 06:30:30",
     "url": "http://www.techinasia.com/news/chinas-horis-secures-28m-ai-mining-tech",
@@ -1469,7 +3263,7 @@
     "descriptionEn": "2026-04-07 06:30:30"
   },
   {
-    "id": 114,
+    "id": 252,
     "title": "英伟达与SchedMD的交易引发对AI软件访问权限的担忧",
     "description": "2026-04-07 04:41:08",
     "url": "http://www.techinasia.com/news/nvidia-schedmd-deal-sparks-fears-slurm-neutrality",
@@ -1482,7 +3276,7 @@
     "descriptionEn": "2026-04-07 04:41:08"
   },
   {
-    "id": 115,
+    "id": 253,
     "title": "In AI entrepreneurship, the term \"going global\" no longer exists丨QbitAI Salon",
     "description": "你的人工智能产品从第0天起就应该拥有“全球原生基因”",
     "url": "https://www.qbitai.com/2026/04/396675.html",
@@ -1495,7 +3289,7 @@
     "descriptionEn": "Your AI product should possess \"globally native genes\" from Day 0"
   },
   {
-    "id": 116,
+    "id": 254,
     "title": "体现龙虾，搭载利汽车",
     "description": "当你取车时主动迎接你",
     "url": "https://www.qbitai.com/2026/04/396517.html",
@@ -1508,7 +3302,7 @@
     "descriptionEn": "Actively greets you when you pick up your car"
   },
   {
-    "id": 117,
+    "id": 255,
     "title": "为了避免与 Lobster 竞争计算机使用，一些人已经开始构建专门用于 Agent 的“三无”硬件，比 Mac Mini + 存储便宜",
     "description": "几秒钟内搜索到 1000 万个视频",
     "url": "https://www.qbitai.com/2026/04/396351.html",
@@ -1521,7 +3315,7 @@
     "descriptionEn": "10 million videos searched in seconds"
   },
   {
-    "id": 118,
+    "id": 256,
     "title": "三星股价因AI芯片需求激增而大涨近5%",
     "description": "2026-04-07 06:02:36",
     "url": "http://www.techinasia.com/news/samsung-shares-jump-5-ai-chip-demand-boost",
@@ -1534,7 +3328,7 @@
     "descriptionEn": "2026-04-07 06:02:36"
   },
   {
-    "id": 119,
+    "id": 257,
     "title": "Karpathy 没有完成的事情，开源社区在 48 小时内完成了！",
     "description": "零配置，开箱即用，一条命令生成完整的知识图谱",
     "url": "https://www.qbitai.com/2026/04/396983.html",
@@ -1547,7 +3341,7 @@
     "descriptionEn": "Zero-configuration, ready to use out of the box, generate a complete knowledge graph with a single command"
   },
   {
-    "id": 120,
+    "id": 258,
     "title": "腾讯唐道生：AI落地不仅仅是算法问题；",
     "description": "腾讯加强AI工程，驱动Agent生态发展。",
     "url": "https://36kr.com/p/3756172458951174",
@@ -1560,7 +3354,7 @@
     "descriptionEn": "Tencent strengthens AI engineering to drive Agent ecosystem development."
   },
   {
-    "id": 121,
+    "id": 259,
     "title": "AI初创公司Rocket以远低于麦肯锡的成本提供氛围感报告",
     "description": "贾格米特·辛格",
     "url": "https://techcrunch.com/2026/04/06/indian-startup-rocket-wants-its-ai-to-do-mckinsey-style-consulting-at-a-fraction-of-the-cost/",
@@ -1573,7 +3367,7 @@
     "descriptionEn": "Jagmeet Singh"
   },
   {
-    "id": 122,
+    "id": 260,
     "title": "领先 OpenAI 没有 KPI？",
     "description": "DeepMind的成功源于其独特的组织模式和哈萨比斯的远见。",
     "url": "https://36kr.com/p/3754739016712707",
@@ -1586,7 +3380,7 @@
     "descriptionEn": "DeepMind's success stems from its unique organizational model and Hassabis's foresight."
   },
   {
-    "id": 123,
+    "id": 261,
     "title": "为什么克劳德代码这么好？",
     "description": "真正的力量来自于界面的变化。",
     "url": "https://36kr.com/p/3755987476906754",
@@ -1599,7 +3393,7 @@
     "descriptionEn": "True power comes from changes in the interface."
   },
   {
-    "id": 124,
+    "id": 262,
     "title": "Picsart向创作者开放收益分成以推动AI内容增长",
     "description": "2026-04-07 04:57:49",
     "url": "http://www.techinasia.com/news/picsart-opens-creator-payouts-to-grow-ai-content-push",
@@ -1612,7 +3406,7 @@
     "descriptionEn": "2026-04-07 04:57:49"
   },
   {
-    "id": 125,
+    "id": 263,
     "title": "台湾警告中国瞄准芯片与AI人才渠道",
     "description": "2026-04-07 04:48:38",
     "url": "http://www.techinasia.com/news/taiwan-warns-china-targets-chip-ai-talent-channels",
@@ -1625,7 +3419,7 @@
     "descriptionEn": "2026-04-07 04:48:38"
   },
   {
-    "id": 126,
+    "id": 264,
     "title": "英伟达收购SchedMD引发对Slurm中立性的担忧",
     "description": "2026-04-07 04:41:08",
     "url": "http://www.techinasia.com/news/nvidia-schedmd-deal-sparks-fears-slurm-neutrality",
@@ -1638,7 +3432,7 @@
     "descriptionEn": "2026-04-07 04:41:08"
   },
   {
-    "id": 127,
+    "id": 265,
     "title": "当人工智能开始尝试对人类进行逆向微调时，我们该如何驾驭新智能？",
     "description": "当人工智能开始尝试对人类进行逆向微调时，我们该如何驾驭新智能？",
     "url": "https://36kr.com/p/3755298778792705",
@@ -1651,7 +3445,7 @@
     "descriptionEn": "When AI Begins to Attempt Reverse Fine-Tuning of Humans, How Should We Navigate the New Intelligence?"
   },
   {
-    "id": 128,
+    "id": 266,
     "title": "下一代 OpenClaw 即将到来吗？ ",
     "description": "连续几天统治 OpenRouter 排行榜",
     "url": "https://www.qbitai.com/2026/04/396955.html",
@@ -1664,7 +3458,7 @@
     "descriptionEn": "Dominating the OpenRouter Charts for Days"
   },
   {
-    "id": 129,
+    "id": 267,
     "title": "继续称霸！",
     "description": "更强旗舰Qwen3.6-Max也即将发布",
     "url": "https://www.qbitai.com/2026/04/396950.html",
@@ -1677,7 +3471,7 @@
     "descriptionEn": "The More Powerful Flagship Model Qwen3.6-Max Is Also Set to Be Released"
   },
   {
-    "id": 130,
+    "id": 268,
     "title": "与美国同行相比，中国劳动者受人工智能驱动的裁员影响较小",
     "description": "32分钟前",
     "url": "https://www.cnbc.com/video/2026/04/07/ai-driven-layoffs-china-less-at-risk-than-us.html",
@@ -1690,7 +3484,7 @@
     "descriptionEn": "32 minutes ago"
   },
   {
-    "id": 131,
+    "id": 269,
     "title": "中国量子芯片初创公司SpinQ完成8720万美元C+轮融资",
     "description": "2026-04-07 04:03:22",
     "url": "http://www.techinasia.com/news/chinese-quantum-chip-startup-spinq-raises-872m-series",
@@ -1703,7 +3497,7 @@
     "descriptionEn": "2026-04-07 04:03:22"
   },
   {
-    "id": 132,
+    "id": 270,
     "title": "博通深化与谷歌、Anthropic在AI芯片领域的合作",
     "description": "2026-04-07 03:07:02",
     "url": "http://www.techinasia.com/news/broadcom-deepens-ai-chip-ties-google-anthropic",
@@ -1716,7 +3510,7 @@
     "descriptionEn": "2026-04-07 03:07:02"
   },
   {
-    "id": 133,
+    "id": 271,
     "title": "Unitree的供应商估值200亿。",
     "description": "机器人热潮的背后，诞生了史上最昂贵的“手”。",
     "url": "https://36kr.com/p/3756226534949634",
@@ -1729,7 +3523,7 @@
     "descriptionEn": "Behind the robot boom, the most expensive \"hand\" in history has been created."
   },
   {
-    "id": 134,
+    "id": 272,
     "title": "遇见全能巅峰，30天吸金30亿：千寻智能做对了什么？",
     "description": "同样的拐点现在正在机器人领域重演。",
     "url": "https://36kr.com/p/3756066027209477",
@@ -1742,7 +3536,7 @@
     "descriptionEn": "The same inflection point is now replaying in the robotics field."
   },
   {
-    "id": 135,
+    "id": 273,
     "title": "AI的订阅模式正在被Agents打破。",
     "description": "人工智能订阅模式与代理的高频使用相矛盾，迫使商业模式进行彻底改革。",
     "url": "https://36kr.com/p/3755426176037636",
@@ -1755,7 +3549,7 @@
     "descriptionEn": "AI subscription models struggle with Agents' high-frequency usage, forcing a business model overhaul."
   },
   {
-    "id": 136,
+    "id": 274,
     "title": "OpenAI 的“硅谷社会主义”愿景是什么样的？",
     "description": "估值万亿美元的OpenAI倡导财富再分配，引发历史性争议。",
     "url": "https://36kr.com/p/3756157448602116",
@@ -1768,20 +3562,20 @@
     "descriptionEn": "OpenAI, valued at a trillion dollars, advocates for wealth redistribution, sparking a historic controversy."
   },
   {
-    "id": 137,
-    "title": "aaif 鹅 / 鹅",
+    "id": 275,
+    "title": "aaif-鹅 / 鹅",
     "description": "一个超越代码建议的开源、可扩展AI智能体——可使用任何大语言模型进行安装、执行、编辑和测试 | 点赞：38,204 复刻：3,705",
     "url": "https://github.com//aaif-goose/goose",
     "source": "github",
     "publishedAt": "2026-04-07",
     "category": "Product, Agent",
-    "titleZh": "aaif 鹅 / 鹅",
+    "titleZh": "aaif-鹅 / 鹅",
     "titleEn": "aaif-goose / goose",
     "descriptionZh": "一个超越代码建议的开源、可扩展AI智能体——可使用任何大语言模型进行安装、执行、编辑和测试 | 点赞：38,204 复刻：3,705",
     "descriptionEn": "An open source, scalable AI agent that goes beyond code suggestions—can be installed, executed, edited, and tested using any large language model | Likes: 38,204 Forks: 3,705"
   },
   {
-    "id": 138,
+    "id": 276,
     "title": "甲骨文与AWS在韩国推出人工智能数据库服务",
     "description": "2026-04-07 03:06:08",
     "url": "http://www.techinasia.com/news/oracle-aws-bring-ai-database-service-to-south-korea",
@@ -1794,7 +3588,7 @@
     "descriptionEn": "2026-04-07 03:06:08"
   },
   {
-    "id": 139,
+    "id": 277,
     "title": "真人拍摄平台进军AI剧舞台，日成本达千万，加速形成竞争格局？",
     "description": "真人拍摄平台入局AI剧如何改变竞争格局？",
     "url": "https://36kr.com/p/3756133066928902",
@@ -1807,7 +3601,7 @@
     "descriptionEn": "How does the entry of real-person filming platforms into AI drama change the competitive landscape?"
   },
   {
-    "id": 140,
+    "id": 278,
     "title": "VOID：视频对象与交互删除",
     "description": "3小时前",
     "url": "https://news.ycombinator.com/item?id=47627998",
@@ -1820,7 +3614,7 @@
     "descriptionEn": "3 hours ago"
   },
   {
-    "id": 141,
+    "id": 279,
     "title": "全球IT公司凯捷推出人工智能驱动的服务管理平台",
     "description": "2026-04-07 02:55:38",
     "url": "http://www.techinasia.com/news/global-firm-kyndryl-launches-aidriven-service-management-platform",
@@ -1833,7 +3627,7 @@
     "descriptionEn": "2026-04-07 02:55:38"
   },
   {
-    "id": 142,
+    "id": 280,
     "title": "一部AI短片23天赚100万！",
     "description": "AI创造者的春天属于他们。",
     "url": "https://www.qbitai.com/2026/04/396890.html",
@@ -1846,7 +3640,7 @@
     "descriptionEn": "The spring of AI creators belongs to them."
   },
   {
-    "id": 143,
+    "id": 281,
     "title": "Netflix Void模型：视频对象与交互删除",
     "description": "2小时前",
     "url": "https://news.ycombinator.com/item?id=47627998",
@@ -1859,7 +3653,7 @@
     "descriptionEn": "2 hours ago"
   },
   {
-    "id": 144,
+    "id": 282,
     "title": "三星因AI芯片需求预计第一季度利润激增",
     "description": "2026-04-07 02:29:59",
     "url": "http://www.techinasia.com/news/samsung-sees-q1-profit-surge-ai-chip-demand",
@@ -1872,7 +3666,7 @@
     "descriptionEn": "2026-04-07 02:29:59"
   },
   {
-    "id": 145,
+    "id": 283,
     "title": "OpenAI以反垄断诉求升级与马斯克的对抗",
     "description": "2026-04-07 02:29:52",
     "url": "http://www.techinasia.com/news/openai-escalates-musk-fight-with-antitrust-push",
@@ -1885,7 +3679,7 @@
     "descriptionEn": "2026-04-07 02:29:52"
   },
   {
-    "id": 146,
+    "id": 284,
     "title": "LG通过与Palantir洽谈深化硅谷AI布局",
     "description": "2026-04-07 02:22:59",
     "url": "http://www.techinasia.com/news/lg-deepens-silicon-valley-ai-push-with-palantir-talks",
@@ -1898,7 +3692,7 @@
     "descriptionEn": "2026-04-07 02:22:59"
   },
   {
-    "id": 147,
+    "id": 285,
     "title": "马云雷军罕见联手，这家公司30天融资30亿元",
     "description": "韩凤涛的愿景是创造下一代智能劳动力。",
     "url": "https://36kr.com/p/3756034195784198",
@@ -1911,7 +3705,7 @@
     "descriptionEn": "Han Fengtao's vision is to create the next generation of intelligent labor."
   },
   {
-    "id": 148,
+    "id": 286,
     "title": "Show HN: Hippo，受生物启发的AI智能体记忆系统",
     "description": "4小时前",
     "url": "https://news.ycombinator.com/item?id=47667672",
@@ -1924,7 +3718,7 @@
     "descriptionEn": "4 hours ago"
   },
   {
-    "id": 149,
+    "id": 287,
     "title": "美国初创公司NeuBird融资1930万美元，以扩展其IT运维人工智能业务",
     "description": "2026-04-07 01:40:32",
     "url": "http://www.techinasia.com/news/us-startup-neubird-raises-19-3m-to-scale-ai-for-it-operations",
@@ -1937,7 +3731,7 @@
     "descriptionEn": "2026-04-07 01:40:32"
   },
   {
-    "id": 150,
+    "id": 288,
     "title": "OpenAI、Anthropic与谷歌联手打击中国境内的AI模型复制行为",
     "description": "2026-04-07 01:33:47",
     "url": "http://www.techinasia.com/news/openai-anthropic-google-fight-ai-model-china",
@@ -1950,7 +3744,7 @@
     "descriptionEn": "2026-04-07 01:33:47"
   },
   {
-    "id": 151,
+    "id": 289,
     "title": "不要只计算代币成本",
     "description": "模型是产品——它的一部分",
     "url": "https://36kr.com/p/3755462803059200",
@@ -1963,7 +3757,7 @@
     "descriptionEn": "The Model is the Product—Part of It"
   },
   {
-    "id": 152,
+    "id": 290,
     "title": "前迪士尼工程师兼 Midjourney 联合创始人志在打造“会呼吸”的 DIY 仿生机器人 |",
     "description": "Animotion 选择“退一步”。",
     "url": "https://36kr.com/p/3754821568578050",
@@ -1976,7 +3770,7 @@
     "descriptionEn": "Animotion Chooses to Take a \"Step Back\"."
   },
   {
-    "id": 153,
+    "id": 291,
     "title": "博通与谷歌达成长期协议，将为其开发人工智能芯片",
     "description": "2026-04-07 01:23:58",
     "url": "http://www.techinasia.com/news/broadcom-develop-google-chips-deal",
@@ -1989,7 +3783,7 @@
     "descriptionEn": "2026-04-07 01:23:58"
   },
   {
-    "id": 154,
+    "id": 292,
     "title": "Anthropic 成立 PAC：厨师着眼于军事战略而不是菜谱",
     "description": "与五角大楼发生冲突后，Anthropic 将目光投向美国中期选举",
     "url": "https://36kr.com/p/3752316200284676",
@@ -2002,7 +3796,7 @@
     "descriptionEn": "After a Clash with the Pentagon, Anthropic Sets Its Sights on the US Midterm Elections"
   },
   {
-    "id": 155,
+    "id": 293,
     "title": "AI会感到绝望吗？ ",
     "description": "从阿谀奉承到作弊，Anthropic 发现人工智能还有另一层含义",
     "url": "https://36kr.com/p/3752096553677574",
@@ -2015,7 +3809,7 @@
     "descriptionEn": "From Sycophancy to Cheating, Anthropic Discovers AI Has Another Layer Within"
   },
   {
-    "id": 156,
+    "id": 294,
     "title": "互联网最值得骄傲的成就正在被人工智能一点点摧毁",
     "description": "轻松是互联网的青春期。",
     "url": "https://36kr.com/p/3752091174433283",
@@ -2028,7 +3822,7 @@
     "descriptionEn": "Lightness was the internet's adolescence. Heaviness may be its mature form."
   },
   {
-    "id": 157,
+    "id": 295,
     "title": "Anthropic扩大与谷歌和博通的合作，共同开发下一代计算",
     "description": "3小时前",
     "url": "https://news.ycombinator.com/item?id=47667717",
@@ -2041,7 +3835,7 @@
     "descriptionEn": "3 hours ago"
   },
   {
-    "id": 158,
+    "id": 296,
     "title": "Anthropic正在消耗越来越多的开发者好感",
     "description": "9小时前",
     "url": "https://news.ycombinator.com/item?id=47662350",
@@ -2052,1097 +3846,5 @@
     "titleEn": "Anthropic is consuming more and more developer favor",
     "descriptionZh": "9小时前",
     "descriptionEn": "9 hours ago"
-  },
-  {
-    "id": 159,
-    "title": "Anthropic扩大与谷歌和博通的合作，以获取数千兆瓦级算力",
-    "description": "2小时前",
-    "url": "https://news.ycombinator.com/item?id=47667717",
-    "source": "hackernews",
-    "publishedAt": "2026-04-07",
-    "category": "Company,Event",
-    "titleZh": "Anthropic扩大与谷歌和博通的合作，以获取数千兆瓦级算力",
-    "titleEn": "Anthropic expands partnerships with Google and Broadcom to acquire multi-terawatt computing power",
-    "descriptionZh": "2小时前",
-    "descriptionEn": "2 hours ago"
-  },
-  {
-    "id": 160,
-    "title": "前OpenAI团队启动目标1亿美元的风险投资基金",
-    "description": "2026-04-06 23:55:07",
-    "url": "http://www.techinasia.com/news/exopenai-team-starts-vc-fund-100m-target",
-    "source": "techinasia",
-    "publishedAt": "2026-04-06",
-    "category": "Company,Event",
-    "titleZh": "前OpenAI团队启动目标1亿美元的风险投资基金",
-    "titleEn": "Former OpenAI team launches venture capital fund targeting $100 million",
-    "descriptionZh": "2026-04-06 23:55:07",
-    "descriptionEn": "2026-04-06 23:55:07"
-  },
-  {
-    "id": 161,
-    "title": "停止与法学硕士聊天：产品经理重构人工智能工作流程指南",
-    "description": "“会用AI”和“用好AI”之间的生产力差距不是30%，而是10倍的数量级。",
-    "url": "https://36kr.com/p/3754709600535298",
-    "source": "36kr",
-    "publishedAt": "2026-04-06",
-    "category": "Product, Industry",
-    "titleZh": "停止与法学硕士聊天：产品经理重构人工智能工作流程指南",
-    "titleEn": "Stop Chatting with LLMs: A Product Manager's Guide to Reconstructing AI Workflows",
-    "descriptionZh": "“会用AI”和“用好AI”之间的生产力差距不是30%，而是10倍的数量级。",
-    "descriptionEn": "The productivity gap between \"being able to use AI\" and \"using AI well\" is not 30%, but an order of magnitude of 10x."
-  },
-  {
-    "id": 162,
-    "title": "谷歌推出由AI驱动的离线听写应用",
-    "description": "2026年4月6日 23:24:01",
-    "url": "http://www.techinasia.com/news/google-launches-offline-dictation-app-powered-ai",
-    "source": "techinasia",
-    "publishedAt": "2026-04-06",
-    "category": "Product,Company",
-    "titleZh": "谷歌推出由AI驱动的离线听写应用",
-    "titleEn": "Google launches AI-powered offline dictation app",
-    "descriptionZh": "2026年4月6日 23:24:01",
-    "descriptionEn": "April 6, 2026 23:24:01"
-  },
-  {
-    "id": 163,
-    "title": "博通与谷歌、Anthropic达成扩大芯片协议",
-    "description": "18分钟前",
-    "url": "https://www.cnbc.com/2026/04/06/broadcom-agrees-to-expanded-chip-deals-with-google-anthropic.html",
-    "source": "arsTechnica",
-    "publishedAt": "2026-04-06",
-    "category": "Company,Event",
-    "titleZh": "博通与谷歌、Anthropic达成扩大芯片协议",
-    "titleEn": "Broadcom reaches expansion chip agreement with Google, Anthropic",
-    "descriptionZh": "18分钟前",
-    "descriptionEn": "18 minutes ago"
-  },
-  {
-    "id": 164,
-    "title": "OpenAI前员工们正悄然运作一个潜在规模达1亿美元的新基金进行投资",
-    "description": "朱莉·博特",
-    "url": "https://techcrunch.com/2026/04/06/openai-alums-have-been-quietly-investing-from-a-new-potentially-100m-fund/",
-    "source": "techcrunch",
-    "publishedAt": "2026-04-06",
-    "category": "Company,Event",
-    "titleZh": "OpenAI前员工们正悄然运作一个潜在规模达1亿美元的新基金进行投资",
-    "titleEn": "Former OpenAI employees are quietly investing in a new fund with a potential size of $100 million",
-    "descriptionZh": "朱莉·博特",
-    "descriptionEn": "Julie Bott"
-  },
-  {
-    "id": 165,
-    "title": "AI歌手现占据iTunes单曲榜十一个席位",
-    "description": "6小时前",
-    "url": "https://news.ycombinator.com/item?id=47662596",
-    "source": "hackernews",
-    "publishedAt": "2026-04-06",
-    "category": "Product, Industry",
-    "titleZh": "AI歌手现占据iTunes单曲榜十一个席位",
-    "titleEn": "AI singers now occupy 11 spots on the iTunes singles chart",
-    "descriptionZh": "6小时前",
-    "descriptionEn": "6 hours ago"
-  },
-  {
-    "id": 166,
-    "title": "Show HN: Ghost Pepper – 适用于 macOS 的本地按住说话语音转文本工具",
-    "description": "1小时前",
-    "url": "https://news.ycombinator.com/item?id=47666024",
-    "source": "hackernews",
-    "publishedAt": "2026-04-06",
-    "category": "Product,Resource",
-    "titleZh": "Show HN: Ghost Pepper – 适用于 macOS 的本地按住说话语音转文本工具",
-    "titleEn": "Show HN: Ghost Pepper – Native press-to-talk speech-to-text tool for macOS",
-    "descriptionZh": "1小时前",
-    "descriptionEn": "1 hour ago"
-  },
-  {
-    "id": 167,
-    "title": "OpenAI要求加州和特拉华州调查马斯克的\"反竞争行为\"",
-    "description": "25分钟前",
-    "url": "https://www.cnbc.com/2026/04/06/openai-asks-california-ag-to-probe-musks-anti-competitive-behavior-.html",
-    "source": "arsTechnica",
-    "publishedAt": "2026-04-06",
-    "category": "Company,Policy",
-    "titleZh": "OpenAI要求加州和特拉华州调查马斯克的\"反竞争行为\"",
-    "titleEn": "OpenAI asks California and Delaware to investigate Musk's \"anti-competitive conduct\"",
-    "descriptionZh": "25分钟前",
-    "descriptionEn": "25 minutes ago"
-  },
-  {
-    "id": 168,
-    "title": "Show HN: Ghost Pepper – 适用于macOS的100%本地按住说话语音转文本工具",
-    "description": "1小时前",
-    "url": "https://news.ycombinator.com/item?id=47666024",
-    "source": "hackernews",
-    "publishedAt": "2026-04-06",
-    "category": "Product, Resource",
-    "titleZh": "Show HN: Ghost Pepper – 适用于macOS的100%本地按住说话语音转文本工具",
-    "titleEn": "Show HN: Ghost Pepper – 100% native press-and-talk speech-to-text tool for macOS",
-    "descriptionZh": "1小时前",
-    "descriptionEn": "1 hour ago"
-  },
-  {
-    "id": 169,
-    "title": "Launch HN: Freestyle – 为编码智能体设计的沙箱环境",
-    "description": "4小时前",
-    "url": "https://news.ycombinator.com/item?id=47663147",
-    "source": "hackernews",
-    "publishedAt": "2026-04-06",
-    "category": "Product, Agent",
-    "titleZh": "Launch HN: Freestyle – 为编码智能体设计的沙箱环境",
-    "titleEn": "Launch HN: Freestyle – A sandbox environment for coding agents",
-    "descriptionZh": "4小时前",
-    "descriptionEn": "4 hours ago"
-  },
-  {
-    "id": 170,
-    "title": "问题：Claude Code在二月更新后已无法用于复杂工程任务",
-    "description": "7小时前",
-    "url": "https://news.ycombinator.com/item?id=47660925",
-    "source": "hackernews",
-    "publishedAt": "2026-04-06",
-    "category": "Product,Company",
-    "titleZh": "问题：Claude Code在二月更新后已无法用于复杂工程任务",
-    "titleEn": "Problem: Claude Code can no longer be used for complex engineering tasks after the February update",
-    "descriptionZh": "7小时前",
-    "descriptionEn": "7 hours ago"
-  },
-  {
-    "id": 171,
-    "title": "摩根士丹利Gapen称：人工智能取代人力的证据在劳动力市场中\"极其微观\"",
-    "description": "13分钟前",
-    "url": "https://www.cnbc.com/video/2026/04/06/evidence-of-ai-displacement-in-labor-market-is-really-micro-says-morgan-stanleys-gapen.html",
-    "source": "arsTechnica",
-    "publishedAt": "2026-04-06",
-    "category": "Industry, Policy",
-    "titleZh": "摩根士丹利Gapen称：人工智能取代人力的证据在劳动力市场中\"极其微观\"",
-    "titleEn": "Morgan Stanley Gapen said: The evidence of artificial intelligence replacing human labor is \"extremely microscopic\" in the labor market",
-    "descriptionZh": "13分钟前",
-    "descriptionEn": "13 minutes ago"
-  },
-  {
-    "id": 172,
-    "title": "OpenAI要求加州和特拉华州调查马斯克的\"反竞争行为\"",
-    "description": "1小时前",
-    "url": "https://www.cnbc.com/2026/04/06/openai-asks-california-ag-to-probe-musks-anti-competitive-behavior-.html",
-    "source": "arsTechnica",
-    "publishedAt": "2026-04-06",
-    "category": "Company, Policy",
-    "titleZh": "OpenAI要求加州和特拉华州调查马斯克的\"反竞争行为\"",
-    "titleEn": "OpenAI asks California and Delaware to investigate Musk's \"anti-competitive conduct\"",
-    "descriptionZh": "1小时前",
-    "descriptionEn": "1 hour ago"
-  },
-  {
-    "id": 173,
-    "title": "OpenAI对人工智能经济的愿景：公共财富基金、机器人税与四天工作制",
-    "description": "丽贝卡·贝兰",
-    "url": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/",
-    "source": "techcrunch",
-    "publishedAt": "2026-04-06",
-    "category": "Policy, Industry",
-    "titleZh": "OpenAI对人工智能经济的愿景：公共财富基金、机器人税与四天工作制",
-    "titleEn": "OpenAI’s vision for the AI ​​economy: Public wealth funds, robot taxes, and the four-day work week",
-    "descriptionZh": "丽贝卡·贝兰",
-    "descriptionEn": "Rebecca Belland"
-  },
-  {
-    "id": 174,
-    "title": "OpenAI请求加州和特拉华州在庭审前调查马斯克的“反竞争行为”",
-    "description": "20分钟前",
-    "url": "https://www.cnbc.com/2026/04/06/openai-asks-california-ag-to-probe-musks-anti-competitive-behavior-.html",
-    "source": "arsTechnica",
-    "publishedAt": "2026-04-06",
-    "category": "Company, Event",
-    "titleZh": "OpenAI请求加州和特拉华州在庭审前调查马斯克的“反竞争行为”",
-    "titleEn": "OpenAI asks California and Delaware to investigate Musk's \"anticompetitive behavior\" ahead of trial",
-    "descriptionZh": "20分钟前",
-    "descriptionEn": "20 minutes ago"
-  },
-  {
-    "id": 175,
-    "title": "媒体抓取工具Gallery-dl收到DMCA通知后迁往Codeberg",
-    "description": "6小时前",
-    "url": "https://news.ycombinator.com/item?id=47656659",
-    "source": "hackernews",
-    "publishedAt": "2026-04-06",
-    "category": "Resource, Event",
-    "titleZh": "媒体抓取工具Gallery-dl收到DMCA通知后迁往Codeberg",
-    "titleEn": "Media scraper Gallery-dl moved to Codeberg after receiving DMCA notice",
-    "descriptionZh": "6小时前",
-    "descriptionEn": "6 hours ago"
-  },
-  {
-    "id": 176,
-    "title": "谷歌悄然推出一款可离线运行的AI听写应用",
-    "description": "伊万·梅塔",
-    "url": "https://techcrunch.com/2026/04/06/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
-    "source": "techcrunch",
-    "publishedAt": "2026-04-06",
-    "category": "Product, Company",
-    "titleZh": "谷歌悄然推出一款可离线运行的AI听写应用",
-    "titleEn": "Google quietly launches an AI dictation app that can run offline",
-    "descriptionZh": "伊万·梅塔",
-    "descriptionEn": "Ivan Mehta"
-  },
-  {
-    "id": 177,
-    "title": "谷歌在iOS平台悄然发布一款离线优先的AI听写应用",
-    "description": "伊万·梅塔",
-    "url": "https://techcrunch.com/2026/04/06/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
-    "source": "techcrunch",
-    "publishedAt": "2026-04-06",
-    "category": "Product,Company",
-    "titleZh": "谷歌在iOS平台悄然发布一款离线优先的AI听写应用",
-    "titleEn": "Google quietly releases an offline-first AI dictation app on the iOS platform",
-    "descriptionZh": "伊万·梅塔",
-    "descriptionEn": "Ivan Mehta"
-  },
-  {
-    "id": 178,
-    "title": "杰克荣/Qwopus3.5-27B-v3",
-    "description": "Jackrong/Qwopus3.5-27B-v3 图像-文本到文本 · 约17小时前更新 下载",
-    "url": "https://huggingface.co/Jackrong/Qwopus3.5-27B-v3",
-    "source": "huggingface",
-    "publishedAt": "2026-04-06",
-    "category": "Model, Resource",
-    "titleZh": "杰克荣/Qwopus3.5-27B-v3",
-    "titleEn": "Jackrong/Qwopus3.5-27B-v3",
-    "descriptionZh": "Jackrong/Qwopus3.5-27B-v3 图像-文本到文本 · 约17小时前更新 下载",
-    "descriptionEn": "Jackrong/Qwopus3.5-27B-v3 Image-Text to Text · Updated about 17 hours ago Download"
-  },
-  {
-    "id": 179,
-    "title": "发布 HN：Freestyle：AI 编程代理的沙盒环境",
-    "description": "2小时前",
-    "url": "https://news.ycombinator.com/item?id=47663147",
-    "source": "hackernews",
-    "publishedAt": "2026-04-06",
-    "category": "Product,Agent",
-    "titleZh": "发布 HN：Freestyle：AI 编程代理的沙盒环境",
-    "titleEn": "Release HN: Freestyle: A sandbox environment for AI programming agents",
-    "descriptionZh": "2小时前",
-    "descriptionEn": "2 hours ago"
-  },
-  {
-    "id": 180,
-    "title": "当病毒式传播成为信息本身：AI 宣传的新时代",
-    "description": "4小时前",
-    "url": "https://news.ycombinator.com/item?id=47661231",
-    "source": "hackernews",
-    "publishedAt": "2026-04-06",
-    "category": "Policy, Industry",
-    "titleZh": "当病毒式传播成为信息本身：AI 宣传的新时代",
-    "titleEn": "When virality becomes the message itself: A new era of AI propaganda",
-    "descriptionZh": "4小时前",
-    "descriptionEn": "4 hours ago"
-  },
-  {
-    "id": 181,
-    "title": "伊朗威胁要打击“星际之门”人工智能数据中心",
-    "description": "丽贝卡·斯库塔克",
-    "url": "https://techcrunch.com/2026/04/06/iran-threatens-stargate-ai-data-centers/",
-    "source": "techcrunch",
-    "publishedAt": "2026-04-06",
-    "category": "Policy, Industry",
-    "titleZh": "伊朗威胁要打击“星际之门”人工智能数据中心",
-    "titleEn": "Iran threatens to crack down on Stargate AI data center",
-    "descriptionZh": "丽贝卡·斯库塔克",
-    "descriptionEn": "Rebecca Skutak"
-  },
-  {
-    "id": 182,
-    "title": "构建语音应用比你想象的更简单：语音AI应用正在快速发展。准备好迎接下一波AI浪潮吧！",
-    "description": "2026年4月6日",
-    "url": "https://www.deeplearning.ai/the-batch/building-voice-enabled-apps-is-easier-than-you-may-think/",
-    "source": "deeplearning",
-    "publishedAt": "2026-04-06",
-    "category": "Product,Industry",
-    "titleZh": "构建语音应用比你想象的更简单：语音AI应用正在快速发展。准备好迎接下一波AI浪潮吧！",
-    "titleEn": "Building voice applications is easier than you think: Voice AI applications are developing rapidly. ",
-    "descriptionZh": "2026年4月6日",
-    "descriptionEn": "April 6, 2026"
-  },
-  {
-    "id": 183,
-    "title": "宣布启动 OpenAI 安全研究员计划",
-    "description": "一项旨在支持独立安全与对齐研究、培养下一代人才的试点项目",
-    "url": "https://openai.com/index/introducing-openai-safety-fellowship",
-    "source": "openai",
-    "publishedAt": "2026-04-06",
-    "category": "Company,Policy",
-    "titleZh": "宣布启动 OpenAI 安全研究员计划",
-    "titleEn": "Announcing the launch of the OpenAI Security Researcher Program",
-    "descriptionZh": "一项旨在支持独立安全与对齐研究、培养下一代人才的试点项目",
-    "descriptionEn": "A pilot program to support independent security and alignment research and develop the next generation of talent"
-  },
-  {
-    "id": 184,
-    "title": "Claude Code在二月更新后已无法胜任复杂的工程任务",
-    "description": "2小时前",
-    "url": "https://news.ycombinator.com/item?id=47660925",
-    "source": "hackernews",
-    "publishedAt": "2026-04-06",
-    "category": "Product, Model",
-    "titleZh": "Claude Code在二月更新后已无法胜任复杂的工程任务",
-    "titleEn": "Claude Code is no longer capable of complex engineering tasks after the February update",
-    "descriptionZh": "2小时前",
-    "descriptionEn": "2 hours ago"
-  },
-  {
-    "id": 185,
-    "title": "众议员戈特海默致信Anthropic首席执行官，警告潜在国家安全风险",
-    "description": "26分钟前",
-    "url": "https://www.cnbc.com/video/2026/04/06/rep-gottheimer-sends-anthropic-ceo-letter-warning-of-potential-national-security-risks.html",
-    "source": "arsTechnica",
-    "publishedAt": "2026-04-06",
-    "category": "Company, Policy",
-    "titleZh": "众议员戈特海默致信Anthropic首席执行官，警告潜在国家安全风险",
-    "titleEn": "Rep. Gottheimer sends letter to Anthropic CEO warning of potential national security risks",
-    "descriptionZh": "26分钟前",
-    "descriptionEn": "26 minutes ago"
-  },
-  {
-    "id": 186,
-    "title": "麻省理工学院教授称，人工智能在提供财务建议方面存在重大缺陷",
-    "description": "2小时前",
-    "url": "https://www.cnbc.com/2026/04/06/ai-has-a-big-problem-when-it-comes-to-financial-advice-mit-professor.html",
-    "source": "arsTechnica",
-    "publishedAt": "2026-04-06",
-    "category": "Policy, Industry",
-    "titleZh": "麻省理工学院教授称，人工智能在提供财务建议方面存在重大缺陷",
-    "titleEn": "MIT professor says artificial intelligence has major flaws in providing financial advice",
-    "descriptionZh": "2小时前",
-    "descriptionEn": "2 hours ago"
-  },
-  {
-    "id": 187,
-    "title": "OpenAI对人工智能经济的愿景：公共财富基金、机器人税与四天工作制",
-    "description": "丽贝卡·贝兰",
-    "url": "https://techcrunch.com/2026/04/06/openais-vision-for-the-ai-economy-public-wealth-funds-robot-taxes-and-a-four-day-work-week/",
-    "source": "techcrunch",
-    "publishedAt": "2026-04-06",
-    "category": "Policy, Industry",
-    "titleZh": "OpenAI对人工智能经济的愿景：公共财富基金、机器人税与四天工作制",
-    "titleEn": "OpenAI’s vision for the AI ​​economy: Public wealth funds, robot taxes, and the four-day work week",
-    "descriptionZh": "丽贝卡·贝兰",
-    "descriptionEn": "Rebecca Belland"
-  },
-  {
-    "id": 188,
-    "title": "HauhauCS/Gemma-4-E4B-无审查版-HauhauCS-激进版",
-    "description": "HauhauCS/Gemma-4-E4B-无审查版-HauhauCS-激进版 图像-文本到文本 · 约12小时前更新 下载",
-    "url": "https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
-    "source": "huggingface",
-    "publishedAt": "2026-04-06",
-    "category": "Model,Resource",
-    "titleZh": "HauhauCS/Gemma-4-E4B-无审查版-HauhauCS-激进版",
-    "titleEn": "HauhauCS/Gemma-4-E4B-uncensored version-HauhauCS-radical version",
-    "descriptionZh": "HauhauCS/Gemma-4-E4B-无审查版-HauhauCS-激进版 图像-文本到文本 · 约12小时前更新 下载",
-    "descriptionEn": "HauhauCS/Gemma-4-E4B-Uncensored Version-HauhauCS-Radical Version Image-Text to Text · Updated about 12 hours ago Download"
-  },
-  {
-    "id": 189,
-    "title": "我的大学利用提示注入技术来抓作弊者",
-    "description": "17小时前",
-    "url": "https://news.ycombinator.com/item?id=47654317",
-    "source": "hackernews",
-    "publishedAt": "2026-04-06",
-    "category": "Policy,Learning",
-    "titleZh": "我的大学利用提示注入技术来抓作弊者",
-    "titleEn": "My university uses tip injection technology to catch cheaters",
-    "descriptionZh": "17小时前",
-    "descriptionEn": "17 hours ago"
-  },
-  {
-    "id": 190,
-    "title": "山姆·奥特曼或许掌控着我们的未来——他值得信赖吗？",
-    "description": "4小时前",
-    "url": "https://news.ycombinator.com/item?id=47659135",
-    "source": "hackernews",
-    "publishedAt": "2026-04-06",
-    "category": "Company, Policy",
-    "titleZh": "山姆·奥特曼或许掌控着我们的未来——他值得信赖吗？",
-    "titleEn": "Ultraman Sam may control our future—can he be trusted?",
-    "descriptionZh": "4小时前",
-    "descriptionEn": "4 hours ago"
-  },
-  {
-    "id": 191,
-    "title": "使用大语言模型编程是否意味着更多的微服务？",
-    "description": "11小时前",
-    "url": "https://news.ycombinator.com/item?id=47656335",
-    "source": "hackernews",
-    "publishedAt": "2026-04-06",
-    "category": "Model, Industry",
-    "titleZh": "使用大语言模型编程是否意味着更多的微服务？",
-    "titleEn": "Does programming with a large language model mean more microservices?",
-    "descriptionZh": "11小时前",
-    "descriptionEn": "11 hours ago"
-  },
-  {
-    "id": 192,
-    "title": "西班牙Xoople公司完成1.3亿美元B轮融资，旨在为AI绘制地球地图",
-    "description": "蒂姆·费恩霍尔兹",
-    "url": "https://techcrunch.com/2026/04/06/spains-xoople-raises-130-million-series-b-to-map-the-earth-for-ai/",
-    "source": "techcrunch",
-    "publishedAt": "2026-04-06",
-    "category": "Company, Industry",
-    "titleZh": "西班牙Xoople公司完成1.3亿美元B轮融资，旨在为AI绘制地球地图",
-    "titleEn": "Spanish company Xoople completed US$130 million in Series B financing, aiming to map the earth for AI",
-    "descriptionZh": "蒂姆·费恩霍尔兹",
-    "descriptionEn": "Tim Feinholz"
-  },
-  {
-    "id": 193,
-    "title": "麻省理工学院教授称：AI或取代你的财务顾问，但存在一大障碍",
-    "description": "23分钟前",
-    "url": "https://www.cnbc.com/2026/04/06/ai-has-a-big-problem-when-it-comes-to-financial-advice-mit-professor.html",
-    "source": "arsTechnica",
-    "publishedAt": "2026-04-06",
-    "category": "Industry,Policy",
-    "titleZh": "麻省理工学院教授称：AI或取代你的财务顾问，但存在一大障碍",
-    "titleEn": "MIT professor says AI could replace your financial advisor, but there’s a big obstacle",
-    "descriptionZh": "23分钟前",
-    "descriptionEn": "23 minutes ago"
-  },
-  {
-    "id": 194,
-    "title": "麻省理工学院的Sinan Aral谈电网电力与AI热潮：混合模式能兼取两者之长",
-    "description": "32分钟前",
-    "url": "https://www.cnbc.com/video/2026/04/06/mits-sinan-aral-on-grid-power-the-ai-boom-a-hybrid-model-gets-the-best-of-both-worlds.html",
-    "source": "arsTechnica",
-    "publishedAt": "2026-04-06",
-    "category": "Industry, Policy",
-    "titleZh": "麻省理工学院的Sinan Aral谈电网电力与AI热潮：混合模式能兼取两者之长",
-    "titleEn": "MIT's Sinan Aral on Grid Power and the AI ​​Boom: A Hybrid Model Can Get the Best of Both Worlds",
-    "descriptionZh": "32分钟前",
-    "descriptionEn": "32 minutes ago"
-  },
-  {
-    "id": 195,
-    "title": "英伟达和谷歌是公开市场上最安全的AI投资选择：Intelligent Alpha CEO Doug Clinton",
-    "description": "9分钟前",
-    "url": "https://www.cnbc.com/video/2026/04/06/nvidia-and-google-are-the-safest-ai-bets-in-public-markets-intelligent-alpha-ceo-doug-clinton.html",
-    "source": "arsTechnica",
-    "publishedAt": "2026-04-06",
-    "category": "Company,Industry",
-    "titleZh": "英伟达和谷歌是公开市场上最安全的AI投资选择：Intelligent Alpha CEO Doug Clinton",
-    "titleEn": "Nvidia and Google are safest AI investment options on public markets: Intelligent Alpha CEO Doug Clinton",
-    "descriptionZh": "9分钟前",
-    "descriptionEn": "9 minutes ago"
-  },
-  {
-    "id": 196,
-    "title": "伊朗伊斯兰革命卫队公布OpenAI价值300亿美元星际之门数据中心的卫星图像",
-    "description": "16小时前",
-    "url": "https://news.ycombinator.com/item?id=47652549",
-    "source": "hackernews",
-    "publishedAt": "2026-04-06",
-    "category": "Company, Event",
-    "titleZh": "伊朗伊斯兰革命卫队公布OpenAI价值300亿美元星际之门数据中心的卫星图像",
-    "titleEn": "Iran’s Islamic Revolutionary Guard Corps releases satellite images of OpenAI’s $30 billion Stargate data center",
-    "descriptionZh": "16小时前",
-    "descriptionEn": "16 hours ago"
-  },
-  {
-    "id": 197,
-    "title": "托比/qmd",
-    "description": "为您的文档、知识库、会议笔记等打造的迷你命令行搜索引擎。追踪当前最先进的方法，同时完全本地运行。| 点赞：18,291 复刻：1,115",
-    "url": "https://github.com//tobi/qmd",
-    "source": "github",
-    "publishedAt": "2026-04-06",
-    "category": "Product, Resource",
-    "titleZh": "托比/qmd",
-    "titleEn": "tobi / qmd",
-    "descriptionZh": "为您的文档、知识库、会议笔记等打造的迷你命令行搜索引擎。追踪当前最先进的方法，同时完全本地运行。| 点赞：18,291 复刻：1,115",
-    "descriptionEn": "A mini command-line search engine for your documents, knowledge base, meeting notes, and more. "
-  },
-  {
-    "id": 198,
-    "title": "OpenAI提议设立财富基金以应对AI驱动的就业冲击",
-    "description": "2026-04-06 10:29:22",
-    "url": "http://www.techinasia.com/news/openai-proposes-wealth-fund-for-ai-driven-job-shocks",
-    "source": "techinasia",
-    "publishedAt": "2026-04-06",
-    "category": "Policy, Industry",
-    "titleZh": "OpenAI提议设立财富基金以应对AI驱动的就业冲击",
-    "titleEn": "OpenAI proposes wealth fund to combat AI-driven job impact",
-    "descriptionZh": "2026-04-06 10:29:22",
-    "descriptionEn": "2026-04-06 10:29:22"
-  },
-  {
-    "id": 199,
-    "title": "展示 HN：Modo – 我构建了一个 Kiro、Cursor 和 Windsurf 的开源替代品",
-    "description": "10小时前",
-    "url": "https://news.ycombinator.com/item?id=47655268",
-    "source": "hackernews",
-    "publishedAt": "2026-04-06",
-    "category": "Product,Resource",
-    "titleZh": "展示 HN：Modo – 我构建了一个 Kiro、Cursor 和 Windsurf 的开源替代品",
-    "titleEn": "Showcase HN: Modo – I built an open source alternative to Kiro, Cursor and Windsurf",
-    "descriptionZh": "10小时前",
-    "descriptionEn": "10 hours ago"
-  },
-  {
-    "id": 200,
-    "title": "LG押注人形机器人部件，启动集团范围内全面推动",
-    "description": "2026-04-06 09:52:16",
-    "url": "http://www.techinasia.com/news/lg-bets-on-humanoid-robot-parts-with-groupwide-push",
-    "source": "techinasia",
-    "publishedAt": "2026-04-06",
-    "category": "Company,Robot",
-    "titleZh": "LG押注人形机器人部件，启动集团范围内全面推动",
-    "titleEn": "LG bets on humanoid robot components and launches group-wide comprehensive push",
-    "descriptionZh": "2026-04-06 09:52:16",
-    "descriptionEn": "2026-04-06 09:52:16"
-  },
-  {
-    "id": 201,
-    "title": "Anthropic切断第三方AI代理对Claude的访问",
-    "description": "2026-04-06 09:36:08",
-    "url": "http://www.techinasia.com/news/anthropic-cuts-claude-access-for-third-party-ai-agents",
-    "source": "techinasia",
-    "publishedAt": "2026-04-06",
-    "category": "Company,Product",
-    "titleZh": "Anthropic切断第三方AI代理对Claude的访问",
-    "titleEn": "Anthropic cuts off third-party AI agents' access to Claude",
-    "descriptionZh": "2026-04-06 09:36:08",
-    "descriptionEn": "2026-04-06 09:36:08"
-  },
-  {
-    "id": 202,
-    "title": "为何云端AI在工厂车间行不通",
-    "description": "2026-04-06 09:30:55",
-    "url": "http://www.techinasia.com/why-cloud-ai-fails-on-the-factory-floor",
-    "source": "techinasia",
-    "publishedAt": "2026-04-06",
-    "category": "Industry, Robot",
-    "titleZh": "为何云端AI在工厂车间行不通",
-    "titleEn": "Why cloud AI won’t work on the factory floor",
-    "descriptionZh": "2026-04-06 09:30:55",
-    "descriptionEn": "2026-04-06 09:30:55"
-  },
-  {
-    "id": 203,
-    "title": "智能时代的产业政策",
-    "description": "探索我们为人工智能时代制定的、以人为本的宏伟产业政策构想——其核心在于，随着高级智能的发展，致力于扩大机遇、共享繁荣并建设具有韧性的制度体系。",
-    "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
-    "source": "openai",
-    "publishedAt": "2026-04-06",
-    "category": "Policy, Industry",
-    "titleZh": "智能时代的产业政策",
-    "titleEn": "Industrial policy in the smart era",
-    "descriptionZh": "探索我们为人工智能时代制定的、以人为本的宏伟产业政策构想——其核心在于，随着高级智能的发展，致力于扩大机遇、共享繁荣并建设具有韧性的制度体系。",
-    "descriptionEn": "Explore our ambitious vision for human-centered industrial policy for the age of artificial intelligence—at its core, a commitment to expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence develops."
-  },
-  {
-    "id": 204,
-    "title": "现代汽车集团获国家支持，将建设59亿美元人工智能机器人中心",
-    "description": "2026-04-06 09:27:18",
-    "url": "http://www.techinasia.com/news/hyundai-secures-state-backing-for-5-9b-ai-robotics-hub",
-    "source": "techinasia",
-    "publishedAt": "2026-04-06",
-    "category": "Company,Robot",
-    "titleZh": "现代汽车集团获国家支持，将建设59亿美元人工智能机器人中心",
-    "titleEn": "Hyundai Motor Group receives state support to build a US$5.9 billion artificial intelligence robotics center",
-    "descriptionZh": "2026-04-06 09:27:18",
-    "descriptionEn": "2026-04-06 09:27:18"
-  },
-  {
-    "id": 205,
-    "title": "谷歌/gemma-4-E2B",
-    "description": "google/gemma-4-E2B 任意到任意 · 4天前更新 下载",
-    "url": "https://huggingface.co/google/gemma-4-E2B",
-    "source": "huggingface",
-    "publishedAt": "2026-04-06",
-    "category": "Model, Company",
-    "titleZh": "谷歌/gemma-4-E2B",
-    "titleEn": "google/gemma-4-E2B",
-    "descriptionZh": "google/gemma-4-E2B 任意到任意 · 4天前更新 下载",
-    "descriptionEn": "google/gemma-4-E2B Any to Any · Updated 4 days ago Download"
-  },
-  {
-    "id": 206,
-    "title": "新世界集团与OpenAI合作，共拓人工智能商务领域",
-    "description": "2026-04-06 07:56:14",
-    "url": "https://www.techinasia.com/news/shinsegae-openai-partner-for-ai-commerce",
-    "source": "techinasia",
-    "publishedAt": "2026-04-06",
-    "category": "Company,Event",
-    "titleZh": "新世界集团与OpenAI合作，共拓人工智能商务领域",
-    "titleEn": "New World Group cooperates with OpenAI to jointly expand the field of artificial intelligence business",
-    "descriptionZh": "2026-04-06 07:56:14",
-    "descriptionEn": "2026-04-06 07:56:14"
-  },
-  {
-    "id": 207,
-    "title": "Show HN：在 M3 Pro 上使用 Gemma E2B 实现实时 AI（音频/视频输入，语音输出）",
-    "description": "3小时前",
-    "url": "https://news.ycombinator.com/item?id=47652007",
-    "source": "hackernews",
-    "publishedAt": "2026-04-06",
-    "category": "Product,Model",
-    "titleZh": "Show HN：在 M3 Pro 上使用 Gemma E2B 实现实时 AI（音频/视频输入，语音输出）",
-    "titleEn": "Show HN: Real-time AI (audio/video input, voice output) using Gemma E2B on M3 Pro",
-    "descriptionZh": "3小时前",
-    "descriptionEn": "3 hours ago"
-  },
-  {
-    "id": 208,
-    "title": "报告显示：印度尼西亚在线购物中人工智能使用率达82%",
-    "description": "2026-04-06 07:14:01",
-    "url": "http://www.techinasia.com/news/ai-online-shopping-hits-82-indonesia-report",
-    "source": "techinasia",
-    "publishedAt": "2026-04-06",
-    "category": "Industry, Product",
-    "titleZh": "报告显示：印度尼西亚在线购物中人工智能使用率达82%",
-    "titleEn": "Report shows: Artificial intelligence usage rate in Indonesia’s online shopping reaches 82%",
-    "descriptionZh": "2026-04-06 07:14:01",
-    "descriptionEn": "2026-04-06 07:14:01"
-  },
-  {
-    "id": 209,
-    "title": "部署赫尔墨斯",
-    "description": "专属Telegram AI助手，一分钟内即刻启用",
-    "url": "https://www.producthunt.com/products/deployhermes",
-    "source": "producthunts",
-    "publishedAt": "2026-04-06",
-    "category": "Product,Agent",
-    "titleZh": "部署赫尔墨斯",
-    "titleEn": "Deploy Hermes",
-    "descriptionZh": "专属Telegram AI助手，一分钟内即刻启用",
-    "descriptionEn": "Exclusive Telegram AI assistant, instantly activated within one minute"
-  },
-  {
-    "id": 210,
-    "title": "克雷夫",
-    "description": "为电商品牌打造的AI创意助手",
-    "url": "https://www.producthunt.com/products/krev",
-    "source": "producthunts",
-    "publishedAt": "2026-04-06",
-    "category": "Product, Agent",
-    "titleZh": "克雷夫",
-    "titleEn": "KREV",
-    "descriptionZh": "为电商品牌打造的AI创意助手",
-    "descriptionEn": "AI creative assistant built for e-commerce brands"
-  },
-  {
-    "id": 211,
-    "title": "麦莱罗",
-    "description": "将客服邮件一键转为工单",
-    "url": "https://www.producthunt.com/products/mailero",
-    "source": "producthunts",
-    "publishedAt": "2026-04-06",
-    "category": "Product",
-    "titleZh": "麦莱罗",
-    "titleEn": "Mailero",
-    "descriptionZh": "将客服邮件一键转为工单",
-    "descriptionEn": "Convert customer service emails into work orders with one click"
-  },
-  {
-    "id": 212,
-    "title": "玻璃大脑",
-    "description": "AI应用可视化追踪回放，一键修复错误",
-    "url": "https://www.producthunt.com/products/glassbrain",
-    "source": "producthunts",
-    "publishedAt": "2026-04-06",
-    "category": "Product,Resource",
-    "titleZh": "玻璃大脑",
-    "titleEn": "Glassbrain",
-    "descriptionZh": "AI应用可视化追踪回放，一键修复错误",
-    "descriptionEn": "AI application visual tracking playback, one-click error repair"
-  },
-  {
-    "id": 213,
-    "title": "Rectify的AgentPulse",
-    "description": "OpenClaw的完整可视化呈现。专为团队和机构设计。",
-    "url": "https://www.producthunt.com/products/rectify",
-    "source": "producthunts",
-    "publishedAt": "2026-04-06",
-    "category": "Product,Agent",
-    "titleZh": "Rectify的AgentPulse",
-    "titleEn": "AgentPulse by Rectify",
-    "descriptionZh": "OpenClaw的完整可视化呈现。专为团队和机构设计。",
-    "descriptionEn": "A complete visual representation of OpenClaw. "
-  },
-  {
-    "id": 214,
-    "title": "改编",
-    "description": "面向运动员的AI物理治疗",
-    "url": "https://www.producthunt.com/products/adapted-health",
-    "source": "producthunts",
-    "publishedAt": "2026-04-06",
-    "category": "Product, Industry",
-    "titleZh": "改编",
-    "titleEn": "Adapted",
-    "descriptionZh": "面向运动员的AI物理治疗",
-    "descriptionEn": "AI physical therapy for athletes"
-  },
-  {
-    "id": 215,
-    "title": "Epismo 上下文包",
-    "description": "适用于智能体工作流程的便携式记忆",
-    "url": "https://www.producthunt.com/products/epismo",
-    "source": "producthunts",
-    "publishedAt": "2026-04-06",
-    "category": "Product, Agent",
-    "titleZh": "Epismo 上下文包",
-    "titleEn": "Epismo context package",
-    "descriptionZh": "适用于智能体工作流程的便携式记忆",
-    "descriptionEn": "Portable memory for agent workflows"
-  },
-  {
-    "id": 216,
-    "title": "梅托罗",
-    "description": "能检测、根因分析并自动修复K8s事件的AI SRE",
-    "url": "https://www.producthunt.com/products/metoro",
-    "source": "producthunts",
-    "publishedAt": "2026-04-06",
-    "category": "Product,Company",
-    "titleZh": "梅托罗",
-    "titleEn": "Metoro",
-    "descriptionZh": "能检测、根因分析并自动修复K8s事件的AI SRE",
-    "descriptionEn": "AI SRE that can detect, root cause analysis and automatically repair K8s events"
-  },
-  {
-    "id": 217,
-    "title": "像素宇宙 V6",
-    "description": "重新定义视频智能的前沿AI产品",
-    "url": "https://www.producthunt.com/products/pixverse",
-    "source": "producthunts",
-    "publishedAt": "2026-04-06",
-    "category": "Product, Model",
-    "titleZh": "像素宇宙 V6",
-    "titleEn": "PixVerse V6",
-    "descriptionZh": "重新定义视频智能的前沿AI产品",
-    "descriptionEn": "Cutting-edge AI products that redefine video intelligence"
-  },
-  {
-    "id": 218,
-    "title": "预流人工智能",
-    "description": "您的广告效果AI智能体",
-    "url": "https://www.producthunt.com/products/predflow-2",
-    "source": "producthunts",
-    "publishedAt": "2026-04-06",
-    "category": "Product, Agent",
-    "titleZh": "预流人工智能",
-    "titleEn": "Predflow AI",
-    "descriptionZh": "您的广告效果AI智能体",
-    "descriptionEn": "Your advertising performance AI agent"
-  },
-  {
-    "id": 219,
-    "title": "对讲机",
-    "description": "免费的本地语音转文字工具",
-    "url": "https://www.producthunt.com/products/b150",
-    "source": "producthunts",
-    "publishedAt": "2026-04-06",
-    "category": "Product, Resource",
-    "titleZh": "对讲机",
-    "titleEn": "Walkie",
-    "descriptionZh": "免费的本地语音转文字工具",
-    "descriptionEn": "Free local speech to text tool"
-  },
-  {
-    "id": 220,
-    "title": "李洛夫：克劳德龙虾认购禁令背后，真正的解决方案不是更便宜的代币",
-    "description": "Agent时代，我们不能再肆意燃烧算力",
-    "url": "https://36kr.com/p/3754978719220486",
-    "source": "36kr",
-    "publishedAt": "2026-04-06",
-    "category": "Model,Agent",
-    "titleZh": "李洛夫：克劳德龙虾认购禁令背后，真正的解决方案不是更便宜的代币",
-    "titleEn": "Luofu Li: Behind the Claude Subscription Ban on Lobster, the Real Solution Isn't Cheaper Tokens",
-    "descriptionZh": "Agent时代，我们不能再肆意燃烧算力",
-    "descriptionEn": "In the Agent Era, We Can No Longer Recklessly Burn Computing Power"
-  },
-  {
-    "id": 221,
-    "title": "GPT-6提前发布？",
-    "description": "史上最贵IPO：要么统治世界，要么当场自毁",
-    "url": "https://36kr.com/p/3754937730908674",
-    "source": "36kr",
-    "publishedAt": "2026-04-06",
-    "category": "Model,Company",
-    "titleZh": "GPT-6提前发布？",
-    "titleEn": "GPT-6 Released Early? Mythos Rumored to Be Stalled, Staggering Compute Costs Reportedly Overwhelm Anthropic",
-    "descriptionZh": "史上最贵IPO：要么统治世界，要么当场自毁",
-    "descriptionEn": "The Most Expensive IPO in History: Either Rule the World or Self-Destruct on the Spot"
-  },
-  {
-    "id": 222,
-    "title": "展示 HN：我做了一个带高级过滤器的 YouTube 搜索表单",
-    "description": "6小时前",
-    "url": "https://news.ycombinator.com/item?id=47655392",
-    "source": "hackernews",
-    "publishedAt": "2026-04-06",
-    "category": "Product,Resource",
-    "titleZh": "展示 HN：我做了一个带高级过滤器的 YouTube 搜索表单",
-    "titleEn": "Showcase HN: I made a YouTube search form with advanced filters",
-    "descriptionZh": "6小时前",
-    "descriptionEn": "6 hours ago"
-  },
-  {
-    "id": 223,
-    "title": "展示 HN：Gemma Gem – 嵌入浏览器的AI模型 – 无需API密钥，无需云端",
-    "description": "6小时前",
-    "url": "https://news.ycombinator.com/item?id=47655367",
-    "source": "hackernews",
-    "publishedAt": "2026-04-06",
-    "category": "Product,Model",
-    "titleZh": "展示 HN：Gemma Gem – 嵌入浏览器的AI模型 – 无需API密钥，无需云端",
-    "titleEn": "Showcase HN: Gemma Gem – AI models embedded in the browser – no API keys, no cloud required",
-    "descriptionZh": "6小时前",
-    "descriptionEn": "6 hours ago"
-  },
-  {
-    "id": 224,
-    "title": "GEN-1 介绍 [视频]",
-    "description": "8小时前",
-    "url": "https://news.ycombinator.com/item?id=47654649",
-    "source": "hackernews",
-    "publishedAt": "2026-04-06",
-    "category": "Product,Model",
-    "titleZh": "GEN-1 介绍 [视频]",
-    "titleEn": "GEN-1 Introduction [Video]",
-    "descriptionZh": "8小时前",
-    "descriptionEn": "8 hours ago"
-  },
-  {
-    "id": 225,
-    "title": "据报道OpenAI首席财务官对2026年IPO表示担忧",
-    "description": "2026年04月06日 06:01:54",
-    "url": "http://www.techinasia.com/news/openai-cfo-reportedly-raises-concerns-2026-ipo",
-    "source": "techinasia",
-    "publishedAt": "2026-04-06",
-    "category": "Company, Event",
-    "titleZh": "据报道OpenAI首席财务官对2026年IPO表示担忧",
-    "titleEn": "OpenAI CFO reportedly worried about 2026 IPO",
-    "descriptionZh": "2026年04月06日 06:01:54",
-    "descriptionEn": "April 06, 2026 06:01:54"
-  },
-  {
-    "id": 226,
-    "title": "OpenAI又陷入内讧！ ",
-    "description": "网友：感觉今年不能上市了",
-    "url": "https://36kr.com/p/3754937384436484",
-    "source": "36kr",
-    "publishedAt": "2026-04-06",
-    "category": "Company, Event",
-    "titleZh": "OpenAI又陷入内讧！ ",
-    "titleEn": "OpenAI is embroiled in internal strife again! Major leadership reshuffle on the eve of IPO",
-    "descriptionZh": "网友：感觉今年不能上市了",
-    "descriptionEn": "Netizens: It feels like they won't be able to go public this year"
-  },
-  {
-    "id": 227,
-    "title": "Qwen-3.6-Plus是首个实现单日处理超1万亿tokens的模型",
-    "description": "8小时前",
-    "url": "https://news.ycombinator.com/item?id=47653975",
-    "source": "hackernews",
-    "publishedAt": "2026-04-06",
-    "category": "Model,Company",
-    "titleZh": "Qwen-3.6-Plus是首个实现单日处理超1万亿tokens的模型",
-    "titleEn": "Qwen-3.6-Plus is the first model to process over 1 trillion tokens in a single day",
-    "descriptionZh": "8小时前",
-    "descriptionEn": "8 hours ago"
-  },
-  {
-    "id": 228,
-    "title": "Anthropic的观点：不追逐科技巨头或许是更明智之举",
-    "description": "2026-04-06 05:30:27",
-    "url": "http://www.techinasia.com/anthropics-why-not-chasing-big-tech",
-    "source": "techinasia",
-    "publishedAt": "2026-04-06",
-    "category": "Company, Industry",
-    "titleZh": "Anthropic的观点：不追逐科技巨头或许是更明智之举",
-    "titleEn": "Anthropic’s take: It might be smarter not to chase tech giants",
-    "descriptionZh": "2026-04-06 05:30:27",
-    "descriptionEn": "2026-04-06 05:30:27"
-  },
-  {
-    "id": 229,
-    "title": "从“局部草图”到“全局布局”：变革离线强化学习 | ",
-    "description": "核心思想：从勾勒框架到细化细节",
-    "url": "https://www.qbitai.com/2026/04/396738.html",
-    "source": "qbitai",
-    "publishedAt": "2026-04-06",
-    "category": "Paper, Learning",
-    "titleZh": "从“局部草图”到“全局布局”：变革离线强化学习 | ",
-    "titleEn": "From \"Local Sketching\" to \"Global Layout\": Transforming Offline Reinforcement Learning | ICLR'26",
-    "descriptionZh": "核心思想：从勾勒框架到细化细节",
-    "descriptionEn": "Core Idea: From Outlining the Framework to Refining the Details"
-  },
-  {
-    "id": 230,
-    "title": "事实证明，体现缩放法则是正确的！ ",
-    "description": "机器人模型竞争达到新高度",
-    "url": "https://www.qbitai.com/2026/04/396694.html",
-    "source": "qbitai",
-    "publishedAt": "2026-04-06",
-    "category": "Model, Robot",
-    "titleZh": "事实证明，体现缩放法则是正确的！ ",
-    "titleEn": "Embodied Scaling Law Proves Right! Unicorn's New Product Learns New Tasks in 1 Hour, Achieves 99% Success Rate Over 1800 Repetitions",
-    "descriptionZh": "机器人模型竞争达到新高度",
-    "descriptionEn": "Robot Models Reach New Heights of Competition"
-  },
-  {
-    "id": 231,
-    "title": "19岁从常春藤盟校退学，这群中国年轻人重构AI记忆",
-    "description": "唯一对共指解析的原生支持，显着领先基准",
-    "url": "https://www.qbitai.com/2026/04/396069.html",
-    "source": "qbitai",
-    "publishedAt": "2026-04-06",
-    "category": "Model,Company",
-    "titleZh": "19岁从常春藤盟校退学，这群中国年轻人重构AI记忆",
-    "titleEn": "At 19, Dropping Out of Ivy League, This Group of Chinese Youth Reconstructed AI Memory",
-    "descriptionZh": "唯一对共指解析的原生支持，显着领先基准",
-    "descriptionEn": "The Only Native Support for Coreference Resolution, Phenomenally Leading the Benchmark"
-  },
-  {
-    "id": 232,
-    "title": "空向左阿里巴巴向右：多才多艺的表演模式首次亮相钱文APP",
-    "description": "钱文APP迎来AI内容创作的史诗级增强",
-    "url": "https://www.qbitai.com/2026/04/395477.html",
-    "source": "qbitai",
-    "publishedAt": "2026-04-06",
-    "category": "Product,Model",
-    "titleZh": "空向左阿里巴巴向右：多才多艺的表演模式首次亮相钱文APP",
-    "titleEn": "Sora Goes Left, Alibaba Goes Right: The Versatile Acting Model Debuts on the Qianwen APP",
-    "descriptionZh": "钱文APP迎来AI内容创作的史诗级增强",
-    "descriptionEn": "Qianwen APP Welcomes an Epic Enhancement for AI Content Creation"
-  },
-  {
-    "id": 233,
-    "title": "iPhone 本地运行 Gemma 4 火爆，我们离零代币时代还有多远？",
-    "description": "您可以运行许多任务，而无需花钱购买代币。",
-    "url": "https://36kr.com/p/3754860403294985",
-    "source": "36kr",
-    "publishedAt": "2026-04-06",
-    "category": "Model, Product",
-    "titleZh": "iPhone 本地运行 Gemma 4 火爆，我们离零代币时代还有多远？",
-    "titleEn": "Running Gemma 4 Locally on iPhone Goes Viral, How Far Are We from the Zero-Token Era?",
-    "descriptionZh": "您可以运行许多任务，而无需花钱购买代币。",
-    "descriptionEn": "You can run many tasks without spending money on tokens."
-  },
-  {
-    "id": 234,
-    "title": "“沉默的杀手”：人工智能如何试图解决零售业的退货难题",
-    "description": "2026年4月5日 星期日",
-    "url": "https://www.cnbc.com/2026/04/05/ai-retail-start-ups-virtual-try-on-tech-margins.html",
-    "source": "arsTechnica",
-    "publishedAt": "2026-04-06",
-    "category": "Industry, Product",
-    "titleZh": "“沉默的杀手”：人工智能如何试图解决零售业的退货难题",
-    "titleEn": "The 'silent killer': How artificial intelligence is trying to solve retail's returns woes",
-    "descriptionZh": "2026年4月5日 星期日",
-    "descriptionEn": "Sunday, April 5, 2026"
-  },
-  {
-    "id": 235,
-    "title": "根据微软使用条款，Copilot“仅用于娱乐目的”",
-    "description": "4小时前",
-    "url": "https://news.ycombinator.com/item?id=47655329",
-    "source": "hackernews",
-    "publishedAt": "2026-04-06",
-    "category": "Product, Policy",
-    "titleZh": "根据微软使用条款，Copilot“仅用于娱乐目的”",
-    "titleEn": "According to Microsoft's terms of use, Copilot is \"for entertainment purposes only\"",
-    "descriptionZh": "4小时前",
-    "descriptionEn": "4 hours ago"
-  },
-  {
-    "id": 236,
-    "title": "克劳德4小时攻破世界最安全系统，人类最后一道防线沦陷",
-    "description": "人工智能已正式越过卢比孔河",
-    "url": "https://36kr.com/p/3754727404389121",
-    "source": "36kr",
-    "publishedAt": "2026-04-06",
-    "category": "Model,Event",
-    "titleZh": "克劳德4小时攻破世界最安全系统，人类最后一道防线沦陷",
-    "titleEn": "Claude Breaches the World's Most Secure System in 4 Hours, Humanity's Last Line of Defense Falls",
-    "descriptionZh": "人工智能已正式越过卢比孔河",
-    "descriptionEn": "AI Has Officially Crossed the Rubicon"
-  },
-  {
-    "id": 237,
-    "title": "GPT-6 暴露",
-    "description": "奥特曼的最后一搏",
-    "url": "https://36kr.com/p/3754726863012361",
-    "source": "36kr",
-    "publishedAt": "2026-04-06",
-    "category": "Model,Company",
-    "titleZh": "GPT-6 暴露",
-    "titleEn": "GPT-6 Exposed",
-    "descriptionZh": "奥特曼的最后一搏",
-    "descriptionEn": "Altman's Last-Ditch Gamble"
-  },
-  {
-    "id": 238,
-    "title": "展示 HN：我构建了一个微型 LLM 来揭秘语言模型的工作原理",
-    "description": "2小时前",
-    "url": "https://news.ycombinator.com/item?id=47655408",
-    "source": "hackernews",
-    "publishedAt": "2026-04-06",
-    "category": "Model,Learning",
-    "titleZh": "展示 HN：我构建了一个微型 LLM 来揭秘语言模型的工作原理",
-    "titleEn": "Showcase HN: I built a tiny LLM to demystify how language models work",
-    "descriptionZh": "2小时前",
-    "descriptionEn": "2 hours ago"
-  },
-  {
-    "id": 239,
-    "title": "投资者涌向Anthropic，OpenAI光环褪色",
-    "description": "2小时前",
-    "url": "https://news.ycombinator.com/item?id=47655058",
-    "source": "hackernews",
-    "publishedAt": "2026-04-06",
-    "category": "Company, Event",
-    "titleZh": "投资者涌向Anthropic，OpenAI光环褪色",
-    "titleEn": "Investors flock to Anthropic, OpenAI’s halo fades",
-    "descriptionZh": "2小时前",
-    "descriptionEn": "2 hours ago"
-  },
-  {
-    "id": 240,
-    "title": "黄仁勋最新专访：要想成功，这四件事远比智力更重要",
-    "description": "了解人性比掌握技术更重要。",
-    "url": "https://36kr.com/p/3753985100432131",
-    "source": "36kr",
-    "publishedAt": "2026-04-06",
-    "category": "Company, Industry",
-    "titleZh": "黄仁勋最新专访：要想成功，这四件事远比智力更重要",
-    "titleEn": "Huang Renxun's Latest Interview: To Succeed, These 4 Things Are Far More Important Than Intelligence",
-    "descriptionZh": "了解人性比掌握技术更重要。",
-    "descriptionEn": "Understanding human nature is more important than mastering technology."
-  },
-  {
-    "id": 241,
-    "title": "制胜语音AI的东南亚攻略",
-    "description": "2026-04-06 01:00:07",
-    "url": "http://www.techinasia.com/southeast-asian-playbook-winning-voice-ai",
-    "source": "techinasia",
-    "publishedAt": "2026-04-06",
-    "category": "Industry, Product",
-    "titleZh": "制胜语音AI的东南亚攻略",
-    "titleEn": "Strategies for winning in voice AI in Southeast Asia",
-    "descriptionZh": "2026-04-06 01:00:07",
-    "descriptionEn": "2026-04-06 01:00:07"
-  },
-  {
-    "id": 242,
-    "title": "在日本，机器人并非来抢你的工作；它填补的是无人问津的岗位",
-    "description": "2小时前",
-    "url": "https://news.ycombinator.com/item?id=47654620",
-    "source": "hackernews",
-    "publishedAt": "2026-04-06",
-    "category": "Robot, Industry",
-    "titleZh": "在日本，机器人并非来抢你的工作；它填补的是无人问津的岗位",
-    "titleEn": "In Japan, robots aren’t here to take your job; they’re filling unfilled positions",
-    "descriptionZh": "2小时前",
-    "descriptionEn": "2 hours ago"
   }
 ]
