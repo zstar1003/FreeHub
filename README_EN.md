@@ -10,7 +10,7 @@
 </div>
 
 
-A free product collection platform that also provides AI-powered news aggregation and product wishing.
+A free product collection platform that also provides AI-powered news aggregation and AI site navigation.
 
 Visit online: https://xdxsb.top/FreeHub
 
@@ -42,11 +42,6 @@ Visit online: https://xdxsb.top/FreeHub
 
 - Showcases currently popular products and tools
 - Ranking based on multi-dimensional data
-
-### 💡 Wishlist
-
-- Users can submit their desired free products
-- The community collaborates to discover and recommend high-quality resources
 
 ## 🛠️ Technology Stack
 

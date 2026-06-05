@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Home, FileText, Sun, Moon, Languages, Menu, X, Sparkles, Github, Info, Flame, Globe, Rss } from 'lucide-react';
+import { Home, FileText, Sun, Moon, Languages, Menu, X, Github, Info, Flame, Globe, Rss } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 interface HeaderProps {
@@ -47,7 +47,6 @@ export function Header({ projectCount, activeMenu, onMenuChange }: HeaderProps) 
     { id: 'articles', label: t.header.articles, icon: FileText },
     { id: 'hottest', label: t.header.hottest, icon: Flame },
     { id: 'webnav', label: t.header.webNav, icon: Globe },
-    { id: 'wishpool', label: t.header.wishpool, icon: Sparkles },
     { id: 'about', label: t.header.about, icon: Info },
   ];
 
