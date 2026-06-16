@@ -5,7 +5,7 @@
     "description": "OpenAI 宣布推出 GPT-4 Turbo 模型，提供更快的响应速度、更大的上下文窗口，同时价格降低了 3 倍。",
     "url": "https://aihot.today",
     "source": "AIHot",
-    "publishedAt": "2026-06-15",
+    "publishedAt": "2026-06-16",
     "category": "大模型"
   },
   {
@@ -14,7 +14,7 @@
     "description": "Google 最新发布的 Gemini Ultra 模型在图像、视频和文本理解等多模态任务中表现出色。",
     "url": "https://aihot.today",
     "source": "AIHot",
-    "publishedAt": "2026-06-15",
+    "publishedAt": "2026-06-16",
     "category": "大模型"
   },
   {
@@ -23,7 +23,7 @@
     "description": "Meta 发布开源版本 Llama 3，参数规模达 70B，性能媲美闭源商业模型。",
     "url": "https://aihot.today",
     "source": "AIHot",
-    "publishedAt": "2026-06-15",
+    "publishedAt": "2026-06-16",
     "category": "开源"
   },
   {
@@ -32,7 +32,7 @@
     "description": "Anthropic 为 Claude 3 增加了图像理解能力，可以分析图表、文档和照片。",
     "url": "https://aihot.today",
     "source": "AIHot",
-    "publishedAt": "2026-06-15",
+    "publishedAt": "2026-06-16",
     "category": "产品"
   },
   {
@@ -41,7 +41,7 @@
     "description": "Stability AI 发布 Stable Video Diffusion 模型，可以从单张图片生成高质量视频。",
     "url": "https://aihot.today",
     "source": "AIHot",
-    "publishedAt": "2026-06-15",
+    "publishedAt": "2026-06-16",
     "category": "视频生成"
   },
   {
@@ -50,7 +50,7 @@
     "description": "微软宣布推出 Copilot Pro 高级订阅，每月 20 美元，提供更快的 GPT-4 Turbo 访问。",
     "url": "https://aihot.today",
     "source": "AIHot",
-    "publishedAt": "2026-06-15",
+    "publishedAt": "2026-06-16",
     "category": "产品"
   },
   {
@@ -59,7 +59,7 @@
     "description": "OpenAI 发布 GPT Store，允许用户创建和分享定制化的 AI 应用。",
     "url": "https://aihot.today",
     "source": "AIHot",
-    "publishedAt": "2026-06-15",
+    "publishedAt": "2026-06-16",
     "category": "平台"
   },
   {
@@ -68,7 +68,7 @@
     "description": "百度发布文心一言 4.0 版本，在中文理解、生成和推理能力上有显著提升。",
     "url": "https://aihot.today",
     "source": "AIHot",
-    "publishedAt": "2026-06-15",
+    "publishedAt": "2026-06-16",
     "category": "国产"
   },
   {
@@ -77,7 +77,7 @@
     "description": "Midjourney 推出 V6 版本，在图像真实感、细节表现和文字渲染方面有重大突破。",
     "url": "https://aihot.today",
     "source": "AIHot",
-    "publishedAt": "2026-06-15",
+    "publishedAt": "2026-06-16",
     "category": "图像生成"
   },
   {
@@ -86,7 +86,7 @@
     "description": "DeepMind 推出 AlphaGeometry，在国际数学奥林匹克竞赛几何题目上达到金牌水平。",
     "url": "https://aihot.today",
     "source": "AIHot",
-    "publishedAt": "2026-06-15",
+    "publishedAt": "2026-06-16",
     "category": "研究"
   }
 ]
