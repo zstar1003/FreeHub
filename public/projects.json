@@ -166,5 +166,17 @@
         "submittedBy": "zstar",
         "submittedAt": "2026-02-06",
         "logo": "product/Tosticker.svg"
+    },
+    {
+        "name": "不空：钓鱼天气与鱼情记录",
+        "nameEn": "Bukong Fishing Weather",
+        "summary": "按当前位置和目标鱼免费查询钓鱼天气与鱼情",
+        "summaryEn": "Free fishing-weather lookup by location and target fish",
+        "description": "面向国内钓鱼人的免费网页工具和 iPhone App。定位当前位置并选择目标鱼后，可查看天气、未来24小时鱼情评分、首选与次选出钓时段，以及结合天气给出的作钓建议。",
+        "descriptionEn": "A free web tool and iPhone app for anglers in China. It uses the current location and a selected target fish to show weather, 24-hour fish-activity scores, preferred time windows, and practical fishing suggestions.",
+        "url": "https://bhtq.cn",
+        "categories": ["Web 应用", "iOS", "效率工具"],
+        "submittedBy": "Hanshihao111",
+        "submittedAt": "2026-08-07"
     }
 ]
