@@ -1,170 +1,243 @@
-[{
-        "name": "FreeTex",
-        "nameEn": "FreeTex",
-        "summary": "一个免费的公式智能识别软件",
-        "summaryEn": "A free intelligent formula recognition software",
-        "description": "一个免费的公式智能识别软件，它可以识别图像中的数学公式并将其转换为可编辑的Word或Latex格式。",
-        "descriptionEn": "A free intelligent formula recognition software that can recognize mathematical formulas in images and convert them into editable Word or Latex formats.",
-        "url": "https://github.com/zstar1003/FreeTex",
-        "categories": ["Python", "AI", "桌面应用", "Windows", "macOS"],
-        "submittedBy": "zstar",
-        "submittedAt": "2025-10-17",
-        "logo": "product/FreeTex.png"
-    },
-    {
-        "name": "FreePDF",
-        "nameEn": "FreePDF",
-        "summary": "一个免费的PDF文献阅读器",
-        "summaryEn": "A free PDF reader that supports translating PDF",
-        "description": "一个免费的PDF文献阅读器，支持将各语言的PDF文献转成中文，并支持接入大模型基于文献内容进行问答。",
-        "descriptionEn": "A free PDF document reader that supports converting PDF documents in various languages ​​into Chinese, and supports access to large models for question and answer based on document content.",
-        "url": "https://github.com/zstar1003/FreePDF",
-        "categories": ["JavaScript", "Python", "桌面应用", "Windows", "macOS"],
-        "submittedBy": "zstar",
-        "submittedAt": "2025-10-17",
-        "logo": "product/FreePDF.ico"
-    },
-    {
-        "name": "FreeEditor",
-        "nameEn": "FreeEditor",
-        "summary": "一个免费的双栏型markdown编辑器",
-        "summaryEn": "A free two-column Markdown editor",
-        "description": "一款简洁的双栏 Markdown 编辑器，支持实时预览和微信公众号样式导出。",
-        "descriptionEn": "A clean dual-pane Markdown editor with real-time preview and WeChat Official Account style export.",
-        "url": "https://xdxsb.top/FreeEditor",
-        "categories": ["TypeScript", "React", "Web 应用"],
-        "submittedBy": "zstar",
-        "submittedAt": "2025-10-17",
-        "logo": "product/FreeEditor.png"
-    },
-    {
-        "name": "FreeGIF",
-        "nameEn": "FreeGIF",
-        "summary": "一个免费的GIF屏幕录制和编辑工具",
-        "summaryEn": "A free GIF screen recording and editing tool",
-        "description": "一个免费的GIF屏幕录制和编辑工具。",
-        "descriptionEn": "A free GIF screen recording and editing tool.",
-        "url": "https://github.com/zstar1003/FreeGIF",
-        "categories": ["JavaScript", "桌面应用", "Windows", "macOS"],
-        "submittedBy": "zstar",
-        "submittedAt": "2025-10-17",
-        "logo": "product/FreeGIF.ico"
-    },
-    {
-        "name": "ragflow-plus",
-        "nameEn": "ragflow-plus",
-        "summary": "一个基于Ragflow的二次开发的RAG应用框架",
-        "summaryEn": "A RAG application framework based on Ragflow secondary development",
-        "description": "一个基于Ragflow的二次开发的RAG应用框架。",
-        "descriptionEn": "A RAG application framework based on Ragflow secondary development.",
-        "url": "https://github.com/zstar1003/ragflow-plus",
-        "categories": ["React", "Python", "Docker", "Web 应用"],
-        "submittedBy": "zstar",
-        "submittedAt": "2025-10-17",
-        "logo": "product/ragflowplus.ico"
-    },
-    {
-        "name": "拼字幕",
-        "nameEn": "FreeCaption",
-        "summary": "微信小程序：拼字幕-长图拼接助手",
-        "summaryEn": "WeChat Mini Program: Subtitle Splicing - Long Image Splicing Assistant",
-        "description": "微信小程序：拼字幕-长图拼接助手，用于制作长图字幕拼接。",
-        "descriptionEn": "WeChat applet: Splice subtitles - long image stitching assistant, used to create long image subtitle stitching.",
-        "url": "https://github.com/zstar1003/FreeCaption",
-        "categories": ["TypeScript", "效率工具"],
-        "submittedBy": "zstar",
-        "submittedAt": "2025-10-17",
-        "logo": "product/FreeCaption.png"
-    },
-    {
-        "name": "FreeCut",
-        "nameEn": "FreeCut",
-        "summary": "一个PowerPoint插件",
-        "summaryEn": "a PowerPoint plug-in",
-        "description": "一个PowerPoint插件，支持页面自动裁剪并导出为PDF文件。",
-        "descriptionEn": "a PowerPoint plug-in that supports automatic cropping and exporting to PDF files.",
-        "url": "https://github.com/zstar1003/FreeCut",
-        "categories": ["C#", "效率工具"],
-        "submittedBy": "zstar",
-        "submittedAt": "2025-10-20",
-        "logo": "product/FreeCut.svg"
-    },
-    {
-        "name": "FreeP2W",
-        "nameEn": "FreeP2W",
-        "summary": "一个将 PDF 转换成 Word 的CLI工具",
-        "summaryEn": "A CLI tool to convert PDF to Word",
-        "description": "一个将 PDF 转换成 Word 的CLI工具，在 pdf2docx 的基础上，优化了图片和数学公式表现。",
-        "descriptionEn": "A CLI tool for converting PDF to Word, based on pdf2docx, with optimized image and math formula performance.",
-        "url": "https://github.com/zstar1003/FreeP2W",
-        "categories": ["Python", "CLI", "效率工具"],
-        "submittedBy": "zstar",
-        "submittedAt": "2025-10-25",
-        "logo": "product/FreeP2W.png"
-    }, 
-    {
-        "name": "羲和",
-        "nameEn": "羲和",
-        "summary": "一个桌面诗词摆件App",
-        "summaryEn": "A desktop poetry ornament app",
-        "description": "一个桌面诗词摆件App，已经上架App Store。",
-        "descriptionEn": "A desktop poetry ornament app has been put on the App Store.",
-        "url": "https://github.com/zstar1003/xihe",
-        "categories": ["Flutter", "Android", "iOS"],
-        "submittedBy": "zstar",
-        "submittedAt": "2025-11-8",
-        "logo": "product/xihe.png"
-    },
-    {
-        "name": "FreeTool",
-        "nameEn": "FreeTool",
-        "summary": "一个多功能在线工具箱",
-        "summaryEn": "A versatile online toolbox",
-        "description": "一个多功能在线工具箱，整合很多实用小工具。",
-        "descriptionEn": "A multifunctional online toolbox that integrates many practical gadgets.",
-        "url": "https://xdxsb.top/FreeTool",
-        "categories": ["TypeScript", "React", "Web 应用"],
-        "submittedBy": "zstar",
-        "submittedAt": "2025-11-20",
-        "logo": "product/FreeTool.png"
-    },
-    {
-        "name": "GetFreeProxy",
-        "nameEn": "GetFreeProxy",
-        "summary": "Free Proxies, Checked Every 10 Mins - #1 Free Proxy List",
-        "summaryEn": "Free Proxies, Checked Every 10 Mins - #1 Free Proxy List ",
-        "description": "The web's #1 trusted source for free proxy lists, tested 24/7. Stop wasting time on dead proxies and find a working, reliable proxy in seconds!",
-        "descriptionEn": "The web's #1 trusted source for free proxy lists, tested 24/7. Stop wasting time on dead proxies and find a working, reliable proxy in seconds!",
-        "url": "https://getfreeproxy.com/",
-        "categories": ["PROXY","Free Proxy"],
-        "submittedBy": "getfreeproxy",
-        "submittedAt": "2025-12-01",
-        "logo": "product/GetFreeProxy.png"
-    },
-    {
-        "name": "极速分镜",
-        "nameEn": "mediastory",
-        "summary": "一款专为影视创作者设计的 AIGC 分镜脚本工具",
-        "summaryEn": "AIGC storyboard tool designed for film creators",
-        "description": "一款专为影视创作者设计的 AIGC 分镜脚本工具，支持快速创建、编辑和管理分镜脚本。",
-        "descriptionEn": "An AIGC storyboard tool designed for film creators, supporting quick creation, editing, and management of storyboards.",
-        "url": "https://xdxsb.top/mediastory",
-        "categories": ["TypeScript", "React", "Web 应用"],
-        "submittedBy": "zstar",
-        "submittedAt": "2026-01-19",
-        "logo": "product/mediastory.png"
-    },
-        {
-        "name": "吐司便签",
-        "nameEn": "Tosticker",
-        "summary": "一款跨平台桌面便签待办应用",
-        "summaryEn": "A cross-platform desktop sticky notes and to-do application",
-        "description": "一款跨平台桌面便签待办应用，支持用AI来辅助管理待办事项。",
-        "descriptionEn": "A cross-platform desktop sticky notes and to-do application that supports AI-assisted management of to-do items.",
-        "url": "https://github.com/zstar1003/Tosticker",
-        "categories": ["Rust", "React", "桌面应用"],
-        "submittedBy": "zstar",
-        "submittedAt": "2026-02-06",
-        "logo": "product/Tosticker.svg"
-    }
+[
+  {
+    "name": "FreeTex",
+    "nameEn": "FreeTex",
+    "summary": "一个免费的公式智能识别软件",
+    "summaryEn": "A free intelligent formula recognition software",
+    "description": "一个免费的公式智能识别软件，它可以识别图像中的数学公式并将其转换为可编辑的Word或Latex格式。",
+    "descriptionEn": "A free intelligent formula recognition software that can recognize mathematical formulas in images and convert them into editable Word or Latex formats.",
+    "url": "https://github.com/zstar1003/FreeTex",
+    "categories": [
+      "Python",
+      "AI",
+      "桌面应用",
+      "Windows",
+      "macOS"
+    ],
+    "submittedBy": "zstar",
+    "submittedAt": "2025-10-17",
+    "logo": "product/FreeTex.png"
+  },
+  {
+    "name": "FreePDF",
+    "nameEn": "FreePDF",
+    "summary": "一个免费的PDF文献阅读器",
+    "summaryEn": "A free PDF reader that supports translating PDF",
+    "description": "一个免费的PDF文献阅读器，支持将各语言的PDF文献转成中文，并支持接入大模型基于文献内容进行问答。",
+    "descriptionEn": "A free PDF document reader that supports converting PDF documents in various languages ​​into Chinese, and supports access to large models for question and answer based on document content.",
+    "url": "https://github.com/zstar1003/FreePDF",
+    "categories": [
+      "JavaScript",
+      "Python",
+      "桌面应用",
+      "Windows",
+      "macOS"
+    ],
+    "submittedBy": "zstar",
+    "submittedAt": "2025-10-17",
+    "logo": "product/FreePDF.ico"
+  },
+  {
+    "name": "FreeEditor",
+    "nameEn": "FreeEditor",
+    "summary": "一个免费的双栏型markdown编辑器",
+    "summaryEn": "A free two-column Markdown editor",
+    "description": "一款简洁的双栏 Markdown 编辑器，支持实时预览和微信公众号样式导出。",
+    "descriptionEn": "A clean dual-pane Markdown editor with real-time preview and WeChat Official Account style export.",
+    "url": "https://xdxsb.top/FreeEditor",
+    "categories": [
+      "TypeScript",
+      "React",
+      "Web 应用"
+    ],
+    "submittedBy": "zstar",
+    "submittedAt": "2025-10-17",
+    "logo": "product/FreeEditor.png"
+  },
+  {
+    "name": "FreeGIF",
+    "nameEn": "FreeGIF",
+    "summary": "一个免费的GIF屏幕录制和编辑工具",
+    "summaryEn": "A free GIF screen recording and editing tool",
+    "description": "一个免费的GIF屏幕录制和编辑工具。",
+    "descriptionEn": "A free GIF screen recording and editing tool.",
+    "url": "https://github.com/zstar1003/FreeGIF",
+    "categories": [
+      "JavaScript",
+      "桌面应用",
+      "Windows",
+      "macOS"
+    ],
+    "submittedBy": "zstar",
+    "submittedAt": "2025-10-17",
+    "logo": "product/FreeGIF.ico"
+  },
+  {
+    "name": "ragflow-plus",
+    "nameEn": "ragflow-plus",
+    "summary": "一个基于Ragflow的二次开发的RAG应用框架",
+    "summaryEn": "A RAG application framework based on Ragflow secondary development",
+    "description": "一个基于Ragflow的二次开发的RAG应用框架。",
+    "descriptionEn": "A RAG application framework based on Ragflow secondary development.",
+    "url": "https://github.com/zstar1003/ragflow-plus",
+    "categories": [
+      "React",
+      "Python",
+      "Docker",
+      "Web 应用"
+    ],
+    "submittedBy": "zstar",
+    "submittedAt": "2025-10-17",
+    "logo": "product/ragflowplus.ico"
+  },
+  {
+    "name": "拼字幕",
+    "nameEn": "FreeCaption",
+    "summary": "微信小程序：拼字幕-长图拼接助手",
+    "summaryEn": "WeChat Mini Program: Subtitle Splicing - Long Image Splicing Assistant",
+    "description": "微信小程序：拼字幕-长图拼接助手，用于制作长图字幕拼接。",
+    "descriptionEn": "WeChat applet: Splice subtitles - long image stitching assistant, used to create long image subtitle stitching.",
+    "url": "https://github.com/zstar1003/FreeCaption",
+    "categories": [
+      "TypeScript",
+      "效率工具"
+    ],
+    "submittedBy": "zstar",
+    "submittedAt": "2025-10-17",
+    "logo": "product/FreeCaption.png"
+  },
+  {
+    "name": "FreeCut",
+    "nameEn": "FreeCut",
+    "summary": "一个PowerPoint插件",
+    "summaryEn": "a PowerPoint plug-in",
+    "description": "一个PowerPoint插件，支持页面自动裁剪并导出为PDF文件。",
+    "descriptionEn": "a PowerPoint plug-in that supports automatic cropping and exporting to PDF files.",
+    "url": "https://github.com/zstar1003/FreeCut",
+    "categories": [
+      "C#",
+      "效率工具"
+    ],
+    "submittedBy": "zstar",
+    "submittedAt": "2025-10-20",
+    "logo": "product/FreeCut.svg"
+  },
+  {
+    "name": "FreeP2W",
+    "nameEn": "FreeP2W",
+    "summary": "一个将 PDF 转换成 Word 的CLI工具",
+    "summaryEn": "A CLI tool to convert PDF to Word",
+    "description": "一个将 PDF 转换成 Word 的CLI工具，在 pdf2docx 的基础上，优化了图片和数学公式表现。",
+    "descriptionEn": "A CLI tool for converting PDF to Word, based on pdf2docx, with optimized image and math formula performance.",
+    "url": "https://github.com/zstar1003/FreeP2W",
+    "categories": [
+      "Python",
+      "CLI",
+      "效率工具"
+    ],
+    "submittedBy": "zstar",
+    "submittedAt": "2025-10-25",
+    "logo": "product/FreeP2W.png"
+  },
+  {
+    "name": "羲和",
+    "nameEn": "羲和",
+    "summary": "一个桌面诗词摆件App",
+    "summaryEn": "A desktop poetry ornament app",
+    "description": "一个桌面诗词摆件App，已经上架App Store。",
+    "descriptionEn": "A desktop poetry ornament app has been put on the App Store.",
+    "url": "https://github.com/zstar1003/xihe",
+    "categories": [
+      "Flutter",
+      "Android",
+      "iOS"
+    ],
+    "submittedBy": "zstar",
+    "submittedAt": "2025-11-8",
+    "logo": "product/xihe.png"
+  },
+  {
+    "name": "FreeTool",
+    "nameEn": "FreeTool",
+    "summary": "一个多功能在线工具箱",
+    "summaryEn": "A versatile online toolbox",
+    "description": "一个多功能在线工具箱，整合很多实用小工具。",
+    "descriptionEn": "A multifunctional online toolbox that integrates many practical gadgets.",
+    "url": "https://xdxsb.top/FreeTool",
+    "categories": [
+      "TypeScript",
+      "React",
+      "Web 应用"
+    ],
+    "submittedBy": "zstar",
+    "submittedAt": "2025-11-20",
+    "logo": "product/FreeTool.png"
+  },
+  {
+    "name": "GetFreeProxy",
+    "nameEn": "GetFreeProxy",
+    "summary": "Free Proxies, Checked Every 10 Mins - #1 Free Proxy List",
+    "summaryEn": "Free Proxies, Checked Every 10 Mins - #1 Free Proxy List ",
+    "description": "The web's #1 trusted source for free proxy lists, tested 24/7. Stop wasting time on dead proxies and find a working, reliable proxy in seconds!",
+    "descriptionEn": "The web's #1 trusted source for free proxy lists, tested 24/7. Stop wasting time on dead proxies and find a working, reliable proxy in seconds!",
+    "url": "https://getfreeproxy.com/",
+    "categories": [
+      "PROXY",
+      "Free Proxy"
+    ],
+    "submittedBy": "getfreeproxy",
+    "submittedAt": "2025-12-01",
+    "logo": "product/GetFreeProxy.png"
+  },
+  {
+    "name": "极速分镜",
+    "nameEn": "mediastory",
+    "summary": "一款专为影视创作者设计的 AIGC 分镜脚本工具",
+    "summaryEn": "AIGC storyboard tool designed for film creators",
+    "description": "一款专为影视创作者设计的 AIGC 分镜脚本工具，支持快速创建、编辑和管理分镜脚本。",
+    "descriptionEn": "An AIGC storyboard tool designed for film creators, supporting quick creation, editing, and management of storyboards.",
+    "url": "https://xdxsb.top/mediastory",
+    "categories": [
+      "TypeScript",
+      "React",
+      "Web 应用"
+    ],
+    "submittedBy": "zstar",
+    "submittedAt": "2026-01-19",
+    "logo": "product/mediastory.png"
+  },
+  {
+    "name": "吐司便签",
+    "nameEn": "Tosticker",
+    "summary": "一款跨平台桌面便签待办应用",
+    "summaryEn": "A cross-platform desktop sticky notes and to-do application",
+    "description": "一款跨平台桌面便签待办应用，支持用AI来辅助管理待办事项。",
+    "descriptionEn": "A cross-platform desktop sticky notes and to-do application that supports AI-assisted management of to-do items.",
+    "url": "https://github.com/zstar1003/Tosticker",
+    "categories": [
+      "Rust",
+      "React",
+      "桌面应用"
+    ],
+    "submittedBy": "zstar",
+    "submittedAt": "2026-02-06",
+    "logo": "product/Tosticker.svg"
+  },
+  {
+    "name": "DisconfirmAI",
+    "nameEn": "DisconfirmAI",
+    "summary": "面向投资研究的阅读与研究平台，先找反面证据再建立确信",
+    "summaryEn": "Investment research and reading platform that seeks counter-evidence before conviction",
+    "description": "DisconfirmAI 是面向投资研究的阅读与研究平台。在建立确信前先找可能推翻观点的反面证据。含每日信源阅读、财报与数据研究、条件雷达、投资框架、AI 100 与行业图谱。免费估值工具可用。不做交易下单或买卖建议。",
+    "descriptionEn": "DisconfirmAI is an investment research and reading platform. It looks for counter-evidence that could overturn a thesis before building conviction. Includes daily primary-source reading, filings and data research, condition radar, investment framework, AI 100 and industry map. Free valuation tools. No trade execution or buy/sell advice.",
+    "url": "https://disconfirmai.com/zh",
+    "categories": [
+      "AI",
+      "Web 应用",
+      "效率工具"
+    ],
+    "submittedBy": "tumingke0",
+    "submittedAt": "2026-10-29",
+    "logo": "product/DisconfirmAI.png"
+  }
 ]
